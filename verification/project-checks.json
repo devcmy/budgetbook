@@ -1,0 +1,122 @@
+{
+  "scope": "Swift grammar and Xcode references only; native build and XCTest NOT EXECUTED",
+  "swift_files": [
+    {
+      "file": "ios/TetrisBudget/ContentView.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/CoreBridge.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/DesignSystem.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/LedgerStore.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/Models.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/MonthlyDetails.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/MonthlyScreen.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/Personalization.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/PlanEditor.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/RawArchive.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/Sheets.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/SpreadsheetImport.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/TetrisBudgetApp.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudget/TransactionEditor.swift",
+      "errors": []
+    },
+    {
+      "file": "ios/TetrisBudgetTests/LedgerTests.swift",
+      "errors": []
+    }
+  ],
+  "project_parse": "passed",
+  "file_references": [
+    "ios/TetrisBudgetTests/LedgerTests.swift",
+    "ios/TetrisBudget/TetrisBudgetApp.swift",
+    "ios/TetrisBudget/Models.swift",
+    "ios/TetrisBudget/DesignSystem.swift",
+    "ios/TetrisBudget/ContentView.swift",
+    "ios/TetrisBudget/Sheets.swift",
+    "ios/TetrisBudget/snapshot.json",
+    "ios/TetrisBudget/labels.json",
+    "ios/TetrisBudget/Personalization.swift",
+    "ios/TetrisBudget/MonthlyScreen.swift",
+    "ios/TetrisBudget/MonthlyDetails.swift",
+    "ios/TetrisBudget/CoreBridge.swift",
+    "ios/TetrisBudget/LedgerStore.swift",
+    "ios/TetrisBudget/TransactionEditor.swift",
+    "ios/TetrisBudget/ledger-engine.js",
+    "ios/TetrisBudget/seed-ledger.json",
+    "ios/TetrisBudget/PlanEditor.swift",
+    "ios/TetrisBudget/RawArchive.swift",
+    "ios/TetrisBudget/SpreadsheetImport.swift",
+    "ios/TetrisBudget/excel-importer.js",
+    "ios/TetrisBudget/xlsx.full.min.js",
+    "ios/TetrisBudget/SheetJS-LICENSE.txt"
+  ],
+  "sources": [
+    "LedgerTests.swift",
+    "TetrisBudgetApp.swift",
+    "Models.swift",
+    "DesignSystem.swift",
+    "ContentView.swift",
+    "Sheets.swift",
+    "Personalization.swift",
+    "MonthlyScreen.swift",
+    "MonthlyDetails.swift",
+    "CoreBridge.swift",
+    "LedgerStore.swift",
+    "TransactionEditor.swift",
+    "PlanEditor.swift",
+    "RawArchive.swift",
+    "SpreadsheetImport.swift"
+  ],
+  "resources": [
+    "snapshot.json",
+    "labels.json",
+    "ledger-engine.js",
+    "seed-ledger.json",
+    "excel-importer.js",
+    "xlsx.full.min.js",
+    "SheetJS-LICENSE.txt"
+  ],
+  "test_targets": [
+    "TetrisBudgetTests"
+  ],
+  "engine_bundle_matches_tested_source": true,
+  "original_raw_semantically_preserved": true,
+  "original_raw_sha256": "94e6d33438ba96fd83b6dfa2388ec97640a0ecc6193ca942fbf0262232ebcbcf"
+}

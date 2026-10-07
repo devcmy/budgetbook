@@ -1,0 +1,214 @@
+TAP version 13
+# Subtest: Initial Excel forecast, complete 19 nonfixed transactions, balances reconcile
+ok 1 - Initial Excel forecast, complete 19 nonfixed transactions, balances reconcile
+  ---
+  duration_ms: 66.544675
+  type: 'test'
+  ...
+# Subtest: Fixed item names retain both Excel item/detail columns, including continued groups
+ok 2 - Fixed item names retain both Excel item/detail columns, including continued groups
+  ---
+  duration_ms: 36.613307
+  type: 'test'
+  ...
+# Subtest: Legacy stored fixed titles and backups repair without overwriting edits or money
+ok 3 - Legacy stored fixed titles and backups repair without overwriting edits or money
+  ---
+  duration_ms: 288.891593
+  type: 'test'
+  ...
+# Subtest: V01 Same normalized source imported twice; deletion tombstone respected
+ok 4 - V01 Same normalized source imported twice; deletion tombstone respected
+  ---
+  duration_ms: 97.69111
+  type: 'test'
+  ...
+# Subtest: V02 Equal contents from distinct rows remain distinct
+ok 5 - V02 Equal contents from distinct rows remain distinct
+  ---
+  duration_ms: 68.079915
+  type: 'test'
+  ...
+# Subtest: V03 Two-kki counted once, current WRAP includes it once
+ok 6 - V03 Two-kki counted once, current WRAP includes it once
+  ---
+  duration_ms: 78.874118
+  type: 'test'
+  ...
+# Subtest: V04 Joint allocation only; joint spending and interest excluded
+ok 7 - V04 Joint allocation only; joint spending and interest excluded
+  ---
+  duration_ms: 72.259568
+  type: 'test'
+  ...
+# Subtest: V05 Actual reserve allocation is internal movement with invariant WRAP total
+ok 8 - V05 Actual reserve allocation is internal movement with invariant WRAP total
+  ---
+  duration_ms: 108.647065
+  type: 'test'
+  ...
+# Subtest: V06 Hotel use reduces reserve/WRAP once and adds consumption once
+ok 9 - V06 Hotel use reduces reserve/WRAP once and adds consumption once
+  ---
+  duration_ms: 86.634411
+  type: 'test'
+  ...
+# Subtest: V07 Past funding, current use belongs to actual usage month
+ok 10 - V07 Past funding, current use belongs to actual usage month
+  ---
+  duration_ms: 51.068314
+  type: 'test'
+  ...
+# Subtest: V08 Card purchase vs next-month payment have separate consumption and cash dates
+ok 11 - V08 Card purchase vs next-month payment have separate consumption and cash dates
+  ---
+  duration_ms: 82.102437
+  type: 'test'
+  ...
+# Subtest: V09 Linked refund reduces burden; cross-month attribution must be explicit
+ok 12 - V09 Linked refund reduces burden; cross-month attribution must be explicit
+  ---
+  duration_ms: 138.11557
+  type: 'test'
+  ...
+# Subtest: V10 Multiple settlements / already-net burden do not subtract twice
+ok 13 - V10 Multiple settlements / already-net burden do not subtract twice
+  ---
+  duration_ms: 105.300424
+  type: 'test'
+  ...
+# Subtest: V11 Ordinary bank receipts preserve WRAP scope
+ok 14 - V11 Ordinary bank receipts preserve WRAP scope
+  ---
+  duration_ms: 111.156585
+  type: 'test'
+  ...
+# Subtest: V12 Approved interest 4178 is a single canonical transaction
+ok 15 - V12 Approved interest 4178 is a single canonical transaction
+  ---
+  duration_ms: 94.230703
+  type: 'test'
+  ...
+# Subtest: V13 Unexplained discrepancy stays pending, no implicit interest
+ok 16 - V13 Unexplained discrepancy stays pending, no implicit interest
+  ---
+  duration_ms: 43.629232
+  type: 'test'
+  ...
+# Subtest: V14 Future plan changes no actual balances; missing distinct from zero
+ok 17 - V14 Future plan changes no actual balances; missing distinct from zero
+  ---
+  duration_ms: 64.714677
+  type: 'test'
+  ...
+# Subtest: V15 Integers and exact zero vs negative balance verdict
+ok 18 - V15 Integers and exact zero vs negative balance verdict
+  ---
+  duration_ms: 70.098485
+  type: 'test'
+  ...
+# Subtest: V16 Family contribution plans stopped October while originals preserved
+ok 19 - V16 Family contribution plans stopped October while originals preserved
+  ---
+  duration_ms: 30.219251
+  type: 'test'
+  ...
+# Subtest: V17 Investment allocation counted once, purchase does not repeat it
+ok 20 - V17 Investment allocation counted once, purchase does not repeat it
+  ---
+  duration_ms: 63.769182
+  type: 'test'
+  ...
+# Subtest: V18 Unknown day remains nullable, not first day of month
+ok 21 - V18 Unknown day remains nullable, not first day of month
+  ---
+  duration_ms: 43.151829
+  type: 'test'
+  ...
+# Subtest: V19 Planned birthday date does not override actual September usage
+ok 22 - V19 Planned birthday date does not override actual September usage
+  ---
+  duration_ms: 32.539139
+  type: 'test'
+  ...
+# Subtest: V20 No invented ceil policy; source display preserved and modifications pending
+ok 23 - V20 No invented ceil policy; source display preserved and modifications pending
+  ---
+  duration_ms: 53.363367
+  type: 'test'
+  ...
+# Subtest: Replacing fixed estimate and salary: no double-counting; deletion restores estimate
+ok 24 - Replacing fixed estimate and salary: no double-counting; deletion restores estimate
+  ---
+  duration_ms: 58.295212
+  type: 'test'
+  ...
+# Subtest: Edit/delete recompute all metrics; originals immutable
+ok 25 - Edit/delete recompute all metrics; originals immutable
+  ---
+  duration_ms: 51.427622
+  type: 'test'
+  ...
+# Subtest: Linked deletion guard, duplicate plans, insufficient reserve rejected atomically
+ok 26 - Linked deletion guard, duplicate plans, insufficient reserve rejected atomically
+  ---
+  duration_ms: 64.080183
+  type: 'test'
+  ...
+# Subtest: Backups: real filesystem round-trip, corrupt version/date/IDs/money rejected
+ok 27 - Backups: real filesystem round-trip, corrupt version/date/IDs/money rejected
+  ---
+  duration_ms: 69.217619
+  type: 'test'
+  ...
+# Subtest: iOS dispatch executes same bundled engine in isolated JS global, structured errors
+ok 28 - iOS dispatch executes same bundled engine in isolated JS global, structured errors
+  ---
+  duration_ms: 28.331546
+  type: 'test'
+  ...
+# Subtest: Manual forecast plans update only projection; actual plan replacement and source provenance remain
+ok 29 - Manual forecast plans update only projection; actual plan replacement and source provenance remain
+  ---
+  duration_ms: 86.553562
+  type: 'test'
+  ...
+# Subtest: Personal joint funding guards and unsupported purpose transfers rejected
+ok 30 - Personal joint funding guards and unsupported purpose transfers rejected
+  ---
+  duration_ms: 43.0233
+  type: 'test'
+  ...
+# Subtest: Joint incoming source sign survives viewing; negative expense preserved as burden credit
+ok 31 - Joint incoming source sign survives viewing; negative expense preserved as burden credit
+  ---
+  duration_ms: 42.424211
+  type: 'test'
+  ...
+# Subtest: Changed forecast invalidates cached Tetris; malformed display cache refused during restore
+ok 32 - Changed forecast invalidates cached Tetris; malformed display cache refused during restore
+  ---
+  duration_ms: 29.022503
+  type: 'test'
+  ...
+# Subtest: Historical source evidence is preserved and clearly marked outside operational migration
+ok 33 - Historical source evidence is preserved and clearly marked outside operational migration
+  ---
+  duration_ms: 24.055261
+  type: 'test'
+  ...
+# Subtest: Record day contributions include confirmed personal income and consumption, excluding movements and forecasts
+ok 34 - Record day contributions include confirmed personal income and consumption, excluding movements and forecasts
+  ---
+  duration_ms: 96.503653
+  type: 'test'
+  ...
+1..34
+# tests 34
+# suites 0
+# pass 34
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2555.524051

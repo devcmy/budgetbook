@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "prototype_checks": [
+    "5개 탭 및 이번달 네 지출 메뉴",
+    "비예비비 발생 11,900 / 이미 집계 11,900 / 추가 0; 예비비 사용월 보존",
+    "일별 원 단위 금액; 미래 날짜는 0원이 아닌 미입력",
+    "탭·메뉴 별칭 입력 검증, 저장 API와 저장값 복원; 금액·분류 ID 불변",
+    "이름 복원은 화면 설정을 유지",
+    "검색·음수 금액·수정·삭제 회귀 검증",
+    "Pro Max 440×956 및 390/375/320px: 5탭·상세 가로 넘침 없음"
+  ],
+  "browser_errors": [],
+  "settings_storage_test": "API boundary/restoration tested with in-memory Web Storage double; browser disk and iOS UserDefaults unverified",
+  "native_build": "not_run_linux_no_xcode",
+  "accounting_engine": "not_implemented_design_phase",
+  "original_manifest_files_checked": 269,
+  "original_files_unchanged": true,
+  "original_snapshot_fields_preserved": true,
+  "native_web_resources_identical": true,
+  "label_catalog_entries": 30,
+  "unplanned_cash_duplicate_excluded": true
+}

@@ -1,0 +1,19 @@
+{
+  "source_file": "/workspace/household-budget-history/source/ledger-handoff/sources/가계부/테트리스_가계부_2026_복구.xlsx",
+  "source_sha256": "647d502c9838813c66778623db60aa4ea12b238ca1f1c6e2b841a09f2f19d65e",
+  "as_of": "2026-10-05",
+  "monthly_totals": "cached_workbook_snapshot_with_estimates_not_accounting_oracle",
+  "transactions": "45 October RAW records; source_row is id",
+  "implementation_phase": "design_preview",
+  "original_source_files_unchanged": true,
+  "design_version": 2,
+  "user_cash_definition": "계좌에서 쓴 예비비 계획 밖의 현금성 지출",
+  "cash_sources": [
+    "10월!D52",
+    "10월!G52",
+    "10월!H52",
+    "RAW 2333행",
+    "WRAP 원장 231행"
+  ],
+  "cash_added_to_monthly_total": 0
+}

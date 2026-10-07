@@ -1,0 +1,9 @@
+{
+  "project_id": "appgprj_6ac48b0396548191adb3ab14f1c8d82e",
+  "deployment_id": "appgdep_6ac58f0cc82081919cd9ad4e012f9d10",
+  "version_id": "appgprj_6ac48b0396548191adb3ab14f1c8d82e~appgver_ab389774f2948191b6cddc5367b6b7fe",
+  "status": "succeeded",
+  "url": "https://tetris-budget-functional-20261006.devcmy136.chatgpt.site",
+  "audience": "owner-private",
+  "commit_sha": "04277d291be5fbe2976c79a9a6dd2ed114dfe38b"
+}

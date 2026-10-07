@@ -1,0 +1,31 @@
+{
+  "reviewed_on": "2026-10-06",
+  "sources": [
+    {
+      "title": "Materials · Liquid Glass",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/materials",
+      "applied": "Glass를 탐색·조작 층에 제한; 금액 콘텐츠는 일반 배경 유지"
+    },
+    {
+      "title": "Tab bars",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+      "applied": "시스템 TabView로 고정된 다섯 탐색 탭 구성"
+    },
+    {
+      "title": "Applying Liquid Glass to custom views",
+      "url": "https://developer.apple.com/documentation/swiftui/applying-liquid-glass-to-custom-views",
+      "applied": "월 선택·입력에 regular interactive glassEffect 적용"
+    },
+    {
+      "title": "What is new in iOS 27",
+      "url": "https://support.apple.com/guide/iphone/whats-new-in-ios-27-iphfed2c4091/27/ios/27",
+      "applied": "시스템 Glass 선호 설정을 존중; 광학 효과의 브라우저 동일성 주장 안 함"
+    },
+    {
+      "title": "iPhone 17 Pro Max Tech Specs",
+      "url": "https://support.apple.com/en-us/125091",
+      "applied": "공식 1320×2868 해상도에 대응하는 440×956pt 디자인 기준"
+    }
+  ],
+  "ios_runtime_verification": "not_run"
+}

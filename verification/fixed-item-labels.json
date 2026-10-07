@@ -1,0 +1,212 @@
+[
+  {
+    "id": "oct-fixed-0",
+    "sheet": "10월",
+    "itemCell": "K4",
+    "detailCell": "L4",
+    "item": "월세",
+    "detail": "",
+    "legacyTitle": "월세",
+    "title": "월세"
+  },
+  {
+    "id": "oct-fixed-1",
+    "sheet": "10월",
+    "itemCell": "K5",
+    "detailCell": "L5",
+    "item": "관리비",
+    "detail": "9월사용분(전달)",
+    "legacyTitle": "9월사용분(전달)",
+    "title": "관리비 · 9월사용분(전달)"
+  },
+  {
+    "id": "oct-fixed-2",
+    "sheet": "10월",
+    "itemCell": "K6",
+    "detailCell": "L6",
+    "item": "도시가스",
+    "detail": "9월사용분(전달)",
+    "legacyTitle": "9월사용분(전달)",
+    "title": "도시가스 · 9월사용분(전달)"
+  },
+  {
+    "id": "oct-fixed-3",
+    "sheet": "10월",
+    "itemCell": "K7",
+    "detailCell": "L7",
+    "item": "보험비",
+    "detail": "이번달",
+    "legacyTitle": "이번달",
+    "title": "보험비 · 이번달"
+  },
+  {
+    "id": "oct-fixed-4",
+    "sheet": "10월",
+    "itemCell": "K8",
+    "detailCell": "L8",
+    "item": "무선통신비",
+    "detail": "SKT",
+    "legacyTitle": "SKT",
+    "title": "무선통신비 · SKT"
+  },
+  {
+    "id": "oct-fixed-5",
+    "sheet": "10월",
+    "itemCell": "K9",
+    "detailCell": "L9",
+    "item": "무선통신비",
+    "detail": "U모바일",
+    "legacyTitle": "U모바일",
+    "title": "무선통신비 · U모바일"
+  },
+  {
+    "id": "oct-fixed-6",
+    "sheet": "10월",
+    "itemCell": "K10",
+    "detailCell": "L10",
+    "item": "유선통신비",
+    "detail": "LG헬로비전",
+    "legacyTitle": "LG헬로비전",
+    "title": "유선통신비 · LG헬로비전"
+  },
+  {
+    "id": "oct-fixed-7",
+    "sheet": "10월",
+    "itemCell": "K11",
+    "detailCell": "L11",
+    "item": "교통비",
+    "detail": "K패스",
+    "legacyTitle": "K패스",
+    "title": "교통비 · K패스"
+  },
+  {
+    "id": "oct-fixed-8",
+    "sheet": "10월",
+    "itemCell": "K12",
+    "detailCell": "L12",
+    "item": "정기구독",
+    "detail": "T우주 CU구독",
+    "legacyTitle": "T우주 CU구독",
+    "title": "정기구독 · T우주 CU구독"
+  },
+  {
+    "id": "oct-fixed-9",
+    "sheet": "10월",
+    "itemCell": "K13",
+    "detailCell": "L13",
+    "item": "전세대출이자",
+    "detail": "신한은행",
+    "legacyTitle": "신한은행",
+    "title": "전세대출이자 · 신한은행"
+  },
+  {
+    "id": "oct-fixed-10",
+    "sheet": "10월",
+    "itemCell": "K14",
+    "detailCell": "L14",
+    "item": "정기구독",
+    "detail": "Uber One",
+    "legacyTitle": "Uber One",
+    "title": "정기구독 · Uber One"
+  },
+  {
+    "id": "oct-fixed-11",
+    "sheet": "10월",
+    "itemCell": "K15",
+    "detailCell": "L15",
+    "item": "정기구독",
+    "detail": "ChatGPT",
+    "legacyTitle": "ChatGPT",
+    "title": "정기구독 · ChatGPT"
+  },
+  {
+    "id": "oct-fixed-12",
+    "sheet": "10월",
+    "itemCell": "K16",
+    "detailCell": "L16",
+    "item": "정기구독",
+    "detail": "로켓와우",
+    "legacyTitle": "로켓와우",
+    "title": "정기구독 · 로켓와우"
+  },
+  {
+    "id": "oct-fixed-13",
+    "sheet": "10월",
+    "itemCell": "K17",
+    "detailCell": "L17",
+    "item": "정기구독",
+    "detail": "카카오",
+    "legacyTitle": "카카오",
+    "title": "정기구독 · 카카오"
+  },
+  {
+    "id": "oct-fixed-14",
+    "sheet": "10월",
+    "itemCell": "K18",
+    "detailCell": "L18",
+    "item": "정기구독",
+    "detail": "T우주+YouTube",
+    "legacyTitle": "T우주+YouTube",
+    "title": "정기구독 · T우주+YouTube"
+  },
+  {
+    "id": "oct-fixed-15",
+    "sheet": "10월",
+    "itemCell": "K19",
+    "detailCell": "L19",
+    "item": "정기구독",
+    "detail": "애플뮤직",
+    "legacyTitle": "애플뮤직",
+    "title": "정기구독 · 애플뮤직"
+  },
+  {
+    "id": "oct-fixed-16",
+    "sheet": "10월",
+    "itemCell": "K20",
+    "detailCell": "L20",
+    "item": "정기구독",
+    "detail": "네이버+",
+    "legacyTitle": "네이버+",
+    "title": "정기구독 · 네이버+"
+  },
+  {
+    "id": "oct-fixed-17",
+    "sheet": "10월",
+    "itemCell": "K21",
+    "detailCell": "L21",
+    "item": "정기구독",
+    "detail": "티빙디즈니",
+    "legacyTitle": "티빙디즈니",
+    "title": "정기구독 · 티빙디즈니"
+  },
+  {
+    "id": "oct-fixed-18",
+    "sheet": "10월",
+    "itemCell": "K22",
+    "detailCell": "L22",
+    "item": "할부",
+    "detail": "휴대폰",
+    "legacyTitle": "휴대폰",
+    "title": "할부 · 휴대폰"
+  },
+  {
+    "id": "oct-fixed-19",
+    "sheet": "10월",
+    "itemCell": "K23",
+    "detailCell": "L23",
+    "item": "할부",
+    "detail": "에어팟프로3",
+    "legacyTitle": "에어팟프로3",
+    "title": "할부 · 에어팟프로3"
+  },
+  {
+    "id": "oct-fixed-20",
+    "sheet": "10월",
+    "itemCell": "K24",
+    "detailCell": "L24",
+    "item": "할부",
+    "detail": "애플케어플러스",
+    "legacyTitle": "애플케어플러스",
+    "title": "할부 · 애플케어플러스"
+  }
+]

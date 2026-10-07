@@ -1,0 +1,118 @@
+TAP version 13
+# Subtest: Stable Unicode SHA-256 keys agree with cryptographic reference
+ok 1 - Stable Unicode SHA-256 keys agree with cryptographic reference
+  ---
+  duration_ms: 121.490143
+  type: 'test'
+  ...
+# Subtest: Actual original Tetris workbook has 2366 existing rows and no duplicate additions
+ok 2 - Actual original Tetris workbook has 2366 existing rows and no duplicate additions
+  ---
+  duration_ms: 1088.763265
+  type: 'test'
+  ...
+# Subtest: XLSX import adds selected transactions and immutable RAW; WRAP and consumption agree
+ok 3 - XLSX import adds selected transactions and immutable RAW; WRAP and consumption agree
+  ---
+  duration_ms: 426.281535
+  type: 'test'
+  ...
+# Subtest: XLS and renamed/reordered XLSX files deduplicate across file formats
+ok 4 - XLS and renamed/reordered XLSX files deduplicate across file formats
+  ---
+  duration_ms: 608.366931
+  type: 'test'
+  ...
+# Subtest: Identical source rows retain their multiplicity, overlap adds only extra occurrence
+ok 5 - Identical source rows retain their multiplicity, overlap adds only extra occurrence
+  ---
+  duration_ms: 665.49535
+  type: 'test'
+  ...
+# Subtest: User edits and deletions are not overwritten or resurrected by repeated Excel
+ok 6 - User edits and deletions are not overwritten or resurrected by repeated Excel
+  ---
+  duration_ms: 553.694234
+  type: 'test'
+  ...
+# Subtest: Explicit personal burden preserves gross RAW and consumes the burden once
+ok 7 - Explicit personal burden preserves gross RAW and consumes the burden once
+  ---
+  duration_ms: 263.005566
+  type: 'test'
+  ...
+# Subtest: Transfers, ambiguous purpose spending and old WRAP movement remain pending
+ok 8 - Transfers, ambiguous purpose spending and old WRAP movement remain pending
+  ---
+  duration_ms: 312.46542
+  type: 'test'
+  ...
+# Subtest: Imported cashback and card payment require linking instead of duplicate income/consumption
+ok 9 - Imported cashback and card payment require linking instead of duplicate income/consumption
+  ---
+  duration_ms: 271.105437
+  type: 'test'
+  ...
+# Subtest: Joint-account spending does not enter personal consumption or WRAP
+ok 10 - Joint-account spending does not enter personal consumption or WRAP
+  ---
+  duration_ms: 260.15571
+  type: 'test'
+  ...
+# Subtest: Fixed actual can explicitly replace forecast without double counting
+ok 11 - Fixed actual can explicitly replace forecast without double counting
+  ---
+  duration_ms: 247.105303
+  type: 'test'
+  ...
+# Subtest: Invalid dates, decimal KRW and missing amounts are visible excluded rows
+ok 12 - Invalid dates, decimal KRW and missing amounts are visible excluded rows
+  ---
+  duration_ms: 247.693072
+  type: 'test'
+  ...
+# Subtest: Month-only evidence retains null day, 1904 Excel serial dates decode correctly
+ok 13 - Month-only evidence retains null day, 1904 Excel serial dates decode correctly
+  ---
+  duration_ms: 282.556096
+  type: 'test'
+  ...
+# Subtest: Cancel/exclusion leaves state unchanged, stale proposals and invalid edits fail atomically
+ok 14 - Cancel/exclusion leaves state unchanged, stale proposals and invalid edits fail atomically
+  ---
+  duration_ms: 525.161375
+  type: 'test'
+  ...
+# Subtest: Changed source amount requires explicit selection and never silently overwrites
+ok 15 - Changed source amount requires explicit selection and never silently overwrites
+  ---
+  duration_ms: 454.838325
+  type: 'test'
+  ...
+# Subtest: Corrupt files, unrecognized summaries and currency mismatches fail clearly
+ok 16 - Corrupt files, unrecognized summaries and currency mismatches fail clearly
+  ---
+  duration_ms: 151.660993
+  type: 'test'
+  ...
+# Subtest: Oversized inflated XLSX members are rejected before decompression
+ok 17 - Oversized inflated XLSX members are rejected before decompression
+  ---
+  duration_ms: 1.793949
+  type: 'test'
+  ...
+# Subtest: Vendor/parser/core dispatch run without Node, DOM, TextEncoder, atob or Web Crypto
+ok 18 - Vendor/parser/core dispatch run without Node, DOM, TextEncoder, atob or Web Crypto
+  ---
+  duration_ms: 363.970528
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7021.54098

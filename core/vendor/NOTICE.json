@@ -1,0 +1,11 @@
+{
+  "name": "SheetJS Community Edition",
+  "version": "0.20.3",
+  "distribution": "@e965/xlsx@0.20.3",
+  "package_source": "https://registry.npmjs.org/@e965/xlsx/-/xlsx-0.20.3.tgz",
+  "project": "https://sheetjs.com/",
+  "license": "Apache-2.0",
+  "license_file": "SheetJS-LICENSE.txt",
+  "sha256": "cc015130aa8521e7f088f88898eba949ccdcbfb38df0bd129b44b7273c3a6f41",
+  "use": "Local XLSX/XLS parsing. No runtime network dependency."
+}

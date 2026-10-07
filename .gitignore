@@ -1,0 +1,24 @@
+.DS_Store
+**/xcuserdata/
+**/DerivedData/
+__pycache__/
+*.pyc
+
+# Local Sites checkout has its own Git history.
+/preview-site/
+
+# Generated exports and web build output (rebuild with playground/build.py).
+/*.zip
+/playground/*.tar.gz
+/playground/index.html
+/playground/테트리스_가계부_기능테스트.html
+/playground/ledger-engine.js
+/playground/excel-importer.js
+/playground/xlsx.full.min.js
+/playground/screenshots/
+
+# Local environment and signing credentials.
+.env
+.env.*
+*.p12
+*.mobileprovision

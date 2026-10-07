@@ -1,0 +1,71 @@
+{
+  "version": "MVP01",
+  "date": "2026-10-06",
+  "shared_engine_tests": {
+    "executed": true,
+    "passed": 34,
+    "failed": 0,
+    "report": "core-tests.tap"
+  },
+  "acceptance_scenarios": {
+    "scope": "shared-engine simulations, not completed Excel importer or iOS UI acceptance",
+    "cases": [
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06",
+      "V07",
+      "V08",
+      "V09",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V14",
+      "V15",
+      "V16",
+      "V17",
+      "V18",
+      "V19",
+      "V20"
+    ]
+  },
+  "native_build": {
+    "executed": false,
+    "reason": "Linux environment has no Xcode/Apple SDK"
+  },
+  "native_tests": {
+    "written": 5,
+    "executed": false
+  },
+  "swift_grammar": {
+    "files": 14,
+    "passed": true,
+    "SDK_typechecking": false
+  },
+  "project_reference_check": "passed",
+  "data": {
+    "operational_october_records": 45,
+    "preserved_source_records": 2366,
+    "source_raw_sha256": "94e6d33438ba96fd83b6dfa2388ec97640a0ecc6193ca942fbf0262232ebcbcf",
+    "forecast_remaining": 1195895,
+    "wrap": 8480881
+  },
+  "aliases": {
+    "tabs": 5,
+    "menus": 34
+  },
+  "distribution": {
+    "type": "Xcode source project",
+    "signed_ipa": false,
+    "deployed": false
+  },
+  "excel_import_tests": {
+    "executed": true,
+    "passed": 18,
+    "failed": 0,
+    "report": "excel-tests.tap"
+  }
+}
