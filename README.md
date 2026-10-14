@@ -2,13 +2,15 @@
 
 좋아하신 디자인 02를 실제 데이터를 다루는 SwiftUI 앱으로 연결했습니다. 개인용 iPhone 17 Pro Max 기준의 촘촘한 화면, 시스템 탭과 Liquid Glass, 탭·메뉴 이름 설정을 유지합니다. 기존 Excel의 용어와 회계 기준이 우선이며, 편한가계부는 거래 입력·관리 참고입니다.
 
-## 최신 Excel 기준본과 분석
+## Excel 작업 · excelWork
 
-2026-10-14에 받은 [테트리스_가계부_2026_고도화.xlsm](references/budgetbook-2026/테트리스_가계부_2026_고도화.xlsm)을 Excel 운영 기준본으로 보관합니다. 2026-10-13까지의 RAW 2,452건과 월별 계산기·예비비·WRAP 잔액을 포함하며, 첨부 파일을 재저장하지 않고 그대로 추가했습니다.
+엑셀 양식과 계산 규칙을 충분히 다듬고 검증한 뒤 앱에 이관합니다. 관련 엑셀과 작업 결과는 최상위 [excelWork](excelWork/README.md) 폴더에 모으며, 작업과 커밋·푸시는 `main` 브랜치에서 진행합니다.
 
-네 파일의 역할, 회계 기준, 독립 대조 결과와 다음 수정 시 연결할 항목은 [가계부 파일 분석·인계](references/budgetbook-2026/가계부_파일분석_인계.md)에 정리했고, 수치 대조 결과는 [audit.json](references/budgetbook-2026/audit.json)에 있습니다.
+2026-10-14에 받은 [테트리스_가계부_2026_고도화.xlsm](excelWork/테트리스_가계부_2026_고도화.xlsm)을 Excel 운영 기준본으로 보관합니다. 2026-10-13까지의 RAW 2,452건과 월별 계산기·예비비·WRAP 잔액을 포함하며, 첨부 파일을 재저장하지 않고 그대로 추가했습니다.
 
-참고용 원본 [One_Raw 가계부](references/budgetbook-2026/테트리스_가계부_2026_One_Raw.xlsx), [테트리스 계산기](references/budgetbook-2026/테트리스%20계산기_One.xlsm), [여행 정산표](references/budgetbook-2026/여행_One.xlsx)도 같은 폴더에 원본 그대로 보관합니다.
+네 파일의 역할, 회계 기준, 독립 대조 결과와 다음 수정 시 연결할 항목은 [가계부 파일 분석·인계](excelWork/가계부_파일분석_인계.md)에 정리했고, 수치 대조 결과는 [audit.json](excelWork/audit.json)에 있습니다.
+
+참고용 원본 [One_Raw 가계부](excelWork/테트리스_가계부_2026_One_Raw.xlsx), [테트리스 계산기](excelWork/테트리스%20계산기_One.xlsm), [여행 정산표](excelWork/여행_One.xlsx)도 같은 폴더에 원본 그대로 보관합니다.
 
 이 Excel 기준본은 아래 iOS·웹 앱의 2026-10-05 초기 스냅샷과 별도로 관리합니다. 앱의 운영 데이터 이관은 후속 작업입니다.
 
