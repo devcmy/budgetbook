@@ -8,6 +8,8 @@
 
 네 파일의 역할, 회계 기준, 독립 대조 결과와 다음 수정 시 연결할 항목은 [가계부 파일 분석·인계](references/budgetbook-2026/가계부_파일분석_인계.md)에 정리했고, 수치 대조 결과는 [audit.json](references/budgetbook-2026/audit.json)에 있습니다.
 
+참고용 원본 [One_Raw 가계부](references/budgetbook-2026/테트리스_가계부_2026_One_Raw.xlsx), [테트리스 계산기](references/budgetbook-2026/테트리스%20계산기_One.xlsm), [여행 정산표](references/budgetbook-2026/여행_One.xlsx)도 같은 폴더에 원본 그대로 보관합니다.
+
 이 Excel 기준본은 아래 iOS·웹 앱의 2026-10-05 초기 스냅샷과 별도로 관리합니다. 앱의 운영 데이터 이관은 후속 작업입니다.
 
 ## 이번 구현
