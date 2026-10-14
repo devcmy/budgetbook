@@ -2,7 +2,7 @@
 import json, pathlib, hashlib, shutil
 import openpyxl
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-SOURCE=ROOT.parent/'household-budget-history/source/ledger-handoff'
+SOURCE=ROOT.parent.parent/'household-budget-history/source/ledger-handoff'
 raw_path=SOURCE/'evidence/latest_raw_records.json'
 raw=json.loads(raw_path.read_text())
 snapshot=json.loads((ROOT/'ios/TetrisBudget/snapshot.json').read_text())

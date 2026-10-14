@@ -243,7 +243,7 @@ with sync_playwright() as p:
   checks.append('확인 후 테스트 초기화, 원본 seed 결산으로 복원')
   # Genuine XLSX/XLS files are selected through the same file control as JSON.
   fixtures=ROOT.parent/'tests/fixtures';initial=state();tab('settings')
-  original=ROOT.parent.parent/'household-budget-history/source/ledger-handoff/sources/가계부/테트리스_가계부_2026_복구.xlsx'
+  original=ROOT.parent.parent.parent/'household-budget-history/source/ledger-handoff/sources/가계부/테트리스_가계부_2026_복구.xlsx'
   page.locator('#backup-file').set_input_files(original)
   page.get_by_role('dialog',name='엑셀 거래 가져오기').wait_for()
   assert page.get_by_role('dialog',name='엑셀 거래 가져오기').count()==1

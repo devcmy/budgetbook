@@ -20,7 +20,7 @@ test('Stable Unicode SHA-256 keys agree with cryptographic reference',()=>{
  for(const value of ['','abc','테트리스 가계부 · ☕ 😀',JSON.stringify(fixture)])assert.equal(importer.sha256(value),crypto.createHash('sha256').update(value).digest('hex'));
 });
 test('Actual original Tetris workbook has 2366 existing rows and no duplicate additions',t=>{
- const p=path.resolve(__dirname,'../../household-budget-history/source/ledger-handoff/sources/가계부/테트리스_가계부_2026_복구.xlsx');
+ const p=path.resolve(__dirname,'../../../household-budget-history/source/ledger-handoff/sources/가계부/테트리스_가계부_2026_복구.xlsx');
  if(!fs.existsSync(p)){t.skip('Original handoff workbook is optional and is not distributed in the source ZIP.');return;}
  const book=importer.read(fs.readFileSync(p));assert.equal(book.preferred,'RAW');assert.deepEqual(book.sheets.map(s=>s.name),['RAW']);
  const state=fresh(),before=JSON.stringify(state),review=importer.review(state,book);

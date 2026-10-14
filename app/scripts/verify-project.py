@@ -48,7 +48,7 @@ assert xml.find('.//TestableReference') is not None
 assert (ROOT/'core/ledger-engine.js').read_bytes()==(ROOT/'ios/TetrisBudget/ledger-engine.js').read_bytes()
 seed=json.loads((ROOT/'ios/TetrisBudget/seed-ledger.json').read_text())
 assert len(seed['sourceArchive'])==2366 and len(seed['transactions'])==45
-source=ROOT.parent/'household-budget-history/source/ledger-handoff/evidence/latest_raw_records.json'
+source=ROOT.parent.parent/'household-budget-history/source/ledger-handoff/evidence/latest_raw_records.json'
 source_hash=None
 if source.is_file():
     original=json.loads(source.read_text());assert seed['sourceArchive']==original

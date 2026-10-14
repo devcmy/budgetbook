@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-14",
+  "branch": "main",
+  "repository_work_folders": ["app", "excelWork"],
+  "app_commands_working_directory": "app",
+  "node_tests": {
+    "command": "node --test --test-isolation=none --test-reporter=spec tests/ledger-engine.test.js tests/excel-importer.test.js",
+    "total": 52,
+    "passed": 51,
+    "failed": 0,
+    "skipped": 1,
+    "skip_reason": "Optional original 2026-10-05 handoff workbook is not available; current excelWork files have different source data."
+  },
+  "preview_build": {
+    "command": "python playground/build.py",
+    "status": "passed",
+    "operational_records": 45,
+    "preserved_raw_records": 2366
+  },
+  "python_syntax": {"files": 6, "status": "passed"},
+  "swift_grammar_and_xcode_references": {
+    "command": "python scripts/verify-project.py",
+    "swift_files": 15,
+    "status": "passed",
+    "native_build_executed": false
+  },
+  "ignored_generated_outputs": "app/playground and app/preview-site rules checked",
+  "excel_files_changed": false,
+  "app_operational_data_changed": false,
+  "published_site_changed": false
+}

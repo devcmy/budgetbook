@@ -11,8 +11,9 @@ import sys
 import termios
 from pathlib import Path
 
-checkout = Path('/workspace/budgetbook/preview-site')
-archive = Path('/workspace/budgetbook/playground/private-preview.tar.gz')
+app_root = Path(__file__).resolve().parents[1]
+checkout = app_root / 'preview-site'
+archive = app_root / 'playground/private-preview.tar.gz'
 if sys.stdin.isatty():
     options = termios.tcgetattr(sys.stdin.fileno())
     options[3] &= ~termios.ECHO

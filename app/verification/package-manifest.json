@@ -1,7 +1,7 @@
 {
-  ".gitignore": "0a89778f9281be23d003e85ffa00cf401713da33ff58dba1032d4e22e72b811e",
-  "DECISIONS.md": "2ee7fb49a74b66178a28c58032803112de8cde6a2c57068fe06e3487c53f9228",
-  "README.md": "25d72821570a5d7506e311869abea7d2dbf57036f54013b17940b89e6fad6d67",
+  "../.gitignore": "f7fd20fce5e21c43358d9b9c6d84c8110f66c5de457f3549eab4324f659f5c08",
+  "DECISIONS.md": "48650474596554446c5e5649fd5cac3a20d3f04e34c214e909ae42cd80d8d5d9",
+  "README.md": "019ad714ea75abcda383423ceb8fcced91775030d8605c1f486f0ce23a4a2400",
   "core/excel-importer.js": "1d4484feeeb3aa0cd05216d6dbfc0d75d24793ac0336c3899110ddfc4f420fd1",
   "core/ledger-engine.js": "7aea5968f7ba62ba08a9329a470693b72dd1ef77222a557bbf02b235940e3891",
   "core/vendor/NOTICE.json": "badcaf6ab590cc5bc781d3cb20f30755598043c101a4070af46490463700da3f",
@@ -35,9 +35,9 @@
   "ios/TetrisBudget/xlsx.full.min.js": "cc015130aa8521e7f088f88898eba949ccdcbfb38df0bd129b44b7273c3a6f41",
   "ios/TetrisBudgetTests/LedgerTests.swift": "9a7142b720bc4d87635e59b05a3d3479ffc5a027b31b359494d59e5cbc33ed8b",
   "scripts/build-import-fixtures.js": "05c639930fff4e29e2f48d833379fdede7c00a1b5e0b862292453d5d0c14aa33",
-  "scripts/build-seed.py": "2c8a856d218a4b66da22be1fc47f7c30caa85da33703b3c49d92bc52cdfddf81",
-  "scripts/verify-project.py": "43f6efb7f99e9d6fca1a41a683eeb16ad318f71c1b0fc62658b86fc509a212d8",
-  "tests/excel-importer.test.js": "7c9643592f30b1148344a0574225696533e1bd5dc7f0c74133cb63668e40a5b4",
+  "scripts/build-seed.py": "11b94c0cacdcbf68c8cd6856594138a9e96c457dcfad5a749bfb99b25c9abe27",
+  "scripts/verify-project.py": "dc75144d042ec124e142f4bc0815871abdb5f77fb8a0ef843829edf5b04f3591",
+  "tests/excel-importer.test.js": "87625d4d28b29a6839748bd6aa82c19293c98ef5cd6abbea14da074557de0d39",
   "tests/fixtures/import.xls": "d88ea7bb2d38653586159ec436377a843f57eb02dc9196757402f97a5ba059ab",
   "tests/fixtures/import.xlsx": "315bfdb03f63b83c7d25baaac87e5c77227d6a00b96ad9c828955184e29e94a7",
   "tests/fixtures/invalid.xlsx": "8a8d823e3fe2827b735143cbf698ccd1e68b90034aa1bc3a89c8e2deaeec2bc5",
@@ -48,6 +48,6 @@
   "verification/core-tests.tap": "191224305cad001d98c5bac59b49a6038ee6ca4b705be065a424a8d4e480c740",
   "verification/excel-tests.tap": "1ace867bf503b270afd11148210e551ea3fe13ee5b2bfd7282a3f439efcc45f4",
   "verification/fixed-item-labels.json": "0bc156b37f88807841828be88179043e819733344ccb95de4ce9dade14241988",
-  "verification/project-checks.json": "e208465cd3d88742add2fa70321815043e6024fbab9956369985269d239c5449",
-  "verification/기기_확인.md": "ca59fbdeeeb784e724f50974e782757e9d599f6f4dc9c7d8dbe9b87aeb1f23e9"
+  "verification/project-checks.json": "c6b943a1f8ccfc40d3973ff642619f64f1560a074f28bc16cabecbda82749039",
+  "verification/기기_확인.md": "efc27821da93d6028a54ec7166e988e5946abdf6884c005c3372dcac06ea61c6"
 }
