@@ -80,7 +80,9 @@
     "differences": []
   },
   "october_ledger": {
-    "rows": 14,
+    "rows": 15,
+    "raw_linked_rows": 14,
+    "internal_classification_rows": 1,
     "raw_link_missing": [],
     "raw_link_duplicates": {},
     "unexpected_raw_links": [],
@@ -90,7 +92,7 @@
   },
   "wrap": {
     "balances": {
-      "생활비": 4474466,
+      "생활비": 4535466,
       "명절비": 0,
       "여행비": 1400000,
       "경조사비": 450000,
@@ -98,7 +100,7 @@
       "예비비": 0,
       "결제대금비": 0,
       "금융": 0,
-      "임시보관": 61000
+      "임시보관": 0
     },
     "total": 6685466,
     "inflows": 696602,
@@ -419,7 +421,7 @@
     }
   },
   "as_of": "2026-10-15",
-  "workbook_sha256": "5d4ebdd087063f4c2bf2c0575df9455aabd4844e4f631dd573dcdae906d8a00a",
+  "workbook_sha256": "bafb1939499c22495c5b5c9898d3805ac4fb6f30ecf5f670d4fe98a68ae12e12",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -578,7 +580,7 @@
     "user_confirmed": "10/12 and 10/14 rail payments are distinct; each 51,800 is an unreimbursed advance."
   },
   "update_checks": {
-    "scope": "10/15 최초 RAW 반영 당시 검증. 현재 검증은 family_event_settlement을 따릅니다.",
+    "scope": "10/15 최초 RAW 반영 당시 검증. 현재 검증은 temporary_to_living을 따릅니다.",
     "original_131_transactions_preserved": true,
     "past_month_values_unchanged": true,
     "merged_cells_and_existing_borders_preserved": true,
@@ -591,7 +593,7 @@
     "excel_vba_executed": false
   },
   "balance_month_selector": {
-    "scope": "41351e7 조회월 선택 기능 도입 당시 검증. 현재 기준본 검증은 family_event_settlement을 따릅니다.",
+    "scope": "41351e7 조회월 선택 기능 도입 당시 검증. 현재 기준본 검증은 temporary_to_living을 따릅니다.",
     "cell": "잔액!B3",
     "type": "date-valued data validation list",
     "source": "잔액!C21:L21",
@@ -640,6 +642,7 @@
     "excel_vba_executed": false
   },
   "family_event_settlement": {
+    "scope": "e8d5f26 생신 사용액 정정과 원금 회수 당시 검증 이력. 이후 원장 247행에서 회수금을 생활비로 이동했으며 현재 검증은 temporary_to_living을 따릅니다.",
     "date": "2026-10-15",
     "usage_header": "선택월 예비비 사용액",
     "usage_cell": "예비비!E107",
@@ -665,6 +668,32 @@
     "previous_version": "history/2026-10-15/04",
     "details": "family_event_validation.json",
     "guide": "2026-10-15_생신정산_검증.md",
+    "excel_ui_and_vba_executed": false
+  },
+  "temporary_to_living": {
+    "date": "2026-10-15",
+    "ledger_row": 247,
+    "from": "임시보관",
+    "to": "생활비",
+    "amount": 61000,
+    "living_balance": 4535466,
+    "temporary_balance": 0,
+    "wrap_total": 6685466,
+    "wrap_purpose_cash": 2150000,
+    "selected_month_usage": 239000,
+    "outstanding_reserve_settlement": 0,
+    "raw_count": 2465,
+    "october_raw_count": 144,
+    "raw_transaction_added": false,
+    "income_or_expense_added": false,
+    "past_month_balances_unchanged": true,
+    "monthly_living_salary_and_calculators_unchanged": true,
+    "tested_months": [9, 10, 11],
+    "formula_errors": 0,
+    "vba_controls_and_styles_preserved": true,
+    "details": "temporary_to_living_validation.json",
+    "guide": "2026-10-15_생활비이동_검증.md",
+    "previous_version": "history/2026-10-15/05",
     "excel_ui_and_vba_executed": false
   }
 }
