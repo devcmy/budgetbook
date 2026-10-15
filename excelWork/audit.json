@@ -418,7 +418,7 @@
     }
   },
   "as_of": "2026-10-15",
-  "workbook_sha256": "7b2ba82f74343c7a6cc2b380089c5a621ceef634396030beded5119fbb01a774",
+  "workbook_sha256": "db5b2a00d9809e5e6132ea5eb6a1b5ab8bd2d74c246eeb9060959d7db78b2eb3",
   "delta_20261015": {
     "as_of": "2026-10-15",
     "source_sha256": "d33de5497e2a40c43b68fa5dd57cf9947128f6d4c06425d6704b568868842a6e",
@@ -586,5 +586,21 @@
     "false_validation_cells": [],
     "recalculation": "LibreOffice macro-free temporary copy; original XLSM package and formulas preserved; values imported only",
     "excel_vba_executed": false
+  },
+  "balance_month_selector": {
+    "cell": "잔액!B3",
+    "type": "date-valued data validation list",
+    "source": "잔액!C21:L21",
+    "default_month": "2026-10",
+    "tested_months": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "checked_summary_cells_per_month": 61,
+    "unchanged_boolean_checks_per_month": 318,
+    "formula_errors": 0,
+    "existing_financial_values_unchanged": true,
+    "vba_controls_styles_preserved": true,
+    "future_unentered_months": "carry-forward only; not a forecast",
+    "details": "balance_month_selector_validation.json",
+    "previous_version": "history/2026-10-15/02",
+    "excel_ui_and_vba_executed": false
   }
 }
