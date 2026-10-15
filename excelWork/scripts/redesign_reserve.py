@@ -139,7 +139,7 @@ def seed_records(d):
         ('U005', '한국장학재단 상환', '상환비', datetime(2026,5,1), 313980, 0, '월기록', '생활비 이전 36,020원은 사용에서 제외'),
         ('U006', '하계휴양 숙소', '여행비', datetime(2026,8,1), 300000, 0, '월기록', '원본 8월 지급 기록 · 실제 사용일 미기록'),
         ('U007', '막내 생일', '경조사비', d['RAW']['A2203'].value, 50000, 2203, '기존반영', '9월 월급 부담에서 이미 제외한 50,000원'),
-        ('U008', '부모 생신 본인 부담', '경조사비', datetime(2026,10,1), 200000, 0, '월기록', '10월 사용 · 9월 명절비에서 가족통장 선이체. 공동 식사 139,000원을 또 더하지 않음'),
+        ('U008', '부모 생신 본인 부담', '경조사비', datetime(2026,10,1), 239000, 0, '월기록', '본인 납입 300,000 − 잔금 회수 61,000 = 239,000. 명절비 200,000 + 임시보관 39,000. 식사 139,000원 중복 제외'),
     ]
     seen = {u[5] for u in uses if u[5]}
     for row in d['RAW'].iter_rows(min_row=2):
@@ -159,8 +159,28 @@ def seed_records(d):
         ('U006', 188, 300000, '원장', '숙소 지급'),
         ('U007', 222, 50000, '원장', '9월 생일 사용'),
         ('U008', 223, 200000, '원장', '확정된 교차계정 선이체: 명절비 → 가족통장 → 10월 경조 사용'),
+        ('U008', 208, 39000, '원장', '임시보관 납입 100,000 중 행사 부담 39,000. 나머지 원금 61,000은 10/15 WRAP 회수'),
     ]
     return uses, settlements
+
+
+def settlement_permission_formula(r):
+    """Keep the two evidenced U008 sources narrow; never allow arbitrary cash links."""
+    ledger = f'MAX(64,C{r})'
+    allocated = f'SUMIF($C${S0}:$C${S1},C{r},$D${S0}:$D${S1})'
+    inherited = f'AND(B{r}="U008",C{r}=223,J{r}="경조사비",F{r}="명절비")'
+    family_cash = (f'AND(B{r}="U008",C{r}=208,J{r}="경조사비",'
+                   f'F{r}="임시보관",{allocated}<=39000)')
+    opening = (f'AND(H{r}="기초반영",OR(B{r}="U001",B{r}="U002",B{r}="U003"),'
+               f'C{r}="",E{r}=DATE(2026,3,1))')
+    ledgerok = (f'AND(H{r}="원장",C{r}>=64,C{r}<=500,'
+                f'INDEX(잔액!$I:$I,{ledger})="OK",'
+                f'E{r}=INDEX(잔액!$A:$A,{ledger}),F{r}=INDEX(잔액!$C:$C,{ledger}),'
+                f'OR(F{r}=J{r},{inherited},{family_cash}),'
+                f'OR(COUNTIF($A$8:$A$12,F{r})=1,{family_cash}),'
+                f'COUNTIF($A$8:$A$12,INDEX(잔액!$D:$D,{ledger}))=0,'
+                f'{allocated}<=INDEX(잔액!$Y:$Y,{ledger}))')
+    return f'=IF(B{r}="","",IFERROR(IF(OR({opening},{ledgerok}),1,0),0))'
 
 
 def author_ui(d, path):
@@ -210,7 +230,7 @@ def author_ui(d, path):
     for i in range(1,13):text(f'AD{i}',datetime(2026,i,1),MONTH)
     dv('B3','$AD$1:$AD$12')
     span('A6:O6','1  현황 | 원장잔액 − 정산대기 = 더 쓸 수 있는 돈',True)
-    groups=[(('A','B'),'목적'),(('C','E'),'원장잔액'),(('F','H'),'정산대기'),(('I','K'),'사용가능액'),(('L','M'),'이번 달 사용'),(('N','O'),'연결 확인')]
+    groups=[(('A','B'),'목적'),(('C','E'),'원장잔액'),(('F','H'),'정산대기'),(('I','K'),'사용가능액'),(('L','M'),'선택월 예비비 사용액'),(('N','O'),'연결 확인')]
     header(7,groups)
     for r,fund in enumerate(FUNDS,8):
         span(f'A{r}:B{r}',fund)
@@ -338,11 +358,7 @@ def author_ui(d, path):
                 text(f'E{r}',datetime(2026,3,1),MONTH);text(f'F{r}','기초 이전');text(f'G{r}','송금일 미기록')
         match=f'MATCH(B{r},$A${U0}:$A${U1},0)'
         for target,source in [('J','C'),('K','D'),('L','S')]:text(f'{target}{r}',f'=IFERROR(INDEX(${source}${U0}:${source}${U1},{match}),"")',DAY if target=='K' else None)
-        special=f'AND(B{r}="U008",C{r}=223,J{r}="경조사비",F{r}="명절비")'
-        # Only these inherited opening records may lack a ledger reference.
-        opening=f'AND(H{r}="기초반영",OR(B{r}="U001",B{r}="U002",B{r}="U003"),C{r}="",E{r}=DATE(2026,3,1))'
-        ledgerok=f'AND(H{r}="원장",C{r}>=64,C{r}<=500,INDEX(잔액!$I:$I,C{r})="OK",E{r}=INDEX(잔액!$A:$A,C{r}),F{r}=INDEX(잔액!$C:$C,C{r}),OR(F{r}=J{r},{special}),COUNTIF($A$8:$A$12,F{r})=1,COUNTIF($A$8:$A$12,INDEX(잔액!$D:$D,C{r}))=0,SUMIF($C${S0}:$C${S1},C{r},$D${S0}:$D${S1})<=INDEX(잔액!$Y:$Y,C{r}))'
-        text(f'M{r}',f'=IF(B{r}="","",IFERROR(IF(OR({opening},{ledgerok}),1,0),0))')
+        text(f'M{r}',settlement_permission_formula(r))
         useok=f'INDEX($R${U0}:$R${U1},{match})="OK"'
         cap=f'SUMIF($B${S0}:$B${S1},B{r},$D${S0}:$D${S1})<=INDEX($E${U0}:$E${U1},{match})'
         text(f'N{r}',f'=IF(B{r}="","",IFERROR(IF(AND(COUNTIF($A${U0}:$A${U1},B{r})=1,{useok},D{r}>0,ISNUMBER(E{r}),M{r}=1,{cap}),"OK","확인: 정산연결"),"확인: 정산연결"))')
@@ -362,6 +378,7 @@ def author_ui(d, path):
             cell.font=Font(name='맑은 고딕',size=9,bold=True,color=BLUE)
             cell.alignment=Alignment(vertical='center',wrap_text=True)
         s.row_dimensions[r].height=30
+    s.row_dimensions[7].height=42
     for r in list(range(8,14))+list(range(20,30))+list(range(36,48))+list(range(52,64)):
         for cell in s[r][:15]:cell.border=Border(bottom=line)
     for r in range(8,14):
@@ -444,7 +461,10 @@ def build(source, output, tempdir, manifest):
         ledger=r-56
         p.write(BACK,f'BA{r}',ledger)
         p.write(BACK,f'BB{r}',f'=IFERROR(INDEX(잔액!$A:$A,BA{r}),0)',True)
-        rel=f'OR(COUNTIF(예비비!$A$8:$A$12,INDEX(잔액!$C:$C,BA{r}))=1,COUNTIF(예비비!$A$8:$A$12,INDEX(잔액!$D:$D,BA{r}))=1)'
+        rel=(f'OR(COUNTIFS({SR("C")},BA{r},{SR("N")},"OK")>0,'
+             f'AND(INDEX(잔액!$J:$J,BA{r})="가족통장",INDEX(잔액!$K:$K,BA{r})="미래에셋_WRAP형CMA"),'
+             f'COUNTIF(예비비!$A$8:$A$12,INDEX(잔액!$C:$C,BA{r}))=1,'
+             f'COUNTIF(예비비!$A$8:$A$12,INDEX(잔액!$D:$D,BA{r}))=1)')
         period=f'AND(BB{r}>=예비비!$B$3,BB{r}<EDATE(예비비!$B$3,1))'
         linked=f'AND(BB{r}<EDATE(예비비!$B$3,1),COUNTIFS({SR("C")},BA{r},{SR("L")},예비비!$B$3,{SR("N")},"OK")>0)'
         show=f'AND(BB{r}>0,{rel},OR({period},{linked}))'

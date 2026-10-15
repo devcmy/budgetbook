@@ -53,9 +53,9 @@
     "month_calculator_pairs": true
   },
   "raw": {
-    "count": 2464,
+    "count": 2465,
     "start": "2026-01-01T00:55:00",
-    "end": "2026-10-15T19:49:00.103000",
+    "end": "2026-10-15T22:33:00.838000",
     "by_month": {
       "2026-01": 224,
       "2026-02": 244,
@@ -66,12 +66,12 @@
       "2026-07": 345,
       "2026-08": 310,
       "2026-09": 244,
-      "2026-10": 143
+      "2026-10": 144
     },
     "october_scope": {
       "카드사용": 85,
       "타계좌": 45,
-      "WRAP": 13
+      "WRAP": 14
     }
   },
   "historical_accounts": {
@@ -80,7 +80,7 @@
     "differences": []
   },
   "october_ledger": {
-    "rows": 13,
+    "rows": 14,
     "raw_link_missing": [],
     "raw_link_duplicates": {},
     "unexpected_raw_links": [],
@@ -98,10 +98,10 @@
       "예비비": 0,
       "결제대금비": 0,
       "금융": 0,
-      "임시보관": 0
+      "임시보관": 61000
     },
-    "total": 6624466,
-    "inflows": 635602,
+    "total": 6685466,
+    "inflows": 696602,
     "outflows": 2549739,
     "previous": 8538603,
     "cached_matches": true
@@ -358,13 +358,13 @@
     "H43": 1000,
     "H44": 1818762,
     "H45": -1309479,
-    "N69": 200000,
+    "N69": 239000,
     "E73": 2776050,
     "E74": 762073,
     "E75": 320430,
     "E76": 639000,
     "E77": 100000,
-    "E78": 739000,
+    "E78": 800000,
     "E80": 103600,
     "fixed_independent": 470022
   },
@@ -419,8 +419,9 @@
     }
   },
   "as_of": "2026-10-15",
-  "workbook_sha256": "a3c81d30d119c4a673f5282f650deb1b5beb2d3024902a515cc8571117f6e1b2",
+  "workbook_sha256": "5d4ebdd087063f4c2bf2c0575df9455aabd4844e4f631dd573dcdae906d8a00a",
   "delta_20261015": {
+    "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
     "source_sha256": "d33de5497e2a40c43b68fa5dd57cf9947128f6d4c06425d6704b568868842a6e",
     "baseline_sha256": "3d6af870f346db050cee64668c17186bd69d10672d7f148c21ac489138e830f4",
@@ -577,7 +578,7 @@
     "user_confirmed": "10/12 and 10/14 rail payments are distinct; each 51,800 is an unreimbursed advance."
   },
   "update_checks": {
-    "scope": "10/15 RAW 반영 작업 당시 검증. 현재 예비비 구조·표시 변경의 검증은 reserve_redesign을 따릅니다.",
+    "scope": "10/15 최초 RAW 반영 당시 검증. 현재 검증은 family_event_settlement을 따릅니다.",
     "original_131_transactions_preserved": true,
     "past_month_values_unchanged": true,
     "merged_cells_and_existing_borders_preserved": true,
@@ -590,7 +591,7 @@
     "excel_vba_executed": false
   },
   "balance_month_selector": {
-    "scope": "41351e7 조회월 선택 기능 도입 당시 검증. 현재 기준본 검증은 reserve_redesign을 따릅니다.",
+    "scope": "41351e7 조회월 선택 기능 도입 당시 검증. 현재 기준본 검증은 family_event_settlement을 따릅니다.",
     "cell": "잔액!B3",
     "type": "date-valued data validation list",
     "source": "잔액!C21:L21",
@@ -607,6 +608,7 @@
     "excel_ui_and_vba_executed": false
   },
   "reserve_redesign": {
+    "scope": "5ee7c34 예비비 개편 당시 검증 이력. 현재 사용액·원장·검증 해시는 family_event_settlement을 따릅니다.",
     "date": "2026-10-15",
     "sections": ["현황", "계획", "이체 내역"],
     "month_cell": "예비비!B3",
@@ -636,5 +638,33 @@
     "guide": "2026-10-15_예비비개편_검증.md",
     "previous_version": "history/2026-10-15/03",
     "excel_vba_executed": false
+  },
+  "family_event_settlement": {
+    "date": "2026-10-15",
+    "usage_header": "선택월 예비비 사용액",
+    "usage_cell": "예비비!E107",
+    "selected_month_usage": 239000,
+    "original_cash_contribution": 300000,
+    "funding": {"명절비": 200000, "임시보관": 39000},
+    "principal_return": 61000,
+    "principal_return_account": "임시보관",
+    "principal_return_raw_row": 2466,
+    "principal_return_ledger_row": 246,
+    "family_interest_remaining": 25,
+    "family_balance_scope": "Provided transaction accumulation, not a live bank balance; assumes no omitted opening balance/transactions.",
+    "family_total_outflows": 800000,
+    "wrap_total": 6685466,
+    "wrap_purpose_cash": 2150000,
+    "outstanding_reserve_settlement": 0,
+    "monthly_living_and_salary_totals_unchanged": true,
+    "tested_months": 12,
+    "targeted_scenarios": 4,
+    "formula_errors": 0,
+    "vba_controls_drawings_and_styles_preserved": true,
+    "source": "raw/2026-10-15/02/2026-10-01_2026-10-31.xlsx",
+    "previous_version": "history/2026-10-15/04",
+    "details": "family_event_validation.json",
+    "guide": "2026-10-15_생신정산_검증.md",
+    "excel_ui_and_vba_executed": false
   }
 }
