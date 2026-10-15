@@ -47,7 +47,8 @@
       "기존_상환비",
       "보관_9월계산기",
       "보관_11월계산기",
-      "보관_12월계산기"
+      "보관_12월계산기",
+      "_예비비계산"
     ],
     "month_calculator_pairs": true
   },
@@ -418,7 +419,7 @@
     }
   },
   "as_of": "2026-10-15",
-  "workbook_sha256": "db5b2a00d9809e5e6132ea5eb6a1b5ab8bd2d74c246eeb9060959d7db78b2eb3",
+  "workbook_sha256": "a3c81d30d119c4a673f5282f650deb1b5beb2d3024902a515cc8571117f6e1b2",
   "delta_20261015": {
     "as_of": "2026-10-15",
     "source_sha256": "d33de5497e2a40c43b68fa5dd57cf9947128f6d4c06425d6704b568868842a6e",
@@ -576,6 +577,7 @@
     "user_confirmed": "10/12 and 10/14 rail payments are distinct; each 51,800 is an unreimbursed advance."
   },
   "update_checks": {
+    "scope": "10/15 RAW 반영 작업 당시 검증. 현재 예비비 구조·표시 변경의 검증은 reserve_redesign을 따릅니다.",
     "original_131_transactions_preserved": true,
     "past_month_values_unchanged": true,
     "merged_cells_and_existing_borders_preserved": true,
@@ -588,6 +590,7 @@
     "excel_vba_executed": false
   },
   "balance_month_selector": {
+    "scope": "41351e7 조회월 선택 기능 도입 당시 검증. 현재 기준본 검증은 reserve_redesign을 따릅니다.",
     "cell": "잔액!B3",
     "type": "date-valued data validation list",
     "source": "잔액!C21:L21",
@@ -602,5 +605,36 @@
     "details": "balance_month_selector_validation.json",
     "previous_version": "history/2026-10-15/02",
     "excel_ui_and_vba_executed": false
+  },
+  "reserve_redesign": {
+    "date": "2026-10-15",
+    "sections": ["현황", "계획", "이체 내역"],
+    "month_cell": "예비비!B3",
+    "default_month": "2026-10",
+    "monthly_selectors_independent": true,
+    "ledger_balance_matches_balance_sheet_for_same_month": true,
+    "available_equals_cash_minus_unfunded_uses": true,
+    "wrap_purpose_cash": 2150000,
+    "outstanding_reserve_settlement": 0,
+    "available_reserve": 2150000,
+    "october_personal_purpose_use": 200000,
+    "october_lodging_and_rail_remain_living_expenses": 181800,
+    "visible_sheets": 29,
+    "total_sheets": 46,
+    "hidden_calculation_sheet": "_예비비계산",
+    "usage_capacity": 300,
+    "settlement_capacity": 300,
+    "tested_months": 12,
+    "tested_scenarios": 15,
+    "raw_and_balance_values_unchanged": true,
+    "monthly_living_and_salary_totals_unchanged": true,
+    "purpose_use_display_normalized": "Internal reallocations are not consumption; vacation actual date follows RAW February 19; February holiday use linked from existing budget record.",
+    "legacy_budget_audit_preserved": true,
+    "vba_buttons_and_drawings_preserved": true,
+    "formula_errors": 0,
+    "details": "reserve_redesign_validation.json",
+    "guide": "2026-10-15_예비비개편_검증.md",
+    "previous_version": "history/2026-10-15/03",
+    "excel_vba_executed": false
   }
 }
