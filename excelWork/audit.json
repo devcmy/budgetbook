@@ -52,9 +52,9 @@
     "month_calculator_pairs": true
   },
   "raw": {
-    "count": 2452,
+    "count": 2464,
     "start": "2026-01-01T00:55:00",
-    "end": "2026-10-13T20:26:00.610000",
+    "end": "2026-10-15T19:49:00.103000",
     "by_month": {
       "2026-01": 224,
       "2026-02": 244,
@@ -65,12 +65,12 @@
       "2026-07": 345,
       "2026-08": 310,
       "2026-09": 244,
-      "2026-10": 131
+      "2026-10": 143
     },
     "october_scope": {
-      "카드사용": 79,
-      "타계좌": 40,
-      "WRAP": 12
+      "카드사용": 85,
+      "타계좌": 45,
+      "WRAP": 13
     }
   },
   "historical_accounts": {
@@ -79,7 +79,7 @@
     "differences": []
   },
   "october_ledger": {
-    "rows": 12,
+    "rows": 13,
     "raw_link_missing": [],
     "raw_link_duplicates": {},
     "unexpected_raw_links": [],
@@ -89,7 +89,7 @@
   },
   "wrap": {
     "balances": {
-      "생활비": 4473931,
+      "생활비": 4474466,
       "명절비": 0,
       "여행비": 1400000,
       "경조사비": 450000,
@@ -99,8 +99,8 @@
       "금융": 0,
       "임시보관": 0
     },
-    "total": 6623931,
-    "inflows": 635067,
+    "total": 6624466,
+    "inflows": 635602,
     "outflows": 2549739,
     "previous": 8538603,
     "cached_matches": true
@@ -287,11 +287,11 @@
     },
     {
       "month": 10,
-      "color_total": 1238000,
+      "color_total": 1321000,
       "counts": {
-        "3": 220,
-        "4": 55,
-        "5": 364,
+        "3": 244,
+        "4": 60,
+        "5": 418,
         "10": 43,
         "9": 241,
         "6": 93,
@@ -300,8 +300,8 @@
       },
       "cached_counts_match": true,
       "unknown_colors": {},
-      "display": 1238000,
-      "salary_burden": 1238000,
+      "display": 1321000,
+      "salary_burden": 1321000,
       "expected_display_matches": true,
       "month_display_matches": true
     },
@@ -329,34 +329,34 @@
     }
   ],
   "october_block_layout": {
-    "colored_cells": 1238,
+    "colored_cells": 1321,
     "block_order_contiguous": true,
     "block_shape": "2 columns x 5 rows",
     "value_per_cell": 1000,
-    "full_blocks": 123,
-    "partial_block_cells": 8
+    "full_blocks": 132,
+    "partial_block_cells": 1
   },
   "october_lifestyle": {
-    "records": 70,
-    "actual": 1218440,
-    "tetris": 1238000,
-    "calendar_actual": 1218440,
-    "calendar_tetris": 1238000
+    "records": 75,
+    "actual": 1299740,
+    "tetris": 1321000,
+    "calendar_actual": 1299740,
+    "calendar_tetris": 1321000
   },
   "october_summary": {
     "C37": 0,
     "C38": 500000,
     "C39": 0,
-    "C40": 8748,
-    "C41": 508748,
+    "C40": 9283,
+    "C41": 509283,
     "H37": 470022,
-    "H38": 1218440,
+    "H38": 1299740,
     "H40": 0,
     "H41": 0,
     "H42": 50000,
     "H43": 1000,
-    "H44": 1737462,
-    "H45": -1228714,
+    "H44": 1818762,
+    "H45": -1309479,
     "N69": 200000,
     "E73": 2776050,
     "E74": 762073,
@@ -364,14 +364,15 @@
     "E76": 639000,
     "E77": 100000,
     "E78": 739000,
-    "E80": 51800,
+    "E80": 103600,
     "fixed_independent": 470022
   },
   "vba": {
     "all_module_sources_equal": true,
     "module_count": 13,
     "binary_identical": false,
-    "executed": false
+    "executed": false,
+    "binary_identical_to_previous_version": true
   },
   "travel": [
     {
@@ -415,5 +416,175 @@
       "original": 0,
       "advanced": 0
     }
+  },
+  "as_of": "2026-10-15",
+  "workbook_sha256": "7b2ba82f74343c7a6cc2b380089c5a621ceef634396030beded5119fbb01a774",
+  "delta_20261015": {
+    "as_of": "2026-10-15",
+    "source_sha256": "d33de5497e2a40c43b68fa5dd57cf9947128f6d4c06425d6704b568868842a6e",
+    "baseline_sha256": "3d6af870f346db050cee64668c17186bd69d10672d7f148c21ac489138e830f4",
+    "preserved_october_rows": 131,
+    "new_rows": [
+      {
+        "source_row": 13,
+        "row": 2454,
+        "date": "2026-10-13T20:37:00.807000",
+        "amount": 535,
+        "classification": "이자·환급",
+        "scope": "WRAP"
+      },
+      {
+        "source_row": 12,
+        "row": 2455,
+        "date": "2026-10-13T20:57:24",
+        "amount": 753905,
+        "classification": "내부이체",
+        "scope": "타계좌"
+      },
+      {
+        "source_row": 11,
+        "row": 2456,
+        "date": "2026-10-14T20:55:50.791000",
+        "amount": 246568,
+        "classification": "내부이체",
+        "scope": "타계좌"
+      },
+      {
+        "source_row": 10,
+        "row": 2457,
+        "date": "2026-10-14T20:55:55.950000",
+        "amount": 8500,
+        "classification": "변동비",
+        "scope": "카드사용"
+      },
+      {
+        "source_row": 9,
+        "row": 2458,
+        "date": "2026-10-14T20:56:15.527000",
+        "amount": 51800,
+        "classification": "대납",
+        "scope": "카드사용"
+      },
+      {
+        "source_row": 8,
+        "row": 2459,
+        "date": "2026-10-14T20:56:40.518000",
+        "amount": 53900,
+        "classification": "여행",
+        "scope": "카드사용"
+      },
+      {
+        "source_row": 7,
+        "row": 2460,
+        "date": "2026-10-14T20:56:50.275000",
+        "amount": 360550,
+        "classification": "내부이체",
+        "scope": "타계좌"
+      },
+      {
+        "source_row": 6,
+        "row": 2461,
+        "date": "2026-10-14T20:57:01.207000",
+        "amount": 798746,
+        "classification": "내부이체",
+        "scope": "타계좌"
+      },
+      {
+        "source_row": 5,
+        "row": 2462,
+        "date": "2026-10-14T20:57:50.642000",
+        "amount": 236270,
+        "classification": "내부이체",
+        "scope": "타계좌"
+      },
+      {
+        "source_row": 4,
+        "row": 2463,
+        "date": "2026-10-15T19:48:00.616000",
+        "amount": 7300,
+        "classification": "변동비",
+        "scope": "카드사용"
+      },
+      {
+        "source_row": 3,
+        "row": 2464,
+        "date": "2026-10-15T19:48:00.732000",
+        "amount": 5000,
+        "classification": "변동비",
+        "scope": "카드사용"
+      },
+      {
+        "source_row": 2,
+        "row": 2465,
+        "date": "2026-10-15T19:49:00.103000",
+        "amount": 6600,
+        "classification": "변동비",
+        "scope": "카드사용"
+      }
+    ],
+    "october_count": 143,
+    "raw_total": 2464,
+    "last_raw_row": 2465,
+    "personal_actual": 1299740,
+    "personal_tetris": 1321000,
+    "new_personal": [
+      {
+        "row": 2457,
+        "date": "2026-10-14T20:55:55.950000",
+        "amount": 8500,
+        "units": 9,
+        "calculator_row": 3
+      },
+      {
+        "row": 2459,
+        "date": "2026-10-14T20:56:40.518000",
+        "amount": 53900,
+        "units": 54,
+        "calculator_row": 5
+      },
+      {
+        "row": 2463,
+        "date": "2026-10-15T19:48:00.616000",
+        "amount": 7300,
+        "units": 8,
+        "calculator_row": 3
+      },
+      {
+        "row": 2464,
+        "date": "2026-10-15T19:48:00.732000",
+        "amount": 5000,
+        "units": 5,
+        "calculator_row": 4
+      },
+      {
+        "row": 2465,
+        "date": "2026-10-15T19:49:00.103000",
+        "amount": 6600,
+        "units": 7,
+        "calculator_row": 3
+      }
+    ],
+    "new_card_payments": {
+      "count": 5,
+      "amount": 2396039,
+      "wrap_effect": 0,
+      "consumption_effect": 0
+    },
+    "new_wrap_interest": 535,
+    "wrap_total": 6624466,
+    "outstanding_advances": 103600,
+    "user_confirmed": "10/12 and 10/14 rail payments are distinct; each 51,800 is an unreimbursed advance."
+  },
+  "update_checks": {
+    "original_131_transactions_preserved": true,
+    "past_month_values_unchanged": true,
+    "merged_cells_and_existing_borders_preserved": true,
+    "original_zip_parts_preserved": 36,
+    "vba_and_buttons_byte_preserved": true,
+    "independent_colors_and_accounting_match": true,
+    "formula_errors": [],
+    "false_validation_cells": [],
+    "recalculation": "LibreOffice macro-free temporary copy; original XLSM package and formulas preserved; values imported only",
+    "excel_vba_executed": false
   }
 }
