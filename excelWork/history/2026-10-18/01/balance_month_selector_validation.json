@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-15",
+  "cell": "잔액!B3",
+  "source": "잔액!C21:L21",
+  "default_month": "2026-10",
+  "month_tests": [
+    {
+      "month": 3,
+      "total": 4807335,
+      "purpose_funds": 1750000,
+      "header": "2026-03 · 월말 기록 기준",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 4,
+      "total": 5445728,
+      "purpose_funds": 1950000,
+      "header": "2026-04 · 월말 기록 기준",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 5,
+      "total": 4705400,
+      "purpose_funds": 1600000,
+      "header": "2026-05 · 월말 기록 기준",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 6,
+      "total": 8620449,
+      "purpose_funds": 1800000,
+      "header": "2026-06 · 월말 기록 기준",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 7,
+      "total": 12918210,
+      "purpose_funds": 2050000,
+      "header": "2026-07 · 월말 기록 기준",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 8,
+      "total": 11495719,
+      "purpose_funds": 2000000,
+      "header": "2026-08 · 월말 기록 기준",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 9,
+      "total": 8538603,
+      "purpose_funds": 2150000,
+      "header": "2026-09 · 월말 기록 기준",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 10,
+      "total": 6624466,
+      "purpose_funds": 2150000,
+      "header": "2026-10 · 입력된 거래 기준 (월 진행 중)",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 11,
+      "total": 6624466,
+      "purpose_funds": 2150000,
+      "header": "2026-11 · 해당 월 미입력 / 이월 잔액",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    },
+    {
+      "month": 12,
+      "total": 6624466,
+      "purpose_funds": 2150000,
+      "header": "2026-12 · 해당 월 미입력 / 이월 잔액",
+      "checked_summary_cells": 61,
+      "formula_errors": 0,
+      "unchanged_boolean_checks": 318
+    }
+  ],
+  "other_sheet_financial_values_unchanged": true,
+  "styles_and_merges_unchanged": true,
+  "vba_controls_and_binary_parts_unchanged": true,
+  "preserved_nonworksheet_parts": 37,
+  "workbook_sha256": "db5b2a00d9809e5e6132ea5eb6a1b5ab8bd2d74c246eeb9060959d7db78b2eb3",
+  "recalculation": "LibreOffice macro-free temporary copies; original XLSM retains its package and formulas",
+  "excel_ui_and_vba_executed": false
+}

@@ -421,7 +421,7 @@
     }
   },
   "as_of": "2026-10-15",
-  "workbook_sha256": "bafb1939499c22495c5b5c9898d3805ac4fb6f30ecf5f670d4fe98a68ae12e12",
+  "workbook_sha256": "13c87bbfc1d3bb09ebb2b90254f69c16a639577d63f413810e890107d9007bc0",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -580,7 +580,7 @@
     "user_confirmed": "10/12 and 10/14 rail payments are distinct; each 51,800 is an unreimbursed advance."
   },
   "update_checks": {
-    "scope": "10/15 최초 RAW 반영 당시 검증. 현재 검증은 temporary_to_living을 따릅니다.",
+    "scope": "10/15 최초 RAW 반영 당시 검증. 현재 UI·재무 보존 검증은 balance_selected_month를 따릅니다.",
     "original_131_transactions_preserved": true,
     "past_month_values_unchanged": true,
     "merged_cells_and_existing_borders_preserved": true,
@@ -593,7 +593,7 @@
     "excel_vba_executed": false
   },
   "balance_month_selector": {
-    "scope": "41351e7 조회월 선택 기능 도입 당시 검증. 현재 기준본 검증은 temporary_to_living을 따릅니다.",
+    "scope": "41351e7 조회월 선택 기능 도입 당시 검증. 현재는 하단 원장까지 조회월에 연동하며 balance_selected_month를 따릅니다.",
     "cell": "잔액!B3",
     "type": "date-valued data validation list",
     "source": "잔액!C21:L21",
@@ -671,6 +671,7 @@
     "excel_ui_and_vba_executed": false
   },
   "temporary_to_living": {
+    "scope": "4aca6c9 생활비 이동 당시 검증 이력. 재무 수치는 유지하고 현재 UI·검증 해시는 balance_selected_month를 따릅니다.",
     "date": "2026-10-15",
     "ledger_row": 247,
     "from": "임시보관",
@@ -694,6 +695,38 @@
     "details": "temporary_to_living_validation.json",
     "guide": "2026-10-15_생활비이동_검증.md",
     "previous_version": "history/2026-10-15/05",
+    "excel_ui_and_vba_executed": false
+  },
+  "balance_selected_month": {
+    "ui_updated_at": "2026-10-18",
+    "data_as_of": "2026-10-15",
+    "month_cell": "잔액!B3",
+    "default_month": "2026-10",
+    "top_transfer_columns_selected_month_only": true,
+    "top_transfer_columns_include_internal_account_moves": true,
+    "detail_month_cell": "잔액!B35",
+    "detail_month_is_linked_not_separate_input": true,
+    "source_ledger": "잔액!A64:Y500",
+    "source_rows_preserved": 184,
+    "source_folded_by_default": true,
+    "selected_month_ledger": "잔액!A501:L525",
+    "page_cell": "잔액!B501",
+    "rows_per_page": 22,
+    "stale_pages_clamped": true,
+    "empty_month_ledger_count": 0,
+    "new_bank_transactions": 0,
+    "all_financial_values_preserved": true,
+    "wrap_total": 6685466,
+    "living_balance": 4535466,
+    "temporary_balance": 0,
+    "selected_month_usage": 239000,
+    "tested_months": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "targeted_scenarios": 4,
+    "formula_errors": 0,
+    "vba_controls_and_styles_preserved": true,
+    "details": "balance_selected_month_validation.json",
+    "guide": "2026-10-18_잔액원장조회월_검증.md",
+    "previous_version": "history/2026-10-18/01",
     "excel_ui_and_vba_executed": false
   }
 }
