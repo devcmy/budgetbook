@@ -139,7 +139,10 @@ def expected_rows(sheet,month):
 def check_view(w,month,page=1):
     s=w['잔액'];rows=expected_rows(s,month)
     last=max(1,(len(rows)+21)//22);actual_page=min(max(1,page),last)
-    assert s['B35'].value==month and s['V35'].value==datetime(2026,month,1)
+    # The hidden date helper retains General format in the original XLSM;
+    # Calc exports may infer a date style, while imported caches stay serials.
+    start=datetime(2026,month,1)
+    assert s['B35'].value==month and s['V35'].value in [start,to_excel(start)]
     assert s['AC501'].value==len(rows) and s['AA501'].value==actual_page
     shown=[int(s[f'AA{r}'].value)+63 for r in range(FIRST,LAST+1) if s[f'AA{r}'].value]
     assert shown==rows[(actual_page-1)*22:actual_page*22],(month,page,shown,rows)

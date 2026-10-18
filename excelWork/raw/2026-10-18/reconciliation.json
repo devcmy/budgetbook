@@ -1,0 +1,1129 @@
+{
+  "as_of": "2026-10-18",
+  "source_sha256": "e3d3a681f4e8fad471674aef438993c35e8947550d582d66c49a859f1c75d1bf",
+  "baseline_sha256": "290842dc2df341890ffb74e250b9bb809b0d0be143c8f5bb1214e802348eab4c",
+  "preserved_october_rows": 144,
+  "october_count": 164,
+  "raw_total": 2485,
+  "last_raw_row": 2486,
+  "new_rows": [
+    {
+      "source_row": 20,
+      "row": 2467,
+      "date": "2026-10-16T15:51:00.775000",
+      "amount": 10900,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 21,
+      "row": 2468,
+      "date": "2026-10-16T15:51:00.908000",
+      "amount": 5000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 19,
+      "row": 2469,
+      "date": "2026-10-16T15:53:00.360000",
+      "amount": 7000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 18,
+      "row": 2470,
+      "date": "2026-10-17T15:54:00.839000",
+      "amount": 4000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 16,
+      "row": 2471,
+      "date": "2026-10-17T15:55:00.592000",
+      "amount": 5000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 17,
+      "row": 2472,
+      "date": "2026-10-17T15:55:00.600000",
+      "amount": 5000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 15,
+      "row": 2473,
+      "date": "2026-10-17T15:57:00.201000",
+      "amount": 12530,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 13,
+      "row": 2474,
+      "date": "2026-10-17T15:58:00.962000",
+      "amount": 17000,
+      "classification": "변동비",
+      "scope": "타계좌"
+    },
+    {
+      "source_row": 14,
+      "row": 2475,
+      "date": "2026-10-17T16:01:00.832000",
+      "amount": 15700,
+      "classification": "내부이체",
+      "scope": "WRAP"
+    },
+    {
+      "source_row": 12,
+      "row": 2476,
+      "date": "2026-10-17T16:02:00.326000",
+      "amount": 10000,
+      "classification": "약속·만남",
+      "scope": "타계좌"
+    },
+    {
+      "source_row": 11,
+      "row": 2477,
+      "date": "2026-10-17T16:02:00.335000",
+      "amount": 26800,
+      "classification": "약속·만남",
+      "scope": "타계좌"
+    },
+    {
+      "source_row": 10,
+      "row": 2478,
+      "date": "2026-10-17T16:03:00.254000",
+      "amount": 5900,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 9,
+      "row": 2479,
+      "date": "2026-10-17T16:06:00.668000",
+      "amount": 12200,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 8,
+      "row": 2480,
+      "date": "2026-10-18T16:07:00.494000",
+      "amount": 12000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 7,
+      "row": 2481,
+      "date": "2026-10-18T16:08:00.396000",
+      "amount": 12410,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 6,
+      "row": 2482,
+      "date": "2026-10-18T16:12:00.691000",
+      "amount": 20000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 5,
+      "row": 2483,
+      "date": "2026-10-18T16:13:00.041000",
+      "amount": 5000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 4,
+      "row": 2484,
+      "date": "2026-10-18T16:13:00.312000",
+      "amount": 3000,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 3,
+      "row": 2485,
+      "date": "2026-10-18T16:14:00.680000",
+      "amount": 35820,
+      "classification": "변동비",
+      "scope": "카드사용"
+    },
+    {
+      "source_row": 2,
+      "row": 2486,
+      "date": "2026-10-18T16:15:00.258000",
+      "amount": 4400,
+      "classification": "변동비",
+      "scope": "카드사용"
+    }
+  ],
+  "new_personal": [
+    {
+      "row": 2467,
+      "date": "2026-10-16T15:51:00.775000",
+      "amount": 10900,
+      "units": 11,
+      "calculator_row": 3
+    },
+    {
+      "row": 2468,
+      "date": "2026-10-16T15:51:00.908000",
+      "amount": 5000,
+      "units": 5,
+      "calculator_row": 4
+    },
+    {
+      "row": 2469,
+      "date": "2026-10-16T15:53:00.360000",
+      "amount": 7000,
+      "units": 7,
+      "calculator_row": 3
+    },
+    {
+      "row": 2470,
+      "date": "2026-10-17T15:54:00.839000",
+      "amount": 4000,
+      "units": 4,
+      "calculator_row": 3
+    },
+    {
+      "row": 2471,
+      "date": "2026-10-17T15:55:00.592000",
+      "amount": 5000,
+      "units": 5,
+      "calculator_row": 7
+    },
+    {
+      "row": 2472,
+      "date": "2026-10-17T15:55:00.600000",
+      "amount": 5000,
+      "units": 5,
+      "calculator_row": 4
+    },
+    {
+      "row": 2473,
+      "date": "2026-10-17T15:57:00.201000",
+      "amount": 12530,
+      "units": 13,
+      "calculator_row": 6
+    },
+    {
+      "row": 2474,
+      "date": "2026-10-17T15:58:00.962000",
+      "amount": 17000,
+      "units": 17,
+      "calculator_row": 3
+    },
+    {
+      "row": 2478,
+      "date": "2026-10-17T16:03:00.254000",
+      "amount": 5900,
+      "units": 6,
+      "calculator_row": 3
+    },
+    {
+      "row": 2479,
+      "date": "2026-10-17T16:06:00.668000",
+      "amount": 12200,
+      "units": 13,
+      "calculator_row": 3
+    },
+    {
+      "row": 2480,
+      "date": "2026-10-18T16:07:00.494000",
+      "amount": 12000,
+      "units": 12,
+      "calculator_row": 7
+    },
+    {
+      "row": 2481,
+      "date": "2026-10-18T16:08:00.396000",
+      "amount": 12410,
+      "units": 13,
+      "calculator_row": 3
+    },
+    {
+      "row": 2482,
+      "date": "2026-10-18T16:12:00.691000",
+      "amount": 20000,
+      "units": 20,
+      "calculator_row": 6
+    },
+    {
+      "row": 2483,
+      "date": "2026-10-18T16:13:00.041000",
+      "amount": 5000,
+      "units": 5,
+      "calculator_row": 4
+    },
+    {
+      "row": 2484,
+      "date": "2026-10-18T16:13:00.312000",
+      "amount": 3000,
+      "units": 3,
+      "calculator_row": 3
+    },
+    {
+      "row": 2485,
+      "date": "2026-10-18T16:14:00.680000",
+      "amount": 35820,
+      "units": 36,
+      "calculator_row": 9
+    },
+    {
+      "row": 2486,
+      "date": "2026-10-18T16:15:00.258000",
+      "amount": 4400,
+      "units": 5,
+      "calculator_row": 3
+    }
+  ],
+  "source_mapping": [
+    {
+      "source_row": 2,
+      "workbook_row": 2486,
+      "status": "added"
+    },
+    {
+      "source_row": 3,
+      "workbook_row": 2485,
+      "status": "added"
+    },
+    {
+      "source_row": 4,
+      "workbook_row": 2484,
+      "status": "added"
+    },
+    {
+      "source_row": 5,
+      "workbook_row": 2483,
+      "status": "added"
+    },
+    {
+      "source_row": 6,
+      "workbook_row": 2482,
+      "status": "added"
+    },
+    {
+      "source_row": 7,
+      "workbook_row": 2481,
+      "status": "added"
+    },
+    {
+      "source_row": 8,
+      "workbook_row": 2480,
+      "status": "added"
+    },
+    {
+      "source_row": 9,
+      "workbook_row": 2479,
+      "status": "added"
+    },
+    {
+      "source_row": 10,
+      "workbook_row": 2478,
+      "status": "added"
+    },
+    {
+      "source_row": 11,
+      "workbook_row": 2477,
+      "status": "added"
+    },
+    {
+      "source_row": 12,
+      "workbook_row": 2476,
+      "status": "added"
+    },
+    {
+      "source_row": 13,
+      "workbook_row": 2474,
+      "status": "added"
+    },
+    {
+      "source_row": 14,
+      "workbook_row": 2475,
+      "status": "added"
+    },
+    {
+      "source_row": 15,
+      "workbook_row": 2473,
+      "status": "added"
+    },
+    {
+      "source_row": 16,
+      "workbook_row": 2471,
+      "status": "added"
+    },
+    {
+      "source_row": 17,
+      "workbook_row": 2472,
+      "status": "added"
+    },
+    {
+      "source_row": 18,
+      "workbook_row": 2470,
+      "status": "added"
+    },
+    {
+      "source_row": 19,
+      "workbook_row": 2469,
+      "status": "added"
+    },
+    {
+      "source_row": 20,
+      "workbook_row": 2467,
+      "status": "added"
+    },
+    {
+      "source_row": 21,
+      "workbook_row": 2468,
+      "status": "added"
+    },
+    {
+      "source_row": 22,
+      "workbook_row": 2466,
+      "status": "preserved"
+    },
+    {
+      "source_row": 23,
+      "workbook_row": 2465,
+      "status": "preserved"
+    },
+    {
+      "source_row": 24,
+      "workbook_row": 2464,
+      "status": "preserved"
+    },
+    {
+      "source_row": 25,
+      "workbook_row": 2463,
+      "status": "preserved"
+    },
+    {
+      "source_row": 26,
+      "workbook_row": 2462,
+      "status": "preserved"
+    },
+    {
+      "source_row": 27,
+      "workbook_row": 2461,
+      "status": "preserved"
+    },
+    {
+      "source_row": 28,
+      "workbook_row": 2460,
+      "status": "preserved"
+    },
+    {
+      "source_row": 29,
+      "workbook_row": 2459,
+      "status": "preserved"
+    },
+    {
+      "source_row": 30,
+      "workbook_row": 2458,
+      "status": "preserved"
+    },
+    {
+      "source_row": 31,
+      "workbook_row": 2457,
+      "status": "preserved"
+    },
+    {
+      "source_row": 32,
+      "workbook_row": 2456,
+      "status": "preserved"
+    },
+    {
+      "source_row": 33,
+      "workbook_row": 2455,
+      "status": "preserved"
+    },
+    {
+      "source_row": 34,
+      "workbook_row": 2454,
+      "status": "preserved"
+    },
+    {
+      "source_row": 35,
+      "workbook_row": 2453,
+      "status": "preserved"
+    },
+    {
+      "source_row": 36,
+      "workbook_row": 2452,
+      "status": "preserved"
+    },
+    {
+      "source_row": 37,
+      "workbook_row": 2451,
+      "status": "preserved"
+    },
+    {
+      "source_row": 38,
+      "workbook_row": 2450,
+      "status": "preserved"
+    },
+    {
+      "source_row": 39,
+      "workbook_row": 2449,
+      "status": "preserved"
+    },
+    {
+      "source_row": 40,
+      "workbook_row": 2448,
+      "status": "preserved"
+    },
+    {
+      "source_row": 41,
+      "workbook_row": 2447,
+      "status": "preserved"
+    },
+    {
+      "source_row": 42,
+      "workbook_row": 2446,
+      "status": "preserved"
+    },
+    {
+      "source_row": 43,
+      "workbook_row": 2445,
+      "status": "preserved"
+    },
+    {
+      "source_row": 44,
+      "workbook_row": 2444,
+      "status": "preserved"
+    },
+    {
+      "source_row": 45,
+      "workbook_row": 2442,
+      "status": "preserved"
+    },
+    {
+      "source_row": 46,
+      "workbook_row": 2441,
+      "status": "preserved"
+    },
+    {
+      "source_row": 47,
+      "workbook_row": 2430,
+      "status": "preserved"
+    },
+    {
+      "source_row": 48,
+      "workbook_row": 2440,
+      "status": "preserved"
+    },
+    {
+      "source_row": 49,
+      "workbook_row": 2439,
+      "status": "preserved"
+    },
+    {
+      "source_row": 50,
+      "workbook_row": 2438,
+      "status": "preserved"
+    },
+    {
+      "source_row": 51,
+      "workbook_row": 2437,
+      "status": "preserved"
+    },
+    {
+      "source_row": 52,
+      "workbook_row": 2436,
+      "status": "preserved"
+    },
+    {
+      "source_row": 53,
+      "workbook_row": 2435,
+      "status": "preserved"
+    },
+    {
+      "source_row": 54,
+      "workbook_row": 2434,
+      "status": "preserved"
+    },
+    {
+      "source_row": 55,
+      "workbook_row": 2433,
+      "status": "preserved"
+    },
+    {
+      "source_row": 56,
+      "workbook_row": 2432,
+      "status": "preserved"
+    },
+    {
+      "source_row": 57,
+      "workbook_row": 2431,
+      "status": "preserved"
+    },
+    {
+      "source_row": 58,
+      "workbook_row": 2429,
+      "status": "preserved"
+    },
+    {
+      "source_row": 59,
+      "workbook_row": 2427,
+      "status": "preserved"
+    },
+    {
+      "source_row": 60,
+      "workbook_row": 2428,
+      "status": "preserved"
+    },
+    {
+      "source_row": 61,
+      "workbook_row": 2426,
+      "status": "preserved"
+    },
+    {
+      "source_row": 62,
+      "workbook_row": 2443,
+      "status": "preserved"
+    },
+    {
+      "source_row": 63,
+      "workbook_row": 2422,
+      "status": "preserved"
+    },
+    {
+      "source_row": 64,
+      "workbook_row": 2425,
+      "status": "preserved"
+    },
+    {
+      "source_row": 65,
+      "workbook_row": 2424,
+      "status": "preserved"
+    },
+    {
+      "source_row": 66,
+      "workbook_row": 2423,
+      "status": "preserved"
+    },
+    {
+      "source_row": 67,
+      "workbook_row": 2420,
+      "status": "preserved"
+    },
+    {
+      "source_row": 68,
+      "workbook_row": 2421,
+      "status": "preserved"
+    },
+    {
+      "source_row": 69,
+      "workbook_row": 2419,
+      "status": "preserved"
+    },
+    {
+      "source_row": 70,
+      "workbook_row": 2418,
+      "status": "preserved"
+    },
+    {
+      "source_row": 71,
+      "workbook_row": 2415,
+      "status": "preserved"
+    },
+    {
+      "source_row": 72,
+      "workbook_row": 2417,
+      "status": "preserved"
+    },
+    {
+      "source_row": 73,
+      "workbook_row": 2416,
+      "status": "preserved"
+    },
+    {
+      "source_row": 74,
+      "workbook_row": 2414,
+      "status": "preserved"
+    },
+    {
+      "source_row": 75,
+      "workbook_row": 2413,
+      "status": "preserved"
+    },
+    {
+      "source_row": 76,
+      "workbook_row": 2406,
+      "status": "preserved"
+    },
+    {
+      "source_row": 77,
+      "workbook_row": 2412,
+      "status": "preserved"
+    },
+    {
+      "source_row": 78,
+      "workbook_row": 2411,
+      "status": "preserved"
+    },
+    {
+      "source_row": 79,
+      "workbook_row": 2410,
+      "status": "preserved"
+    },
+    {
+      "source_row": 80,
+      "workbook_row": 2404,
+      "status": "preserved"
+    },
+    {
+      "source_row": 81,
+      "workbook_row": 2405,
+      "status": "preserved"
+    },
+    {
+      "source_row": 82,
+      "workbook_row": 2409,
+      "status": "preserved"
+    },
+    {
+      "source_row": 83,
+      "workbook_row": 2408,
+      "status": "preserved"
+    },
+    {
+      "source_row": 84,
+      "workbook_row": 2407,
+      "status": "preserved"
+    },
+    {
+      "source_row": 85,
+      "workbook_row": 2403,
+      "status": "preserved"
+    },
+    {
+      "source_row": 86,
+      "workbook_row": 2401,
+      "status": "preserved"
+    },
+    {
+      "source_row": 87,
+      "workbook_row": 2402,
+      "status": "preserved"
+    },
+    {
+      "source_row": 88,
+      "workbook_row": 2397,
+      "status": "preserved"
+    },
+    {
+      "source_row": 89,
+      "workbook_row": 2398,
+      "status": "preserved"
+    },
+    {
+      "source_row": 90,
+      "workbook_row": 2394,
+      "status": "preserved"
+    },
+    {
+      "source_row": 91,
+      "workbook_row": 2399,
+      "status": "preserved"
+    },
+    {
+      "source_row": 92,
+      "workbook_row": 2400,
+      "status": "preserved"
+    },
+    {
+      "source_row": 93,
+      "workbook_row": 2396,
+      "status": "preserved"
+    },
+    {
+      "source_row": 94,
+      "workbook_row": 2395,
+      "status": "preserved"
+    },
+    {
+      "source_row": 95,
+      "workbook_row": 2392,
+      "status": "preserved"
+    },
+    {
+      "source_row": 96,
+      "workbook_row": 2393,
+      "status": "preserved"
+    },
+    {
+      "source_row": 97,
+      "workbook_row": 2391,
+      "status": "preserved"
+    },
+    {
+      "source_row": 98,
+      "workbook_row": 2390,
+      "status": "preserved"
+    },
+    {
+      "source_row": 99,
+      "workbook_row": 2389,
+      "status": "preserved"
+    },
+    {
+      "source_row": 100,
+      "workbook_row": 2388,
+      "status": "preserved"
+    },
+    {
+      "source_row": 101,
+      "workbook_row": 2387,
+      "status": "preserved"
+    },
+    {
+      "source_row": 102,
+      "workbook_row": 2386,
+      "status": "preserved"
+    },
+    {
+      "source_row": 103,
+      "workbook_row": 2385,
+      "status": "preserved"
+    },
+    {
+      "source_row": 104,
+      "workbook_row": 2384,
+      "status": "preserved"
+    },
+    {
+      "source_row": 105,
+      "workbook_row": 2382,
+      "status": "preserved"
+    },
+    {
+      "source_row": 106,
+      "workbook_row": 2383,
+      "status": "preserved"
+    },
+    {
+      "source_row": 107,
+      "workbook_row": 2381,
+      "status": "preserved"
+    },
+    {
+      "source_row": 108,
+      "workbook_row": 2379,
+      "status": "preserved"
+    },
+    {
+      "source_row": 109,
+      "workbook_row": 2380,
+      "status": "preserved"
+    },
+    {
+      "source_row": 110,
+      "workbook_row": 2378,
+      "status": "preserved"
+    },
+    {
+      "source_row": 111,
+      "workbook_row": 2377,
+      "status": "preserved"
+    },
+    {
+      "source_row": 112,
+      "workbook_row": 2375,
+      "status": "preserved"
+    },
+    {
+      "source_row": 113,
+      "workbook_row": 2376,
+      "status": "preserved"
+    },
+    {
+      "source_row": 114,
+      "workbook_row": 2374,
+      "status": "preserved"
+    },
+    {
+      "source_row": 115,
+      "workbook_row": 2373,
+      "status": "preserved"
+    },
+    {
+      "source_row": 116,
+      "workbook_row": 2372,
+      "status": "preserved"
+    },
+    {
+      "source_row": 117,
+      "workbook_row": 2371,
+      "status": "preserved"
+    },
+    {
+      "source_row": 118,
+      "workbook_row": 2370,
+      "status": "preserved"
+    },
+    {
+      "source_row": 119,
+      "workbook_row": 2369,
+      "status": "preserved"
+    },
+    {
+      "source_row": 120,
+      "workbook_row": 2368,
+      "status": "preserved"
+    },
+    {
+      "source_row": 121,
+      "workbook_row": 2367,
+      "status": "preserved"
+    },
+    {
+      "source_row": 122,
+      "workbook_row": 2366,
+      "status": "preserved"
+    },
+    {
+      "source_row": 123,
+      "workbook_row": 2364,
+      "status": "preserved"
+    },
+    {
+      "source_row": 124,
+      "workbook_row": 2365,
+      "status": "preserved"
+    },
+    {
+      "source_row": 125,
+      "workbook_row": 2363,
+      "status": "preserved"
+    },
+    {
+      "source_row": 126,
+      "workbook_row": 2362,
+      "status": "preserved"
+    },
+    {
+      "source_row": 127,
+      "workbook_row": 2356,
+      "status": "preserved"
+    },
+    {
+      "source_row": 128,
+      "workbook_row": 2354,
+      "status": "preserved"
+    },
+    {
+      "source_row": 129,
+      "workbook_row": 2353,
+      "status": "preserved"
+    },
+    {
+      "source_row": 130,
+      "workbook_row": 2355,
+      "status": "preserved"
+    },
+    {
+      "source_row": 131,
+      "workbook_row": 2360,
+      "status": "preserved"
+    },
+    {
+      "source_row": 132,
+      "workbook_row": 2361,
+      "status": "preserved"
+    },
+    {
+      "source_row": 133,
+      "workbook_row": 2358,
+      "status": "preserved"
+    },
+    {
+      "source_row": 134,
+      "workbook_row": 2357,
+      "status": "preserved"
+    },
+    {
+      "source_row": 135,
+      "workbook_row": 2359,
+      "status": "preserved"
+    },
+    {
+      "source_row": 136,
+      "workbook_row": 2352,
+      "status": "preserved"
+    },
+    {
+      "source_row": 137,
+      "workbook_row": 2351,
+      "status": "preserved"
+    },
+    {
+      "source_row": 138,
+      "workbook_row": 2350,
+      "status": "preserved"
+    },
+    {
+      "source_row": 139,
+      "workbook_row": 2349,
+      "status": "preserved"
+    },
+    {
+      "source_row": 140,
+      "workbook_row": 2348,
+      "status": "preserved"
+    },
+    {
+      "source_row": 141,
+      "workbook_row": 2347,
+      "status": "preserved"
+    },
+    {
+      "source_row": 142,
+      "workbook_row": 2346,
+      "status": "preserved"
+    },
+    {
+      "source_row": 143,
+      "workbook_row": 2345,
+      "status": "preserved"
+    },
+    {
+      "source_row": 144,
+      "workbook_row": 2344,
+      "status": "preserved"
+    },
+    {
+      "source_row": 145,
+      "workbook_row": 2343,
+      "status": "preserved"
+    },
+    {
+      "source_row": 146,
+      "workbook_row": 2339,
+      "status": "preserved"
+    },
+    {
+      "source_row": 147,
+      "workbook_row": 2338,
+      "status": "preserved"
+    },
+    {
+      "source_row": 148,
+      "workbook_row": 2337,
+      "status": "preserved"
+    },
+    {
+      "source_row": 149,
+      "workbook_row": 2342,
+      "status": "preserved"
+    },
+    {
+      "source_row": 150,
+      "workbook_row": 2341,
+      "status": "preserved"
+    },
+    {
+      "source_row": 151,
+      "workbook_row": 2340,
+      "status": "preserved"
+    },
+    {
+      "source_row": 152,
+      "workbook_row": 2335,
+      "status": "preserved"
+    },
+    {
+      "source_row": 153,
+      "workbook_row": 2336,
+      "status": "preserved"
+    },
+    {
+      "source_row": 154,
+      "workbook_row": 2334,
+      "status": "preserved"
+    },
+    {
+      "source_row": 155,
+      "workbook_row": 2333,
+      "status": "preserved"
+    },
+    {
+      "source_row": 156,
+      "workbook_row": 2332,
+      "status": "preserved"
+    },
+    {
+      "source_row": 157,
+      "workbook_row": 2331,
+      "status": "preserved"
+    },
+    {
+      "source_row": 158,
+      "workbook_row": 2330,
+      "status": "preserved"
+    },
+    {
+      "source_row": 159,
+      "workbook_row": 2329,
+      "status": "preserved"
+    },
+    {
+      "source_row": 160,
+      "workbook_row": 2327,
+      "status": "preserved"
+    },
+    {
+      "source_row": 161,
+      "workbook_row": 2328,
+      "status": "preserved"
+    },
+    {
+      "source_row": 162,
+      "workbook_row": 2326,
+      "status": "preserved"
+    },
+    {
+      "source_row": 163,
+      "workbook_row": 2325,
+      "status": "preserved"
+    },
+    {
+      "source_row": 164,
+      "workbook_row": 2324,
+      "status": "preserved"
+    },
+    {
+      "source_row": 165,
+      "workbook_row": 2323,
+      "status": "preserved"
+    }
+  ],
+  "new_personal_actual": 177160,
+  "new_personal_tetris": 180000,
+  "personal_actual": 1476900,
+  "personal_tetris": 1501000,
+  "wrap_total": 6669766,
+  "living_balance": 4519766,
+  "new_common_spend": 36800,
+  "new_wrap_transfer": 15700,
+  "selected_month_reserve_usage": 239000,
+  "outstanding_advances": 103600,
+  "structure_validation": {
+    "worksheet_count": 46,
+    "xml_part_count": 82,
+    "errors": []
+  }
+}

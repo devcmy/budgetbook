@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-10-15",
+  "classification_recorded_at_kst": "2026-10-15T23:00:40",
+  "ledger_row": 247,
+  "from": "임시보관",
+  "to": "생활비",
+  "amount": 61000,
+  "living_balance": 4535466,
+  "temporary_balance": 0,
+  "wrap_total": 6685466,
+  "selected_month_usage": 239000,
+  "outstanding_reserve_settlement": 0,
+  "month_tests": [
+    {
+      "month": 9,
+      "ledger_total": 2150000,
+      "outstanding": 0,
+      "actual_use": 50000
+    },
+    {
+      "month": 10,
+      "ledger_total": 2150000,
+      "outstanding": 0,
+      "actual_use": 239000
+    },
+    {
+      "month": 11,
+      "ledger_total": 2150000,
+      "outstanding": 0,
+      "actual_use": 0
+    }
+  ],
+  "checks": {
+    "raw_monthly_and_non_balance_financial_values_unchanged": true,
+    "past_month_balances_unchanged": true,
+    "total_wrap_cash_unchanged": true,
+    "no_new_income_expense_or_raw_transaction": true,
+    "birthday_usage_and_settlement_unchanged": true,
+    "vba_controls_and_styles_preserved": true,
+    "all_validation_booleans_true": true
+  },
+  "formula_errors": 0,
+  "cached_formulas": 17401,
+  "baseline_sha256": "5d4ebdd087063f4c2bf2c0575df9455aabd4844e4f631dd573dcdae906d8a00a",
+  "workbook_sha256": "bafb1939499c22495c5b5c9898d3805ac4fb6f30ecf5f670d4fe98a68ae12e12",
+  "recalculation": "Disposable macro-free XLSX in LibreOffice; original XLSM package retained.",
+  "excel_ui_and_vba_executed": false
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "month": 9,
+    "balance_view": {
+      "month": 9,
+      "all_ledger_rows": 18,
+      "displayed_page": 1,
+      "displayed_rows": [
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        243
+      ]
+    },
+    "reserve": {
+      "month": 9,
+      "ledger_total": 2150000,
+      "outstanding": 0,
+      "actual_use": 50000
+    },
+    "passed": true
+  },
+  {
+    "month": 11,
+    "balance_view": {
+      "month": 11,
+      "all_ledger_rows": 0,
+      "displayed_page": 1,
+      "displayed_rows": []
+    },
+    "reserve": {
+      "month": 11,
+      "ledger_total": 2150000,
+      "outstanding": 0,
+      "actual_use": 0
+    },
+    "passed": true
+  }
+]
