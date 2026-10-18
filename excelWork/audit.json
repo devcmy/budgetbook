@@ -421,7 +421,7 @@
     }
   },
   "as_of": "2026-10-15",
-  "workbook_sha256": "13c87bbfc1d3bb09ebb2b90254f69c16a639577d63f413810e890107d9007bc0",
+  "workbook_sha256": "290842dc2df341890ffb74e250b9bb809b0d0be143c8f5bb1214e802348eab4c",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -698,6 +698,7 @@
     "excel_ui_and_vba_executed": false
   },
   "balance_selected_month": {
+    "scope": "0ca6922 월별 조회 기능 검증 이력. 수식 검증에서 놓친 sheetPr 요소 순서 오류를 정정했으며 현재 파일 해시·구조 검증은 excel_xml_repair를 따릅니다.",
     "ui_updated_at": "2026-10-18",
     "data_as_of": "2026-10-15",
     "month_cell": "잔액!B3",
@@ -728,5 +729,28 @@
     "guide": "2026-10-18_잔액원장조회월_검증.md",
     "previous_version": "history/2026-10-18/01",
     "excel_ui_and_vba_executed": false
+  },
+  "excel_xml_repair": {
+    "date": "2026-10-18",
+    "sheet": "잔액",
+    "fixed_part": "xl/worksheets/sheet4.xml",
+    "cause": "CT_SheetPr requires outlinePr before pageSetUpPr.",
+    "before_child_order": ["tabColor", "pageSetUpPr", "outlinePr"],
+    "after_child_order": ["tabColor", "outlinePr", "pageSetUpPr"],
+    "worksheet_count": 46,
+    "xml_part_count": 82,
+    "structural_errors": 0,
+    "only_changed_zip_parts": ["xl/worksheets/sheet4.xml"],
+    "all_cells_formulas_and_cached_values_byte_identical": true,
+    "all_other_zip_parts_byte_identical": true,
+    "no_recalculation_or_cell_reserialization": true,
+    "generator_regression_passed": true,
+    "structural_unit_tests_passed": 14,
+    "validation_scope": "Focused worksheet-properties XSD and structural invariants; not full ECMA-376 validation.",
+    "native_excel_opened": false,
+    "sharepoint_file_updated": false,
+    "details": "excel_xml_repair_validation.json",
+    "guide": "2026-10-18_XML복구오류_검증.md",
+    "previous_version": "history/2026-10-18/02"
   }
 }

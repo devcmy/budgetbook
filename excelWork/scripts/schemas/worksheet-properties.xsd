@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Focused Transitional SpreadsheetML schema for worksheet sheetPr only.
+  This is not the complete ECMA-376 / ISO 29500 schema. It checks the ordered
+  properties introduced by the balance-ledger migration while accepting
+  future attributes from other namespaces with lax processing.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:s="http://schemas.openxmlformats.org/spreadsheetml/2006/main"
+           targetNamespace="http://schemas.openxmlformats.org/spreadsheetml/2006/main"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+  <xs:simpleType name="ST_ARGB">
+    <xs:restriction base="xs:hexBinary">
+      <xs:length value="4"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ST_Tint">
+    <xs:restriction base="xs:double">
+      <xs:minInclusive value="-1"/>
+      <xs:maxInclusive value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="CT_Color">
+    <xs:attribute name="auto" type="xs:boolean"/>
+    <xs:attribute name="indexed" type="xs:unsignedInt"/>
+    <xs:attribute name="rgb" type="s:ST_ARGB"/>
+    <xs:attribute name="theme" type="xs:unsignedInt"/>
+    <xs:attribute name="tint" type="s:ST_Tint"/>
+    <xs:anyAttribute namespace="##other" processContents="lax"/>
+  </xs:complexType>
+  <xs:complexType name="CT_OutlinePr">
+    <xs:attribute name="applyStyles" type="xs:boolean"/>
+    <xs:attribute name="summaryBelow" type="xs:boolean"/>
+    <xs:attribute name="summaryRight" type="xs:boolean"/>
+    <xs:attribute name="showOutlineSymbols" type="xs:boolean"/>
+    <xs:anyAttribute namespace="##other" processContents="lax"/>
+  </xs:complexType>
+  <xs:complexType name="CT_PageSetUpPr">
+    <xs:attribute name="autoPageBreaks" type="xs:boolean"/>
+    <xs:attribute name="fitToPage" type="xs:boolean"/>
+    <xs:anyAttribute namespace="##other" processContents="lax"/>
+  </xs:complexType>
+  <xs:complexType name="CT_SheetPr">
+    <xs:sequence>
+      <xs:element name="tabColor" type="s:CT_Color" minOccurs="0"/>
+      <xs:element name="outlinePr" type="s:CT_OutlinePr" minOccurs="0"/>
+      <xs:element name="pageSetUpPr" type="s:CT_PageSetUpPr" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="syncHorizontal" type="xs:boolean"/>
+    <xs:attribute name="syncVertical" type="xs:boolean"/>
+    <xs:attribute name="syncRef" type="xs:string"/>
+    <xs:attribute name="transitionEvaluation" type="xs:boolean"/>
+    <xs:attribute name="transitionEntry" type="xs:boolean"/>
+    <xs:attribute name="published" type="xs:boolean"/>
+    <xs:attribute name="codeName" type="xs:string"/>
+    <xs:attribute name="filterMode" type="xs:boolean"/>
+    <xs:attribute name="enableFormatConditionsCalculation" type="xs:boolean"/>
+    <xs:anyAttribute namespace="##other" processContents="lax"/>
+  </xs:complexType>
+  <xs:element name="sheetPr" type="s:CT_SheetPr"/>
+</xs:schema>

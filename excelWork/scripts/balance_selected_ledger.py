@@ -20,6 +20,7 @@ from redesign_reserve import ExtendedPackage
 from update_20261015 import Q
 from balance_month_selector import expected_summary
 from verify_reserve_redesign import read, recalculate, assert_no_errors, cache_original
+from validate_excel_structure import validate_package
 
 FIRST, LAST, SIZE = 503, 524, 22
 
@@ -99,7 +100,10 @@ def prepare(source, output):
     merges.set('count',str(len(merges)))
     props=s.find(Q('sheetPr'))
     outline=props.find(Q('outlinePr'))
-    if outline is None:outline=ET.SubElement(props,Q('outlinePr'))
+    if outline is None:
+        outline=ET.Element(Q('outlinePr'))
+        page_setup=props.find(Q('pageSetUpPr'))
+        props.insert(list(props).index(page_setup) if page_setup is not None else len(props),outline)
     outline.set('summaryBelow','1');outline.set('showOutlineSymbols','1')
     for view in s.find(Q('sheetViews')):
         view.set('showOutlineSymbols','1')
@@ -121,6 +125,8 @@ def prepare(source, output):
     calc.set('calcMode','auto');calc.set('fullCalcOnLoad','1');calc.set('forceFullCalc','1')
     p.write('사용안내','A14','잔액 탭 조회월(B3)은 상단 잔액·내역과 하단 WRAP 원장에 함께 적용됩니다. 전체 입력 원장은 같은 탭의 +를 펼쳐 편집합니다.')
     p.save(output)
+    structure=validate_package(output)
+    assert not structure['errors'],structure['errors']
 
 
 def expected_rows(sheet,month):
@@ -189,6 +195,8 @@ def verify_artifact(baseline,final):
         for name in a.namelist():
             if name in ['xl/styles.xml','xl/vbaProject.bin'] or name.endswith('.rels') or name.startswith(('xl/drawings/','xl/media/','xl/ctrlProps/','xl/activeX/')):
                 assert a.read(name)==b.read(name),name
+    structure=validate_package(final)
+    assert not structure['errors'],structure['errors']
     return {'source_ledger_addresses_values_formulas_preserved':True,'all_financial_values_preserved':True,
             'source_folded_and_month_view_visible_by_default':True,'sheet_order_and_visibility_preserved':True,
             'styles_vba_controls_drawings_preserved':True,'all_validation_booleans_true':True}
