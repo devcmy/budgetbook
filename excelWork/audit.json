@@ -421,7 +421,7 @@
     }
   },
   "as_of": "2026-10-18",
-  "workbook_sha256": "b01c20a67b88617cb77dba88c477f8fcbde369e02d5739f1733be57e6af98787",
+  "workbook_sha256": "baddb6a0d12556bdf71163ad4ed68599207f9cf650e445948e79b822f80a7a0a",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -895,6 +895,99 @@
     "details": "raw_update_20261018_validation.json",
     "guide": "2026-10-18_RAW반영_검증.md",
     "source": "raw/2026-10-18/2026-10-01_2026-10-31.xlsx",
-    "previous_version": "history/2026-10-18/03"
+    "previous_version": "history/2026-10-18/03",
+    "scope_note": "RAW 반영 직후의 검증 이력. 금액은 유지하며 현재 거래 연결 표시·파일 해시는 kakaopay_purchase_link와 최상위 필드를 따릅니다."
+  },
+  "kakaopay_purchase_link": {
+    "date": "2026-10-18",
+    "link_id": "KP20261017-01",
+    "status": "user_confirmed",
+    "confirmation": "그게 결국 카카오페이 충전한게 더치커피구매로 이어진글 체크해야해",
+    "purchase": {
+      "sheet": "RAW",
+      "row": 2474,
+      "merchant": "플라잉 더치",
+      "amount": 17000,
+      "recorded_at": "2026-10-17T15:58:00.962000",
+      "consumption_count": 1,
+      "wrap_deduction": 0
+    },
+    "funding": {
+      "sheet": "RAW",
+      "row": 2475,
+      "ledger_row": 248,
+      "amount": 15700,
+      "recorded_at": "2026-10-17T16:01:00.832000",
+      "wrap_deduction": 15700,
+      "additional_consumption": 0
+    },
+    "amount_difference": 1300,
+    "difference_funding_confirmed": false,
+    "possible_related_refund": {
+      "raw_row": 2376,
+      "date": "2026-10-06",
+      "amount": -1300,
+      "status": "amount_consistent_only_not_verified_funding"
+    },
+    "time_note": "Source entry timestamps put the charge after the purchase; preserved. Link confirmed by user, not inferred from chronology.",
+    "financial_values_and_all_formulas_unchanged": true,
+    "all_other_zip_parts_byte_identical": true,
+    "changed_zip_parts": [
+      "xl/worksheets/sheet29.xml",
+      "xl/worksheets/sheet4.xml"
+    ],
+    "changed_cells": {
+      "RAW": [
+        "M2474",
+        "M2475"
+      ],
+      "잔액": [
+        "F248",
+        "F503",
+        "G248",
+        "G503",
+        "K38"
+      ]
+    },
+    "deterministic_text_cache_updates": [
+      "K38",
+      "F503",
+      "G503"
+    ],
+    "selected_month_view": {
+      "month": 10,
+      "all_ledger_rows": 16,
+      "displayed_page": 1,
+      "displayed_rows": [
+        248,
+        247,
+        246,
+        245,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242
+      ]
+    },
+    "structure_validation": {
+      "worksheet_count": 46,
+      "xml_part_count": 82,
+      "errors": []
+    },
+    "no_full_recalculation": true,
+    "native_excel_opened": false,
+    "baseline_sha256": "b01c20a67b88617cb77dba88c477f8fcbde369e02d5739f1733be57e6af98787",
+    "workbook_sha256": "baddb6a0d12556bdf71163ad4ed68599207f9cf650e445948e79b822f80a7a0a",
+    "details": "kakaopay_purchase_link_validation.json",
+    "guide": "2026-10-18_카카오페이구매연결_검증.md",
+    "previous_version": "history/2026-10-18/04"
   }
 }
