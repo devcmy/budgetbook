@@ -1,0 +1,60 @@
+{
+  "ui": {
+    "status_rows": [
+      7,
+      13
+    ],
+    "usage_plan_inputs": "D34:O38",
+    "usage_plan_total": "D39:O39",
+    "display_rows": [
+      42,
+      79
+    ],
+    "display_shift": 10,
+    "usage_register": "A100:Z399",
+    "settlement_register": "A430:O729",
+    "print_area": "A1:O79"
+  },
+  "removed_validation_sheet": {
+    "sheet": "검증",
+    "sheet_index": 1,
+    "worksheet_part": "xl/worksheets/sheet2.xml",
+    "functional_dependencies": [],
+    "navigation": [],
+    "remaining_worksheet_count": 45,
+    "removed_parts": [
+      "xl/worksheets/sheet2.xml"
+    ],
+    "retained_shared_ancillary_parts": [],
+    "removed_local_defined_names": [
+      {
+        "name": "_xlnm._FilterDatabase",
+        "localSheetId": "1",
+        "hidden": "1"
+      },
+      {
+        "name": "_xlnm.Print_Area",
+        "localSheetId": "1"
+      }
+    ],
+    "navigation_and_instruction_updates": [
+      {
+        "part": "xl/worksheets/sheet1.xml",
+        "kind": "instruction",
+        "cell": "A19"
+      }
+    ],
+    "remaining_sheet_ids_and_relationship_ids_preserved": true,
+    "vba_parts_modified": false
+  },
+  "structure": {
+    "worksheet_count": 45,
+    "xml_part_count": 81,
+    "errors": []
+  },
+  "reservation_formula": "paid_from_payment_envelope + MAX(0, recognized_use - all_valid_settlements)",
+  "raw_and_source_ledger_preserved": true,
+  "no_bank_transaction_created": true,
+  "new_usage_plans_initially_blank": true,
+  "savings_plans_preserved": true
+}
