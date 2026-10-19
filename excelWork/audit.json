@@ -52,9 +52,9 @@
     "month_calculator_pairs": true
   },
   "raw": {
-    "count": 2485,
+    "count": 2492,
     "start": "2026-01-01T00:55:00",
-    "end": "2026-10-18T16:15:00.258000",
+    "end": "2026-10-19T20:48:00.227000",
     "by_month": {
       "2026-01": 224,
       "2026-02": 244,
@@ -65,12 +65,12 @@
       "2026-07": 345,
       "2026-08": 310,
       "2026-09": 244,
-      "2026-10": 164
+      "2026-10": 171
     },
     "october_scope": {
-      "카드사용": 101,
+      "WRAP": 16,
       "타계좌": 48,
-      "WRAP": 15
+      "카드사용": 107
     }
   },
   "historical_accounts": {
@@ -79,8 +79,8 @@
     "differences": []
   },
   "october_ledger": {
-    "rows": 16,
-    "raw_linked_rows": 15,
+    "rows": 17,
+    "raw_linked_rows": 16,
     "internal_classification_rows": 1,
     "raw_link_missing": [],
     "raw_link_duplicates": {},
@@ -91,7 +91,7 @@
   },
   "wrap": {
     "balances": {
-      "생활비": 4519766,
+      "생활비": 4409691,
       "명절비": 0,
       "여행비": 1400000,
       "경조사비": 450000,
@@ -101,9 +101,9 @@
       "금융": 0,
       "임시보관": 0
     },
-    "total": 6669766,
+    "total": 6559691,
     "inflows": 696602,
-    "outflows": 2565439,
+    "outflows": 2675514,
     "previous": 8538603,
     "cached_matches": true
   },
@@ -289,21 +289,21 @@
     },
     {
       "month": 10,
-      "color_total": 1501000,
+      "color_total": 1607000,
       "counts": {
-        "3": 323,
-        "4": 75,
+        "3": 345,
+        "4": 80,
         "5": 418,
         "10": 43,
-        "9": 277,
-        "6": 126,
+        "9": 315,
+        "6": 165,
         "8": 92,
-        "7": 147
+        "7": 149
       },
       "cached_counts_match": true,
       "unknown_colors": {},
-      "display": 1501000,
-      "salary_burden": 1501000,
+      "display": 1607000,
+      "salary_burden": 1607000,
       "expected_display_matches": true,
       "month_display_matches": true
     },
@@ -331,19 +331,19 @@
     }
   ],
   "october_block_layout": {
-    "colored_cells": 1501,
+    "colored_cells": 1607,
     "block_order_contiguous": true,
     "block_shape": "2 columns x 5 rows",
     "value_per_cell": 1000,
-    "full_blocks": 150,
-    "partial_block_cells": 1
+    "full_blocks": 160,
+    "partial_block_cells": 7
   },
   "october_lifestyle": {
-    "records": 92,
-    "actual": 1476900,
-    "tetris": 1501000,
-    "calendar_actual": 1476900,
-    "calendar_tetris": 1501000
+    "records": 98,
+    "actual": 1582350,
+    "tetris": 1607000,
+    "calendar_actual": 1582350,
+    "calendar_tetris": 1607000
   },
   "october_summary": {
     "C37": 0,
@@ -352,13 +352,13 @@
     "C40": 9283,
     "C41": 509283,
     "H37": 470022,
-    "H38": 1476900,
+    "H38": 1582350,
     "H40": 0,
     "H41": 0,
     "H42": 50000,
     "H43": 1000,
-    "H44": 1995922,
-    "H45": -1486639,
+    "H44": 2211447,
+    "H45": -1702164,
     "N69": 239000,
     "E73": 2776050,
     "E74": 762073,
@@ -367,7 +367,12 @@
     "E77": 100000,
     "E78": 800000,
     "E80": 103600,
-    "fixed_independent": 470022
+    "fixed_independent": 470022,
+    "I44": 2241000,
+    "I38": 1607000,
+    "I39": 111000,
+    "H39": 110075,
+    "I45": -1731717
   },
   "vba": {
     "all_module_sources_equal": true,
@@ -419,10 +424,10 @@
       "advanced": 0
     }
   },
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-19",
   "ui_updated_at": "2026-10-19",
-  "current_verification": "kakaopay_wrap_outflow_20261019_validation.json",
-  "workbook_sha256": "9a41d9aacb5ca020189c16fcf0798d2644fdd6331fd94ab7bf58f27b8188744f",
+  "current_verification": "raw_update_20261019_validation.json",
+  "workbook_sha256": "49d8de64d148f3532160394bcbbb079d04d8926d52024e7bebb72e9315d2bc6d",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -997,7 +1002,11 @@
     "scope": "10/19 예비비 구조 변경 당시 이력. 구조와 금액은 유지하며 최신 표시 보완·파일 해시는 cash_details_20261019_validation.json을 따릅니다.",
     "date": "2026-10-19",
     "data_as_of": "2026-10-18",
-    "status_columns": ["선택월 사용계획", "선택월 실제 사용액", "사용가능액"],
+    "status_columns": [
+      "선택월 사용계획",
+      "선택월 실제 사용액",
+      "사용가능액"
+    ],
     "available_is_rightmost": true,
     "pending_settlement_column_removed_from_status": true,
     "usage_plan_inputs": "예비비!D34:O38",
@@ -1006,7 +1015,10 @@
     "existing_savings_plans_preserved": true,
     "usage_display": "예비비!F8:F13",
     "available_display": "예비비!I8:O13",
-    "transfer_display_rows": [42, 79],
+    "transfer_display_rows": [
+      42,
+      79
+    ],
     "usage_and_settlement_register_ids_preserved": true,
     "available_equals_same_month_purpose_balance": true,
     "automatic_payment_envelope_allocation": true,
@@ -1016,7 +1028,10 @@
     "wrap_total_preserved": 6669766,
     "purpose_available_total": 2150000,
     "birthday_actual_use_preserved": 239000,
-    "birthday_sources_preserved": {"명절비": 200000, "임시보관": 39000},
+    "birthday_sources_preserved": {
+      "명절비": 200000,
+      "임시보관": 39000
+    },
     "current_kyongjo_balance_preserved": 450000,
     "current_payment_envelope_balance": 0,
     "month_end_timestamps_included": true,
@@ -1070,7 +1085,11 @@
     "daily_calendar_checks": 31,
     "unit_tests_passed": 30,
     "formula_errors": 0,
-    "only_modified_worksheets": ["RAW", "10월", "잔액"],
+    "only_modified_worksheets": [
+      "RAW",
+      "10월",
+      "잔액"
+    ],
     "styles_vba_and_controls_byte_identical": true,
     "native_excel_opened": false,
     "sharepoint_file_updated": false,
@@ -1087,7 +1106,11 @@
     "other_transfers_reviewed_only": 12,
     "changed_ledger_row": 248,
     "new_label": "외부출금 · 카카오페이 충전",
-    "changed_cells": ["F248", "K38", "F503"],
+    "changed_cells": [
+      "F248",
+      "K38",
+      "F503"
+    ],
     "external_outflow_count": 9,
     "external_outflow_total": 2553539,
     "external_inflow_count": 3,
@@ -1132,12 +1155,57 @@
     "other_12_transaction_inputs_preserved": true,
     "normalization_shared_formulas_preserved": true,
     "all_formulas_styles_raw_other_sheets_vba_and_controls_preserved": true,
-    "tested_query_months": [9, 10, 11],
+    "tested_query_months": [
+      9,
+      10,
+      11
+    ],
     "unit_tests_passed": 30,
     "native_excel_opened": false,
     "sharepoint_file_updated": false,
     "details": "kakaopay_wrap_outflow_20261019_validation.json",
     "guide": "2026-10-19_카카오페이_WRAP출금분류_검증.md",
-    "previous_version": "history/2026-10-19/03"
+    "previous_version": "history/2026-10-19/03",
+    "scope": "카카오페이 출금 재분류 당시 기록. 해당 분류는 유지하며 추가 보증보험료·최신 잔액·해시는 raw_update_20261019_validation.json을 따릅니다."
+  },
+  "delta_20261019": {
+    "date": "2026-10-19",
+    "latest_transaction": "2026-10-19T20:48:00.227000",
+    "old_october_records_preserved": 164,
+    "new_transactions": 7,
+    "october_records": 171,
+    "total_raw_records": 2492,
+    "new_card_transactions": 6,
+    "new_card_actual": 105450,
+    "new_card_tetris": 106000,
+    "housing_cash_premium": 110075,
+    "housing_classification": "이사부대",
+    "additional_actual": 110075,
+    "additional_budget": 111000,
+    "calendar_actual": 1582350,
+    "calendar_tetris": 1607000,
+    "monthly_total_actual": 2211447,
+    "monthly_total_budget": 2241000,
+    "living_balance": 4409691,
+    "wrap_total": 6559691,
+    "scope_counts": {
+      "WRAP": 16,
+      "타계좌": 48,
+      "카드사용": 107
+    },
+    "colored_cells": 1607,
+    "daily_calendar_checks": 31,
+    "cash_history_count": 5,
+    "transfer_count": 12,
+    "kakaopay_outflow_preserved": true,
+    "prior_raw_and_ledger_inputs_preserved": true,
+    "prior_month_values_preserved": true,
+    "details": "raw_update_20261019_validation.json",
+    "guide": "2026-10-19_RAW반영_검증.md",
+    "previous_version": "history/2026-10-19/04",
+    "source": "raw/2026-10-19/2026-10-01_2026-10-31.xlsx",
+    "unit_tests_passed": 30,
+    "native_excel_opened": false,
+    "sharepoint_file_updated": false
   }
 }
