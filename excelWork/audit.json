@@ -360,13 +360,6 @@
     "H44": 2211447,
     "H45": -1702164,
     "N69": 239000,
-    "E73": 2776050,
-    "E74": 762073,
-    "E75": 357230,
-    "E76": 639000,
-    "E77": 100000,
-    "E78": 800000,
-    "E80": 103600,
     "fixed_independent": 470022,
     "I44": 2241000,
     "I38": 1607000,
@@ -426,8 +419,8 @@
   },
   "as_of": "2026-10-19",
   "ui_updated_at": "2026-10-19",
-  "current_verification": "raw_update_20261019_validation.json",
-  "workbook_sha256": "49d8de64d148f3532160394bcbbb079d04d8926d52024e7bebb72e9315d2bc6d",
+  "current_verification": "monthly_usage_summary_20261019_validation.json",
+  "workbook_sha256": "7604f9342d377c7c2ec75a58be1947a8dfa9071287a7374b1cba55432ec67ef6",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -1206,6 +1199,139 @@
     "source": "raw/2026-10-19/2026-10-01_2026-10-31.xlsx",
     "unit_tests_passed": 30,
     "native_excel_opened": false,
-    "sharepoint_file_updated": false
+    "sharepoint_file_updated": false,
+    "scope": "RAW 갱신 당시 검증. 거래·달력·잔액 수치는 유지하며 요약표와 최신 파일 해시는 monthly_usage_summary_20261019_validation.json을 따릅니다."
+  },
+  "monthly_usage_summary_20261019": {
+    "date": "2026-10-19",
+    "baseline_sha256": "49d8de64d148f3532160394bcbbb079d04d8926d52024e7bebb72e9315d2bc6d",
+    "workbook_sha256": "7604f9342d377c7c2ec75a58be1947a8dfa9071287a7374b1cba55432ec67ef6",
+    "months": {
+      "9월": {
+        "salary_reference": 2776050,
+        "fixed": 1244246,
+        "calendar_actual": 1912851,
+        "calendar_tetris": 1955000,
+        "gross_advances": 0,
+        "additional_actual": 161000,
+        "base_actual": 3157097,
+        "final_actual": 3318097
+      },
+      "10월": {
+        "salary_reference": 2776050,
+        "fixed": 470022,
+        "calendar_actual": 1582350,
+        "calendar_tetris": 1607000,
+        "gross_advances": 103600,
+        "additional_actual": 110075,
+        "base_actual": 2155972,
+        "final_actual": 2266047
+      },
+      "11월": {
+        "salary_reference": 2776050,
+        "fixed": 0,
+        "calendar_actual": 0,
+        "calendar_tetris": 0,
+        "gross_advances": 0,
+        "additional_actual": 0,
+        "base_actual": 0,
+        "final_actual": 0
+      },
+      "12월": {
+        "salary_reference": 2776050,
+        "fixed": 0,
+        "calendar_actual": 0,
+        "calendar_tetris": 0,
+        "gross_advances": 0,
+        "additional_actual": 0,
+        "base_actual": 0,
+        "final_actual": 0
+      }
+    },
+    "fixed_basis": "actual",
+    "summary_rows": [
+      72,
+      78
+    ],
+    "raw_ledger_reserve_other_months_calculators_byte_identical": true,
+    "vba_drawings_controls_relationships_byte_identical": true,
+    "existing_styles_preserved": true,
+    "changed_parts": [
+      "xl/workbook.xml",
+      "xl/worksheets/sheet21.xml",
+      "xl/worksheets/sheet23.xml",
+      "xl/worksheets/sheet25.xml",
+      "xl/worksheets/sheet27.xml",
+      "xl/styles.xml"
+    ],
+    "formula_errors": 0,
+    "structure_validation": {
+      "worksheet_count": 45,
+      "xml_part_count": 81,
+      "errors": []
+    },
+    "native_excel_opened": false,
+    "sharepoint_file_updated": false,
+    "changed_formula_caches": {
+      "9월": [
+        "A72",
+        "E74",
+        "J74",
+        "E75",
+        "E76",
+        "E77",
+        "J77",
+        "E78",
+        "J78"
+      ],
+      "10월": [
+        "A72",
+        "E74",
+        "J74",
+        "E75",
+        "E76",
+        "E77",
+        "J77",
+        "E78",
+        "J78"
+      ],
+      "11월": [
+        "A72",
+        "E74",
+        "J74",
+        "E75",
+        "E76",
+        "E77",
+        "J77",
+        "E78",
+        "J78"
+      ],
+      "12월": [
+        "A72",
+        "E74",
+        "J74",
+        "E75",
+        "E76",
+        "E77",
+        "J77",
+        "E78",
+        "J78"
+      ]
+    },
+    "mutation_regression": {
+      "future_fixed_status_change": true,
+      "future_raw_rows_beyond_current_end": true,
+      "month_filtering": true,
+      "original_zero_personal_burden_advance_included": true,
+      "recovered_status_remains_gross_payment": true,
+      "transfer_and_recovery_not_new_payment": true,
+      "already_counted_extra_not_duplicated": true,
+      "tetris_not_added_to_actual": true,
+      "calendar_actual_changes_flow_to_both_totals": true
+    },
+    "unit_tests_passed": 46,
+    "details": "monthly_usage_summary_20261019_validation.json",
+    "guide": "2026-10-19_월간사용금액요약_검증.md",
+    "previous_version": "history/2026-10-19/05"
   }
 }
