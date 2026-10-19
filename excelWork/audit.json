@@ -421,8 +421,8 @@
   },
   "as_of": "2026-10-18",
   "ui_updated_at": "2026-10-19",
-  "current_verification": "cash_details_20261019_validation.json",
-  "workbook_sha256": "ae20eca2d1291f4739fe1ee8a258af1ca69954c759139a653fffbab8d7b95e9e",
+  "current_verification": "wrap_transfer_review_20261019_validation.json",
+  "workbook_sha256": "435f618ee6c1a87e079172a35107d0ec75c2fdce83ac694e5d70b13fb99e9ec1",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -1042,6 +1042,7 @@
     "previous_version": "history/2026-10-18/05"
   },
   "cash_details_20261019": {
+    "scope": "양배추·더치 표시 보완 당시 검증. 금액·판단은 그대로이며 최신 외부출금 표시·파일 해시는 wrap_transfer_review_20261019_validation.json을 따릅니다.",
     "date": "2026-10-19",
     "data_as_of": "2026-10-18",
     "reimbursement_raw_row": 2376,
@@ -1076,5 +1077,33 @@
     "details": "cash_details_20261019_validation.json",
     "guide": "2026-10-19_양배추회수_더치표시_검증.md",
     "previous_version": "history/2026-10-19/01"
+  },
+  "wrap_transfer_review_20261019": {
+    "date": "2026-10-19",
+    "data_as_of": "2026-10-18",
+    "selected_month": "2026-10",
+    "reviewed_transfers": 13,
+    "other_transfers_reviewed_only": 12,
+    "changed_ledger_row": 248,
+    "new_label": "외부출금 · 카카오페이 충전",
+    "changed_cells": ["F248", "K38", "F503"],
+    "external_outflow_count": 9,
+    "external_outflow_total": 2553539,
+    "external_inflow_count": 3,
+    "external_inflow_total": 687510,
+    "internal_movement_count": 1,
+    "internal_movement_amount": 61000,
+    "internal_movement_ledger_row": 247,
+    "internal_movement_display_improvement_candidate_only": true,
+    "card_payment_preparations_with_raw_followups": 6,
+    "all_financial_values_and_formulas_unchanged": true,
+    "raw_other_sheets_styles_vba_and_controls_byte_identical": true,
+    "unit_tests_passed": 30,
+    "structure_errors": 0,
+    "native_excel_opened": false,
+    "sharepoint_file_updated": false,
+    "details": "wrap_transfer_review_20261019_validation.json",
+    "guide": "2026-10-19_WRAP이체검토_외부출금표시_검증.md",
+    "previous_version": "history/2026-10-19/02"
   }
 }
