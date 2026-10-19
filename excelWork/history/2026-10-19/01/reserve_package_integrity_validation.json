@@ -1,0 +1,8 @@
+{
+  "only_removed_part": "xl/worksheets/sheet2.xml",
+  "no_new_package_parts": true,
+  "all_styles_byte_identical": true,
+  "all_internal_relationship_targets_exist": true,
+  "local_print_areas_match_remaining_sheet_indices": true,
+  "document_sheet_title_count_and_order_valid": true
+}

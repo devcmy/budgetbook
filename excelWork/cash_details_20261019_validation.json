@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-19",
+  "data_as_of": "2026-10-18",
+  "baseline_sha256": "7180ae75ba6fe9c531b403ff671fb9f72acc193ab2747de42425a8eccff7546b",
+  "workbook_sha256": "ae20eca2d1291f4739fe1ee8a258af1ca69954c759139a653fffbab8d7b95e9e",
+  "original_raw_amount_and_kind_preserved": true,
+  "recovered_advance": {
+    "row": 2376,
+    "name": "양배추 대리구매",
+    "source_amount": -1300,
+    "existing_net_expense_offset": -1300,
+    "recovered": true,
+    "combined_original_purchase_unchanged_per_user": true,
+    "used_for_purchase_row": 2474
+  },
+  "purchase_funding": {
+    "purchase": 17000,
+    "wrap_topup": 15700,
+    "recovered_advance": 1300,
+    "confirmed": true
+  },
+  "additional_expense_display": {
+    "row": 53,
+    "actual": 17000,
+    "already_counted": 17000,
+    "additional": 0
+  },
+  "calendar_basis_unchanged": "personal_variable_consumption_all_payment_methods",
+  "daily_calendar_checks": 31,
+  "personal_transactions": 92,
+  "personal_actual": 1476900,
+  "personal_tetris": 1501000,
+  "food_blocks": 323,
+  "total_blocks": 1501,
+  "wrap_total": 6669766,
+  "living_balance": 4519766,
+  "outstanding_advances": 103600,
+  "birthday_actual_use": 239000,
+  "reserve_alignment": {
+    "month": 10,
+    "physical_wrap_total": 6669766,
+    "purpose_available": 2150000,
+    "actual_use": 239000,
+    "allocated_to_bill": 0,
+    "invalid_use_rows": [],
+    "invalid_settlement_rows": []
+  },
+  "changed_package_parts": [
+    "xl/worksheets/sheet23.xml",
+    "xl/worksheets/sheet29.xml",
+    "xl/worksheets/sheet4.xml"
+  ],
+  "raw_and_physical_ledger_preservation_passed": true,
+  "unrelated_sheet_cells_preserved": true,
+  "vba_and_controls_byte_identical": true,
+  "structure_validation": {
+    "worksheet_count": 45,
+    "xml_part_count": 81,
+    "errors": []
+  },
+  "formula_errors": 0,
+  "recalculation": "disposable_macro_free_LibreOffice_copy_changed_caches_only",
+  "native_excel_opened": false,
+  "sharepoint_file_updated": false,
+  "changed_input_cells": {
+    "10월": [
+      "B53",
+      "C53",
+      "I53"
+    ],
+    "RAW": [
+      "F2376",
+      "M2376",
+      "M2474",
+      "M2475"
+    ],
+    "잔액": [
+      "G248"
+    ]
+  },
+  "changed_formula_caches": {
+    "10월": [
+      "A53",
+      "D53",
+      "F53",
+      "G53",
+      "H53"
+    ]
+  },
+  "original_purchase_allocation_unchanged_per_user": true,
+  "existing_recovery_expense_offset_preserved": true,
+  "unit_tests_passed": 30
+}
