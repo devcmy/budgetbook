@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-19",
+  "data_as_of": "2026-10-18",
+  "baseline_sha256": "ae20eca2d1291f4739fe1ee8a258af1ca69954c759139a653fffbab8d7b95e9e",
+  "workbook_sha256": "435f618ee6c1a87e079172a35107d0ec75c2fdce83ac694e5d70b13fb99e9ec1",
+  "new_label": "외부출금 · 카카오페이 충전",
+  "changed_cells": [
+    "F248",
+    "F503",
+    "K38"
+  ],
+  "changed_package_parts": [
+    "xl/worksheets/sheet4.xml"
+  ],
+  "all_formulas_unchanged": true,
+  "all_amounts_and_other_transactions_unchanged": true,
+  "raw_styles_vba_controls_and_other_parts_byte_identical": true,
+  "no_full_recalculation": true,
+  "deterministic_index_display_caches_updated": [
+    "K38",
+    "F503"
+  ],
+  "structure_validation": {
+    "worksheet_count": 45,
+    "xml_part_count": 81,
+    "errors": []
+  },
+  "native_excel_opened": false,
+  "sharepoint_file_updated": false,
+  "transfer_review": {
+    "selected_month": "2026-10",
+    "transfer_count": 13,
+    "other_transfers_reviewed_only": 12,
+    "direction_counts": {
+      "외부입금": 3,
+      "외부출금": 9,
+      "내부분류": 1
+    },
+    "direction_amounts": {
+      "외부입금": 687510,
+      "외부출금": 2553539,
+      "내부분류": 61000
+    },
+    "card_payment_preparations": 6,
+    "reviewed_transfers": [
+      {
+        "ledger_row": 231,
+        "raw_row": 2453,
+        "date": "2026-10-13T20:26:00.610000",
+        "sender": "신한은행V2",
+        "recipient": "미래에셋_WRAP형CMA",
+        "amount": 22210,
+        "direction": "외부입금",
+        "finding": "다른 은행에서 WRAP으로 들어온 이체. WRAP 잔액은 증가하되 새 급여·소득으로 재분류하지 않음.",
+        "followup_raw_row": null,
+        "modified": false
+      },
+      {
+        "ledger_row": 232,
+        "raw_row": 2452,
+        "date": "2026-10-13T20:25:00.140000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "토스뱅크",
+        "amount": 236270,
+        "direction": "외부출금",
+        "finding": "같은 상대계좌·금액의 후속 카드대금 납부 확인. WRAP 출금 1회, 새 소비로 합산하지 않음.",
+        "followup_raw_row": 2462,
+        "modified": false
+      },
+      {
+        "ledger_row": 233,
+        "raw_row": 2451,
+        "date": "2026-10-13T20:24:00.653000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "우리은행",
+        "amount": 246568,
+        "direction": "외부출금",
+        "finding": "같은 상대계좌·금액의 후속 카드대금 납부 확인. WRAP 출금 1회, 새 소비로 합산하지 않음.",
+        "followup_raw_row": 2456,
+        "modified": false
+      },
+      {
+        "ledger_row": 234,
+        "raw_row": 2450,
+        "date": "2026-10-13T20:22:00.214000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "국민은행",
+        "amount": 360550,
+        "direction": "외부출금",
+        "finding": "같은 상대계좌·금액의 후속 카드대금 납부 확인. WRAP 출금 1회, 새 소비로 합산하지 않음.",
+        "followup_raw_row": 2460,
+        "modified": false
+      },
+      {
+        "ledger_row": 235,
+        "raw_row": 2449,
+        "date": "2026-10-13T20:21:00.714000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "토스뱅크",
+        "amount": 798746,
+        "direction": "외부출금",
+        "finding": "같은 상대계좌·금액의 후속 카드대금 납부 확인. WRAP 출금 1회, 새 소비로 합산하지 않음.",
+        "followup_raw_row": 2461,
+        "modified": false
+      },
+      {
+        "ledger_row": 236,
+        "raw_row": 2448,
+        "date": "2026-10-13T20:18:00.384000",
+        "sender": "토스뱅크",
+        "recipient": "미래에셋_WRAP형CMA",
+        "amount": 604300,
+        "direction": "외부입금",
+        "finding": "다른 은행에서 WRAP으로 들어온 이체. WRAP 잔액은 증가하되 새 급여·소득으로 재분류하지 않음.",
+        "followup_raw_row": null,
+        "modified": false
+      },
+      {
+        "ledger_row": 237,
+        "raw_row": 2446,
+        "date": "2026-10-13T17:58:34.479000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "새마을금고",
+        "amount": 753905,
+        "direction": "외부출금",
+        "finding": "같은 상대계좌·금액의 후속 카드대금 납부 확인. WRAP 출금 1회, 새 소비로 합산하지 않음.",
+        "followup_raw_row": 2455,
+        "modified": false
+      },
+      {
+        "ledger_row": 239,
+        "raw_row": 2430,
+        "date": "2026-10-12T19:48:00.090000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "카카오뱅크",
+        "amount": 1390,
+        "direction": "외부출금",
+        "finding": "같은 상대계좌·금액의 후속 카드대금 납부 확인. WRAP 출금 1회, 새 소비로 합산하지 않음.",
+        "followup_raw_row": 2441,
+        "modified": false
+      },
+      {
+        "ledger_row": 240,
+        "raw_row": 2429,
+        "date": "2026-10-12T19:47:00.432000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "신한은행",
+        "amount": 90410,
+        "direction": "외부출금",
+        "finding": "대출이자 준비 이체. 실제 이자는 RAW 2444행과 고정비에 반영되며 이체를 추가 소비로 합산하지 않음.",
+        "followup_raw_row": 2444,
+        "modified": false
+      },
+      {
+        "ledger_row": 241,
+        "raw_row": 2347,
+        "date": "2026-10-04T14:53:00.711000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "모임통장",
+        "amount": 50000,
+        "direction": "외부출금",
+        "finding": "모임통장 본인 납입. 공동계좌 적립 50,000원에 반영되며 모임통장 전체 사용을 다시 본인 소비에 더하지 않음.",
+        "followup_raw_row": null,
+        "modified": false
+      },
+      {
+        "ledger_row": 246,
+        "raw_row": 2466,
+        "date": "2026-10-15T22:33:00.838000",
+        "sender": "가족통장",
+        "recipient": "미래에셋_WRAP형CMA",
+        "amount": 61000,
+        "direction": "외부입금",
+        "finding": "가족통장의 생신 미사용 원금 회수. 실제 WRAP 입금이며 새 소득이 아님.",
+        "followup_raw_row": null,
+        "modified": false
+      },
+      {
+        "ledger_row": 247,
+        "raw_row": null,
+        "date": "2026-10-15T23:00:40",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "미래에셋_WRAP형CMA",
+        "amount": 61000,
+        "direction": "내부분류",
+        "finding": "WRAP 안의 계정 분류 이동. 실제 은행 송금·통장 총액 변화 없음. 화면 표기 구분은 개선 후보이며 이번에는 수정하지 않음.",
+        "followup_raw_row": null,
+        "modified": false
+      },
+      {
+        "ledger_row": 248,
+        "raw_row": 2475,
+        "date": "2026-10-17T16:01:00.832000",
+        "sender": "미래에셋_WRAP형CMA",
+        "recipient": "카카오페이머니",
+        "amount": 15700,
+        "direction": "외부출금",
+        "finding": "카카오페이머니로 외부출금. WRAP에서 15,700원 차감, 더치 구매 17,000원은 소비에 이미 1회 반영. 이 건의 표시만 수정.",
+        "followup_raw_row": null,
+        "modified": true
+      }
+    ]
+  }
+}

@@ -421,8 +421,8 @@
   },
   "as_of": "2026-10-18",
   "ui_updated_at": "2026-10-19",
-  "current_verification": "wrap_transfer_review_20261019_validation.json",
-  "workbook_sha256": "435f618ee6c1a87e079172a35107d0ec75c2fdce83ac694e5d70b13fb99e9ec1",
+  "current_verification": "kakaopay_wrap_outflow_20261019_validation.json",
+  "workbook_sha256": "9a41d9aacb5ca020189c16fcf0798d2644fdd6331fd94ab7bf58f27b8188744f",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -1079,6 +1079,7 @@
     "previous_version": "history/2026-10-19/01"
   },
   "wrap_transfer_review_20261019": {
+    "scope": "명칭만 바꿨던 이전 단계의 검토. 현재는 카카오페이 1건이 출금으로 분류되며 최신 조회 건수·해시는 kakaopay_wrap_outflow_20261019_validation.json을 따릅니다. 다른 12건은 유지합니다.",
     "date": "2026-10-19",
     "data_as_of": "2026-10-18",
     "selected_month": "2026-10",
@@ -1105,5 +1106,38 @@
     "details": "wrap_transfer_review_20261019_validation.json",
     "guide": "2026-10-19_WRAP이체검토_외부출금표시_검증.md",
     "previous_version": "history/2026-10-19/02"
+  },
+  "kakaopay_wrap_outflow_20261019": {
+    "date": "2026-10-19",
+    "data_as_of": "2026-10-18",
+    "ledger_row": 248,
+    "source_raw_row": 2475,
+    "ledger_type": "출금",
+    "ledger_destination_category": "지출",
+    "ledger_scope": "WRAP입출금",
+    "original_raw_transfer_preserved": true,
+    "source_amount_preserved": 15700,
+    "display_amount": -15700,
+    "cash_history_count": 4,
+    "transfer_count": 12,
+    "excluded_from_transfer_view": true,
+    "living_use_and_outflow": 27600,
+    "living_transfer_out": 2537839,
+    "living_balance_preserved": 4519766,
+    "wrap_total_preserved": 6669766,
+    "purchase_consumer_expense_preserved": 17000,
+    "additional_consumer_expense": 0,
+    "personal_actual_preserved": 1476900,
+    "personal_tetris_preserved": 1501000,
+    "other_12_transaction_inputs_preserved": true,
+    "normalization_shared_formulas_preserved": true,
+    "all_formulas_styles_raw_other_sheets_vba_and_controls_preserved": true,
+    "tested_query_months": [9, 10, 11],
+    "unit_tests_passed": 30,
+    "native_excel_opened": false,
+    "sharepoint_file_updated": false,
+    "details": "kakaopay_wrap_outflow_20261019_validation.json",
+    "guide": "2026-10-19_카카오페이_WRAP출금분류_검증.md",
+    "previous_version": "history/2026-10-19/03"
   }
 }
