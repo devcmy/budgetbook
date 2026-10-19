@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-19",
+  "baseline_sha256": "7604f9342d377c7c2ec75a58be1947a8dfa9071287a7374b1cba55432ec67ef6",
+  "workbook_sha256": "2e0cadbccf2918e70cce0a68d90fa1fec02c1239fd8cc299933c331f22a52778",
+  "months": {
+    "9월": {
+      "salary_reference": 2776050,
+      "fixed_actual": 1244246,
+      "fixed_actual_and_planned": 1244246,
+      "fixed_unpaid_planned": 0,
+      "calendar_actual": 1912851,
+      "calendar_tetris": 1955000,
+      "gross_advances": 0,
+      "additional_actual": 161000,
+      "base_actual": 3157097,
+      "final_actual": 3318097
+    },
+    "10월": {
+      "salary_reference": 2776050,
+      "fixed_actual": 470022,
+      "fixed_actual_and_planned": 1232095,
+      "fixed_unpaid_planned": 762073,
+      "calendar_actual": 1582350,
+      "calendar_tetris": 1607000,
+      "gross_advances": 103600,
+      "additional_actual": 110075,
+      "base_actual": 2155972,
+      "final_actual": 2266047
+    },
+    "11월": {
+      "salary_reference": 2776050,
+      "fixed_actual": 0,
+      "fixed_actual_and_planned": 1234406,
+      "fixed_unpaid_planned": 1234406,
+      "calendar_actual": 0,
+      "calendar_tetris": 0,
+      "gross_advances": 0,
+      "additional_actual": 0,
+      "base_actual": 0,
+      "final_actual": 0
+    },
+    "12월": {
+      "salary_reference": 2776050,
+      "fixed_actual": 0,
+      "fixed_actual_and_planned": 1234406,
+      "fixed_unpaid_planned": 1234406,
+      "calendar_actual": 0,
+      "calendar_tetris": 0,
+      "gross_advances": 0,
+      "additional_actual": 0,
+      "base_actual": 0,
+      "final_actual": 0
+    }
+  },
+  "fixed_display_bases": [
+    "actual",
+    "actual_and_planned"
+  ],
+  "totals_fixed_basis": "actual",
+  "summary_rows": [
+    72,
+    79
+  ],
+  "raw_ledger_reserve_other_months_calculators_byte_identical": true,
+  "vba_drawings_controls_relationships_byte_identical": true,
+  "existing_styles_preserved": true,
+  "changed_parts": [
+    "xl/workbook.xml",
+    "xl/worksheets/sheet21.xml",
+    "xl/worksheets/sheet23.xml",
+    "xl/worksheets/sheet25.xml",
+    "xl/worksheets/sheet27.xml"
+  ],
+  "formula_errors": 0,
+  "structure_validation": {
+    "worksheet_count": 45,
+    "xml_part_count": 81,
+    "errors": []
+  },
+  "native_excel_opened": false,
+  "sharepoint_file_updated": false,
+  "changed_formula_caches": {
+    "9월": [
+      "A72",
+      "E74",
+      "E75",
+      "J75",
+      "E76",
+      "E77",
+      "E78",
+      "J78",
+      "E79",
+      "J79"
+    ],
+    "10월": [
+      "A72",
+      "E74",
+      "E75",
+      "J75",
+      "E76",
+      "E77",
+      "E78",
+      "J78",
+      "E79",
+      "J79"
+    ],
+    "11월": [
+      "A72",
+      "E74",
+      "E75",
+      "J75",
+      "E76",
+      "E77",
+      "E78",
+      "J78",
+      "E79",
+      "J79"
+    ],
+    "12월": [
+      "A72",
+      "E74",
+      "E75",
+      "J75",
+      "E76",
+      "E77",
+      "E78",
+      "J78",
+      "E79",
+      "J79"
+    ]
+  },
+  "mutation_regression": {
+    "future_fixed_status_change": true,
+    "actual_and_planned_display_independent": true,
+    "forecast_changes_do_not_change_actual_totals": true,
+    "future_raw_rows_beyond_current_end": true,
+    "month_filtering": true,
+    "original_zero_personal_burden_advance_included": true,
+    "recovered_status_remains_gross_payment": true,
+    "transfer_and_recovery_not_new_payment": true,
+    "already_counted_extra_not_duplicated": true,
+    "tetris_not_added_to_actual": true,
+    "calendar_actual_changes_flow_to_both_totals": true
+  },
+  "unit_tests_passed": 49
+}

@@ -3,8 +3,8 @@ from datetime import datetime
 import unittest
 
 from monthly_usage_summary import (
-    ACTUAL_STATUSES, ADVANCE_CATEGORIES, advance_formula, advance_total,
-    fixed_formula, fixed_total, totals,
+    ACTUAL_STATUSES, ADVANCE_CATEGORIES, LABELS, advance_formula, advance_total,
+    fixed_formula, fixed_total, summary_formulas, totals,
 )
 
 
@@ -70,6 +70,22 @@ class MonthlyUsageSummaryTests(unittest.TestCase):
         self.assertNotIn('Q25', fixed_formula('actual'))
         self.assertIn('확정', fixed_formula('actual'))
         self.assertEqual(fixed_formula('actual_and_planned'), '=SUM(Q4:Q24)')
+
+    def test_seven_rows_show_both_fixed_cost_bases(self):
+        self.assertEqual(len(LABELS), 7)
+        self.assertEqual(LABELS[1:3], ('고정비 · 실제 확정', '고정비 · 실적+미결제 예정'))
+
+    def test_two_fixed_rows_have_separate_formulas(self):
+        formulas = summary_formulas()
+        self.assertEqual(formulas['E74'], fixed_formula('actual'))
+        self.assertEqual(formulas['E75'], fixed_formula('actual_and_planned'))
+
+    def test_actual_totals_never_add_inclusive_fixed_row_or_tetris(self):
+        formulas = summary_formulas()
+        self.assertTrue(formulas['E78'].startswith('=E74+E76+'))
+        self.assertNotIn('E75', formulas['E78'])
+        self.assertNotIn('E77', formulas['E78'])
+        self.assertEqual(formulas['E79'], '=E78+H39')
 
 
 if __name__ == '__main__':
