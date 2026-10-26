@@ -75,13 +75,18 @@
       "카드사용": 107
     },
     "table": "RawData2026",
-    "table_range": "A1:AM4001",
+    "table_range": "A1:AO4001",
     "month_filter_column": "B",
     "prepared_records": 4000,
     "remaining_prepared_records": 1508,
     "auto_helpers": true,
     "source_fields_and_existing_overrides_preserved": true,
-    "existing_duplicate_candidates_preserved": 5
+    "existing_duplicate_candidates_preserved": 5,
+    "memo_column": "I",
+    "duplicate_discriminator_column": "M",
+    "original_memo_columns_merged_losslessly": true,
+    "memo_not_used_for_classification_or_duplicates": true,
+    "preservation_scope": "Original date/asset/category/subcategory/title/amount/kind and J/K/L confirmed overrides unchanged; I/M note texts merged into I."
   },
   "historical_accounts": {
     "checked": 63,
@@ -138,7 +143,8 @@
       "month_display_matches": true,
       "original_color_differences": [],
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 2,
@@ -159,7 +165,8 @@
       "month_display_matches": true,
       "original_color_differences": [],
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 3,
@@ -180,7 +187,8 @@
       "month_display_matches": true,
       "original_color_differences": [],
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 4,
@@ -202,7 +210,8 @@
       "month_display_matches": true,
       "original_color_differences": [],
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 5,
@@ -225,7 +234,8 @@
       "month_display_matches": true,
       "original_color_differences": [],
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 6,
@@ -247,7 +257,8 @@
       "month_display_matches": true,
       "original_color_differences": [],
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 7,
@@ -268,7 +279,8 @@
       "month_display_matches": true,
       "original_color_differences": [],
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 8,
@@ -291,7 +303,8 @@
       "month_display_matches": true,
       "original_color_differences": [],
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 9,
@@ -313,7 +326,8 @@
       "expected_display_matches": true,
       "month_display_matches": true,
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 10,
@@ -335,7 +349,8 @@
       "expected_display_matches": true,
       "month_display_matches": true,
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 11,
@@ -348,7 +363,8 @@
       "expected_display_matches": true,
       "month_display_matches": true,
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     },
     {
       "month": 12,
@@ -361,7 +377,8 @@
       "expected_display_matches": true,
       "month_display_matches": true,
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
-      "visual_capacity": 8000
+      "visual_capacity": 8000,
+      "memo_view": "A157:U162, monthly W40 page, RAW I only"
     }
   ],
   "october_block_layout": {
@@ -407,7 +424,7 @@
     "module_count": 13,
     "binary_identical": false,
     "executed": false,
-    "binary_identical_to_previous_version": false,
+    "binary_identical_to_previous_version": true,
     "binary_identical_to_input": true,
     "binary_sha256": "0b9e84b306a04b00265dbfea877cae3d0e76f3decb8cb66d38efac30d3c9651d",
     "legacy_calculate_buttons_disconnected": true
@@ -457,8 +474,8 @@
   },
   "as_of": "2026-10-19",
   "ui_updated_at": "2026-10-26",
-  "current_verification": "raw_auto_link_20261026_validation.json",
-  "workbook_sha256": "f85d75b731081f143f7819c802b489b64a3a0198d712f9113ea9df7bae46cf8b",
+  "current_verification": "memo_only_20261026_validation.json",
+  "workbook_sha256": "0e5c1abf7e7078611f844ded44dabef7ef989ffaa2be669e27a85b894eac337a",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -2010,6 +2027,67 @@
     },
     "snapshot_matches_previous_commit": true,
     "unchanged_blank_lookup_caches_retained": 582,
-    "previous_commit": "33d882934cf8d2aba8da47e7d58626d0e52a6c43"
+    "previous_commit": "33d882934cf8d2aba8da47e7d58626d0e52a6c43",
+    "scope": "Initial RAW automation verification; current note semantics and hashes follow memo_only_20261026."
+  },
+  "memo_only_20261026": {
+    "structure": {
+      "worksheet_count": 46,
+      "xml_part_count": 85,
+      "errors": []
+    },
+    "vba_controls_drawings_media_preserved": true,
+    "memo_is_single_source_column": "RAW!I",
+    "classification_and_dedupe_do_not_read_memo": true,
+    "protected_input_and_month_filter_preserved": true,
+    "baseline_financial_preservation": {
+      "numeric_cells_checked": 157007,
+      "financial_differences": 0
+    },
+    "legacy_note_texts_preserved_in_single_column": true,
+    "cleared": {
+      "numeric_cells_checked": 157601,
+      "financial_differences": 0,
+      "raw_linked_memo_cells_empty": 958,
+      "all_12_month_browsers_empty": true
+    },
+    "edited": {
+      "numeric_cells_checked": 157601,
+      "financial_differences": 0,
+      "monthly_fixed_extra_and_browsers_follow_raw": true,
+      "calculator_balance_reserve_follow_raw": true
+    },
+    "business": {
+      "note_keywords_do_not_classify": true,
+      "memo_changes_do_not_distinguish_duplicates": true,
+      "explicit_discriminator_retains_real_separate_purchase": true,
+      "explicit_advance_keeps_zero_personal_cost": true,
+      "memo_paging_and_literal_wildcards": true,
+      "future_linked_registers_show_memos": true,
+      "all_12_month_raw_calendar_calculator_regression": true
+    },
+    "unit_tests_passed": 117,
+    "workbook_sha256": "0e5c1abf7e7078611f844ded44dabef7ef989ffaa2be669e27a85b894eac337a",
+    "source_sha256": "f85d75b731081f143f7819c802b489b64a3a0198d712f9113ea9df7bae46cf8b",
+    "native_excel_ui_executed": false,
+    "date": "2026-10-26",
+    "data_as_of": "2026-10-19",
+    "previous_version": "history/2026-10-26/02",
+    "known_limitations": [
+      "RAW full reset still uses historical anchors; not a reset workflow.",
+      "Replacing old rows can retain J/K/L overrides; append new records to empty rows.",
+      "Independent handwritten non-RAW notes and hidden historical archives are retained."
+    ],
+    "reference_files_preserved": {
+      "테트리스_가계부_2026_One_Raw.xlsx": "aa41b58021e1698c8ebc944c8a68a5ac14b903f6ac5064ba961706e05e84fd3a",
+      "테트리스 계산기_One.xlsm": "652f4584b2a5830d23f23a9817277c4f547cf8855651cd7108c15db28c389a61",
+      "여행_One.xlsx": "c535c96b051a1480f2796beece98b094371d8c3cc269b1907d0ad14a897383e9"
+    },
+    "snapshot_matches_previous_commit": true,
+    "original_style_prefix_preserved": true,
+    "relationship_targets_valid": true,
+    "visual_check": "Disposable static-value PDF previews of monthly and calculator memo layout inspected.",
+    "guide": "2026-10-26_메모연동_분류분리_검증.md",
+    "migration": "memo_only_20261026_migration.json"
   }
 }
