@@ -1,0 +1,131 @@
+{
+  "table_month_filter": true,
+  "computed_columns_and_frozen_headers": true,
+  "all_calculators_conditional_colors": true,
+  "cash_reserve_vba_media_preserved": true,
+  "structure": {
+    "worksheet_count": 46,
+    "xml_part_count": 85,
+    "errors": []
+  },
+  "source_sha256": "a68c1146a01425112d03325517e5caec31a1c41972fc15e022b2f36bbb37bd04",
+  "workbook_sha256": "f85d75b731081f143f7819c802b489b64a3a0198d712f9113ea9df7bae46cf8b",
+  "source_rows": {
+    "records_preserved": 2492,
+    "source_fields_preserved": true,
+    "confirmed_overrides_preserved": true
+  },
+  "default": {
+    "historical_months_unchanged": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "future_actual_not_forecast": true,
+    "wrap_and_reserve_unchanged": true
+  },
+  "trials": {
+    "integration": {
+      "months": {
+        "1": {
+          "actual_delta": 2201,
+          "tetris_delta": 3000
+        },
+        "2": {
+          "actual_delta": 2301,
+          "tetris_delta": 3000
+        },
+        "3": {
+          "actual_delta": 2401,
+          "tetris_delta": 3000
+        },
+        "4": {
+          "actual_delta": 2501,
+          "tetris_delta": 3000
+        },
+        "5": {
+          "actual_delta": 2601,
+          "tetris_delta": 3000
+        },
+        "6": {
+          "actual_delta": 2701,
+          "tetris_delta": 3000
+        },
+        "7": {
+          "actual_delta": 2801,
+          "tetris_delta": 3000
+        },
+        "8": {
+          "actual_delta": 2901,
+          "tetris_delta": 3000
+        },
+        "9": {
+          "actual_delta": 3001,
+          "tetris_delta": 4000
+        },
+        "10": {
+          "actual_delta": 122910,
+          "tetris_delta": 129000
+        },
+        "11": {
+          "actual_delta": 3201,
+          "tetris_delta": 4000
+        },
+        "12": {
+          "actual_delta": 5523,
+          "tetris_delta": 7000
+        }
+      },
+      "duplicate_excluded": true,
+      "income_and_fixed_auto": true,
+      "contribution_auto": true,
+      "refund_and_text_amount": true,
+      "wrong_date_and_other_year_flagged": true,
+      "table_expansion_4002_formulas": true,
+      "distinct_memos_not_deduplicated": true,
+      "long_memo_duplicates_safe": true,
+      "literal_wildcards_not_false_duplicates": true,
+      "no_helpers_manually_entered": true,
+      "wrap_reserve_not_guessed": true
+    },
+    "overflow": {
+      "numeric_totals_preserved": true,
+      "color_capacity_warning": true
+    }
+  },
+  "unit_tests_passed": 104,
+  "prepared_records": 4000,
+  "new_record_capacity": 1508,
+  "color_capacity": 8000,
+  "input_protection": {
+    "password": false,
+    "filter_allowed": true,
+    "input_allowed": true,
+    "sorting_and_row_deletion_blocked": true,
+    "expansion_requires_unprotect": true
+  },
+  "native_excel_ui_executed": false,
+  "recalculation": "Macro-free disposable LibreOffice copies; final XLSM is never saved by LibreOffice.",
+  "visual_check": "Disposable PDF previews inspected for RAW readability and calculator conditional colors.",
+  "date": "2026-10-26",
+  "data_as_of": "2026-10-19",
+  "source": "inputs/2026-10-26/테트리스_가계부_2026_고도화_첨부원본.xlsm",
+  "workbook": "테트리스_가계부_2026_고도화.xlsm",
+  "previous_version": "history/2026-10-26/01",
+  "guide": "2026-10-26_RAW자동연동_검증.md",
+  "reference_files_preserved": {
+    "테트리스_가계부_2026_One_Raw.xlsx": "aa41b58021e1698c8ebc944c8a68a5ac14b903f6ac5064ba961706e05e84fd3a",
+    "테트리스 계산기_One.xlsm": "652f4584b2a5830d23f23a9817277c4f547cf8855651cd7108c15db28c389a61",
+    "여행_One.xlsx": "c535c96b051a1480f2796beece98b094371d8c3cc269b1907d0ad14a897383e9"
+  },
+  "snapshot_matches_previous_commit": true,
+  "unchanged_blank_lookup_caches_retained": 582,
+  "previous_commit": "33d882934cf8d2aba8da47e7d58626d0e52a6c43"
+}

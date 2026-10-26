@@ -47,9 +47,11 @@
       "보관_9월계산기",
       "보관_11월계산기",
       "보관_12월계산기",
-      "_예비비계산"
+      "_예비비계산",
+      "_RAW자동연동"
     ],
-    "month_calculator_pairs": true
+    "month_calculator_pairs": true,
+    "total": 46
   },
   "raw": {
     "count": 2492,
@@ -71,7 +73,15 @@
       "WRAP": 16,
       "타계좌": 48,
       "카드사용": 107
-    }
+    },
+    "table": "RawData2026",
+    "table_range": "A1:AM4001",
+    "month_filter_column": "B",
+    "prepared_records": 4000,
+    "remaining_prepared_records": 1508,
+    "auto_helpers": true,
+    "source_fields_and_existing_overrides_preserved": true,
+    "existing_duplicate_candidates_preserved": 5
   },
   "historical_accounts": {
     "checked": 63,
@@ -114,11 +124,11 @@
       "counts": {
         "3": 649,
         "4": 129,
-        "9": 212,
-        "10": 11,
-        "7": 57,
         "6": 5,
-        "8": 94
+        "7": 57,
+        "8": 94,
+        "9": 212,
+        "10": 11
       },
       "cached_counts_match": true,
       "unknown_colors": {},
@@ -126,18 +136,20 @@
       "salary_burden": 1157000,
       "expected_display_matches": true,
       "month_display_matches": true,
-      "original_color_differences": []
+      "original_color_differences": [],
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 2,
       "color_total": 975000,
       "counts": {
-        "4": 69,
         "3": 608,
+        "4": 69,
         "6": 72,
-        "9": 87,
+        "7": 67,
         "8": 72,
-        "7": 67
+        "9": 87
       },
       "cached_counts_match": true,
       "unknown_colors": {},
@@ -145,18 +157,20 @@
       "salary_burden": 975000,
       "expected_display_matches": true,
       "month_display_matches": true,
-      "original_color_differences": []
+      "original_color_differences": [],
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 3,
       "color_total": 926000,
       "counts": {
         "3": 617,
+        "4": 50,
         "6": 101,
-        "9": 111,
-        "10": 20,
         "7": 27,
-        "4": 50
+        "9": 111,
+        "10": 20
       },
       "cached_counts_match": true,
       "unknown_colors": {},
@@ -164,19 +178,21 @@
       "salary_burden": 926000,
       "expected_display_matches": true,
       "month_display_matches": true,
-      "original_color_differences": []
+      "original_color_differences": [],
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 4,
       "color_total": 1047000,
       "counts": {
-        "4": 121,
         "3": 640,
-        "6": 124,
-        "8": 20,
-        "9": 119,
+        "4": 121,
         "5": 17,
-        "7": 6
+        "6": 124,
+        "7": 6,
+        "8": 20,
+        "9": 119
       },
       "cached_counts_match": true,
       "unknown_colors": {},
@@ -184,20 +200,22 @@
       "salary_burden": 1047000,
       "expected_display_matches": true,
       "month_display_matches": true,
-      "original_color_differences": []
+      "original_color_differences": [],
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 5,
       "color_total": 1197000,
       "counts": {
         "3": 538,
-        "9": 165,
         "4": 132,
-        "8": 103,
+        "5": 14,
         "6": 87,
         "7": 91,
-        "10": 67,
-        "5": 14
+        "8": 103,
+        "9": 165,
+        "10": 67
       },
       "cached_counts_match": true,
       "unknown_colors": {},
@@ -205,18 +223,20 @@
       "salary_burden": 1048000,
       "expected_display_matches": true,
       "month_display_matches": true,
-      "original_color_differences": []
+      "original_color_differences": [],
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 6,
       "color_total": 1481000,
       "counts": {
-        "4": 160,
         "3": 509,
-        "9": 232,
+        "4": 160,
+        "5": 293,
         "6": 160,
         "7": 81,
-        "5": 293,
+        "9": 232,
         "10": 46
       },
       "cached_counts_match": true,
@@ -225,7 +245,9 @@
       "salary_burden": 1481000,
       "expected_display_matches": true,
       "month_display_matches": true,
-      "original_color_differences": []
+      "original_color_differences": [],
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 7,
@@ -234,9 +256,9 @@
         "3": 643,
         "4": 170,
         "5": 376,
-        "9": 156,
         "6": 122,
-        "7": 52
+        "7": 52,
+        "9": 156
       },
       "cached_counts_match": true,
       "unknown_colors": {},
@@ -244,20 +266,22 @@
       "salary_burden": 1519000,
       "expected_display_matches": true,
       "month_display_matches": true,
-      "original_color_differences": []
+      "original_color_differences": [],
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 8,
       "color_total": 2354000,
       "counts": {
-        "9": 925,
         "3": 581,
-        "5": 259,
-        "7": 105,
-        "6": 268,
         "4": 155,
-        "10": 33,
-        "8": 28
+        "5": 259,
+        "6": 268,
+        "7": 105,
+        "8": 28,
+        "9": 925,
+        "10": 33
       },
       "cached_counts_match": true,
       "unknown_colors": {},
@@ -265,27 +289,31 @@
       "salary_burden": 2354000,
       "expected_display_matches": true,
       "month_display_matches": true,
-      "original_color_differences": []
+      "original_color_differences": [],
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 9,
       "color_total": 2068000,
       "counts": {
         "3": 434,
-        "9": 211,
         "4": 165,
+        "5": 441,
         "6": 329,
         "7": 124,
-        "10": 146,
-        "5": 441,
-        "8": 218
+        "8": 218,
+        "9": 211,
+        "10": 146
       },
       "cached_counts_match": true,
       "unknown_colors": {},
       "display": 2116000,
       "salary_burden": 2066000,
       "expected_display_matches": true,
-      "month_display_matches": true
+      "month_display_matches": true,
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 10,
@@ -294,18 +322,20 @@
         "3": 345,
         "4": 191,
         "5": 418,
-        "10": 43,
-        "9": 315,
         "6": 165,
+        "7": 149,
         "8": 92,
-        "7": 149
+        "9": 315,
+        "10": 43
       },
       "cached_counts_match": true,
       "unknown_colors": {},
       "display": 1718000,
       "salary_burden": 1718000,
       "expected_display_matches": true,
-      "month_display_matches": true
+      "month_display_matches": true,
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 11,
@@ -316,7 +346,9 @@
       "display": 0,
       "salary_burden": 0,
       "expected_display_matches": true,
-      "month_display_matches": true
+      "month_display_matches": true,
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     },
     {
       "month": 12,
@@ -327,7 +359,9 @@
       "display": 0,
       "salary_burden": 0,
       "expected_display_matches": true,
-      "month_display_matches": true
+      "month_display_matches": true,
+      "count_mode": "RAW delta formulas; original paint + conditional formatting",
+      "visual_capacity": 8000
     }
   ],
   "october_block_layout": {
@@ -373,7 +407,10 @@
     "module_count": 13,
     "binary_identical": false,
     "executed": false,
-    "binary_identical_to_previous_version": true
+    "binary_identical_to_previous_version": false,
+    "binary_identical_to_input": true,
+    "binary_sha256": "0b9e84b306a04b00265dbfea877cae3d0e76f3decb8cb66d38efac30d3c9651d",
+    "legacy_calculate_buttons_disconnected": true
   },
   "travel": [
     {
@@ -419,9 +456,9 @@
     }
   },
   "as_of": "2026-10-19",
-  "ui_updated_at": "2026-10-19",
-  "current_verification": "extra_calendar_20261019_validation.json",
-  "workbook_sha256": "2d17f049e3ed2c5a0f2a94ec49a2d2b76f3de74ac3f7dbd67dc4e3f0eb9c79b1",
+  "ui_updated_at": "2026-10-26",
+  "current_verification": "raw_auto_link_20261026_validation.json",
+  "workbook_sha256": "f85d75b731081f143f7819c802b489b64a3a0198d712f9113ea9df7bae46cf8b",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -1841,6 +1878,138 @@
     },
     "unit_tests_passed": 64,
     "guide": "2026-10-19_추가실지출_달력통합_검증.md",
-    "previous_version": "history/2026-10-19/07"
+    "previous_version": "history/2026-10-19/07",
+    "scope": "10/19 추가 실지출 통합 당시 이력. 현재 RAW 자동 연동·해시는 raw_auto_link_20261026 및 최상위 필드를 따릅니다."
+  },
+  "raw_auto_link_20261026": {
+    "table_month_filter": true,
+    "computed_columns_and_frozen_headers": true,
+    "all_calculators_conditional_colors": true,
+    "cash_reserve_vba_media_preserved": true,
+    "structure": {
+      "worksheet_count": 46,
+      "xml_part_count": 85,
+      "errors": []
+    },
+    "source_sha256": "a68c1146a01425112d03325517e5caec31a1c41972fc15e022b2f36bbb37bd04",
+    "workbook_sha256": "f85d75b731081f143f7819c802b489b64a3a0198d712f9113ea9df7bae46cf8b",
+    "source_rows": {
+      "records_preserved": 2492,
+      "source_fields_preserved": true,
+      "confirmed_overrides_preserved": true
+    },
+    "default": {
+      "historical_months_unchanged": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "future_actual_not_forecast": true,
+      "wrap_and_reserve_unchanged": true
+    },
+    "trials": {
+      "integration": {
+        "months": {
+          "1": {
+            "actual_delta": 2201,
+            "tetris_delta": 3000
+          },
+          "2": {
+            "actual_delta": 2301,
+            "tetris_delta": 3000
+          },
+          "3": {
+            "actual_delta": 2401,
+            "tetris_delta": 3000
+          },
+          "4": {
+            "actual_delta": 2501,
+            "tetris_delta": 3000
+          },
+          "5": {
+            "actual_delta": 2601,
+            "tetris_delta": 3000
+          },
+          "6": {
+            "actual_delta": 2701,
+            "tetris_delta": 3000
+          },
+          "7": {
+            "actual_delta": 2801,
+            "tetris_delta": 3000
+          },
+          "8": {
+            "actual_delta": 2901,
+            "tetris_delta": 3000
+          },
+          "9": {
+            "actual_delta": 3001,
+            "tetris_delta": 4000
+          },
+          "10": {
+            "actual_delta": 122910,
+            "tetris_delta": 129000
+          },
+          "11": {
+            "actual_delta": 3201,
+            "tetris_delta": 4000
+          },
+          "12": {
+            "actual_delta": 5523,
+            "tetris_delta": 7000
+          }
+        },
+        "duplicate_excluded": true,
+        "income_and_fixed_auto": true,
+        "contribution_auto": true,
+        "refund_and_text_amount": true,
+        "wrong_date_and_other_year_flagged": true,
+        "table_expansion_4002_formulas": true,
+        "distinct_memos_not_deduplicated": true,
+        "long_memo_duplicates_safe": true,
+        "literal_wildcards_not_false_duplicates": true,
+        "no_helpers_manually_entered": true,
+        "wrap_reserve_not_guessed": true
+      },
+      "overflow": {
+        "numeric_totals_preserved": true,
+        "color_capacity_warning": true
+      }
+    },
+    "unit_tests_passed": 104,
+    "prepared_records": 4000,
+    "new_record_capacity": 1508,
+    "color_capacity": 8000,
+    "input_protection": {
+      "password": false,
+      "filter_allowed": true,
+      "input_allowed": true,
+      "sorting_and_row_deletion_blocked": true,
+      "expansion_requires_unprotect": true
+    },
+    "native_excel_ui_executed": false,
+    "recalculation": "Macro-free disposable LibreOffice copies; final XLSM is never saved by LibreOffice.",
+    "visual_check": "Disposable PDF previews inspected for RAW readability and calculator conditional colors.",
+    "date": "2026-10-26",
+    "data_as_of": "2026-10-19",
+    "source": "inputs/2026-10-26/테트리스_가계부_2026_고도화_첨부원본.xlsm",
+    "workbook": "테트리스_가계부_2026_고도화.xlsm",
+    "previous_version": "history/2026-10-26/01",
+    "guide": "2026-10-26_RAW자동연동_검증.md",
+    "reference_files_preserved": {
+      "테트리스_가계부_2026_One_Raw.xlsx": "aa41b58021e1698c8ebc944c8a68a5ac14b903f6ac5064ba961706e05e84fd3a",
+      "테트리스 계산기_One.xlsm": "652f4584b2a5830d23f23a9817277c4f547cf8855651cd7108c15db28c389a61",
+      "여행_One.xlsx": "c535c96b051a1480f2796beece98b094371d8c3cc269b1907d0ad14a897383e9"
+    },
+    "snapshot_matches_previous_commit": true,
+    "unchanged_blank_lookup_caches_retained": 582,
+    "previous_commit": "33d882934cf8d2aba8da47e7d58626d0e52a6c43"
   }
 }
