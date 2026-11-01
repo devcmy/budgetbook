@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-01",
+  "data_as_of": "2026-10-31",
+  "date_display": {
+    "format": "m\"월\" d\"일\"",
+    "styled_input_cells": 4000,
+    "style_mapping": {
+      "489": 510,
+      "500": 511,
+      "0": 512
+    },
+    "raw_column_width": 13
+  },
+  "package": {
+    "changed_package_parts": [
+      "xl/worksheets/sheet28.xml",
+      "xl/styles.xml"
+    ],
+    "raw_values_formulas_caches_preserved": true,
+    "actual_year_and_time_preserved": true,
+    "all_other_package_parts_byte_identical": true,
+    "month_filter_and_input_protection_preserved": true,
+    "structure": {
+      "worksheet_count": 46,
+      "xml_part_count": 85,
+      "errors": []
+    }
+  },
+  "current_memo_views": {
+    "months": [
+      {
+        "month": 1,
+        "raw_memos": 80,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "raw_memos": 62,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "raw_memos": 59,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "raw_memos": 59,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "raw_memos": 65,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "raw_memos": 113,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "raw_memos": 150,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "raw_memos": 150,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "raw_memos": 98,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "raw_memos": 213,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "raw_memos": 0,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "raw_memos": 0,
+        "page": 1,
+        "memo_browser_and_calculator_match": true,
+        "fixed_memos_match": true
+      }
+    ],
+    "linked_extra_memo_cells_checked": 13,
+    "formula_errors": 0,
+    "existing_linebreak_normalized_cache_rows": [
+      604,
+      735,
+      1281,
+      1448,
+      1637,
+      1980,
+      2315,
+      2316,
+      2317,
+      2318,
+      2321,
+      2330,
+      2333,
+      2337,
+      2338,
+      2339,
+      2340,
+      2341,
+      2342,
+      2344,
+      2346,
+      2347,
+      2348,
+      2349,
+      2350,
+      2351,
+      2352,
+      2353,
+      2354,
+      2357,
+      2358,
+      2359,
+      2360,
+      2361,
+      2362,
+      2363,
+      2365,
+      2367,
+      2368,
+      2369,
+      2370,
+      2371,
+      2372,
+      2374,
+      2376,
+      2377,
+      2379,
+      2380,
+      2382,
+      2383,
+      2384,
+      2388,
+      2390,
+      2391,
+      2394,
+      2395,
+      2396,
+      2397,
+      2398,
+      2399,
+      2400,
+      2404,
+      2405,
+      2406,
+      2407,
+      2408,
+      2411,
+      2412,
+      2414,
+      2415,
+      2416,
+      2418,
+      2420,
+      2422,
+      2423,
+      2424,
+      2425,
+      2432,
+      2433,
+      2434,
+      2436,
+      2440,
+      2443,
+      2444,
+      2458,
+      2465,
+      2470,
+      2471,
+      2473,
+      2474,
+      2476,
+      2477,
+      2478,
+      2479,
+      2480,
+      2481,
+      2484,
+      2485,
+      2487,
+      2488,
+      2489,
+      2491,
+      2493
+    ],
+    "linebreak_scope": "Temporary evaluator normalizes input CR/LF; original RAW memo bytes and all existing caches are preserved, not rewritten."
+  },
+  "clear_existing_memos": {
+    "numeric_cells_checked": 158682,
+    "financial_differences": 0,
+    "raw_linked_memo_cells_empty": 958,
+    "all_12_month_browsers_empty": true
+  },
+  "all_months_edited": {
+    "months_tested": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "monthly_browser_fixed_and_calculator_follow_raw": true,
+    "memos_present": true,
+    "calendar_and_calculator_keep_transaction_amounts": true
+  },
+  "all_months_deleted": {
+    "months_tested": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "monthly_browser_fixed_and_calculator_follow_raw": true,
+    "memos_present": false,
+    "calendar_and_calculator_keep_transaction_amounts": true
+  },
+  "delete_memo_financial_preservation": {
+    "numeric_cells_checked": 158946,
+    "financial_differences": 0
+  },
+  "unit_tests_passed": 132,
+  "source_sha256": "8679769ef4d8e9778c141d4a9d535f2afe8fc42cbadd7feed04af08175454841",
+  "workbook_sha256": "d2e69586cef502176a758e4d1e368a67be20633fbef26ba9150c055bc820e97c",
+  "native_excel_ui_executed": false,
+  "synthetic_transactions_only_in_temporary_copies": true,
+  "previous_version": "history/2026-11-01/02",
+  "guide": "2026-11-01_RAW월일표시_메모연동_검증.md",
+  "snapshot_and_reference_workbooks_preserved": true,
+  "date_display_preview": "Disposable one-sheet PDF date sample inspected; not Microsoft Excel UI.",
+  "linebreak_diagnostic": {
+    "input_cell": "first line + LF + second line",
+    "formula": "=A1",
+    "temporary_evaluator_result": "first linesecond line",
+    "raw_memo_text_modified": false,
+    "existing_memo_caches_modified": false
+  }
+}

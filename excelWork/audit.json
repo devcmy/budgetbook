@@ -75,7 +75,7 @@
       "WRAP": 24
     },
     "table": "RawData2026",
-    "table_range": "A1:AO4001",
+    "table_range": "A1:AP4001",
     "month_filter_column": "B",
     "prepared_records": 4000,
     "remaining_prepared_records": 1412,
@@ -89,7 +89,13 @@
     "preservation_scope": "Original date/asset/category/subcategory/title/amount/kind and J/K/L confirmed overrides unchanged; I/M note texts merged into I.",
     "date_display_column": "A",
     "date_display_format": "m\"월\" d\"일\"",
-    "stored_year_and_time_preserved": true
+    "stored_year_and_time_preserved": true,
+    "native_date_sort_enabled": true,
+    "sheet_protection": false,
+    "transaction_id_column": "AP",
+    "transaction_id_header": "거래ID",
+    "transaction_id_count": 4000,
+    "linked_registers_use_transaction_ids_not_display_rows": true
   },
   "historical_accounts": {
     "checked": 63,
@@ -481,8 +487,8 @@
   },
   "as_of": "2026-10-31",
   "ui_updated_at": "2026-11-01",
-  "current_verification": "raw_monthday_memo_20261101_validation.json",
-  "workbook_sha256": "d2e69586cef502176a758e4d1e368a67be20633fbef26ba9150c055bc820e97c",
+  "current_verification": "raw_sort_20261101_validation.json",
+  "workbook_sha256": "9223c0a5dd9680678b66128211f6c921664ca022d7d6a3ff617f6dd854191d1c",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -5012,6 +5018,7 @@
     "scope": "10/31 RAW import verification history. Financial values remain unchanged; current date display/hash follow raw_monthday_memo_20261101."
   },
   "raw_monthday_memo_20261101": {
+    "scope": "Historical date-format/memo verification. Date display and financial values remain unchanged; current sorting support/hash follow raw_sort_20261101.",
     "date": "2026-11-01",
     "data_as_of": "2026-10-31",
     "date_display": {
@@ -5299,5 +5306,34 @@
       "raw_memo_text_modified": false,
       "existing_memo_caches_modified": false
     }
+  },
+  "raw_sort_20261101": {
+    "date": "2026-11-01",
+    "data_as_of": "2026-10-31",
+    "baseline_commit": "930e37e",
+    "baseline_sha256": "d2e69586cef502176a758e4d1e368a67be20633fbef26ba9150c055bc820e97c",
+    "workbook_sha256": "9223c0a5dd9680678b66128211f6c921664ca022d7d6a3ff617f6dd854191d1c",
+    "guide": "2026-11-01_RAW날짜정렬_검증.md",
+    "validation": "raw_sort_20261101_validation.json",
+    "previous_version": "history/2026-11-01/03",
+    "raw_table_range": "A1:AP4001",
+    "stable_transaction_id_column": "AP",
+    "stable_transaction_ids": 4000,
+    "native_date_sort_unblocked_by_removing_raw_protection": true,
+    "id_validation_is_not_a_paste_lock": true,
+    "all_original_transactions_and_manual_overrides_preserved": true,
+    "all_financial_values_unchanged": true,
+    "compared_values_each_sort_scenario": 252895,
+    "date_ascending_after_descending_moved_rows": 2584,
+    "date_descending_moved_rows": 2584,
+    "restore_id_order_moved_rows": 2584,
+    "raw_duplicates_and_memo_sequence_are_order_independent": true,
+    "new_inputs_and_short_long_duplicate_keys_tested": true,
+    "after_sort_memo_edit_and_delete_tested": true,
+    "vba_controls_drawings_styles_byte_identical": true,
+    "unit_tests_passed": 142,
+    "formula_errors": 0,
+    "native_microsoft_excel_ui_executed": false,
+    "raw_whole_reset_and_row_reuse_not_supported": true
   }
 }

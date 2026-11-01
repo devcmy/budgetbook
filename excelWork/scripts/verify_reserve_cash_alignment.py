@@ -75,6 +75,13 @@ def boundaries(month):
 def valid_registers(w):
     """Reconstruct the source contracts without trusting OK/cache helpers."""
     reserve, ledger, raw = w['예비비'], w['잔액'], w['RAW']
+    # New workbooks link by immutable IDs, not the current display row. Keep
+    # physical-row fallback for independently checking archived workbooks.
+    stable_ids = raw['AP1'].value == '거래ID'
+    raw_row_by_id = ({raw.cell(r,42).value:r for r in range(2,4002)}
+                     if stable_ids else {r:r for r in range(2,raw.max_row+1)})
+    if stable_ids:
+        assert len(raw_row_by_id) == 4000 and set(raw_row_by_id) == set(range(2,4002)), 'Invalid RAW transaction IDs'
     uses = {r: {c: reserve[f'{c}{r}'].value for c in 'ABCDEFGHR'}
             for r in range(U0, U1+1)}
     ids = Counter(v['A'] for v in uses.values() if not blank(v['A']))
@@ -91,12 +98,12 @@ def valid_registers(w):
         raw_id = v['F']
         if blank(raw_id):
             valid = valid and str(uid).startswith('U') and v['G'] == '월기록'
-        elif number(raw_id) and raw_id == int(raw_id) and 2 <= raw_id <= raw.max_row:
-            rr = int(raw_id)
+        elif number(raw_id) and raw_id == int(raw_id) and raw_id in raw_row_by_id:
+            rr = raw_row_by_id[raw_id]
             rv = {c: raw[f'{c}{rr}'].value for c in 'AHJKL'}
             inherited = v['G'] == '기존반영' and uid in ['U003', 'U007']
             eligible = inherited or (rv['L'] == '본인' and rv['J'] in VARIABLE)
-            fixed = (uid != 'U003' or rr == 356) and (uid != 'U007' or rr == 2203)
+            fixed = (uid != 'U003' or raw_id == 356) and (uid != 'U007' or raw_id == 2203)
             fixed = fixed and (v['G'] != '기존반영' or uid in ['U003', 'U007'])
             valid = valid and raw_ids[raw_id] == 1 and rv['H'] == '지출' and same_date(v['D'], rv['A'])
             valid = valid and number(rv['K']) and amount <= rv['K'] and eligible and fixed

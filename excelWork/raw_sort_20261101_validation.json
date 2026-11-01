@@ -1,0 +1,551 @@
+{
+  "package": {
+    "changed_parts": [
+      "xl/worksheets/sheet8.xml",
+      "xl/worksheets/sheet10.xml",
+      "xl/worksheets/sheet13.xml",
+      "xl/worksheets/sheet14.xml",
+      "xl/worksheets/sheet16.xml",
+      "xl/worksheets/sheet18.xml",
+      "xl/worksheets/sheet20.xml",
+      "xl/worksheets/sheet21.xml",
+      "xl/worksheets/sheet22.xml",
+      "xl/worksheets/sheet28.xml",
+      "xl/worksheets/sheet2.xml",
+      "xl/worksheets/sheet3.xml",
+      "xl/tables/table2.xml"
+    ],
+    "vba_controls_drawings_styles_byte_identical": true,
+    "source_transactions_and_manual_overrides_preserved": true,
+    "raw_native_sort_not_sheet_protected": true,
+    "stable_ids_unique": 4000,
+    "unsafe_raw_physical_links": 0,
+    "structure": {
+      "worksheet_count": 46,
+      "xml_part_count": 85,
+      "errors": []
+    }
+  },
+  "default": {
+    "financial_values_checked": 252895,
+    "reserve": {
+      "month": 10,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 239000,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "memos": [
+      {
+        "month": 1,
+        "memos": 80,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 62,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 65,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 113,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 98,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 213,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ]
+  },
+  "sort_cases": [
+    {
+      "mode": "ascending",
+      "moved_rows": 0,
+      "first_id": 2,
+      "last_nonblank_id": 2589,
+      "financial_values_checked": 252895,
+      "reserve": {
+        "month": 10,
+        "physical_wrap_total": 8434741,
+        "purpose_available": 2150000,
+        "actual_use": 239000,
+        "allocated_to_bill": 0,
+        "invalid_use_rows": [],
+        "invalid_settlement_rows": []
+      },
+      "memos": [
+        {
+          "month": 1,
+          "memos": 80,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 2,
+          "memos": 62,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 3,
+          "memos": 59,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 4,
+          "memos": 59,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 5,
+          "memos": 65,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 6,
+          "memos": 113,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 7,
+          "memos": 150,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 8,
+          "memos": 150,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 9,
+          "memos": 98,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 10,
+          "memos": 213,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 11,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 12,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        }
+      ]
+    },
+    {
+      "mode": "descending",
+      "moved_rows": 2584,
+      "first_id": 2589,
+      "last_nonblank_id": 2,
+      "financial_values_checked": 252895,
+      "reserve": {
+        "month": 10,
+        "physical_wrap_total": 8434741,
+        "purpose_available": 2150000,
+        "actual_use": 239000,
+        "allocated_to_bill": 0,
+        "invalid_use_rows": [],
+        "invalid_settlement_rows": []
+      },
+      "memos": [
+        {
+          "month": 1,
+          "memos": 80,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 2,
+          "memos": 62,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 3,
+          "memos": 59,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 4,
+          "memos": 59,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 5,
+          "memos": 65,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 6,
+          "memos": 113,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 7,
+          "memos": 150,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 8,
+          "memos": 150,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 9,
+          "memos": 98,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 10,
+          "memos": 213,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 11,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 12,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        }
+      ]
+    }
+  ],
+  "restored": {
+    "mode": "id",
+    "moved_rows": 2584,
+    "first_id": 2,
+    "last_nonblank_id": 2589,
+    "financial_values_checked": 252895,
+    "reserve": {
+      "month": 10,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 239000,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    }
+  },
+  "native_microsoft_excel_ui_executed": false,
+  "scope": "ZIP/XML validation and full-record permutations with independent macro-free recalculation; no Excel UI automation",
+  "unchanged_limitations": [
+    "Whole-RAW reset/reimport is not supported",
+    "New transactions belong in new blank rows; keep IDs and helper formulas",
+    "Data validation can be bypassed by paste; do not edit or delete transaction IDs"
+  ],
+  "ascending_from_descending": {
+    "mode": "ascending",
+    "moved_rows": 2584,
+    "first_id": 2,
+    "last_nonblank_id": 2589,
+    "package_byte_identical_to_restored": true,
+    "financial_values_checked": 252895
+  },
+  "after_sort_edits": {
+    "new_month_actual": 34003,
+    "new_month_tetris": 36000,
+    "short_and_long_key_duplicates_excluded": true,
+    "duplicate_keeper_independent_of_display_order": true,
+    "linked_memo_edits_after_sort": true,
+    "edited_reserve": {
+      "month": 10,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 239000,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "edited_memos": [
+      {
+        "month": 1,
+        "memos": 80,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 63,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 65,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 113,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 98,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 214,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 3,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ],
+    "cleared_memos": [
+      {
+        "month": 1,
+        "memos": 80,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 62,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 65,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 113,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 98,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 212,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 3,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ],
+    "memo_delete_after_sort_updates_month_ledger_reserve_without_financial_change": true
+  },
+  "delivery_package": {
+    "changed_parts": [
+      "xl/worksheets/sheet8.xml",
+      "xl/worksheets/sheet10.xml",
+      "xl/worksheets/sheet13.xml",
+      "xl/worksheets/sheet14.xml",
+      "xl/worksheets/sheet16.xml",
+      "xl/worksheets/sheet18.xml",
+      "xl/worksheets/sheet20.xml",
+      "xl/worksheets/sheet21.xml",
+      "xl/worksheets/sheet22.xml",
+      "xl/worksheets/sheet28.xml",
+      "xl/worksheets/sheet2.xml",
+      "xl/worksheets/sheet3.xml",
+      "xl/tables/table2.xml"
+    ],
+    "vba_controls_drawings_styles_byte_identical": true,
+    "source_transactions_and_manual_overrides_preserved": true,
+    "raw_native_sort_not_sheet_protected": true,
+    "stable_ids_unique": 4000,
+    "unsafe_raw_physical_links": 0,
+    "structure": {
+      "worksheet_count": 46,
+      "xml_part_count": 85,
+      "errors": []
+    }
+  },
+  "delivery": {
+    "compared_cells_against_recalculation": 252895,
+    "reserve": {
+      "month": 10,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 239000,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "memos": [
+      {
+        "month": 1,
+        "memos": 80,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 62,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 65,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 113,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 98,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 213,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ],
+    "cached_errors": 0,
+    "original_record_order_retained": true
+  },
+  "workbook_sha256": "9223c0a5dd9680678b66128211f6c921664ca022d7d6a3ff617f6dd854191d1c",
+  "baseline_sha256": "d2e69586cef502176a758e4d1e368a67be20633fbef26ba9150c055bc820e97c",
+  "baseline_commit": "930e37e",
+  "previous_version": "history/2026-11-01/03",
+  "date": "2026-11-01",
+  "data_as_of": "2026-10-31",
+  "unit_tests_passed": 142,
+  "synthetic_data_only_in_temp_copies": true,
+  "guide": "2026-11-01_RAW날짜정렬_검증.md",
+  "cache_import_only_no_office_roundtrip_of_delivery": true,
+  "temporary_evaluator_limitations": [
+    "Input CR/LF normalization in formula caches; original RAW memo text remains byte-exact",
+    "Two parallel Office processes exhausted memory in the initial diagnostic; completed runs were serial",
+    "Only fully qualified Table[[#This Row],[Header]] was supported in the engine probe; delivery uses it, not local @ syntax"
+  ]
+}
