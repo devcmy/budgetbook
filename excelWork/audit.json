@@ -54,9 +54,9 @@
     "total": 46
   },
   "raw": {
-    "count": 2492,
+    "count": 2588,
     "start": "2026-01-01T00:55:00",
-    "end": "2026-10-19T20:48:00.227000",
+    "end": "2026-10-31T00:13:00.027000",
     "by_month": {
       "2026-01": 224,
       "2026-02": 244,
@@ -67,18 +67,18 @@
       "2026-07": 345,
       "2026-08": 310,
       "2026-09": 244,
-      "2026-10": 171
+      "2026-10": 267
     },
     "october_scope": {
-      "WRAP": 16,
-      "타계좌": 48,
-      "카드사용": 107
+      "카드사용": 180,
+      "타계좌": 63,
+      "WRAP": 24
     },
     "table": "RawData2026",
     "table_range": "A1:AO4001",
     "month_filter_column": "B",
     "prepared_records": 4000,
-    "remaining_prepared_records": 1508,
+    "remaining_prepared_records": 1412,
     "auto_helpers": true,
     "source_fields_and_existing_overrides_preserved": true,
     "existing_duplicate_candidates_preserved": 5,
@@ -94,8 +94,8 @@
     "differences": []
   },
   "october_ledger": {
-    "rows": 17,
-    "raw_linked_rows": 16,
+    "rows": 25,
+    "raw_linked_rows": 24,
     "internal_classification_rows": 1,
     "raw_link_missing": [],
     "raw_link_duplicates": {},
@@ -106,7 +106,7 @@
   },
   "wrap": {
     "balances": {
-      "생활비": 4409691,
+      "생활비": 6284741,
       "명절비": 0,
       "여행비": 1400000,
       "경조사비": 450000,
@@ -116,9 +116,9 @@
       "금융": 0,
       "임시보관": 0
     },
-    "total": 6559691,
-    "inflows": 696602,
-    "outflows": 2675514,
+    "total": 8434741,
+    "inflows": 3472652,
+    "outflows": 3576514,
     "previous": 8538603,
     "cached_matches": true
   },
@@ -331,21 +331,21 @@
     },
     {
       "month": 10,
-      "color_total": 1718000,
+      "color_total": 2649000,
       "counts": {
-        "3": 345,
-        "4": 191,
+        "3": 513,
+        "4": 281,
         "5": 418,
         "6": 165,
-        "7": 149,
-        "8": 92,
-        "9": 315,
-        "10": 43
+        "7": 231,
+        "8": 418,
+        "9": 517,
+        "10": 106
       },
       "cached_counts_match": true,
       "unknown_colors": {},
-      "display": 1718000,
-      "salary_burden": 1718000,
+      "display": 2649000,
+      "salary_burden": 2649000,
       "expected_display_matches": true,
       "month_display_matches": true,
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
@@ -382,42 +382,46 @@
     }
   ],
   "october_block_layout": {
-    "colored_cells": 1718,
+    "colored_cells": 2649,
     "block_order_contiguous": true,
     "block_shape": "2 columns x 5 rows",
     "value_per_cell": 1000,
-    "full_blocks": 171,
-    "partial_block_cells": 8
+    "full_blocks": 264,
+    "partial_block_cells": 9,
+    "count_mode": "original paint + conditional formatting",
+    "base_painted_cells": 1718,
+    "added_dynamic_cells": 931,
+    "overflow_cells": 49
   },
   "october_lifestyle": {
-    "records": 98,
-    "actual": 1582350,
-    "tetris": 1607000,
-    "calendar_actual": 1692425,
-    "calendar_tetris": 1718000,
-    "scope": "actual/tetris는 RAW 본인 변동지출 98건. calendar_actual/calendar_tetris는 추가 실지출 전액 포함 합계입니다."
+    "records": 163,
+    "actual": 2605157,
+    "tetris": 2649000,
+    "calendar_actual": 2605157,
+    "calendar_tetris": 2649000,
+    "scope": "RAW calendar-eligible personal variable spending including linked extra costs; fixed/shared/investments/advances excluded."
   },
   "october_summary": {
-    "C37": 0,
+    "C37": 2776050,
     "C38": 500000,
     "C39": 0,
-    "C40": 9283,
-    "C41": 509283,
-    "H37": 470022,
-    "H38": 1692425,
-    "H40": 0,
+    "C40": 103933,
+    "C41": 3379983,
+    "H37": 1256537,
+    "H38": 2605157,
+    "H40": 290000,
     "H41": 0,
-    "H42": 50000,
-    "H43": 1000,
-    "H44": 2211447,
-    "H45": -1702164,
+    "H42": 270000,
+    "H43": 3000,
+    "H44": 4418694,
+    "H45": -1038711,
     "N69": 239000,
-    "fixed_independent": 470022,
-    "I44": 2241000,
-    "I38": 1718000,
+    "fixed_independent": 1256537,
+    "I44": 4469000,
+    "I38": 2649000,
     "I39": 140000,
     "H39": 138975,
-    "I45": -1731717
+    "I45": -1089017
   },
   "vba": {
     "all_module_sources_equal": true,
@@ -472,10 +476,10 @@
       "advanced": 0
     }
   },
-  "as_of": "2026-10-19",
-  "ui_updated_at": "2026-10-26",
-  "current_verification": "memo_only_20261026_validation.json",
-  "workbook_sha256": "0e5c1abf7e7078611f844ded44dabef7ef989ffaa2be669e27a85b894eac337a",
+  "as_of": "2026-10-31",
+  "ui_updated_at": "2026-11-01",
+  "current_verification": "raw_update_20261101_validation.json",
+  "workbook_sha256": "8679769ef4d8e9778c141d4a9d535f2afe8fc42cbadd7feed04af08175454841",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -2088,6 +2092,2919 @@
     "relationship_targets_valid": true,
     "visual_check": "Disposable static-value PDF previews of monthly and calculator memo layout inspected.",
     "guide": "2026-10-26_메모연동_분류분리_검증.md",
-    "migration": "memo_only_20261026_migration.json"
+    "migration": "memo_only_20261026_migration.json",
+    "scope": "10/26 memo separation verification history; current data/hash follow delta_20261101."
+  },
+  "delta_20261101": {
+    "date": "2026-11-01",
+    "as_of": "2026-10-31",
+    "latest_transaction": "2026-10-31T00:13:00.027000",
+    "source_sha256": "786588fa49218ce316416860f17b840e430ab9bec732df4e36c69671169a0a0f",
+    "baseline_sha256": "0e5c1abf7e7078611f844ded44dabef7ef989ffaa2be669e27a85b894eac337a",
+    "workbook_sha256": "8679769ef4d8e9778c141d4a9d535f2afe8fc42cbadd7feed04af08175454841",
+    "old_raw_records_preserved": 2492,
+    "old_october_records_preserved": 171,
+    "new_transactions": 96,
+    "october_records": 267,
+    "total_raw_records": 2588,
+    "new_personal_variable_count": 64,
+    "new_personal_variable_actual": 912732,
+    "new_personal_variable_tetris": 931000,
+    "calendar_actual": 2605157,
+    "calendar_tetris": 2649000,
+    "salary_actual": 2776050,
+    "fixed_actual": 1256537,
+    "fixed_actual_and_planned": 1256547,
+    "actual_usage": 3965294,
+    "final_usage": 3965294,
+    "wrap_total": 8434741,
+    "living_balance": 6284741,
+    "wrap_raw_records": 24,
+    "new_wrap_inflows": 2776050,
+    "new_wrap_outflows": 901000,
+    "reserve_alignment": {
+      "month": 10,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 239000,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "selected_month_view": {
+      "month": 10,
+      "all_ledger_rows": 25,
+      "displayed_page": 1,
+      "displayed_rows": [
+        257,
+        256,
+        255,
+        254,
+        253,
+        252,
+        251,
+        250,
+        249,
+        248,
+        247,
+        246,
+        245,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ]
+    },
+    "structure": {
+      "worksheet_count": 46,
+      "xml_part_count": 85,
+      "errors": []
+    },
+    "other_month_financial_values_preserved": true,
+    "memo_single_source_preserved": true,
+    "ledger_date_display_no_longer_reads_memo": true,
+    "formula_errors": 0,
+    "vba_styles_controls_relationships_preserved": true,
+    "calculator_conditional_rules_preserved": true,
+    "calculator_additional_region_cells": 49,
+    "native_excel_ui_executed": false,
+    "sharepoint_file_updated": false,
+    "metadata": {
+      "new": [
+        {
+          "source_row": 97,
+          "date": "2026-10-20 16:31:28",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2494
+        },
+        {
+          "source_row": 96,
+          "date": "2026-10-20 16:31:33",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식대",
+          "title": "아타시",
+          "amount": 12000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2495
+        },
+        {
+          "source_row": 95,
+          "date": "2026-10-20 16:32:13",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "매머드커피",
+          "amount": 5400,
+          "kind": "지출",
+          "memo": null,
+          "row": 2496
+        },
+        {
+          "source_row": 94,
+          "date": "2026-10-20 16:32:46",
+          "asset": "롯데365카드",
+          "category": "주거",
+          "sub": null,
+          "title": "서울도시가스",
+          "amount": 7680,
+          "kind": "지출",
+          "memo": null,
+          "row": 2497
+        },
+        {
+          "source_row": 92,
+          "date": "2026-10-21 16:33:21.636000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 6600,
+          "kind": "지출",
+          "memo": "커피",
+          "row": 2498
+        },
+        {
+          "source_row": 93,
+          "date": "2026-10-21 16:33:37.899000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2499
+        },
+        {
+          "source_row": 91,
+          "date": "2026-10-22 15:54:00.243000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 2100,
+          "kind": "지출",
+          "memo": "계란",
+          "row": 2500
+        },
+        {
+          "source_row": 90,
+          "date": "2026-10-22 17:17:00.042000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2501
+        },
+        {
+          "source_row": 89,
+          "date": "2026-10-22 17:17:00.358000",
+          "asset": "롯데365카드",
+          "category": "잡화/소품/가구/생필품",
+          "sub": null,
+          "title": "알리익스프레스",
+          "amount": 20954,
+          "kind": "지출",
+          "memo": "정전기템",
+          "row": 2502
+        },
+        {
+          "source_row": 88,
+          "date": "2026-10-22 17:17:00.552000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식대",
+          "title": "맥도날드",
+          "amount": 13000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2503
+        },
+        {
+          "source_row": 87,
+          "date": "2026-10-22 17:18:00.113000",
+          "asset": "KB쿠팡와우",
+          "category": "경조사/회비/선물/대인",
+          "sub": "마음",
+          "title": "쿠팡이츠",
+          "amount": 18200,
+          "kind": "지출",
+          "memo": "카페인중독",
+          "row": 2504
+        },
+        {
+          "source_row": 86,
+          "date": "2026-10-22 17:19:00.308000",
+          "asset": "우리카드의정석SUPER",
+          "category": "건강/보험/의료",
+          "sub": "병원/약국/검진",
+          "title": "연신내로데오약국",
+          "amount": 38000,
+          "kind": "지출",
+          "memo": "오큐시스 트레할로스,  모이스타 PDRN",
+          "row": 2505
+        },
+        {
+          "source_row": 85,
+          "date": "2026-10-23 17:21:00.366000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2506
+        },
+        {
+          "source_row": 84,
+          "date": "2026-10-23 17:21:00.831000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 2700,
+          "kind": "지출",
+          "memo": "커피",
+          "row": 2507
+        },
+        {
+          "source_row": 83,
+          "date": "2026-10-23 17:22:00.834000",
+          "asset": "우리카드의정석SUPER",
+          "category": "정기구독",
+          "sub": null,
+          "title": "구글플레이",
+          "amount": 5900,
+          "kind": "지출",
+          "memo": "Naru 나루 업무폰 알림 구독",
+          "row": 2508,
+          "fixed_slot_override": 26
+        },
+        {
+          "source_row": 82,
+          "date": "2026-10-23 17:23:00.773000",
+          "asset": "국민은행",
+          "category": "월급",
+          "sub": null,
+          "title": "월급",
+          "amount": 2776050,
+          "kind": "수입",
+          "memo": null,
+          "row": 2509
+        },
+        {
+          "source_row": 79,
+          "date": "2026-10-23 17:24:00.308000",
+          "asset": "우리카드의정석SUPER",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "정통마라탕마포마라회관",
+          "amount": 25700,
+          "kind": "지출",
+          "memo": "승훈 약속",
+          "row": 2510
+        },
+        {
+          "source_row": 81,
+          "date": "2026-10-23 17:24:00.334000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식대",
+          "title": "본가선유도감자탕",
+          "amount": 11000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2511
+        },
+        {
+          "source_row": 80,
+          "date": "2026-10-23 17:24:00.930000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "빽다방",
+          "amount": 8700,
+          "kind": "지출",
+          "memo": null,
+          "row": 2512
+        },
+        {
+          "source_row": 78,
+          "date": "2026-10-23 17:25:00.674000",
+          "asset": "미래에셋_WRAP형CMA",
+          "category": "20260606",
+          "sub": null,
+          "title": "공금 이체",
+          "amount": 200000,
+          "kind": "이체지출",
+          "memo": null,
+          "row": 2513
+        },
+        {
+          "source_row": 77,
+          "date": "2026-10-23 17:26:00.743000",
+          "asset": "모임통장",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "투썸플레이스",
+          "amount": 13600,
+          "kind": "지출",
+          "memo": null,
+          "row": 2514
+        },
+        {
+          "source_row": 76,
+          "date": "2026-10-23 17:27:00.360000",
+          "asset": "우리카드의정석SUPER",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "숙소비",
+          "amount": 169000,
+          "kind": "지출",
+          "memo": "화담숲 글램핑 숙소 예약",
+          "row": 2515
+        },
+        {
+          "source_row": 65,
+          "date": "2026-10-24 00:02:00.082000",
+          "asset": "모임통장",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "오리지널팬케이스하우스 도곡점",
+          "amount": 26000,
+          "kind": "지출",
+          "memo": "승훈 약속",
+          "row": 2516
+        },
+        {
+          "source_row": 66,
+          "date": "2026-10-24 00:02:00.929000",
+          "asset": "모임통장",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "원스타 올드패션드 햄버거",
+          "amount": 47800,
+          "kind": "지출",
+          "memo": "승훈 약속",
+          "row": 2517
+        },
+        {
+          "source_row": 74,
+          "date": "2026-10-24 17:28:00.382000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식사",
+          "title": "CU",
+          "amount": 6000,
+          "kind": "지출",
+          "memo": "점심",
+          "row": 2518
+        },
+        {
+          "source_row": 75,
+          "date": "2026-10-24 17:28:00.686000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2519
+        },
+        {
+          "source_row": 73,
+          "date": "2026-10-24 17:31:00.918000",
+          "asset": "여행통장",
+          "category": "금융",
+          "sub": null,
+          "title": "모임통장 이자",
+          "amount": 1243,
+          "kind": "수입",
+          "memo": null,
+          "row": 2520
+        },
+        {
+          "source_row": 72,
+          "date": "2026-10-24 17:32:00.496000",
+          "asset": "MG+S 하나카드",
+          "category": "정기구독",
+          "sub": null,
+          "title": "Apple Appstore",
+          "amount": 8635,
+          "kind": "지출",
+          "memo": null,
+          "row": 2521
+        },
+        {
+          "source_row": 71,
+          "date": "2026-10-24 17:34:00.094000",
+          "asset": "우리카드의정석SUPER",
+          "category": "잡화/소품/가구/생필품",
+          "sub": null,
+          "title": "다이소",
+          "amount": 23500,
+          "kind": "지출",
+          "memo": null,
+          "row": 2522
+        },
+        {
+          "source_row": 70,
+          "date": "2026-10-24 17:34:00.265000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2523
+        },
+        {
+          "source_row": 69,
+          "date": "2026-10-24 17:34:00.432000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 2900,
+          "kind": "지출",
+          "memo": "링티 1+1",
+          "row": 2524
+        },
+        {
+          "source_row": 68,
+          "date": "2026-10-24 17:35:00.250000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 4500,
+          "kind": "지출",
+          "memo": null,
+          "row": 2525
+        },
+        {
+          "source_row": 67,
+          "date": "2026-10-24 19:44:00.754000",
+          "asset": "롯데365카드",
+          "category": "경조사/회비/선물/대인",
+          "sub": "경조/회비/선물",
+          "title": "롯데카드 띵샵(1/36)",
+          "amount": 11004,
+          "kind": "지출",
+          "memo": "갤럭시버즈4프로",
+          "row": 2526,
+          "fixed_slot_override": 26
+        },
+        {
+          "source_row": 63,
+          "date": "2026-10-25 17:36:00.202000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식사",
+          "title": "CU",
+          "amount": 3300,
+          "kind": "지출",
+          "memo": "김밥",
+          "row": 2527
+        },
+        {
+          "source_row": 62,
+          "date": "2026-10-25 17:36:00.454000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 4500,
+          "kind": "지출",
+          "memo": null,
+          "row": 2528
+        },
+        {
+          "source_row": 64,
+          "date": "2026-10-25 17:36:00.700000",
+          "asset": "우리카드의정석SUPER",
+          "category": "잡화/소품/가구/생필품",
+          "sub": null,
+          "title": "다이소",
+          "amount": 56000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2529
+        },
+        {
+          "source_row": 61,
+          "date": "2026-10-25 17:38:00.379000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 2400,
+          "kind": "지출",
+          "memo": "제로 스프라이트",
+          "row": 2530
+        },
+        {
+          "source_row": 60,
+          "date": "2026-10-25 17:38:00.491000",
+          "asset": "모임통장",
+          "category": "공금",
+          "sub": null,
+          "title": "공금 입금",
+          "amount": 200000,
+          "kind": "수입",
+          "memo": null,
+          "row": 2531
+        },
+        {
+          "source_row": 59,
+          "date": "2026-10-25 17:42:00.864000",
+          "asset": "미래에셋_WRAP형CMA",
+          "category": "주택청약",
+          "sub": null,
+          "title": "이체",
+          "amount": 20000,
+          "kind": "이체지출",
+          "memo": null,
+          "row": 2532
+        },
+        {
+          "source_row": 58,
+          "date": "2026-10-25 17:43:00.575000",
+          "asset": "미래에셋_WRAP형CMA",
+          "category": "희망두배 청년통장",
+          "sub": null,
+          "title": "이체",
+          "amount": 150000,
+          "kind": "이체지출",
+          "memo": null,
+          "row": 2533
+        },
+        {
+          "source_row": 57,
+          "date": "2026-10-25 17:45:00.115000",
+          "asset": "미래에셋_WRAP형CMA",
+          "category": "미래에셋증권_종합_주식",
+          "sub": null,
+          "title": "이체",
+          "amount": 60000,
+          "kind": "이체지출",
+          "memo": null,
+          "row": 2534
+        },
+        {
+          "source_row": 56,
+          "date": "2026-10-25 17:56:00.283000",
+          "asset": "미래에셋_WRAP형CMA",
+          "category": "메리츠증권_슈퍼365",
+          "sub": null,
+          "title": "이체",
+          "amount": 60000,
+          "kind": "이체지출",
+          "memo": null,
+          "row": 2535
+        },
+        {
+          "source_row": 55,
+          "date": "2026-10-25 18:03:00.093000",
+          "asset": "메리츠증권_슈퍼365",
+          "category": "투자",
+          "sub": null,
+          "title": "주식 매수",
+          "amount": 55651,
+          "kind": "지출",
+          "memo": "일정부분 정산",
+          "row": 2536
+        },
+        {
+          "source_row": 54,
+          "date": "2026-10-25 18:05:00.137000",
+          "asset": "미래에셋증권_종합_주식",
+          "category": "투자",
+          "sub": null,
+          "title": "주식 매수",
+          "amount": 53758,
+          "kind": "지출",
+          "memo": "일정부분 정산",
+          "row": 2537
+        },
+        {
+          "source_row": 53,
+          "date": "2026-10-25 18:27:00.267000",
+          "asset": "국민은행",
+          "category": "미래에셋_WRAP형CMA",
+          "sub": null,
+          "title": "이체",
+          "amount": 2776050,
+          "kind": "이체지출",
+          "memo": null,
+          "row": 2538
+        },
+        {
+          "source_row": 52,
+          "date": "2026-10-25 18:55:49.022000",
+          "asset": "미래에셋_WRAP형CMA",
+          "category": "주거",
+          "sub": null,
+          "title": "월세",
+          "amount": 391000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2539
+        },
+        {
+          "source_row": 51,
+          "date": "2026-10-25 18:56:27.505000",
+          "asset": "현대네이버카드",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "우지커피",
+          "amount": 4500,
+          "kind": "지출",
+          "memo": null,
+          "row": 2540
+        },
+        {
+          "source_row": 50,
+          "date": "2026-10-25 19:54:03.051000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 4500,
+          "kind": "지출",
+          "memo": null,
+          "row": 2541
+        },
+        {
+          "source_row": 49,
+          "date": "2026-10-26 22:52:00.001000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2542
+        },
+        {
+          "source_row": 48,
+          "date": "2026-10-26 22:53:00.890000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 5700,
+          "kind": "지출",
+          "memo": "계란, 커피",
+          "row": 2543
+        },
+        {
+          "source_row": 46,
+          "date": "2026-10-26 22:54:00.679000",
+          "asset": "토스뱅크",
+          "category": "금융",
+          "sub": null,
+          "title": "토스뱅크카드 추가환급",
+          "amount": 2000,
+          "kind": "수입",
+          "memo": "9월 토스뱅크 추가 환급금",
+          "row": 2544
+        },
+        {
+          "source_row": 47,
+          "date": "2026-10-26 22:54:00.971000",
+          "asset": "MG+S 하나카드",
+          "category": "정기구독",
+          "sub": null,
+          "title": "카카오 정기결제",
+          "amount": 4890,
+          "kind": "지출",
+          "memo": null,
+          "row": 2545
+        },
+        {
+          "source_row": 45,
+          "date": "2026-10-26 22:57:00.241000",
+          "asset": "토스뱅크",
+          "category": "금융",
+          "sub": null,
+          "title": "K패스 모두의카드  환급금",
+          "amount": 94650,
+          "kind": "수입",
+          "memo": "9월 모두의카드",
+          "row": 2546
+        },
+        {
+          "source_row": 44,
+          "date": "2026-10-26 23:03:00.197000",
+          "asset": "MG+S 하나카드",
+          "category": "정기구독",
+          "sub": null,
+          "title": "ChatGPT 구독",
+          "amount": 29000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2547
+        },
+        {
+          "source_row": 43,
+          "date": "2026-10-26 23:03:00.598000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식대",
+          "title": "밥플러스",
+          "amount": 9000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2548
+        },
+        {
+          "source_row": 42,
+          "date": "2026-10-26 23:04:00.987000",
+          "asset": "우리카드의정석SUPER",
+          "category": "건강/보험/의료",
+          "sub": null,
+          "title": "유림약국",
+          "amount": 13500,
+          "kind": "지출",
+          "memo": null,
+          "row": 2549
+        },
+        {
+          "source_row": 41,
+          "date": "2026-10-26 23:13:00.625000",
+          "asset": "우리카드의정석SUPER",
+          "category": "여행/약속/공사",
+          "sub": "약속",
+          "title": "CU",
+          "amount": 23000,
+          "kind": "지출",
+          "memo": "집들이 장보기",
+          "row": 2550
+        },
+        {
+          "source_row": 40,
+          "date": "2026-10-26 23:16:00.795000",
+          "asset": "KB쿠팡와우",
+          "category": "식비",
+          "sub": "식재료",
+          "title": "쿠팡",
+          "amount": 8590,
+          "kind": "지출",
+          "memo": "물",
+          "row": 2551
+        },
+        {
+          "source_row": 38,
+          "date": "2026-10-27 23:17:00.054000",
+          "asset": "우리카드의정석SUPER",
+          "category": "건강/보험/의료",
+          "sub": "병원/약국/검진",
+          "title": "서울앤연세이비인후과",
+          "amount": 4600,
+          "kind": "지출",
+          "memo": null,
+          "row": 2552
+        },
+        {
+          "source_row": 39,
+          "date": "2026-10-27 23:17:00.236000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 2500,
+          "kind": "지출",
+          "memo": "계란",
+          "row": 2553
+        },
+        {
+          "source_row": 37,
+          "date": "2026-10-27 23:18:00.506000",
+          "asset": "우리카드의정석SUPER",
+          "category": "건강/보험/의료",
+          "sub": "병원/약국/검진",
+          "title": "쉐르빌약국",
+          "amount": 8100,
+          "kind": "지출",
+          "memo": null,
+          "row": 2554
+        },
+        {
+          "source_row": 36,
+          "date": "2026-10-27 23:18:00.897000",
+          "asset": "우리카드의정석SUPER",
+          "category": "경조사/회비/선물/대인",
+          "sub": "마음",
+          "title": "카카오 선물하기",
+          "amount": 26000,
+          "kind": "지출",
+          "memo": "치킨 기프티콘",
+          "row": 2555
+        },
+        {
+          "source_row": 35,
+          "date": "2026-10-27 23:19:00.628000",
+          "asset": "롯데365카드",
+          "category": "주거",
+          "sub": null,
+          "title": "관리비",
+          "amount": 177460,
+          "kind": "지출",
+          "memo": null,
+          "row": 2556
+        },
+        {
+          "source_row": 32,
+          "date": "2026-10-27 23:20:00.610000",
+          "asset": "KB쿠팡와우",
+          "category": "가전/전자/잡화",
+          "sub": null,
+          "title": "쿠팡",
+          "amount": 5660,
+          "kind": "지출",
+          "memo": "온습도계",
+          "row": 2557
+        },
+        {
+          "source_row": 33,
+          "date": "2026-10-27 23:20:00.732000",
+          "asset": "KB쿠팡와우",
+          "category": "가전/전자/잡화",
+          "sub": null,
+          "title": "쿠팡",
+          "amount": 39900,
+          "kind": "지출",
+          "memo": "푸드 워머기",
+          "row": 2558
+        },
+        {
+          "source_row": 31,
+          "date": "2026-10-27 23:20:00.739000",
+          "asset": "KB쿠팡와우",
+          "category": "경조사/회비/선물/대인",
+          "sub": "경조/회비/선물",
+          "title": "쿠팡",
+          "amount": 17320,
+          "kind": "지출",
+          "memo": "갤럭시버즈4프로 케이스",
+          "row": 2559
+        },
+        {
+          "source_row": 34,
+          "date": "2026-10-27 23:20:00.781000",
+          "asset": "롯데365카드",
+          "category": "건강/보험/의료",
+          "sub": "보험",
+          "title": "롯데손해보험",
+          "amount": 143056,
+          "kind": "지출",
+          "memo": null,
+          "row": 2560
+        },
+        {
+          "source_row": 30,
+          "date": "2026-10-27 23:22:00.034000",
+          "asset": "우리카드의정석SUPER",
+          "category": "건강/보험/의료",
+          "sub": "병원/약국/검진",
+          "title": "연신내로데오약국",
+          "amount": 8000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2561
+        },
+        {
+          "source_row": 29,
+          "date": "2026-10-27 23:23:00.543000",
+          "asset": "우리카드의정석SUPER",
+          "category": "여행/약속/공사",
+          "sub": "약속",
+          "title": "CU",
+          "amount": 7800,
+          "kind": "지출",
+          "memo": "집들이 준비",
+          "row": 2562
+        },
+        {
+          "source_row": 28,
+          "date": "2026-10-28 23:24:00.098000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 2600,
+          "kind": "지출",
+          "memo": "계란",
+          "row": 2563
+        },
+        {
+          "source_row": 26,
+          "date": "2026-10-28 23:24:00.429000",
+          "asset": "우리카드의정석SUPER",
+          "category": "가전/전자/잡화",
+          "sub": null,
+          "title": "네이버플러스 스토어",
+          "amount": 44100,
+          "kind": "지출",
+          "memo": "가열식가습기 사무실",
+          "row": 2564
+        },
+        {
+          "source_row": 27,
+          "date": "2026-10-28 23:24:00.647000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "빽다방",
+          "amount": 1900,
+          "kind": "지출",
+          "memo": null,
+          "row": 2565
+        },
+        {
+          "source_row": 25,
+          "date": "2026-10-28 23:25:00.003000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식대",
+          "title": "세이돈부리",
+          "amount": 12000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2566
+        },
+        {
+          "source_row": 24,
+          "date": "2026-10-28 23:26:00.948000",
+          "asset": "여행통장",
+          "category": "금융",
+          "sub": null,
+          "title": "공금 입금",
+          "amount": 20000,
+          "kind": "수입",
+          "memo": null,
+          "row": 2567
+        },
+        {
+          "source_row": 22,
+          "date": "2026-10-28 23:31:00.003000",
+          "asset": "우리카드의정석SUPER",
+          "category": "여행/약속/공사",
+          "sub": "약속",
+          "title": "CU",
+          "amount": 14100,
+          "kind": "지출",
+          "memo": "집들이 준비",
+          "row": 2568
+        },
+        {
+          "source_row": 23,
+          "date": "2026-10-28 23:31:00.286000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2569
+        },
+        {
+          "source_row": 21,
+          "date": "2026-10-29 23:32:00.931000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 2600,
+          "kind": "지출",
+          "memo": "계란",
+          "row": 2570
+        },
+        {
+          "source_row": 20,
+          "date": "2026-10-29 23:36:00.240000",
+          "asset": "MG+S 하나카드",
+          "category": "정기구독",
+          "sub": null,
+          "title": "로켓와우",
+          "amount": 7890,
+          "kind": "지출",
+          "memo": null,
+          "row": 2571
+        },
+        {
+          "source_row": 19,
+          "date": "2026-10-29 23:37:00.661000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식대",
+          "title": "빽다방",
+          "amount": 8700,
+          "kind": "지출",
+          "memo": null,
+          "row": 2572
+        },
+        {
+          "source_row": 18,
+          "date": "2026-10-29 23:38:00.740000",
+          "asset": "KB쿠팡와우",
+          "category": "여행/약속/공사",
+          "sub": "약속",
+          "title": "쿠팡이츠",
+          "amount": 70202,
+          "kind": "지출",
+          "memo": "집들이 약속",
+          "row": 2573
+        },
+        {
+          "source_row": 17,
+          "date": "2026-10-29 23:39:00.202000",
+          "asset": "우리카드의정석SUPER",
+          "category": "잡화/소품/가구/생필품",
+          "sub": null,
+          "title": "GS25",
+          "amount": 2750,
+          "kind": "지출",
+          "memo": "일회용 수저",
+          "row": 2574
+        },
+        {
+          "source_row": 16,
+          "date": "2026-10-29 23:41:00.273000",
+          "asset": "우리카드의정석SUPER",
+          "category": "여행/약속/공사",
+          "sub": "약속",
+          "title": "CU",
+          "amount": 13500,
+          "kind": "지출",
+          "memo": "집들이 준비(복분자, 소주)",
+          "row": 2575
+        },
+        {
+          "source_row": 14,
+          "date": "2026-10-30 23:49:00.221000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "식대",
+          "title": "부대옥",
+          "amount": 11000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2576
+        },
+        {
+          "source_row": 15,
+          "date": "2026-10-30 23:49:00.793000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2577
+        },
+        {
+          "source_row": 13,
+          "date": "2026-10-30 23:57:00.448000",
+          "asset": "모임통장",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "파파존스",
+          "amount": 29180,
+          "kind": "지출",
+          "memo": null,
+          "row": 2578
+        },
+        {
+          "source_row": 11,
+          "date": "2026-10-30 23:58:00.011000",
+          "asset": "모임통장",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "메트로보석사우나",
+          "amount": 20000,
+          "kind": "지출",
+          "memo": "승훈 약속",
+          "row": 2579
+        },
+        {
+          "source_row": 12,
+          "date": "2026-10-30 23:58:00.865000",
+          "asset": "모임통장",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "CU",
+          "amount": 6300,
+          "kind": "지출",
+          "memo": "영화 간식",
+          "row": 2580
+        },
+        {
+          "source_row": 10,
+          "date": "2026-10-31 00:04:00.479000",
+          "asset": "모임통장",
+          "category": "여행/약속/공사",
+          "sub": "만남",
+          "title": "육회바른연어",
+          "amount": 25800,
+          "kind": "지출",
+          "memo": "승훈 약속",
+          "row": 2581
+        },
+        {
+          "source_row": 9,
+          "date": "2026-10-31 00:05:00.378000",
+          "asset": "현대네이버카드",
+          "category": "문화/생활",
+          "sub": null,
+          "title": "커버링",
+          "amount": 5966,
+          "kind": "지출",
+          "memo": null,
+          "row": 2582
+        },
+        {
+          "source_row": 8,
+          "date": "2026-10-31 00:08:00.227000",
+          "asset": "우리카드의정석SUPER",
+          "category": "건강/보험/의료",
+          "sub": "병원/약국/검진",
+          "title": "연신내로데오약국",
+          "amount": 8000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2583
+        },
+        {
+          "source_row": 7,
+          "date": "2026-10-31 00:08:00.610000",
+          "asset": "우리카드의정석SUPER",
+          "category": "식비",
+          "sub": "음료/디저트/간식",
+          "title": "CU",
+          "amount": 3200,
+          "kind": "지출",
+          "memo": "커피",
+          "row": 2584
+        },
+        {
+          "source_row": 6,
+          "date": "2026-10-31 00:09:00.419000",
+          "asset": "우리카드의정석SUPER",
+          "category": "기타",
+          "sub": null,
+          "title": "기타",
+          "amount": 5000,
+          "kind": "지출",
+          "memo": null,
+          "row": 2585
+        },
+        {
+          "source_row": 5,
+          "date": "2026-10-31 00:10:00.913000",
+          "asset": "우리카드의정석SUPER",
+          "category": "문화/생활",
+          "sub": null,
+          "title": "코인세탁",
+          "amount": 18500,
+          "kind": "지출",
+          "memo": null,
+          "row": 2586
+        },
+        {
+          "source_row": 3,
+          "date": "2026-10-31 00:12:00.249000",
+          "asset": "KB쿠팡와우",
+          "category": "잡화/소품/가구/생필품",
+          "sub": null,
+          "title": "쿠팡",
+          "amount": 6990,
+          "kind": "지출",
+          "memo": "마스크",
+          "row": 2587
+        },
+        {
+          "source_row": 4,
+          "date": "2026-10-31 00:12:00.417000",
+          "asset": "KB쿠팡와우",
+          "category": "식비",
+          "sub": "배달",
+          "title": "쿠팡이츠",
+          "amount": 11500,
+          "kind": "지출",
+          "memo": "국밥",
+          "row": 2588
+        },
+        {
+          "source_row": 2,
+          "date": "2026-10-31 00:13:00.027000",
+          "asset": "미래에셋_WRAP형CMA",
+          "category": "여행통장",
+          "sub": null,
+          "title": "공금 이체",
+          "amount": 20000,
+          "kind": "이체지출",
+          "memo": null,
+          "row": 2589
+        }
+      ],
+      "source_mapping": [
+        {
+          "source_row": 2,
+          "row": 2589,
+          "status": "added"
+        },
+        {
+          "source_row": 3,
+          "row": 2587,
+          "status": "added"
+        },
+        {
+          "source_row": 4,
+          "row": 2588,
+          "status": "added"
+        },
+        {
+          "source_row": 5,
+          "row": 2586,
+          "status": "added"
+        },
+        {
+          "source_row": 6,
+          "row": 2585,
+          "status": "added"
+        },
+        {
+          "source_row": 7,
+          "row": 2584,
+          "status": "added"
+        },
+        {
+          "source_row": 8,
+          "row": 2583,
+          "status": "added"
+        },
+        {
+          "source_row": 9,
+          "row": 2582,
+          "status": "added"
+        },
+        {
+          "source_row": 10,
+          "row": 2581,
+          "status": "added"
+        },
+        {
+          "source_row": 11,
+          "row": 2579,
+          "status": "added"
+        },
+        {
+          "source_row": 12,
+          "row": 2580,
+          "status": "added"
+        },
+        {
+          "source_row": 13,
+          "row": 2578,
+          "status": "added"
+        },
+        {
+          "source_row": 14,
+          "row": 2576,
+          "status": "added"
+        },
+        {
+          "source_row": 15,
+          "row": 2577,
+          "status": "added"
+        },
+        {
+          "source_row": 16,
+          "row": 2575,
+          "status": "added"
+        },
+        {
+          "source_row": 17,
+          "row": 2574,
+          "status": "added"
+        },
+        {
+          "source_row": 18,
+          "row": 2573,
+          "status": "added"
+        },
+        {
+          "source_row": 19,
+          "row": 2572,
+          "status": "added"
+        },
+        {
+          "source_row": 20,
+          "row": 2571,
+          "status": "added"
+        },
+        {
+          "source_row": 21,
+          "row": 2570,
+          "status": "added"
+        },
+        {
+          "source_row": 22,
+          "row": 2568,
+          "status": "added"
+        },
+        {
+          "source_row": 23,
+          "row": 2569,
+          "status": "added"
+        },
+        {
+          "source_row": 24,
+          "row": 2567,
+          "status": "added"
+        },
+        {
+          "source_row": 25,
+          "row": 2566,
+          "status": "added"
+        },
+        {
+          "source_row": 26,
+          "row": 2564,
+          "status": "added"
+        },
+        {
+          "source_row": 27,
+          "row": 2565,
+          "status": "added"
+        },
+        {
+          "source_row": 28,
+          "row": 2563,
+          "status": "added"
+        },
+        {
+          "source_row": 29,
+          "row": 2562,
+          "status": "added"
+        },
+        {
+          "source_row": 30,
+          "row": 2561,
+          "status": "added"
+        },
+        {
+          "source_row": 31,
+          "row": 2559,
+          "status": "added"
+        },
+        {
+          "source_row": 32,
+          "row": 2557,
+          "status": "added"
+        },
+        {
+          "source_row": 33,
+          "row": 2558,
+          "status": "added"
+        },
+        {
+          "source_row": 34,
+          "row": 2560,
+          "status": "added"
+        },
+        {
+          "source_row": 35,
+          "row": 2556,
+          "status": "added"
+        },
+        {
+          "source_row": 36,
+          "row": 2555,
+          "status": "added"
+        },
+        {
+          "source_row": 37,
+          "row": 2554,
+          "status": "added"
+        },
+        {
+          "source_row": 38,
+          "row": 2552,
+          "status": "added"
+        },
+        {
+          "source_row": 39,
+          "row": 2553,
+          "status": "added"
+        },
+        {
+          "source_row": 40,
+          "row": 2551,
+          "status": "added"
+        },
+        {
+          "source_row": 41,
+          "row": 2550,
+          "status": "added"
+        },
+        {
+          "source_row": 42,
+          "row": 2549,
+          "status": "added"
+        },
+        {
+          "source_row": 43,
+          "row": 2548,
+          "status": "added"
+        },
+        {
+          "source_row": 44,
+          "row": 2547,
+          "status": "added"
+        },
+        {
+          "source_row": 45,
+          "row": 2546,
+          "status": "added"
+        },
+        {
+          "source_row": 46,
+          "row": 2544,
+          "status": "added"
+        },
+        {
+          "source_row": 47,
+          "row": 2545,
+          "status": "added"
+        },
+        {
+          "source_row": 48,
+          "row": 2543,
+          "status": "added"
+        },
+        {
+          "source_row": 49,
+          "row": 2542,
+          "status": "added"
+        },
+        {
+          "source_row": 50,
+          "row": 2541,
+          "status": "added"
+        },
+        {
+          "source_row": 51,
+          "row": 2540,
+          "status": "added"
+        },
+        {
+          "source_row": 52,
+          "row": 2539,
+          "status": "added"
+        },
+        {
+          "source_row": 53,
+          "row": 2538,
+          "status": "added"
+        },
+        {
+          "source_row": 54,
+          "row": 2537,
+          "status": "added"
+        },
+        {
+          "source_row": 55,
+          "row": 2536,
+          "status": "added"
+        },
+        {
+          "source_row": 56,
+          "row": 2535,
+          "status": "added"
+        },
+        {
+          "source_row": 57,
+          "row": 2534,
+          "status": "added"
+        },
+        {
+          "source_row": 58,
+          "row": 2533,
+          "status": "added"
+        },
+        {
+          "source_row": 59,
+          "row": 2532,
+          "status": "added"
+        },
+        {
+          "source_row": 60,
+          "row": 2531,
+          "status": "added"
+        },
+        {
+          "source_row": 61,
+          "row": 2530,
+          "status": "added"
+        },
+        {
+          "source_row": 62,
+          "row": 2528,
+          "status": "added"
+        },
+        {
+          "source_row": 63,
+          "row": 2527,
+          "status": "added"
+        },
+        {
+          "source_row": 64,
+          "row": 2529,
+          "status": "added"
+        },
+        {
+          "source_row": 65,
+          "row": 2516,
+          "status": "added"
+        },
+        {
+          "source_row": 66,
+          "row": 2517,
+          "status": "added"
+        },
+        {
+          "source_row": 67,
+          "row": 2526,
+          "status": "added"
+        },
+        {
+          "source_row": 68,
+          "row": 2525,
+          "status": "added"
+        },
+        {
+          "source_row": 69,
+          "row": 2524,
+          "status": "added"
+        },
+        {
+          "source_row": 70,
+          "row": 2523,
+          "status": "added"
+        },
+        {
+          "source_row": 71,
+          "row": 2522,
+          "status": "added"
+        },
+        {
+          "source_row": 72,
+          "row": 2521,
+          "status": "added"
+        },
+        {
+          "source_row": 73,
+          "row": 2520,
+          "status": "added"
+        },
+        {
+          "source_row": 74,
+          "row": 2518,
+          "status": "added"
+        },
+        {
+          "source_row": 75,
+          "row": 2519,
+          "status": "added"
+        },
+        {
+          "source_row": 76,
+          "row": 2515,
+          "status": "added"
+        },
+        {
+          "source_row": 77,
+          "row": 2514,
+          "status": "added"
+        },
+        {
+          "source_row": 78,
+          "row": 2513,
+          "status": "added"
+        },
+        {
+          "source_row": 79,
+          "row": 2510,
+          "status": "added"
+        },
+        {
+          "source_row": 80,
+          "row": 2512,
+          "status": "added"
+        },
+        {
+          "source_row": 81,
+          "row": 2511,
+          "status": "added"
+        },
+        {
+          "source_row": 82,
+          "row": 2509,
+          "status": "added"
+        },
+        {
+          "source_row": 83,
+          "row": 2508,
+          "status": "added"
+        },
+        {
+          "source_row": 84,
+          "row": 2507,
+          "status": "added"
+        },
+        {
+          "source_row": 85,
+          "row": 2506,
+          "status": "added"
+        },
+        {
+          "source_row": 86,
+          "row": 2505,
+          "status": "added"
+        },
+        {
+          "source_row": 87,
+          "row": 2504,
+          "status": "added"
+        },
+        {
+          "source_row": 88,
+          "row": 2503,
+          "status": "added"
+        },
+        {
+          "source_row": 89,
+          "row": 2502,
+          "status": "added"
+        },
+        {
+          "source_row": 90,
+          "row": 2501,
+          "status": "added"
+        },
+        {
+          "source_row": 91,
+          "row": 2500,
+          "status": "added"
+        },
+        {
+          "source_row": 92,
+          "row": 2498,
+          "status": "added"
+        },
+        {
+          "source_row": 93,
+          "row": 2499,
+          "status": "added"
+        },
+        {
+          "source_row": 94,
+          "row": 2497,
+          "status": "added"
+        },
+        {
+          "source_row": 95,
+          "row": 2496,
+          "status": "added"
+        },
+        {
+          "source_row": 96,
+          "row": 2495,
+          "status": "added"
+        },
+        {
+          "source_row": 97,
+          "row": 2494,
+          "status": "added"
+        },
+        {
+          "source_row": 98,
+          "row": 2493,
+          "status": "preserved"
+        },
+        {
+          "source_row": 99,
+          "row": 2492,
+          "status": "preserved"
+        },
+        {
+          "source_row": 100,
+          "row": 2491,
+          "status": "preserved"
+        },
+        {
+          "source_row": 101,
+          "row": 2490,
+          "status": "preserved"
+        },
+        {
+          "source_row": 102,
+          "row": 2489,
+          "status": "preserved"
+        },
+        {
+          "source_row": 103,
+          "row": 2488,
+          "status": "preserved"
+        },
+        {
+          "source_row": 104,
+          "row": 2487,
+          "status": "preserved"
+        },
+        {
+          "source_row": 105,
+          "row": 2486,
+          "status": "preserved"
+        },
+        {
+          "source_row": 106,
+          "row": 2485,
+          "status": "preserved"
+        },
+        {
+          "source_row": 107,
+          "row": 2484,
+          "status": "preserved"
+        },
+        {
+          "source_row": 108,
+          "row": 2483,
+          "status": "preserved"
+        },
+        {
+          "source_row": 109,
+          "row": 2482,
+          "status": "preserved"
+        },
+        {
+          "source_row": 110,
+          "row": 2481,
+          "status": "preserved"
+        },
+        {
+          "source_row": 111,
+          "row": 2480,
+          "status": "preserved"
+        },
+        {
+          "source_row": 112,
+          "row": 2479,
+          "status": "preserved"
+        },
+        {
+          "source_row": 113,
+          "row": 2478,
+          "status": "preserved"
+        },
+        {
+          "source_row": 114,
+          "row": 2477,
+          "status": "preserved"
+        },
+        {
+          "source_row": 115,
+          "row": 2476,
+          "status": "preserved"
+        },
+        {
+          "source_row": 116,
+          "row": 2474,
+          "status": "preserved"
+        },
+        {
+          "source_row": 117,
+          "row": 2475,
+          "status": "preserved"
+        },
+        {
+          "source_row": 118,
+          "row": 2473,
+          "status": "preserved"
+        },
+        {
+          "source_row": 119,
+          "row": 2471,
+          "status": "preserved"
+        },
+        {
+          "source_row": 120,
+          "row": 2472,
+          "status": "preserved"
+        },
+        {
+          "source_row": 121,
+          "row": 2470,
+          "status": "preserved"
+        },
+        {
+          "source_row": 122,
+          "row": 2469,
+          "status": "preserved"
+        },
+        {
+          "source_row": 123,
+          "row": 2467,
+          "status": "preserved"
+        },
+        {
+          "source_row": 124,
+          "row": 2468,
+          "status": "preserved"
+        },
+        {
+          "source_row": 125,
+          "row": 2466,
+          "status": "preserved"
+        },
+        {
+          "source_row": 126,
+          "row": 2465,
+          "status": "preserved"
+        },
+        {
+          "source_row": 127,
+          "row": 2464,
+          "status": "preserved"
+        },
+        {
+          "source_row": 128,
+          "row": 2463,
+          "status": "preserved"
+        },
+        {
+          "source_row": 129,
+          "row": 2462,
+          "status": "preserved"
+        },
+        {
+          "source_row": 130,
+          "row": 2461,
+          "status": "preserved"
+        },
+        {
+          "source_row": 131,
+          "row": 2460,
+          "status": "preserved"
+        },
+        {
+          "source_row": 132,
+          "row": 2459,
+          "status": "preserved"
+        },
+        {
+          "source_row": 133,
+          "row": 2458,
+          "status": "preserved"
+        },
+        {
+          "source_row": 134,
+          "row": 2457,
+          "status": "preserved"
+        },
+        {
+          "source_row": 135,
+          "row": 2456,
+          "status": "preserved"
+        },
+        {
+          "source_row": 136,
+          "row": 2455,
+          "status": "preserved"
+        },
+        {
+          "source_row": 137,
+          "row": 2454,
+          "status": "preserved"
+        },
+        {
+          "source_row": 138,
+          "row": 2453,
+          "status": "preserved"
+        },
+        {
+          "source_row": 139,
+          "row": 2452,
+          "status": "preserved"
+        },
+        {
+          "source_row": 140,
+          "row": 2451,
+          "status": "preserved"
+        },
+        {
+          "source_row": 141,
+          "row": 2450,
+          "status": "preserved"
+        },
+        {
+          "source_row": 142,
+          "row": 2449,
+          "status": "preserved"
+        },
+        {
+          "source_row": 143,
+          "row": 2448,
+          "status": "preserved"
+        },
+        {
+          "source_row": 144,
+          "row": 2447,
+          "status": "preserved"
+        },
+        {
+          "source_row": 145,
+          "row": 2446,
+          "status": "preserved"
+        },
+        {
+          "source_row": 146,
+          "row": 2445,
+          "status": "preserved"
+        },
+        {
+          "source_row": 147,
+          "row": 2444,
+          "status": "preserved"
+        },
+        {
+          "source_row": 148,
+          "row": 2442,
+          "status": "preserved"
+        },
+        {
+          "source_row": 149,
+          "row": 2441,
+          "status": "preserved"
+        },
+        {
+          "source_row": 150,
+          "row": 2430,
+          "status": "preserved"
+        },
+        {
+          "source_row": 151,
+          "row": 2440,
+          "status": "preserved"
+        },
+        {
+          "source_row": 152,
+          "row": 2439,
+          "status": "preserved"
+        },
+        {
+          "source_row": 153,
+          "row": 2438,
+          "status": "preserved"
+        },
+        {
+          "source_row": 154,
+          "row": 2437,
+          "status": "preserved"
+        },
+        {
+          "source_row": 155,
+          "row": 2436,
+          "status": "preserved"
+        },
+        {
+          "source_row": 156,
+          "row": 2435,
+          "status": "preserved"
+        },
+        {
+          "source_row": 157,
+          "row": 2434,
+          "status": "preserved"
+        },
+        {
+          "source_row": 158,
+          "row": 2433,
+          "status": "preserved"
+        },
+        {
+          "source_row": 159,
+          "row": 2432,
+          "status": "preserved"
+        },
+        {
+          "source_row": 160,
+          "row": 2431,
+          "status": "preserved"
+        },
+        {
+          "source_row": 161,
+          "row": 2429,
+          "status": "preserved"
+        },
+        {
+          "source_row": 162,
+          "row": 2427,
+          "status": "preserved"
+        },
+        {
+          "source_row": 163,
+          "row": 2428,
+          "status": "preserved"
+        },
+        {
+          "source_row": 164,
+          "row": 2426,
+          "status": "preserved"
+        },
+        {
+          "source_row": 165,
+          "row": 2443,
+          "status": "preserved"
+        },
+        {
+          "source_row": 166,
+          "row": 2422,
+          "status": "preserved"
+        },
+        {
+          "source_row": 167,
+          "row": 2425,
+          "status": "preserved"
+        },
+        {
+          "source_row": 168,
+          "row": 2424,
+          "status": "preserved"
+        },
+        {
+          "source_row": 169,
+          "row": 2423,
+          "status": "preserved"
+        },
+        {
+          "source_row": 170,
+          "row": 2420,
+          "status": "preserved"
+        },
+        {
+          "source_row": 171,
+          "row": 2421,
+          "status": "preserved"
+        },
+        {
+          "source_row": 172,
+          "row": 2419,
+          "status": "preserved"
+        },
+        {
+          "source_row": 173,
+          "row": 2418,
+          "status": "preserved"
+        },
+        {
+          "source_row": 174,
+          "row": 2415,
+          "status": "preserved"
+        },
+        {
+          "source_row": 175,
+          "row": 2417,
+          "status": "preserved"
+        },
+        {
+          "source_row": 176,
+          "row": 2416,
+          "status": "preserved"
+        },
+        {
+          "source_row": 177,
+          "row": 2414,
+          "status": "preserved"
+        },
+        {
+          "source_row": 178,
+          "row": 2413,
+          "status": "preserved"
+        },
+        {
+          "source_row": 179,
+          "row": 2406,
+          "status": "preserved"
+        },
+        {
+          "source_row": 180,
+          "row": 2412,
+          "status": "preserved"
+        },
+        {
+          "source_row": 181,
+          "row": 2411,
+          "status": "preserved"
+        },
+        {
+          "source_row": 182,
+          "row": 2410,
+          "status": "preserved"
+        },
+        {
+          "source_row": 183,
+          "row": 2404,
+          "status": "preserved"
+        },
+        {
+          "source_row": 184,
+          "row": 2405,
+          "status": "preserved"
+        },
+        {
+          "source_row": 185,
+          "row": 2409,
+          "status": "preserved"
+        },
+        {
+          "source_row": 186,
+          "row": 2408,
+          "status": "preserved"
+        },
+        {
+          "source_row": 187,
+          "row": 2407,
+          "status": "preserved"
+        },
+        {
+          "source_row": 188,
+          "row": 2403,
+          "status": "preserved"
+        },
+        {
+          "source_row": 189,
+          "row": 2401,
+          "status": "preserved"
+        },
+        {
+          "source_row": 190,
+          "row": 2402,
+          "status": "preserved"
+        },
+        {
+          "source_row": 191,
+          "row": 2397,
+          "status": "preserved"
+        },
+        {
+          "source_row": 192,
+          "row": 2398,
+          "status": "preserved"
+        },
+        {
+          "source_row": 193,
+          "row": 2394,
+          "status": "preserved"
+        },
+        {
+          "source_row": 194,
+          "row": 2399,
+          "status": "preserved"
+        },
+        {
+          "source_row": 195,
+          "row": 2400,
+          "status": "preserved"
+        },
+        {
+          "source_row": 196,
+          "row": 2396,
+          "status": "preserved"
+        },
+        {
+          "source_row": 197,
+          "row": 2395,
+          "status": "preserved"
+        },
+        {
+          "source_row": 198,
+          "row": 2392,
+          "status": "preserved"
+        },
+        {
+          "source_row": 199,
+          "row": 2393,
+          "status": "preserved"
+        },
+        {
+          "source_row": 200,
+          "row": 2391,
+          "status": "preserved"
+        },
+        {
+          "source_row": 201,
+          "row": 2390,
+          "status": "preserved"
+        },
+        {
+          "source_row": 202,
+          "row": 2389,
+          "status": "preserved"
+        },
+        {
+          "source_row": 203,
+          "row": 2388,
+          "status": "preserved"
+        },
+        {
+          "source_row": 204,
+          "row": 2387,
+          "status": "preserved"
+        },
+        {
+          "source_row": 205,
+          "row": 2386,
+          "status": "preserved"
+        },
+        {
+          "source_row": 206,
+          "row": 2385,
+          "status": "preserved"
+        },
+        {
+          "source_row": 207,
+          "row": 2384,
+          "status": "preserved"
+        },
+        {
+          "source_row": 208,
+          "row": 2382,
+          "status": "preserved"
+        },
+        {
+          "source_row": 209,
+          "row": 2383,
+          "status": "preserved"
+        },
+        {
+          "source_row": 210,
+          "row": 2381,
+          "status": "preserved"
+        },
+        {
+          "source_row": 211,
+          "row": 2379,
+          "status": "preserved"
+        },
+        {
+          "source_row": 212,
+          "row": 2380,
+          "status": "preserved"
+        },
+        {
+          "source_row": 213,
+          "row": 2378,
+          "status": "preserved"
+        },
+        {
+          "source_row": 214,
+          "row": 2377,
+          "status": "preserved"
+        },
+        {
+          "source_row": 215,
+          "row": 2375,
+          "status": "preserved"
+        },
+        {
+          "source_row": 216,
+          "row": 2376,
+          "status": "preserved"
+        },
+        {
+          "source_row": 217,
+          "row": 2374,
+          "status": "preserved"
+        },
+        {
+          "source_row": 218,
+          "row": 2373,
+          "status": "preserved"
+        },
+        {
+          "source_row": 219,
+          "row": 2372,
+          "status": "preserved"
+        },
+        {
+          "source_row": 220,
+          "row": 2371,
+          "status": "preserved"
+        },
+        {
+          "source_row": 221,
+          "row": 2370,
+          "status": "preserved"
+        },
+        {
+          "source_row": 222,
+          "row": 2369,
+          "status": "preserved"
+        },
+        {
+          "source_row": 223,
+          "row": 2368,
+          "status": "preserved"
+        },
+        {
+          "source_row": 224,
+          "row": 2367,
+          "status": "preserved"
+        },
+        {
+          "source_row": 225,
+          "row": 2366,
+          "status": "preserved"
+        },
+        {
+          "source_row": 226,
+          "row": 2364,
+          "status": "preserved"
+        },
+        {
+          "source_row": 227,
+          "row": 2365,
+          "status": "preserved"
+        },
+        {
+          "source_row": 228,
+          "row": 2363,
+          "status": "preserved"
+        },
+        {
+          "source_row": 229,
+          "row": 2362,
+          "status": "preserved"
+        },
+        {
+          "source_row": 230,
+          "row": 2356,
+          "status": "preserved"
+        },
+        {
+          "source_row": 231,
+          "row": 2354,
+          "status": "preserved"
+        },
+        {
+          "source_row": 232,
+          "row": 2353,
+          "status": "preserved"
+        },
+        {
+          "source_row": 233,
+          "row": 2355,
+          "status": "preserved"
+        },
+        {
+          "source_row": 234,
+          "row": 2360,
+          "status": "preserved"
+        },
+        {
+          "source_row": 235,
+          "row": 2361,
+          "status": "preserved"
+        },
+        {
+          "source_row": 236,
+          "row": 2358,
+          "status": "preserved"
+        },
+        {
+          "source_row": 237,
+          "row": 2357,
+          "status": "preserved"
+        },
+        {
+          "source_row": 238,
+          "row": 2359,
+          "status": "preserved"
+        },
+        {
+          "source_row": 239,
+          "row": 2352,
+          "status": "preserved"
+        },
+        {
+          "source_row": 240,
+          "row": 2351,
+          "status": "preserved"
+        },
+        {
+          "source_row": 241,
+          "row": 2350,
+          "status": "preserved"
+        },
+        {
+          "source_row": 242,
+          "row": 2349,
+          "status": "preserved"
+        },
+        {
+          "source_row": 243,
+          "row": 2348,
+          "status": "preserved"
+        },
+        {
+          "source_row": 244,
+          "row": 2347,
+          "status": "preserved"
+        },
+        {
+          "source_row": 245,
+          "row": 2346,
+          "status": "preserved"
+        },
+        {
+          "source_row": 246,
+          "row": 2345,
+          "status": "preserved"
+        },
+        {
+          "source_row": 247,
+          "row": 2344,
+          "status": "preserved"
+        },
+        {
+          "source_row": 248,
+          "row": 2343,
+          "status": "preserved"
+        },
+        {
+          "source_row": 249,
+          "row": 2339,
+          "status": "preserved"
+        },
+        {
+          "source_row": 250,
+          "row": 2338,
+          "status": "preserved"
+        },
+        {
+          "source_row": 251,
+          "row": 2337,
+          "status": "preserved"
+        },
+        {
+          "source_row": 252,
+          "row": 2342,
+          "status": "preserved"
+        },
+        {
+          "source_row": 253,
+          "row": 2341,
+          "status": "preserved"
+        },
+        {
+          "source_row": 254,
+          "row": 2340,
+          "status": "preserved"
+        },
+        {
+          "source_row": 255,
+          "row": 2335,
+          "status": "preserved"
+        },
+        {
+          "source_row": 256,
+          "row": 2336,
+          "status": "preserved"
+        },
+        {
+          "source_row": 257,
+          "row": 2334,
+          "status": "preserved"
+        },
+        {
+          "source_row": 258,
+          "row": 2333,
+          "status": "preserved"
+        },
+        {
+          "source_row": 259,
+          "row": 2332,
+          "status": "preserved"
+        },
+        {
+          "source_row": 260,
+          "row": 2331,
+          "status": "preserved"
+        },
+        {
+          "source_row": 261,
+          "row": 2330,
+          "status": "preserved"
+        },
+        {
+          "source_row": 262,
+          "row": 2329,
+          "status": "preserved"
+        },
+        {
+          "source_row": 263,
+          "row": 2327,
+          "status": "preserved"
+        },
+        {
+          "source_row": 264,
+          "row": 2328,
+          "status": "preserved"
+        },
+        {
+          "source_row": 265,
+          "row": 2326,
+          "status": "preserved"
+        },
+        {
+          "source_row": 266,
+          "row": 2325,
+          "status": "preserved"
+        },
+        {
+          "source_row": 267,
+          "row": 2324,
+          "status": "preserved"
+        },
+        {
+          "source_row": 268,
+          "row": 2323,
+          "status": "preserved"
+        }
+      ],
+      "existing_label_differences_preserved": [
+        {
+          "source_row": 155,
+          "row": 2436,
+          "source_title": "국립중앙의료원",
+          "preserved_title": "의료비"
+        },
+        {
+          "source_row": 166,
+          "row": 2422,
+          "source_title": "가족행사 결제 대금 정산",
+          "preserved_title": "행사 잔금 형제자매 반환"
+        },
+        {
+          "source_row": 188,
+          "row": 2403,
+          "source_title": "부자회관 더블랙",
+          "preserved_title": "가족행사 식사"
+        },
+        {
+          "source_row": 189,
+          "row": 2401,
+          "source_title": "아버지 생신 용돈",
+          "preserved_title": "지인 생일 용돈"
+        },
+        {
+          "source_row": 216,
+          "row": 2376,
+          "source_title": "쿠팡",
+          "preserved_title": "양배추 대리구매"
+        }
+      ],
+      "old_raw_count": 2492,
+      "old_october_count": 171,
+      "wrap_entries": [
+        {
+          "raw_row": 2513,
+          "ledger_row": 250,
+          "amount": 200000,
+          "direction": "출금",
+          "source_account": "미래에셋_WRAP형CMA",
+          "destination_account": "모임통장",
+          "type": "계좌이체"
+        },
+        {
+          "raw_row": 2532,
+          "ledger_row": 251,
+          "amount": 20000,
+          "direction": "출금",
+          "source_account": "미래에셋_WRAP형CMA",
+          "destination_account": "주택청약",
+          "type": "계좌이체"
+        },
+        {
+          "raw_row": 2533,
+          "ledger_row": 252,
+          "amount": 150000,
+          "direction": "출금",
+          "source_account": "미래에셋_WRAP형CMA",
+          "destination_account": "희망두배 청년통장",
+          "type": "계좌이체"
+        },
+        {
+          "raw_row": 2534,
+          "ledger_row": 253,
+          "amount": 60000,
+          "direction": "출금",
+          "source_account": "미래에셋_WRAP형CMA",
+          "destination_account": "미래에셋증권_종합_주식",
+          "type": "계좌이체"
+        },
+        {
+          "raw_row": 2535,
+          "ledger_row": 254,
+          "amount": 60000,
+          "direction": "출금",
+          "source_account": "미래에셋_WRAP형CMA",
+          "destination_account": "메리츠증권_슈퍼365",
+          "type": "계좌이체"
+        },
+        {
+          "raw_row": 2538,
+          "ledger_row": 255,
+          "amount": 2776050,
+          "direction": "입금",
+          "source_account": "국민은행",
+          "destination_account": "미래에셋_WRAP형CMA",
+          "type": "계좌이체"
+        },
+        {
+          "raw_row": 2539,
+          "ledger_row": 256,
+          "amount": 391000,
+          "direction": "출금",
+          "source_account": "미래에셋_WRAP형CMA",
+          "destination_account": "외부",
+          "type": "출금"
+        },
+        {
+          "raw_row": 2589,
+          "ledger_row": 257,
+          "amount": 20000,
+          "direction": "출금",
+          "source_account": "미래에셋_WRAP형CMA",
+          "destination_account": "여행통장",
+          "type": "계좌이체"
+        }
+      ],
+      "unknown_ledger_date_rows": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        94,
+        95,
+        96,
+        98,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        214,
+        215,
+        216,
+        217,
+        218,
+        220,
+        221,
+        222,
+        223,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        243
+      ],
+      "date_status_independent_of_memo": true
+    },
+    "regressions": {
+      "memo_cleared": {
+        "numeric_cells_checked": 158682,
+        "financial_differences": 0,
+        "raw_linked_memo_cells_empty": 958,
+        "all_12_month_browsers_empty": true
+      },
+      "month_9": {
+        "reserve": {
+          "month": 9,
+          "physical_wrap_total": 8538603,
+          "purpose_available": 2150000,
+          "actual_use": 50000,
+          "allocated_to_bill": 0,
+          "invalid_use_rows": [],
+          "invalid_settlement_rows": []
+        },
+        "view": {
+          "month": 9,
+          "all_ledger_rows": 18,
+          "displayed_page": 1,
+          "displayed_rows": [
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            243
+          ]
+        }
+      },
+      "month_11": {
+        "reserve": {
+          "month": 11,
+          "physical_wrap_total": 8434741,
+          "purpose_available": 2150000,
+          "actual_use": 0,
+          "allocated_to_bill": 0,
+          "invalid_use_rows": [],
+          "invalid_settlement_rows": []
+        },
+        "view": {
+          "month": 11,
+          "all_ledger_rows": 0,
+          "displayed_page": 1,
+          "displayed_rows": []
+        }
+      },
+      "memo_words": {
+        "numeric_cells_checked": 158682,
+        "financial_differences": 0
+      }
+    },
+    "unit_tests_passed": 127,
+    "source": "raw/2026-11-01/2026-10-01_2026-10-31.xlsx",
+    "previous_version": "history/2026-11-01/01",
+    "guide": "2026-11-01_10월말_RAW반영_검증.md",
+    "calculator_overflow": {
+      "original_grid_capacity": 2600,
+      "displayed_total_cells": 2649,
+      "additional_region_cells": 49,
+      "conditional_formatting_rules_preserved": true,
+      "native_excel_visual_validation": false
+    },
+    "reference_files_and_snapshot_preserved": true
   }
 }
