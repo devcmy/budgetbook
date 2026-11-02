@@ -1,0 +1,2637 @@
+{
+  "package": {
+    "vba_controls_drawings_styles_relationships_preserved": true,
+    "calculator_visual_rules_and_layout_preserved": true,
+    "removed_stale_calc_chain": true,
+    "hidden_months_1_to_9_preserved": true,
+    "sheet_states": {
+      "사용안내": "visible",
+      "예비비": "visible",
+      "잔액": "visible",
+      "1월": "hidden",
+      "1월계산기": "hidden",
+      "2월": "hidden",
+      "2월계산기": "hidden",
+      "3월": "hidden",
+      "3월계산기": "hidden",
+      "4월": "hidden",
+      "4월계산기": "hidden",
+      "5월": "hidden",
+      "5월계산기": "hidden",
+      "6월": "hidden",
+      "6월계산기": "hidden",
+      "7월": "hidden",
+      "7월계산기": "hidden",
+      "8월": "hidden",
+      "8월계산기": "hidden",
+      "9월": "hidden",
+      "9월계산기": "hidden",
+      "10월": "visible",
+      "10월계산기": "visible",
+      "11월": "visible",
+      "11월계산기": "visible",
+      "12월": "visible",
+      "12월계산기": "visible",
+      "RAW": "visible",
+      "기존_예비비": "hidden",
+      "기존_잔액": "hidden",
+      "기존_1월": "hidden",
+      "기존_2월": "hidden",
+      "기존_3월": "hidden",
+      "기존_4월": "hidden",
+      "기존_5월": "hidden",
+      "기존_6월": "hidden",
+      "기존_7월": "hidden",
+      "기존_8월": "hidden",
+      "기존_9월": "hidden",
+      "기존_이사비": "hidden",
+      "기존_상환비": "hidden",
+      "보관_9월계산기": "hidden",
+      "보관_11월계산기": "hidden",
+      "보관_12월계산기": "hidden",
+      "_예비비계산": "hidden",
+      "_RAW자동연동": "hidden"
+    },
+    "structure": {
+      "worksheet_count": 46,
+      "xml_part_count": 84,
+      "errors": []
+    }
+  },
+  "date": "2026-11-02",
+  "as_of": "2026-11-02",
+  "baseline_sha256": "10f567644dadbe507af122c554142d496663e95185a3e25e3536da75ecf7527d",
+  "source_sha256": "80ebebfe54963cdda7caf330112b9af1e0443d2184b8b7391573d9a37eb23a35",
+  "workbook_sha256": "207f4d71b7d4ee529fa79424e008c7cac2c0c5203bd281d490aa54ac3336b489",
+  "total_raw_records": 2597,
+  "raw_by_month": {
+    "1": 224,
+    "2": 244,
+    "3": 267,
+    "4": 210,
+    "5": 210,
+    "6": 267,
+    "7": 345,
+    "8": 310,
+    "9": 245,
+    "10": 267,
+    "11": 8
+  },
+  "new_transactions": 9,
+  "new_november_transactions": 8,
+  "october_fixed_actual": 1256537,
+  "october_usage": 3965294,
+  "november_variable_actual": 75250,
+  "november_tetris": 77000,
+  "november_fixed_actual": 303,
+  "november_income": 88,
+  "november_usage": 75553,
+  "november_fixed_actual_and_planned": 1216861,
+  "confirmed_october_transport": 136350,
+  "november_transport_expected_not_actual": true,
+  "original_month_financial_cells_compared": 4915,
+  "reserve": {
+    "month": 10,
+    "physical_wrap_total": 8434741,
+    "purpose_available": 2150000,
+    "actual_use": 239000,
+    "allocated_to_bill": 0,
+    "invalid_use_rows": [],
+    "invalid_settlement_rows": []
+  },
+  "memos": [
+    {
+      "month": 1,
+      "memos": 80,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 2,
+      "memos": 62,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 3,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 4,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 5,
+      "memos": 65,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 6,
+      "memos": 113,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 7,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 8,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 9,
+      "memos": 98,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 10,
+      "memos": 213,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 11,
+      "memos": 4,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 12,
+      "memos": 0,
+      "pages_and_fixed_memos_match": true
+    }
+  ],
+  "source_fields_and_old_overrides_preserved": true,
+  "user_descending_sort_preserved": true,
+  "raw_memo_caches_preserve_exact_linebreaks": true,
+  "ordinary_transfers_not_converted_to_expenses": true,
+  "native_excel_ui_executed": false,
+  "formula_errors": 0,
+  "future_charge_sort_and_memo_test": {
+    "temporary_synthetic_transactions_only": true,
+    "new_alias_usage_and_charge_auto_link": true,
+    "original_month_usage_not_double_counted": true,
+    "different_memo_does_not_avoid_duplicate_exclusion": true,
+    "ordinary_card_settlement_still_excluded": true,
+    "cleared_memo_clears_view_not_finances": true,
+    "native_sort_simulated_by_full_table_permutation": {
+      "mode": "ascending",
+      "moved_rows": 2598,
+      "first_id": 2,
+      "last_nonblank_id": 2602
+    },
+    "reserve_november": {
+      "month": 11,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 0,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "memos": [
+      {
+        "month": 1,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 2,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ],
+    "formula_errors": 0
+  },
+  "metadata": {
+    "new": [
+      {
+        "source_row": 281,
+        "date": "2026-09-30 20:02:00.691000",
+        "asset": "토스뱅크K패스체크카드",
+        "category": "교통/차량",
+        "sub": null,
+        "title": "9월 후불교통",
+        "amount": 136350,
+        "kind": "지출",
+        "memo": null,
+        "transaction_id": 2590,
+        "input_row": 2590
+      },
+      {
+        "source_row": 9,
+        "date": "2026-11-01 21:33:00.562000",
+        "asset": "토스뱅크",
+        "category": "금융",
+        "sub": null,
+        "title": "토스뱅크 이자",
+        "amount": 88,
+        "kind": "수입",
+        "memo": null,
+        "transaction_id": 2591,
+        "input_row": 2591
+      },
+      {
+        "source_row": 8,
+        "date": "2026-11-01 21:33:00.601000",
+        "asset": "MG+S 하나카드",
+        "category": "정기구독",
+        "sub": null,
+        "title": "네이버플러스 멤버쉽",
+        "amount": 303,
+        "kind": "지출",
+        "memo": null,
+        "transaction_id": 2592,
+        "input_row": 2592
+      },
+      {
+        "source_row": 7,
+        "date": "2026-11-01 21:34:00.329000",
+        "asset": "롯데365카드",
+        "category": "잡화/소품/가구/생필품",
+        "sub": null,
+        "title": "다이소",
+        "amount": 3000,
+        "kind": "지출",
+        "memo": "소독약,  주방가위",
+        "transaction_id": 2593,
+        "input_row": 2593
+      },
+      {
+        "source_row": 6,
+        "date": "2026-11-01 21:34:00.636000",
+        "asset": "롯데365카드",
+        "category": "건강/보험/의료",
+        "sub": "병원/약국/검진",
+        "title": "연신내로데오약국",
+        "amount": 5000,
+        "kind": "지출",
+        "memo": "종합감기약",
+        "transaction_id": 2594,
+        "input_row": 2594
+      },
+      {
+        "source_row": 5,
+        "date": "2026-11-01 21:35:00.875000",
+        "asset": "롯데365카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 4500,
+        "kind": "지출",
+        "memo": null,
+        "transaction_id": 2595,
+        "input_row": 2595
+      },
+      {
+        "source_row": 4,
+        "date": "2026-11-01 22:31:48.522000",
+        "asset": "KB쿠팡와우",
+        "category": "가전/전자/잡화",
+        "sub": null,
+        "title": "쿠팡",
+        "amount": 26260,
+        "kind": "지출",
+        "memo": "계란찜기",
+        "transaction_id": 2596,
+        "input_row": 2596
+      },
+      {
+        "source_row": 3,
+        "date": "2026-11-02 11:03:19.803000",
+        "asset": "롯데365카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 5000,
+        "kind": "지출",
+        "memo": null,
+        "transaction_id": 2597,
+        "input_row": 2597
+      },
+      {
+        "source_row": 2,
+        "date": "2026-11-02 11:03:22.830000",
+        "asset": "KB쿠팡와우",
+        "category": "가전/전자/잡화",
+        "sub": null,
+        "title": "쿠팡",
+        "amount": 31490,
+        "kind": "지출",
+        "memo": "접이식 파티션 히터",
+        "transaction_id": 2598,
+        "input_row": 2598
+      }
+    ],
+    "matched": [
+      {
+        "source_row": 10,
+        "transaction_id": 2589
+      },
+      {
+        "source_row": 11,
+        "transaction_id": 2587
+      },
+      {
+        "source_row": 12,
+        "transaction_id": 2588
+      },
+      {
+        "source_row": 13,
+        "transaction_id": 2586
+      },
+      {
+        "source_row": 14,
+        "transaction_id": 2585
+      },
+      {
+        "source_row": 15,
+        "transaction_id": 2584
+      },
+      {
+        "source_row": 16,
+        "transaction_id": 2583
+      },
+      {
+        "source_row": 17,
+        "transaction_id": 2582
+      },
+      {
+        "source_row": 18,
+        "transaction_id": 2581
+      },
+      {
+        "source_row": 19,
+        "transaction_id": 2579
+      },
+      {
+        "source_row": 20,
+        "transaction_id": 2580
+      },
+      {
+        "source_row": 21,
+        "transaction_id": 2578
+      },
+      {
+        "source_row": 22,
+        "transaction_id": 2576
+      },
+      {
+        "source_row": 23,
+        "transaction_id": 2577
+      },
+      {
+        "source_row": 24,
+        "transaction_id": 2575
+      },
+      {
+        "source_row": 25,
+        "transaction_id": 2574
+      },
+      {
+        "source_row": 26,
+        "transaction_id": 2573
+      },
+      {
+        "source_row": 27,
+        "transaction_id": 2572
+      },
+      {
+        "source_row": 28,
+        "transaction_id": 2571
+      },
+      {
+        "source_row": 29,
+        "transaction_id": 2570
+      },
+      {
+        "source_row": 30,
+        "transaction_id": 2568
+      },
+      {
+        "source_row": 31,
+        "transaction_id": 2569
+      },
+      {
+        "source_row": 32,
+        "transaction_id": 2567
+      },
+      {
+        "source_row": 33,
+        "transaction_id": 2566
+      },
+      {
+        "source_row": 34,
+        "transaction_id": 2564
+      },
+      {
+        "source_row": 35,
+        "transaction_id": 2565
+      },
+      {
+        "source_row": 36,
+        "transaction_id": 2563
+      },
+      {
+        "source_row": 37,
+        "transaction_id": 2562
+      },
+      {
+        "source_row": 38,
+        "transaction_id": 2561
+      },
+      {
+        "source_row": 39,
+        "transaction_id": 2559
+      },
+      {
+        "source_row": 40,
+        "transaction_id": 2557
+      },
+      {
+        "source_row": 41,
+        "transaction_id": 2558
+      },
+      {
+        "source_row": 42,
+        "transaction_id": 2560
+      },
+      {
+        "source_row": 43,
+        "transaction_id": 2556
+      },
+      {
+        "source_row": 44,
+        "transaction_id": 2555
+      },
+      {
+        "source_row": 45,
+        "transaction_id": 2554
+      },
+      {
+        "source_row": 46,
+        "transaction_id": 2552
+      },
+      {
+        "source_row": 47,
+        "transaction_id": 2553
+      },
+      {
+        "source_row": 48,
+        "transaction_id": 2551
+      },
+      {
+        "source_row": 49,
+        "transaction_id": 2550
+      },
+      {
+        "source_row": 50,
+        "transaction_id": 2549
+      },
+      {
+        "source_row": 51,
+        "transaction_id": 2548
+      },
+      {
+        "source_row": 52,
+        "transaction_id": 2547
+      },
+      {
+        "source_row": 53,
+        "transaction_id": 2546
+      },
+      {
+        "source_row": 54,
+        "transaction_id": 2544
+      },
+      {
+        "source_row": 55,
+        "transaction_id": 2545
+      },
+      {
+        "source_row": 56,
+        "transaction_id": 2543
+      },
+      {
+        "source_row": 57,
+        "transaction_id": 2542
+      },
+      {
+        "source_row": 58,
+        "transaction_id": 2541
+      },
+      {
+        "source_row": 59,
+        "transaction_id": 2540
+      },
+      {
+        "source_row": 60,
+        "transaction_id": 2539
+      },
+      {
+        "source_row": 61,
+        "transaction_id": 2538
+      },
+      {
+        "source_row": 62,
+        "transaction_id": 2537
+      },
+      {
+        "source_row": 63,
+        "transaction_id": 2536
+      },
+      {
+        "source_row": 64,
+        "transaction_id": 2535
+      },
+      {
+        "source_row": 65,
+        "transaction_id": 2534
+      },
+      {
+        "source_row": 66,
+        "transaction_id": 2533
+      },
+      {
+        "source_row": 67,
+        "transaction_id": 2532
+      },
+      {
+        "source_row": 68,
+        "transaction_id": 2531
+      },
+      {
+        "source_row": 69,
+        "transaction_id": 2530
+      },
+      {
+        "source_row": 70,
+        "transaction_id": 2528
+      },
+      {
+        "source_row": 71,
+        "transaction_id": 2527
+      },
+      {
+        "source_row": 72,
+        "transaction_id": 2529
+      },
+      {
+        "source_row": 73,
+        "transaction_id": 2516
+      },
+      {
+        "source_row": 74,
+        "transaction_id": 2517
+      },
+      {
+        "source_row": 75,
+        "transaction_id": 2526
+      },
+      {
+        "source_row": 76,
+        "transaction_id": 2525
+      },
+      {
+        "source_row": 77,
+        "transaction_id": 2524
+      },
+      {
+        "source_row": 78,
+        "transaction_id": 2523
+      },
+      {
+        "source_row": 79,
+        "transaction_id": 2522
+      },
+      {
+        "source_row": 80,
+        "transaction_id": 2521
+      },
+      {
+        "source_row": 81,
+        "transaction_id": 2520
+      },
+      {
+        "source_row": 82,
+        "transaction_id": 2518
+      },
+      {
+        "source_row": 83,
+        "transaction_id": 2519
+      },
+      {
+        "source_row": 84,
+        "transaction_id": 2515
+      },
+      {
+        "source_row": 85,
+        "transaction_id": 2514
+      },
+      {
+        "source_row": 86,
+        "transaction_id": 2513
+      },
+      {
+        "source_row": 87,
+        "transaction_id": 2510
+      },
+      {
+        "source_row": 88,
+        "transaction_id": 2512
+      },
+      {
+        "source_row": 89,
+        "transaction_id": 2511
+      },
+      {
+        "source_row": 90,
+        "transaction_id": 2509
+      },
+      {
+        "source_row": 91,
+        "transaction_id": 2508
+      },
+      {
+        "source_row": 92,
+        "transaction_id": 2507
+      },
+      {
+        "source_row": 93,
+        "transaction_id": 2506
+      },
+      {
+        "source_row": 94,
+        "transaction_id": 2505
+      },
+      {
+        "source_row": 95,
+        "transaction_id": 2504
+      },
+      {
+        "source_row": 96,
+        "transaction_id": 2503
+      },
+      {
+        "source_row": 97,
+        "transaction_id": 2502
+      },
+      {
+        "source_row": 98,
+        "transaction_id": 2501
+      },
+      {
+        "source_row": 99,
+        "transaction_id": 2500
+      },
+      {
+        "source_row": 100,
+        "transaction_id": 2498
+      },
+      {
+        "source_row": 101,
+        "transaction_id": 2499
+      },
+      {
+        "source_row": 102,
+        "transaction_id": 2497
+      },
+      {
+        "source_row": 103,
+        "transaction_id": 2496
+      },
+      {
+        "source_row": 104,
+        "transaction_id": 2495
+      },
+      {
+        "source_row": 105,
+        "transaction_id": 2494
+      },
+      {
+        "source_row": 106,
+        "transaction_id": 2493
+      },
+      {
+        "source_row": 107,
+        "transaction_id": 2492
+      },
+      {
+        "source_row": 108,
+        "transaction_id": 2491
+      },
+      {
+        "source_row": 109,
+        "transaction_id": 2490
+      },
+      {
+        "source_row": 110,
+        "transaction_id": 2489
+      },
+      {
+        "source_row": 111,
+        "transaction_id": 2488
+      },
+      {
+        "source_row": 112,
+        "transaction_id": 2487
+      },
+      {
+        "source_row": 113,
+        "transaction_id": 2486
+      },
+      {
+        "source_row": 114,
+        "transaction_id": 2485
+      },
+      {
+        "source_row": 115,
+        "transaction_id": 2484
+      },
+      {
+        "source_row": 116,
+        "transaction_id": 2483
+      },
+      {
+        "source_row": 117,
+        "transaction_id": 2482
+      },
+      {
+        "source_row": 118,
+        "transaction_id": 2481
+      },
+      {
+        "source_row": 119,
+        "transaction_id": 2480
+      },
+      {
+        "source_row": 120,
+        "transaction_id": 2479
+      },
+      {
+        "source_row": 121,
+        "transaction_id": 2478
+      },
+      {
+        "source_row": 122,
+        "transaction_id": 2477
+      },
+      {
+        "source_row": 123,
+        "transaction_id": 2476
+      },
+      {
+        "source_row": 124,
+        "transaction_id": 2474
+      },
+      {
+        "source_row": 125,
+        "transaction_id": 2475
+      },
+      {
+        "source_row": 126,
+        "transaction_id": 2473
+      },
+      {
+        "source_row": 127,
+        "transaction_id": 2471
+      },
+      {
+        "source_row": 128,
+        "transaction_id": 2472
+      },
+      {
+        "source_row": 129,
+        "transaction_id": 2470
+      },
+      {
+        "source_row": 130,
+        "transaction_id": 2469
+      },
+      {
+        "source_row": 131,
+        "transaction_id": 2467
+      },
+      {
+        "source_row": 132,
+        "transaction_id": 2468
+      },
+      {
+        "source_row": 133,
+        "transaction_id": 2466
+      },
+      {
+        "source_row": 134,
+        "transaction_id": 2465
+      },
+      {
+        "source_row": 135,
+        "transaction_id": 2464
+      },
+      {
+        "source_row": 136,
+        "transaction_id": 2463
+      },
+      {
+        "source_row": 137,
+        "transaction_id": 2462
+      },
+      {
+        "source_row": 138,
+        "transaction_id": 2461
+      },
+      {
+        "source_row": 139,
+        "transaction_id": 2460
+      },
+      {
+        "source_row": 140,
+        "transaction_id": 2459
+      },
+      {
+        "source_row": 141,
+        "transaction_id": 2458
+      },
+      {
+        "source_row": 142,
+        "transaction_id": 2457
+      },
+      {
+        "source_row": 143,
+        "transaction_id": 2456
+      },
+      {
+        "source_row": 144,
+        "transaction_id": 2455
+      },
+      {
+        "source_row": 145,
+        "transaction_id": 2454
+      },
+      {
+        "source_row": 146,
+        "transaction_id": 2453
+      },
+      {
+        "source_row": 147,
+        "transaction_id": 2452
+      },
+      {
+        "source_row": 148,
+        "transaction_id": 2451
+      },
+      {
+        "source_row": 149,
+        "transaction_id": 2450
+      },
+      {
+        "source_row": 150,
+        "transaction_id": 2449
+      },
+      {
+        "source_row": 151,
+        "transaction_id": 2448
+      },
+      {
+        "source_row": 152,
+        "transaction_id": 2447
+      },
+      {
+        "source_row": 153,
+        "transaction_id": 2446
+      },
+      {
+        "source_row": 154,
+        "transaction_id": 2445
+      },
+      {
+        "source_row": 155,
+        "transaction_id": 2444
+      },
+      {
+        "source_row": 156,
+        "transaction_id": 2442
+      },
+      {
+        "source_row": 157,
+        "transaction_id": 2441
+      },
+      {
+        "source_row": 158,
+        "transaction_id": 2430
+      },
+      {
+        "source_row": 159,
+        "transaction_id": 2440
+      },
+      {
+        "source_row": 160,
+        "transaction_id": 2439
+      },
+      {
+        "source_row": 161,
+        "transaction_id": 2438
+      },
+      {
+        "source_row": 162,
+        "transaction_id": 2437
+      },
+      {
+        "source_row": 163,
+        "transaction_id": 2436
+      },
+      {
+        "source_row": 164,
+        "transaction_id": 2435
+      },
+      {
+        "source_row": 165,
+        "transaction_id": 2434
+      },
+      {
+        "source_row": 166,
+        "transaction_id": 2433
+      },
+      {
+        "source_row": 167,
+        "transaction_id": 2432
+      },
+      {
+        "source_row": 168,
+        "transaction_id": 2431
+      },
+      {
+        "source_row": 169,
+        "transaction_id": 2429
+      },
+      {
+        "source_row": 170,
+        "transaction_id": 2427
+      },
+      {
+        "source_row": 171,
+        "transaction_id": 2428
+      },
+      {
+        "source_row": 172,
+        "transaction_id": 2426
+      },
+      {
+        "source_row": 173,
+        "transaction_id": 2443
+      },
+      {
+        "source_row": 174,
+        "transaction_id": 2422
+      },
+      {
+        "source_row": 175,
+        "transaction_id": 2425
+      },
+      {
+        "source_row": 176,
+        "transaction_id": 2424
+      },
+      {
+        "source_row": 177,
+        "transaction_id": 2423
+      },
+      {
+        "source_row": 178,
+        "transaction_id": 2420
+      },
+      {
+        "source_row": 179,
+        "transaction_id": 2421
+      },
+      {
+        "source_row": 180,
+        "transaction_id": 2419
+      },
+      {
+        "source_row": 181,
+        "transaction_id": 2418
+      },
+      {
+        "source_row": 182,
+        "transaction_id": 2415
+      },
+      {
+        "source_row": 183,
+        "transaction_id": 2417
+      },
+      {
+        "source_row": 184,
+        "transaction_id": 2416
+      },
+      {
+        "source_row": 185,
+        "transaction_id": 2414
+      },
+      {
+        "source_row": 186,
+        "transaction_id": 2413
+      },
+      {
+        "source_row": 187,
+        "transaction_id": 2406
+      },
+      {
+        "source_row": 188,
+        "transaction_id": 2412
+      },
+      {
+        "source_row": 189,
+        "transaction_id": 2411
+      },
+      {
+        "source_row": 190,
+        "transaction_id": 2410
+      },
+      {
+        "source_row": 191,
+        "transaction_id": 2404
+      },
+      {
+        "source_row": 192,
+        "transaction_id": 2405
+      },
+      {
+        "source_row": 193,
+        "transaction_id": 2409
+      },
+      {
+        "source_row": 194,
+        "transaction_id": 2408
+      },
+      {
+        "source_row": 195,
+        "transaction_id": 2407
+      },
+      {
+        "source_row": 196,
+        "transaction_id": 2403
+      },
+      {
+        "source_row": 197,
+        "transaction_id": 2401
+      },
+      {
+        "source_row": 198,
+        "transaction_id": 2402
+      },
+      {
+        "source_row": 199,
+        "transaction_id": 2397
+      },
+      {
+        "source_row": 200,
+        "transaction_id": 2398
+      },
+      {
+        "source_row": 201,
+        "transaction_id": 2394
+      },
+      {
+        "source_row": 202,
+        "transaction_id": 2399
+      },
+      {
+        "source_row": 203,
+        "transaction_id": 2400
+      },
+      {
+        "source_row": 204,
+        "transaction_id": 2396
+      },
+      {
+        "source_row": 205,
+        "transaction_id": 2395
+      },
+      {
+        "source_row": 206,
+        "transaction_id": 2392
+      },
+      {
+        "source_row": 207,
+        "transaction_id": 2393
+      },
+      {
+        "source_row": 208,
+        "transaction_id": 2391
+      },
+      {
+        "source_row": 209,
+        "transaction_id": 2390
+      },
+      {
+        "source_row": 210,
+        "transaction_id": 2389
+      },
+      {
+        "source_row": 211,
+        "transaction_id": 2388
+      },
+      {
+        "source_row": 212,
+        "transaction_id": 2387
+      },
+      {
+        "source_row": 213,
+        "transaction_id": 2386
+      },
+      {
+        "source_row": 214,
+        "transaction_id": 2385
+      },
+      {
+        "source_row": 215,
+        "transaction_id": 2384
+      },
+      {
+        "source_row": 216,
+        "transaction_id": 2382
+      },
+      {
+        "source_row": 217,
+        "transaction_id": 2383
+      },
+      {
+        "source_row": 218,
+        "transaction_id": 2381
+      },
+      {
+        "source_row": 219,
+        "transaction_id": 2379
+      },
+      {
+        "source_row": 220,
+        "transaction_id": 2380
+      },
+      {
+        "source_row": 221,
+        "transaction_id": 2378
+      },
+      {
+        "source_row": 222,
+        "transaction_id": 2377
+      },
+      {
+        "source_row": 223,
+        "transaction_id": 2375
+      },
+      {
+        "source_row": 224,
+        "transaction_id": 2376
+      },
+      {
+        "source_row": 225,
+        "transaction_id": 2374
+      },
+      {
+        "source_row": 226,
+        "transaction_id": 2373
+      },
+      {
+        "source_row": 227,
+        "transaction_id": 2372
+      },
+      {
+        "source_row": 228,
+        "transaction_id": 2371
+      },
+      {
+        "source_row": 229,
+        "transaction_id": 2370
+      },
+      {
+        "source_row": 230,
+        "transaction_id": 2369
+      },
+      {
+        "source_row": 231,
+        "transaction_id": 2368
+      },
+      {
+        "source_row": 232,
+        "transaction_id": 2367
+      },
+      {
+        "source_row": 233,
+        "transaction_id": 2366
+      },
+      {
+        "source_row": 234,
+        "transaction_id": 2364
+      },
+      {
+        "source_row": 235,
+        "transaction_id": 2365
+      },
+      {
+        "source_row": 236,
+        "transaction_id": 2363
+      },
+      {
+        "source_row": 237,
+        "transaction_id": 2362
+      },
+      {
+        "source_row": 238,
+        "transaction_id": 2356
+      },
+      {
+        "source_row": 239,
+        "transaction_id": 2354
+      },
+      {
+        "source_row": 240,
+        "transaction_id": 2353
+      },
+      {
+        "source_row": 241,
+        "transaction_id": 2355
+      },
+      {
+        "source_row": 242,
+        "transaction_id": 2360
+      },
+      {
+        "source_row": 243,
+        "transaction_id": 2361
+      },
+      {
+        "source_row": 244,
+        "transaction_id": 2358
+      },
+      {
+        "source_row": 245,
+        "transaction_id": 2357
+      },
+      {
+        "source_row": 246,
+        "transaction_id": 2359
+      },
+      {
+        "source_row": 247,
+        "transaction_id": 2352
+      },
+      {
+        "source_row": 248,
+        "transaction_id": 2351
+      },
+      {
+        "source_row": 249,
+        "transaction_id": 2350
+      },
+      {
+        "source_row": 250,
+        "transaction_id": 2349
+      },
+      {
+        "source_row": 251,
+        "transaction_id": 2348
+      },
+      {
+        "source_row": 252,
+        "transaction_id": 2347
+      },
+      {
+        "source_row": 253,
+        "transaction_id": 2346
+      },
+      {
+        "source_row": 254,
+        "transaction_id": 2345
+      },
+      {
+        "source_row": 255,
+        "transaction_id": 2344
+      },
+      {
+        "source_row": 256,
+        "transaction_id": 2343
+      },
+      {
+        "source_row": 257,
+        "transaction_id": 2339
+      },
+      {
+        "source_row": 258,
+        "transaction_id": 2338
+      },
+      {
+        "source_row": 259,
+        "transaction_id": 2337
+      },
+      {
+        "source_row": 260,
+        "transaction_id": 2342
+      },
+      {
+        "source_row": 261,
+        "transaction_id": 2341
+      },
+      {
+        "source_row": 262,
+        "transaction_id": 2340
+      },
+      {
+        "source_row": 263,
+        "transaction_id": 2335
+      },
+      {
+        "source_row": 264,
+        "transaction_id": 2336
+      },
+      {
+        "source_row": 265,
+        "transaction_id": 2334
+      },
+      {
+        "source_row": 266,
+        "transaction_id": 2333
+      },
+      {
+        "source_row": 267,
+        "transaction_id": 2332
+      },
+      {
+        "source_row": 268,
+        "transaction_id": 2331
+      },
+      {
+        "source_row": 269,
+        "transaction_id": 2330
+      },
+      {
+        "source_row": 270,
+        "transaction_id": 2329
+      },
+      {
+        "source_row": 271,
+        "transaction_id": 2327
+      },
+      {
+        "source_row": 272,
+        "transaction_id": 2328
+      },
+      {
+        "source_row": 273,
+        "transaction_id": 2326
+      },
+      {
+        "source_row": 274,
+        "transaction_id": 2325
+      },
+      {
+        "source_row": 275,
+        "transaction_id": 2324
+      },
+      {
+        "source_row": 276,
+        "transaction_id": 2323
+      },
+      {
+        "source_row": 282,
+        "transaction_id": 2322
+      },
+      {
+        "source_row": 283,
+        "transaction_id": 2321
+      },
+      {
+        "source_row": 284,
+        "transaction_id": 2320
+      },
+      {
+        "source_row": 287,
+        "transaction_id": 2319
+      },
+      {
+        "source_row": 288,
+        "transaction_id": 2315
+      },
+      {
+        "source_row": 289,
+        "transaction_id": 2318
+      },
+      {
+        "source_row": 290,
+        "transaction_id": 2313
+      },
+      {
+        "source_row": 291,
+        "transaction_id": 2314
+      },
+      {
+        "source_row": 292,
+        "transaction_id": 2312
+      },
+      {
+        "source_row": 293,
+        "transaction_id": 2311
+      },
+      {
+        "source_row": 294,
+        "transaction_id": 2309
+      },
+      {
+        "source_row": 295,
+        "transaction_id": 2310
+      },
+      {
+        "source_row": 296,
+        "transaction_id": 2308
+      },
+      {
+        "source_row": 297,
+        "transaction_id": 2306
+      },
+      {
+        "source_row": 298,
+        "transaction_id": 2307
+      },
+      {
+        "source_row": 300,
+        "transaction_id": 2305
+      },
+      {
+        "source_row": 301,
+        "transaction_id": 2304
+      },
+      {
+        "source_row": 302,
+        "transaction_id": 2303
+      },
+      {
+        "source_row": 303,
+        "transaction_id": 2302
+      },
+      {
+        "source_row": 304,
+        "transaction_id": 2301
+      },
+      {
+        "source_row": 305,
+        "transaction_id": 2300
+      },
+      {
+        "source_row": 306,
+        "transaction_id": 2299
+      },
+      {
+        "source_row": 307,
+        "transaction_id": 2298
+      },
+      {
+        "source_row": 308,
+        "transaction_id": 2297
+      },
+      {
+        "source_row": 309,
+        "transaction_id": 2296
+      },
+      {
+        "source_row": 310,
+        "transaction_id": 2294
+      },
+      {
+        "source_row": 311,
+        "transaction_id": 2295
+      },
+      {
+        "source_row": 312,
+        "transaction_id": 2293
+      },
+      {
+        "source_row": 313,
+        "transaction_id": 2292
+      },
+      {
+        "source_row": 314,
+        "transaction_id": 2291
+      },
+      {
+        "source_row": 315,
+        "transaction_id": 2290
+      },
+      {
+        "source_row": 316,
+        "transaction_id": 2289
+      },
+      {
+        "source_row": 317,
+        "transaction_id": 2286
+      },
+      {
+        "source_row": 318,
+        "transaction_id": 2287
+      },
+      {
+        "source_row": 319,
+        "transaction_id": 2288
+      },
+      {
+        "source_row": 320,
+        "transaction_id": 2285
+      },
+      {
+        "source_row": 322,
+        "transaction_id": 2284
+      },
+      {
+        "source_row": 323,
+        "transaction_id": 2283
+      },
+      {
+        "source_row": 324,
+        "transaction_id": 2280
+      },
+      {
+        "source_row": 325,
+        "transaction_id": 2282
+      },
+      {
+        "source_row": 326,
+        "transaction_id": 2281
+      },
+      {
+        "source_row": 327,
+        "transaction_id": 2279
+      },
+      {
+        "source_row": 328,
+        "transaction_id": 2277
+      },
+      {
+        "source_row": 329,
+        "transaction_id": 2278
+      },
+      {
+        "source_row": 330,
+        "transaction_id": 2276
+      },
+      {
+        "source_row": 331,
+        "transaction_id": 2274
+      },
+      {
+        "source_row": 332,
+        "transaction_id": 2273
+      },
+      {
+        "source_row": 333,
+        "transaction_id": 2272
+      },
+      {
+        "source_row": 334,
+        "transaction_id": 2275
+      },
+      {
+        "source_row": 335,
+        "transaction_id": 2271
+      },
+      {
+        "source_row": 336,
+        "transaction_id": 2269
+      },
+      {
+        "source_row": 337,
+        "transaction_id": 2270
+      },
+      {
+        "source_row": 338,
+        "transaction_id": 2268
+      },
+      {
+        "source_row": 339,
+        "transaction_id": 2267
+      },
+      {
+        "source_row": 340,
+        "transaction_id": 2266
+      },
+      {
+        "source_row": 341,
+        "transaction_id": 2265
+      },
+      {
+        "source_row": 342,
+        "transaction_id": 2262
+      },
+      {
+        "source_row": 343,
+        "transaction_id": 2264
+      },
+      {
+        "source_row": 344,
+        "transaction_id": 2261
+      },
+      {
+        "source_row": 345,
+        "transaction_id": 2263
+      },
+      {
+        "source_row": 346,
+        "transaction_id": 2260
+      },
+      {
+        "source_row": 347,
+        "transaction_id": 2258
+      },
+      {
+        "source_row": 348,
+        "transaction_id": 2259
+      },
+      {
+        "source_row": 349,
+        "transaction_id": 2257
+      },
+      {
+        "source_row": 350,
+        "transaction_id": 2256
+      },
+      {
+        "source_row": 351,
+        "transaction_id": 2251
+      },
+      {
+        "source_row": 352,
+        "transaction_id": 2250
+      },
+      {
+        "source_row": 353,
+        "transaction_id": 2249
+      },
+      {
+        "source_row": 354,
+        "transaction_id": 2252
+      },
+      {
+        "source_row": 355,
+        "transaction_id": 2255
+      },
+      {
+        "source_row": 356,
+        "transaction_id": 2253
+      },
+      {
+        "source_row": 358,
+        "transaction_id": 2248
+      },
+      {
+        "source_row": 359,
+        "transaction_id": 2247
+      },
+      {
+        "source_row": 360,
+        "transaction_id": 2246
+      },
+      {
+        "source_row": 361,
+        "transaction_id": 2245
+      },
+      {
+        "source_row": 362,
+        "transaction_id": 2244
+      },
+      {
+        "source_row": 363,
+        "transaction_id": 2242
+      },
+      {
+        "source_row": 364,
+        "transaction_id": 2243
+      },
+      {
+        "source_row": 365,
+        "transaction_id": 2241
+      },
+      {
+        "source_row": 366,
+        "transaction_id": 2239
+      },
+      {
+        "source_row": 367,
+        "transaction_id": 2240
+      },
+      {
+        "source_row": 368,
+        "transaction_id": 2238
+      },
+      {
+        "source_row": 369,
+        "transaction_id": 2237
+      },
+      {
+        "source_row": 370,
+        "transaction_id": 2235
+      },
+      {
+        "source_row": 371,
+        "transaction_id": 2236
+      },
+      {
+        "source_row": 372,
+        "transaction_id": 2234
+      },
+      {
+        "source_row": 373,
+        "transaction_id": 2233
+      },
+      {
+        "source_row": 374,
+        "transaction_id": 2232
+      },
+      {
+        "source_row": 375,
+        "transaction_id": 2231
+      },
+      {
+        "source_row": 376,
+        "transaction_id": 2230
+      },
+      {
+        "source_row": 377,
+        "transaction_id": 2229
+      },
+      {
+        "source_row": 378,
+        "transaction_id": 2228
+      },
+      {
+        "source_row": 379,
+        "transaction_id": 2227
+      },
+      {
+        "source_row": 380,
+        "transaction_id": 2226
+      },
+      {
+        "source_row": 381,
+        "transaction_id": 2224
+      },
+      {
+        "source_row": 382,
+        "transaction_id": 2225
+      },
+      {
+        "source_row": 384,
+        "transaction_id": 2223
+      },
+      {
+        "source_row": 385,
+        "transaction_id": 2221
+      },
+      {
+        "source_row": 386,
+        "transaction_id": 2220
+      },
+      {
+        "source_row": 387,
+        "transaction_id": 2219
+      },
+      {
+        "source_row": 388,
+        "transaction_id": 2218
+      },
+      {
+        "source_row": 389,
+        "transaction_id": 2217
+      },
+      {
+        "source_row": 390,
+        "transaction_id": 2216
+      },
+      {
+        "source_row": 391,
+        "transaction_id": 2215
+      },
+      {
+        "source_row": 392,
+        "transaction_id": 2214
+      },
+      {
+        "source_row": 393,
+        "transaction_id": 2213
+      },
+      {
+        "source_row": 394,
+        "transaction_id": 2212
+      },
+      {
+        "source_row": 395,
+        "transaction_id": 2210
+      },
+      {
+        "source_row": 396,
+        "transaction_id": 2211
+      },
+      {
+        "source_row": 397,
+        "transaction_id": 2209
+      },
+      {
+        "source_row": 398,
+        "transaction_id": 2208
+      },
+      {
+        "source_row": 399,
+        "transaction_id": 2207
+      },
+      {
+        "source_row": 400,
+        "transaction_id": 2206
+      },
+      {
+        "source_row": 402,
+        "transaction_id": 2201
+      },
+      {
+        "source_row": 403,
+        "transaction_id": 2204
+      },
+      {
+        "source_row": 404,
+        "transaction_id": 2205
+      },
+      {
+        "source_row": 405,
+        "transaction_id": 2203
+      },
+      {
+        "source_row": 406,
+        "transaction_id": 2202
+      },
+      {
+        "source_row": 407,
+        "transaction_id": 2200
+      },
+      {
+        "source_row": 408,
+        "transaction_id": 2199
+      },
+      {
+        "source_row": 409,
+        "transaction_id": 2195
+      },
+      {
+        "source_row": 410,
+        "transaction_id": 2198
+      },
+      {
+        "source_row": 411,
+        "transaction_id": 2196
+      },
+      {
+        "source_row": 412,
+        "transaction_id": 2197
+      },
+      {
+        "source_row": 413,
+        "transaction_id": 2194
+      },
+      {
+        "source_row": 414,
+        "transaction_id": 2193
+      },
+      {
+        "source_row": 415,
+        "transaction_id": 2192
+      },
+      {
+        "source_row": 416,
+        "transaction_id": 2191
+      },
+      {
+        "source_row": 417,
+        "transaction_id": 2190
+      },
+      {
+        "source_row": 418,
+        "transaction_id": 2185
+      },
+      {
+        "source_row": 419,
+        "transaction_id": 2188
+      },
+      {
+        "source_row": 420,
+        "transaction_id": 2189
+      },
+      {
+        "source_row": 421,
+        "transaction_id": 2187
+      },
+      {
+        "source_row": 422,
+        "transaction_id": 2186
+      },
+      {
+        "source_row": 423,
+        "transaction_id": 2184
+      },
+      {
+        "source_row": 424,
+        "transaction_id": 2183
+      },
+      {
+        "source_row": 425,
+        "transaction_id": 2182
+      },
+      {
+        "source_row": 426,
+        "transaction_id": 2179
+      },
+      {
+        "source_row": 427,
+        "transaction_id": 2180
+      },
+      {
+        "source_row": 428,
+        "transaction_id": 2176
+      },
+      {
+        "source_row": 429,
+        "transaction_id": 2177
+      },
+      {
+        "source_row": 430,
+        "transaction_id": 2178
+      },
+      {
+        "source_row": 431,
+        "transaction_id": 2175
+      },
+      {
+        "source_row": 432,
+        "transaction_id": 2174
+      },
+      {
+        "source_row": 433,
+        "transaction_id": 2173
+      },
+      {
+        "source_row": 434,
+        "transaction_id": 2172
+      },
+      {
+        "source_row": 435,
+        "transaction_id": 2181
+      },
+      {
+        "source_row": 436,
+        "transaction_id": 2170
+      },
+      {
+        "source_row": 437,
+        "transaction_id": 2171
+      },
+      {
+        "source_row": 438,
+        "transaction_id": 2168
+      },
+      {
+        "source_row": 439,
+        "transaction_id": 2169
+      },
+      {
+        "source_row": 440,
+        "transaction_id": 2166
+      },
+      {
+        "source_row": 441,
+        "transaction_id": 2167
+      },
+      {
+        "source_row": 442,
+        "transaction_id": 2165
+      },
+      {
+        "source_row": 443,
+        "transaction_id": 2164
+      },
+      {
+        "source_row": 444,
+        "transaction_id": 2154
+      },
+      {
+        "source_row": 445,
+        "transaction_id": 2158
+      },
+      {
+        "source_row": 446,
+        "transaction_id": 2163
+      },
+      {
+        "source_row": 447,
+        "transaction_id": 2162
+      },
+      {
+        "source_row": 448,
+        "transaction_id": 2161
+      },
+      {
+        "source_row": 449,
+        "transaction_id": 2159
+      },
+      {
+        "source_row": 450,
+        "transaction_id": 2160
+      },
+      {
+        "source_row": 451,
+        "transaction_id": 2157
+      },
+      {
+        "source_row": 452,
+        "transaction_id": 2155
+      },
+      {
+        "source_row": 453,
+        "transaction_id": 2156
+      },
+      {
+        "source_row": 454,
+        "transaction_id": 2153
+      },
+      {
+        "source_row": 455,
+        "transaction_id": 2151
+      },
+      {
+        "source_row": 456,
+        "transaction_id": 2152
+      },
+      {
+        "source_row": 457,
+        "transaction_id": 2149
+      },
+      {
+        "source_row": 458,
+        "transaction_id": 2150
+      },
+      {
+        "source_row": 459,
+        "transaction_id": 2148
+      },
+      {
+        "source_row": 460,
+        "transaction_id": 2147
+      },
+      {
+        "source_row": 461,
+        "transaction_id": 2146
+      },
+      {
+        "source_row": 462,
+        "transaction_id": 2145
+      },
+      {
+        "source_row": 463,
+        "transaction_id": 2144
+      },
+      {
+        "source_row": 464,
+        "transaction_id": 2143
+      },
+      {
+        "source_row": 465,
+        "transaction_id": 2142
+      },
+      {
+        "source_row": 466,
+        "transaction_id": 2141
+      },
+      {
+        "source_row": 468,
+        "transaction_id": 2138
+      },
+      {
+        "source_row": 469,
+        "transaction_id": 2139
+      },
+      {
+        "source_row": 470,
+        "transaction_id": 2136
+      },
+      {
+        "source_row": 471,
+        "transaction_id": 2137
+      },
+      {
+        "source_row": 472,
+        "transaction_id": 2135
+      },
+      {
+        "source_row": 473,
+        "transaction_id": 2134
+      },
+      {
+        "source_row": 474,
+        "transaction_id": 2133
+      },
+      {
+        "source_row": 475,
+        "transaction_id": 2132
+      },
+      {
+        "source_row": 476,
+        "transaction_id": 2131
+      },
+      {
+        "source_row": 477,
+        "transaction_id": 2130
+      },
+      {
+        "source_row": 478,
+        "transaction_id": 2128
+      },
+      {
+        "source_row": 479,
+        "transaction_id": 2129
+      },
+      {
+        "source_row": 480,
+        "transaction_id": 2126
+      },
+      {
+        "source_row": 481,
+        "transaction_id": 2127
+      },
+      {
+        "source_row": 482,
+        "transaction_id": 2125
+      },
+      {
+        "source_row": 483,
+        "transaction_id": 2124
+      },
+      {
+        "source_row": 484,
+        "transaction_id": 2123
+      },
+      {
+        "source_row": 485,
+        "transaction_id": 2122
+      },
+      {
+        "source_row": 488,
+        "transaction_id": 2121
+      },
+      {
+        "source_row": 489,
+        "transaction_id": 2117
+      },
+      {
+        "source_row": 490,
+        "transaction_id": 2120
+      },
+      {
+        "source_row": 491,
+        "transaction_id": 2112
+      },
+      {
+        "source_row": 492,
+        "transaction_id": 2118
+      },
+      {
+        "source_row": 493,
+        "transaction_id": 2119
+      },
+      {
+        "source_row": 494,
+        "transaction_id": 2116
+      },
+      {
+        "source_row": 495,
+        "transaction_id": 2114
+      },
+      {
+        "source_row": 496,
+        "transaction_id": 2115
+      },
+      {
+        "source_row": 497,
+        "transaction_id": 2113
+      },
+      {
+        "source_row": 498,
+        "transaction_id": 2111
+      },
+      {
+        "source_row": 499,
+        "transaction_id": 2110
+      },
+      {
+        "source_row": 501,
+        "transaction_id": 2109
+      },
+      {
+        "source_row": 502,
+        "transaction_id": 2108
+      },
+      {
+        "source_row": 503,
+        "transaction_id": 2107
+      },
+      {
+        "source_row": 504,
+        "transaction_id": 2106
+      },
+      {
+        "source_row": 505,
+        "transaction_id": 2105
+      },
+      {
+        "source_row": 506,
+        "transaction_id": 2104
+      },
+      {
+        "source_row": 507,
+        "transaction_id": 2103
+      },
+      {
+        "source_row": 508,
+        "transaction_id": 2102
+      },
+      {
+        "source_row": 510,
+        "transaction_id": 2099
+      },
+      {
+        "source_row": 511,
+        "transaction_id": 2100
+      },
+      {
+        "source_row": 512,
+        "transaction_id": 2097
+      },
+      {
+        "source_row": 513,
+        "transaction_id": 2096
+      },
+      {
+        "source_row": 514,
+        "transaction_id": 2098
+      },
+      {
+        "source_row": 515,
+        "transaction_id": 2095
+      },
+      {
+        "source_row": 516,
+        "transaction_id": 2093
+      },
+      {
+        "source_row": 517,
+        "transaction_id": 2094
+      },
+      {
+        "source_row": 518,
+        "transaction_id": 2092
+      },
+      {
+        "source_row": 519,
+        "transaction_id": 2091
+      },
+      {
+        "source_row": 521,
+        "transaction_id": 2079
+      },
+      {
+        "source_row": 522,
+        "transaction_id": 2090
+      },
+      {
+        "source_row": 523,
+        "transaction_id": 2089
+      },
+      {
+        "source_row": 524,
+        "transaction_id": 2088
+      },
+      {
+        "source_row": 525,
+        "transaction_id": 2087
+      },
+      {
+        "source_row": 526,
+        "transaction_id": 2085
+      },
+      {
+        "source_row": 527,
+        "transaction_id": 2086
+      },
+      {
+        "source_row": 528,
+        "transaction_id": 2083
+      },
+      {
+        "source_row": 529,
+        "transaction_id": 2082
+      },
+      {
+        "source_row": 530,
+        "transaction_id": 2081
+      },
+      {
+        "source_row": 531,
+        "transaction_id": 2080
+      }
+    ],
+    "deferred_unrelated_september": [
+      {
+        "source_row": 277,
+        "date": "2026-09-30 15:09:00.442000",
+        "asset": "롯데365카드",
+        "category": "금융",
+        "sub": null,
+        "title": "롯데카드 할인",
+        "amount": -15000,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 278,
+        "date": "2026-09-30 14:37:00.055000",
+        "asset": "MG+S 하나카드",
+        "category": "금융",
+        "sub": null,
+        "title": "MG+S하나카드 할인",
+        "amount": -59869,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 279,
+        "date": "2026-09-30 14:32:00.447000",
+        "asset": "우리카드의정석SUPER",
+        "category": "금융",
+        "sub": null,
+        "title": "우리카드 할인",
+        "amount": -5032,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 280,
+        "date": "2026-09-30 14:27:00.965000",
+        "asset": "NH별다줄카드",
+        "category": "금융",
+        "sub": null,
+        "title": "NH별다줄카드 할인",
+        "amount": -11000,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 285,
+        "date": "2026-09-29 20:50:00.235000",
+        "asset": "KB쿠팡와우",
+        "category": "잡화/소품/가구/생필품",
+        "sub": null,
+        "title": "쿠팡",
+        "amount": 18350,
+        "kind": "지출",
+        "memo": "섬유유연제"
+      },
+      {
+        "source_row": 286,
+        "date": "2026-09-29 20:50:00.312000",
+        "asset": "KB쿠팡와우",
+        "category": "경조사/회비/선물/대인",
+        "sub": "마음",
+        "title": "쿠팡",
+        "amount": 7500,
+        "kind": "지출",
+        "memo": "키링"
+      },
+      {
+        "source_row": 299,
+        "date": "2026-09-27 20:07:00.741000",
+        "asset": "신한은행",
+        "category": "금융",
+        "sub": null,
+        "title": "계좌인증",
+        "amount": 1,
+        "kind": "수입",
+        "memo": null
+      },
+      {
+        "source_row": 321,
+        "date": "2026-09-26 14:39:00.723000",
+        "asset": "MG+S 하나카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 4500,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 357,
+        "date": "2026-09-22 15:10:00.134000",
+        "asset": "롯데365카드",
+        "category": "주거",
+        "sub": null,
+        "title": "관리비",
+        "amount": 170350,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 383,
+        "date": "2026-09-18 15:45:00.744000",
+        "asset": "NH별다줄카드",
+        "category": "건강/보험/의료",
+        "sub": "영양제",
+        "title": "쿠팡",
+        "amount": 19210,
+        "kind": "지출",
+        "memo": "오메가3 영양제"
+      },
+      {
+        "source_row": 401,
+        "date": "2026-09-15 20:54:00.767000",
+        "asset": "MG+S 하나카드",
+        "category": "통신",
+        "sub": null,
+        "title": "유모비",
+        "amount": 12400,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 467,
+        "date": "2026-09-07 16:51:00.143000",
+        "asset": "MG+S 하나카드",
+        "category": "경조사/회비/선물/대인",
+        "sub": "마음",
+        "title": "알리익스프레스",
+        "amount": 5124,
+        "kind": "지출",
+        "memo": "카세트 테이프 키링"
+      },
+      {
+        "source_row": 486,
+        "date": "2026-09-04 15:13:00.787000",
+        "asset": "롯데365카드",
+        "category": "식비",
+        "sub": "음료/디저트/간식",
+        "title": "CU",
+        "amount": 2100,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 487,
+        "date": "2026-09-04 14:36:00.487000",
+        "asset": "MG+S 하나카드",
+        "category": "금융",
+        "sub": null,
+        "title": "하나카드 연회비",
+        "amount": 17000,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 500,
+        "date": "2026-09-03 15:21:00.852000",
+        "asset": "롯데365카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 5000,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 509,
+        "date": "2026-09-02 14:19:00.594000",
+        "asset": "NH별다줄카드",
+        "category": "금융",
+        "sub": null,
+        "title": "NH농협카드 연회비",
+        "amount": 6000,
+        "kind": "지출",
+        "memo": null
+      },
+      {
+        "source_row": 520,
+        "date": "2026-09-01 20:38:00.888000",
+        "asset": "KB쿠팡와우",
+        "category": "잡화/소품/가구/생필품",
+        "sub": null,
+        "title": "쿠팡",
+        "amount": 18900,
+        "kind": "지출",
+        "memo": "신지모루 카드지갑 케이스"
+      }
+    ],
+    "existing_september_not_in_new_export_preserved": [
+      2317,
+      2316,
+      2254,
+      2222,
+      2140,
+      2101,
+      2084
+    ],
+    "billing_transaction_id": 2438,
+    "source_usage": {
+      "source_row": 281,
+      "date": "2026-09-30 20:02:00.691000",
+      "asset": "토스뱅크K패스체크카드",
+      "category": "교통/차량",
+      "sub": null,
+      "title": "9월 후불교통",
+      "amount": 136350,
+      "kind": "지출",
+      "memo": null
+    },
+    "scope": "Only requested September transport evidence plus November transactions; unrelated September differences are not merged.",
+    "billing_note_before": "10월 첨부 RAW 17행 | 10/13까지 반영 | 개별 교통 구매내역 없는 후불교통 결제. 고정비에 1회 반영",
+    "billing_note_confirmation": "11/2 확인: 9/30 후불교통 사용기록 거래ID 2590와 동일한 136,350원. K패스=모두의카드. 10/12 토스뱅크 결제 기준으로 10월 고정비에 한 번만 반영하며 9월에 재차 합산하지 않습니다.",
+    "sort": {
+      "mode": "descending",
+      "moved_rows": 2597,
+      "first_id": 2598,
+      "last_nonblank_id": 2
+    },
+    "helper_formula_counts_updated": {
+      "AJ": 4000,
+      "AA": 3998,
+      "AB": 4000
+    }
+  },
+  "unit_tests_passed": 153,
+  "memo_cache_restoration": {
+    "cache_texts_restored_by_sheet": {
+      "예비비": 12,
+      "잔액": 2,
+      "7월": 1,
+      "10월": 8,
+      "RAW": 104
+    },
+    "raw_memos_and_linebreaks_preserved": true,
+    "only_formula_text_caches_modified": true,
+    "input_values_and_formulas_unchanged": true
+  },
+  "previous_git_commit": "0292bbf",
+  "previous_version": "history/2026-11-02/01",
+  "user_attachment": "inputs/2026-11-02/테트리스_가계부_2026_고도화_첨부원본.xlsm",
+  "raw_attachment": "raw/2026-11-02/2026-09-01_2026-11-02.xlsx",
+  "guide": "2026-11-02_모두의카드_청구월_11월반영_검증.md"
+}

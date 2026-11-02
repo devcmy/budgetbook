@@ -101,7 +101,8 @@
       "카드사용": 7,
       "타계좌": 1
     },
-    "postpaid_transport": "Usage summary is evidence only; identified bank settlement is fixed cost in charge month. No memo dependency."
+    "postpaid_transport": "Usage summary is evidence only; identified bank settlement is fixed cost in charge month. No memo dependency.",
+    "installment_product_matching": "Explicit month+asset+normalized title/installment aliases for Nov/Dec 2026; no free memo dependency; existing RAW values unchanged."
   },
   "historical_accounts": {
     "checked": 63,
@@ -524,8 +525,8 @@
   },
   "as_of": "2026-11-02",
   "ui_updated_at": "2026-11-02",
-  "current_verification": "postpaid_20261102_validation.json",
-  "workbook_sha256": "207f4d71b7d4ee529fa79424e008c7cac2c0c5203bd281d490aa54ac3336b489",
+  "current_verification": "installments_20261102_validation.json",
+  "workbook_sha256": "44b9255278d953317bcdc7235852e5db6f9e72ae44be608516ab967958a238ba",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -5385,9 +5386,12 @@
     "O11": 136350,
     "U11": "예상",
     "E74": 303,
-    "E75": 1216861,
+    "E75": 1201465,
     "E78": 75553,
-    "E79": 75553
+    "E79": 75553,
+    "O24": 11004,
+    "S24": "2/36회차",
+    "U24": "예상"
   },
   "postpaid_20261102": {
     "date": "2026-11-02",
@@ -5546,6 +5550,230 @@
       "added": 9,
       "unrelated_september_new_candidates_deferred": 17,
       "old_september_absent_from_new_export_preserved": 7
-    }
+    },
+    "scope": "Historical transport/November input checks; actual data unchanged, current forecasts and file hash follow installments_20261102."
+  },
+  "december_summary": {
+    "O24": 11004,
+    "S24": "3/36회차",
+    "U24": "예상",
+    "E74": 0,
+    "E75": 1206060,
+    "E78": 0,
+    "E79": 0
+  },
+  "installments_20261102": {
+    "date": "2026-11-02",
+    "workbook_sha256": "44b9255278d953317bcdc7235852e5db6f9e72ae44be608516ab967958a238ba",
+    "baseline_sha256": "207f4d71b7d4ee529fa79424e008c7cac2c0c5203bd281d490aa54ac3336b489",
+    "raw_value_cells_compared": 168000,
+    "other_numeric_and_date_cells_compared": 88903,
+    "raw_transactions_added": 0,
+    "november_expected_buds": 11004,
+    "november_buds_installment": "2/36",
+    "december_expected_buds": 11004,
+    "december_buds_installment": "3/36",
+    "november_fixed_actual_and_planned": 1201465,
+    "december_fixed_actual_and_planned": 1206060,
+    "november_actual_fixed": 303,
+    "november_actual_usage": 75553,
+    "applecare_completed_september_3_of_3": true,
+    "completed_applecare_not_forecast": true,
+    "october_amounts_and_all_actuals_preserved": true,
+    "source_memos_and_overrides_preserved": true,
+    "hidden_months_and_raw_sort_preserved": true,
+    "vba_styles_controls_relationships_byte_preserved": true,
+    "calculator_visual_rules_preserved": true,
+    "formula_max_length": 2854,
+    "formula_errors": 0,
+    "native_excel_ui_executed": false,
+    "reserve": {
+      "month": 10,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 239000,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "structure": {
+      "worksheet_count": 46,
+      "xml_part_count": 84,
+      "errors": []
+    },
+    "future_invoice_tests": {
+      "synthetic_transactions_only_in_disposable_copy": true,
+      "buds_airpods_phone_mapped_separately": true,
+      "actual_amount_replaces_forecast_not_added_to_it": true,
+      "installment_charge_rounding_difference_does_not_break_product_match": true,
+      "completed_plan_not_restarted_by_unexpected_late_charge": true,
+      "unrecognized_late_charge_preserved_as_actual_other_fixed_cost": true,
+      "different_memos_do_not_reclassify_or_avoid_duplicate_exclusion": true,
+      "clearing_raw_memos_does_not_change_financial_recognition": true,
+      "date_sort": {
+        "mode": "ascending",
+        "moved_rows": 2602,
+        "first_id": 2,
+        "last_nonblank_id": 2604
+      },
+      "reserve": {
+        "month": 11,
+        "physical_wrap_total": 8434741,
+        "purpose_available": 2150000,
+        "actual_use": 0,
+        "allocated_to_bill": 0,
+        "invalid_use_rows": [],
+        "invalid_settlement_rows": []
+      },
+      "memos": [
+        {
+          "month": 1,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 2,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 3,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 4,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 5,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 6,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 7,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 8,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 9,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 10,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 11,
+          "memos": 3,
+          "pages_and_fixed_memos_match": true
+        },
+        {
+          "month": 12,
+          "memos": 0,
+          "pages_and_fixed_memos_match": true
+        }
+      ],
+      "formula_errors": 0
+    },
+    "metadata": {
+      "date": "2026-11-02",
+      "plans": [
+        {
+          "month": 11,
+          "name": "휴대폰",
+          "slot": 22,
+          "installment": 15,
+          "total": 22,
+          "amount": 74700,
+          "asset": "롯데365카드",
+          "title": "11번가(15/22)",
+          "row": 2
+        },
+        {
+          "month": 11,
+          "name": "에어팟프로3",
+          "slot": 23,
+          "installment": 7,
+          "total": 36,
+          "amount": 10200,
+          "asset": "롯데365카드",
+          "title": "롯데카드 띵샵(7/36)",
+          "row": 3
+        },
+        {
+          "month": 11,
+          "name": "갤럭시버즈4프로",
+          "slot": 24,
+          "installment": 2,
+          "total": 36,
+          "amount": 11004,
+          "asset": "롯데365카드",
+          "title": "롯데카드 띵샵(2/36)",
+          "row": 4
+        },
+        {
+          "month": 12,
+          "name": "휴대폰",
+          "slot": 22,
+          "installment": 16,
+          "total": 22,
+          "amount": 74700,
+          "asset": "롯데365카드",
+          "title": "11번가(16/22)",
+          "row": 5
+        },
+        {
+          "month": 12,
+          "name": "에어팟프로3",
+          "slot": 23,
+          "installment": 8,
+          "total": 36,
+          "amount": 10200,
+          "asset": "롯데365카드",
+          "title": "롯데카드 띵샵(8/36)",
+          "row": 6
+        },
+        {
+          "month": 12,
+          "name": "갤럭시버즈4프로",
+          "slot": 24,
+          "installment": 3,
+          "total": 36,
+          "amount": 11004,
+          "asset": "롯데365카드",
+          "title": "롯데카드 띵샵(3/36)",
+          "row": 7
+        }
+      ],
+      "raw_slot_formulas_updated": 3998,
+      "completed_installment": {
+        "name": "애플케어플러스",
+        "final_raw_id": 2091,
+        "final_month": "2026-09",
+        "final_installment": "3/3"
+      },
+      "buds_first_raw_id": 2526,
+      "buds_october_historical_other_slot_retained": true,
+      "raw_transactions_added": 0,
+      "free_memo_used_as_product_identifier": false
+    },
+    "unit_tests_passed": 161,
+    "previous_commit": "554a491",
+    "previous_version": "history/2026-11-02/02",
+    "guide": "2026-11-02_할부이월_종료항목정리_검증.md"
   }
 }
