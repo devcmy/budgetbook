@@ -1,0 +1,253 @@
+{
+  "date": "2026-11-02",
+  "baseline_sha256": "44b9255278d953317bcdc7235852e5db6f9e72ae44be608516ab967958a238ba",
+  "workbook_sha256": "00c40ab32c26a3aca65d1c6c19cd98042ea64aca70a5865549db6edbcaa20e86",
+  "package": {
+    "new_worksheet_only_part_added": true,
+    "original_style_components_prefix_preserved": true,
+    "vba_controls_drawings_relationships_preserved": true,
+    "calculator_visual_rules_preserved": true,
+    "confirmed_green_rule": {
+      "formula": "OR($U4=\"확정\",$U4=\"결제\",$U4=\"RAW 확인\")",
+      "fill": "FFE2F0D9"
+    },
+    "maximum_formula_length": 2854,
+    "structure": {
+      "worksheet_count": 47,
+      "xml_part_count": 85,
+      "errors": []
+    },
+    "standard_input_guards_installed": true,
+    "paste_can_bypass_excel_data_validation": true
+  },
+  "raw_value_cells_compared": 168000,
+  "actual_financial_cells_compared": 6343,
+  "naver_november_confirmed_amount": 303,
+  "camping_analysis": {
+    "raw_id": 2515,
+    "date": "2026-10-23",
+    "title": "숙소비",
+    "amount": 169000,
+    "current_personal_burden": 169000,
+    "calendar": 169000,
+    "tetris": 169000,
+    "advance_principal": 0,
+    "user_confirmed_shared_settlement_planned": true,
+    "final_personal_share_unknown": true,
+    "financial_reclassification_not_guessed": true,
+    "source_transaction_untouched": true
+  },
+  "total_raw_records": 2597,
+  "raw_transactions_added": 0,
+  "hidden_months_and_actuals_preserved": true,
+  "input_screen_candidates_visible": 8,
+  "input_screen_is_not_a_parallel_financial_register": true,
+  "no_vba_popups_or_macro_execution": true,
+  "native_microsoft_excel_ui_executed": false,
+  "reserve": {
+    "month": 10,
+    "physical_wrap_total": 8434741,
+    "purpose_available": 2150000,
+    "actual_use": 239000,
+    "allocated_to_bill": 0,
+    "invalid_use_rows": [],
+    "invalid_settlement_rows": []
+  },
+  "memos": [
+    {
+      "month": 1,
+      "memos": 80,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 2,
+      "memos": 62,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 3,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 4,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 5,
+      "memos": 65,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 6,
+      "memos": 113,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 7,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 8,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 9,
+      "memos": 98,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 10,
+      "memos": 213,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 11,
+      "memos": 4,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 12,
+      "memos": 0,
+      "pages_and_fixed_memos_match": true
+    }
+  ],
+  "formula_errors": 0,
+  "workflow_tests": {
+    "synthetic_transactions_only_in_temp_files": true,
+    "plan_only_changes_forecast_not_actual": true,
+    "actuals_compared_in_plan_case": 6343,
+    "memo_keyword_lookup_finds_camping": true,
+    "wrong_confirmation_id_disables_edit_routes": true,
+    "explicit_confirmation_matches_selected_raw_id": true,
+    "native_isformula_guard_logic_verified": true,
+    "manual_fixed_link_moves_existing_spending_without_adding_it_twice": true,
+    "wrong_class_or_ordinary_transfer_does_not_force_fixed_posting": true,
+    "actual_other_fixed_replaces_manual_other_plan": true,
+    "actual_installment_replaces_manual_plan": true,
+    "memo_changes_do_not_avoid_duplicate_exclusion": true,
+    "raw_link_code_survives_sort": {
+      "mode": "ascending",
+      "moved_rows": 2600,
+      "first_id": 2,
+      "last_nonblank_id": 2600
+    },
+    "reserve": {
+      "month": 11,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 0,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "memos": [
+      {
+        "month": 1,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 1,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ],
+    "formula_errors": 0
+  },
+  "metadata": {
+    "sheet": "입력·연결",
+    "raw_table_ref": "A1:AQ4001",
+    "raw_manual_fixed_code_column": "AQ",
+    "guide_moved_to": "AR:AW",
+    "helper_formula_updates": {
+      "AA": 3998,
+      "N": 4000
+    },
+    "color_rules": {
+      "10월": {
+        "confirmed_status_column": "U",
+        "green_dxf": 210,
+        "old_payment_method_validation_removed": true
+      },
+      "11월": {
+        "confirmed_status_column": "U",
+        "green_dxf": 210,
+        "old_payment_method_validation_removed": true
+      },
+      "12월": {
+        "confirmed_status_column": "U",
+        "green_dxf": 210,
+        "old_payment_method_validation_removed": true
+      }
+    },
+    "green_fill": "FFE2F0D9",
+    "monthly_forecast_input": "11월/12월 AB4:AB24,AB26",
+    "transactions_added": 0,
+    "no_vba_popups_or_macro_execution": true,
+    "input_form_is_navigation_not_parallel_expense_register": true,
+    "confirmation_bound_to_selected_transaction_id": true,
+    "excel_paste_can_bypass_data_validation": true
+  },
+  "unit_tests_passed": 174,
+  "previous_commit": "64643ba",
+  "previous_version": "history/2026-11-02/03",
+  "guide": "2026-11-02_입력연결_확정색상_캠핑검토.md",
+  "baseline_commit": "64643ba977d64232d8b19c760102eaa612375a37",
+  "snapshot": "history/2026-11-02/03",
+  "unit_test_count": 174,
+  "preview_method": "Disposable value-only copies rendered to PDF; no native Microsoft Excel UI execution."
+}

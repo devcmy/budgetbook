@@ -530,8 +530,8 @@
   },
   "as_of": "2026-11-02",
   "ui_updated_at": "2026-11-02",
-  "current_verification": "entry_flow_20261102_validation.json",
-  "workbook_sha256": "00c40ab32c26a3aca65d1c6c19cd98042ea64aca70a5865549db6edbcaa20e86",
+  "current_verification": "simple_search_20261102_validation.json",
+  "workbook_sha256": "b74d82a715d0f7e0740fb407ed3561a3076ec2b75bff87740522a97f874e0814",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -5909,6 +5909,41 @@
     "baseline_commit": "64643ba977d64232d8b19c760102eaa612375a37",
     "snapshot": "history/2026-11-02/03",
     "unit_test_count": 174,
-    "preview_method": "Disposable value-only copies rendered to PDF; no native Microsoft Excel UI execution."
+    "preview_method": "Disposable value-only copies rendered to PDF; no native Microsoft Excel UI execution.",
+    "scope": "Historical guided form; replaced by the simple desktop button search. Actual data, manual RAW AQ mapping and monthly AB plans are preserved."
+  },
+  "simple_search_20261102": {
+    "date": "2026-11-02",
+    "workbook_sha256": "b74d82a715d0f7e0740fb407ed3561a3076ec2b75bff87740522a97f874e0814",
+    "baseline_sha256": "00c40ab32c26a3aca65d1c6c19cd98042ea64aca70a5865549db6edbcaa20e86",
+    "structure": {
+      "worksheet_count": 47,
+      "xml_part_count": 87,
+      "errors": []
+    },
+    "raw_value_cells_compared": 172000,
+    "actual_financial_cells_compared": 6343,
+    "existing_raw_records": 2597,
+    "raw_transactions_added": 0,
+    "formula_errors": 0,
+    "existing_vba_sources_preserved": 13,
+    "new_vba_module": "BBSearch",
+    "new_macro_button_binding_verified": true,
+    "native_microsoft_excel_button_execution": false,
+    "vba_was_not_executed_in_cloud": true,
+    "all_month_search_finds_camping": true,
+    "month_11_excludes_october_camping": true,
+    "amount_keyword_finds_naver": true,
+    "preview_and_result_links_use_stable_raw_id": true,
+    "memo_deletion_and_sorted_raw_live_link_fixture_passed": true,
+    "current_financial_values_and_forecasts_unchanged": true,
+    "hidden_sheets_unchanged": true,
+    "macros_must_be_enabled_by_user_for_search_button": true,
+    "search_clears_raw_display_filters_only": true,
+    "source_only_vba_performance_caches_rebuilt": true,
+    "guide": "2026-11-02_검색화면단순화_PC버튼_검증.md",
+    "unit_test_count": 181,
+    "baseline_commit": "96d097e97d2867ffb71d2c2cfdec9413331911ac",
+    "snapshot": "history/2026-11-02/04"
   }
 }
