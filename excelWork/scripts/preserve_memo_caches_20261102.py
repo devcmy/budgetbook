@@ -48,6 +48,7 @@ def restore(baseline,delivery,output):
     normalized=lambda x:x.replace('\r','').replace('\n','')
     for sheet in p.sheets:
         if sheet=='RAW':continue
+        if sheet not in before.sheets:continue
         source={c.get('r'):c for c in before.sheet(sheet).iter(Q('c'))}
         for cell in p.sheet(sheet).iter(Q('c')):
             if cell.find(Q('f')) is None:continue
@@ -91,6 +92,10 @@ def restore(baseline,delivery,output):
         if p.cell('예비비',f'H{r}').find(Q('f')) is None:continue
         ident=value(p,p.cell('예비비',f'F{r}'))
         if isinstance(ident,(int,float)) and ident>=2:cache('예비비',f'H{r}',notes.get(int(ident)))
+    if '입력·연결' in p.sheets:
+        active=value(p,p.cell('입력·연결','K21'))
+        selected=value(p,p.cell('입력·연결','B7'))
+        cache('입력·연결','B16',notes.get(int(selected)) if active and isinstance(selected,(int,float)) else None)
     p.trees.pop('xl/workbook.xml',None);p.save(output)
     return {'cache_texts_restored_by_sheet':dict(changes),'raw_memos_and_linebreaks_preserved':True,
             'only_formula_text_caches_modified':True,'input_values_and_formulas_unchanged':True}

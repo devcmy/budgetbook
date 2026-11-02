@@ -14,7 +14,7 @@ import re
 from lxml import etree as ET
 import openpyxl
 from openpyxl.formula import Tokenizer
-from openpyxl.utils import get_column_letter, column_index_from_string
+from openpyxl.utils import get_column_letter, column_index_from_string, range_boundaries
 
 from redesign_reserve import ExtendedPackage
 from update_20261015 import Q
@@ -238,9 +238,10 @@ def prepare(source, output):
 
 
 def reorder(p, baseline_values, mode):
-    """Disposable full-table permutation; never move the guide at AQ:AV."""
+    """Disposable full-table permutation; never move columns beyond the table."""
     from datetime import datetime
     from openpyxl.utils.datetime import to_excel
+    data_end = range_boundaries(baseline_values['RAW'].tables[TABLE].ref)[2]
     ids = {r: int(baseline_values['RAW'].cell(r,42).value) for r in range(2,END+1)}
     def key(r):
         value = baseline_values['RAW'].cell(r,1).value
@@ -254,9 +255,9 @@ def reorder(p, baseline_values, mode):
     rows = {int(r.get('r')):r for r in data}
     stored = {}
     for r in range(2,END+1):
-        stored[r] = [deepcopy(c) for c in rows[r] if column_index_from_string(re.match('[A-Z]+',c.get('r'))[0]) <= 42]
+        stored[r] = [deepcopy(c) for c in rows[r] if column_index_from_string(re.match('[A-Z]+',c.get('r'))[0]) <= data_end]
         for c in list(rows[r]):
-            if column_index_from_string(re.match('[A-Z]+',c.get('r'))[0]) <= 42: rows[r].remove(c)
+            if column_index_from_string(re.match('[A-Z]+',c.get('r'))[0]) <= data_end: rows[r].remove(c)
     for target, source in enumerate(order,2):
         for i,c in enumerate(stored[source]):
             c.set('r',re.sub(r'\d+$',str(target),c.get('r')))
