@@ -55,9 +55,9 @@
     "total": 47
   },
   "raw": {
-    "count": 2597,
+    "count": 2617,
     "start": "2026-01-01T00:55:00",
-    "end": "2026-11-02T11:03:22.830000",
+    "end": "2026-11-24T19:44:00.083000",
     "by_month": {
       "2026-01": 224,
       "2026-02": 244,
@@ -69,7 +69,7 @@
       "2026-08": 310,
       "2026-09": 245,
       "2026-10": 267,
-      "2026-11": 8
+      "2026-11": 28
     },
     "october_scope": {
       "카드사용": 180,
@@ -80,7 +80,7 @@
     "table_range": "A1:AQ4001",
     "month_filter_column": "B",
     "prepared_records": 4000,
-    "remaining_prepared_records": 1403,
+    "remaining_prepared_records": 1383,
     "auto_helpers": true,
     "source_fields_and_existing_overrides_preserved": true,
     "existing_duplicate_candidates_preserved": 5,
@@ -88,7 +88,7 @@
     "duplicate_discriminator_column": "M",
     "original_memo_columns_merged_losslessly": true,
     "memo_not_used_for_classification_or_duplicates": true,
-    "preservation_scope": "Original date/asset/category/subcategory/title/amount/kind and J/K/L confirmed overrides unchanged; I/M note texts merged into I.",
+    "preservation_scope": "Historical inputs/memos preserved by stable ID except reconciled 11/2 transaction ID2597: amount and full personal burden 5000 -> 4500. No original booking dates changed.",
     "date_display_column": "A",
     "date_display_format": "m\"월\"\\ d\"일\"",
     "stored_year_and_time_preserved": true,
@@ -99,15 +99,16 @@
     "transaction_id_count": 4000,
     "linked_registers_use_transaction_ids_not_display_rows": true,
     "november_scope": {
-      "카드사용": 7,
-      "타계좌": 1
+      "카드사용": 24,
+      "타계좌": 4
     },
     "postpaid_transport": "Usage summary is evidence only; identified bank settlement is fixed cost in charge month. No memo dependency.",
     "installment_product_matching": "Explicit month+asset+normalized title/installment aliases for Nov/Dec 2026; no free memo dependency; existing RAW values unchanged.",
     "manual_fixed_code_column": "AQ",
     "guide_range": "AR:AW",
     "manual_override_requires_fixed_class": true,
-    "manual_codes_preserved_with_transaction_id_on_sort": true
+    "manual_codes_preserved_with_transaction_id_on_sort": true,
+    "future_dated_invoices_confirmed_actual_on": "2026-11-04"
   },
   "historical_accounts": {
     "checked": 63,
@@ -384,21 +385,21 @@
     },
     {
       "month": 11,
-      "color_total": 77000,
+      "color_total": 443000,
       "counts": {
-        "3": 0,
-        "4": 10,
-        "5": 0,
+        "3": 51,
+        "4": 20,
+        "5": 90,
         "6": 0,
-        "7": 5,
+        "7": 13,
         "8": 0,
-        "9": 62,
+        "9": 269,
         "10": 0
       },
       "cached_counts_match": true,
       "unknown_colors": {},
-      "display": 77000,
-      "salary_burden": 77000,
+      "display": 443000,
+      "salary_burden": 443000,
       "expected_display_matches": true,
       "month_display_matches": true,
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
@@ -473,9 +474,9 @@
   },
   "vba": {
     "executed": false,
-    "binary_identical_to_previous_version": false,
+    "binary_identical_to_previous_version": true,
     "binary_identical_to_input": true,
-    "binary_sha256": "f543afe888e295786c9703a826feebe60e354cfd15c642df009ed469f543d8ee",
+    "binary_sha256": "84bb6f304add6725dce0ea9650d24dbd0d5944705f02e088ffbcbc65f5c7f57d",
     "legacy_calculate_buttons_disconnected": true,
     "historical_module_audit": {
       "all_module_sources_equal": true,
@@ -483,7 +484,9 @@
       "binary_identical": false
     },
     "current_module_sources_reextracted": false,
-    "binary_identical_to_user_attachment": true
+    "binary_identical_to_user_attachment": false,
+    "input_reference": "history/2026-11-04/01/테트리스_가계부_2026_고도화.xlsm",
+    "preservation_scope": "Current Nov4 update preserves the Nov2 search-button VBA binary exactly; historical source audits remain historical."
   },
   "travel": [
     {
@@ -528,10 +531,10 @@
       "advanced": 0
     }
   },
-  "as_of": "2026-11-02",
-  "ui_updated_at": "2026-11-02",
-  "current_verification": "simple_search_20261102_validation.json",
-  "workbook_sha256": "b74d82a715d0f7e0740fb407ed3561a3076ec2b75bff87740522a97f874e0814",
+  "as_of": "2026-11-04",
+  "ui_updated_at": "2026-11-04",
+  "current_verification": "raw_update_20261104_validation.json",
+  "workbook_sha256": "b99d00596af5ee1184de2c5218f937da8db5dc4257f3bec379cfb506aeca380d",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -5383,20 +5386,27 @@
   "november_summary": {
     "C37": 0,
     "C40": 88,
-    "H37": 303,
-    "H38": 75250,
-    "I38": 77000,
-    "H44": 75553,
-    "H45": -75465,
+    "C41": 88,
+    "I33": 438270,
+    "H37": 125878,
+    "H38": 438270,
+    "I38": 443000,
+    "H43": 300,
+    "H44": 563848,
+    "H45": -563760,
     "O11": 136350,
     "U11": "예상",
-    "E74": 303,
-    "E75": 1201465,
-    "E78": 75553,
-    "E79": 75553,
-    "O24": 11004,
+    "O18": 13875,
+    "O21": 18000,
+    "O22": 74700,
+    "O23": 10200,
+    "O24": 8800,
     "S24": "2/36회차",
-    "U24": "예상"
+    "U24": "확정",
+    "E74": 125878,
+    "E75": 1211341,
+    "E78": 564148,
+    "E79": 564148
   },
   "postpaid_20261102": {
     "date": "2026-11-02",
@@ -5944,6 +5954,105 @@
     "guide": "2026-11-02_검색화면단순화_PC버튼_검증.md",
     "unit_test_count": 181,
     "baseline_commit": "96d097e97d2867ffb71d2c2cfdec9413331911ac",
-    "snapshot": "history/2026-11-02/04"
+    "snapshot": "history/2026-11-02/04",
+    "scope": "Historical search-screen implementation tests. Search VBA, controls and styles unchanged; current data and workbook hash follow raw_update_20261104."
+  },
+  "raw_update_20261104": {
+    "date": "2026-11-04",
+    "as_of": "2026-11-04",
+    "source_sha256": "36a4eb3ed5580ccb829b33c565949ee1fb6beab829fbb8c3946d235dbbfd3a12",
+    "baseline_sha256": "b74d82a715d0f7e0740fb407ed3561a3076ec2b75bff87740522a97f874e0814",
+    "workbook_sha256": "b99d00596af5ee1184de2c5218f937da8db5dc4257f3bec379cfb506aeca380d",
+    "source_records": 295,
+    "source_october_records": 267,
+    "source_november_records": 28,
+    "total_raw_records": 2617,
+    "new_transactions": 20,
+    "amount_corrections": [
+      {
+        "source_row": 19,
+        "date": "2026-11-02 11:03:19.803000",
+        "asset": "롯데365카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 4500,
+        "kind": "지출",
+        "memo": null,
+        "transaction_id": 2597,
+        "input_row": 3,
+        "old_amount": 5000,
+        "old_burden": 5000,
+        "new_burden": 4500
+      }
+    ],
+    "future_invoices_confirmed_actual_by_user": [
+      {
+        "transaction_id": 2616,
+        "source_row": 4,
+        "date": "2026-11-05 00:32:00",
+        "amount": 10200,
+        "title": "롯데카드 띵샵(7/36)"
+      },
+      {
+        "transaction_id": 2617,
+        "source_row": 3,
+        "date": "2026-11-12 22:51:27",
+        "amount": 74700,
+        "title": "11번가(15/22)"
+      },
+      {
+        "transaction_id": 2618,
+        "source_row": 2,
+        "date": "2026-11-24 19:44:00.083000",
+        "amount": 8800,
+        "title": "롯데카드 띵샵(2/36)"
+      }
+    ],
+    "latest_booking_date": "2026-11-24T19:44:00.083000",
+    "latest_nonfuture_booking_date": "2026-11-04T20:51:00.651000",
+    "calendar_actual": 438270,
+    "calendar_tetris": 443000,
+    "fixed_actual": 125878,
+    "fixed_actual_and_planned": 1211341,
+    "final_usage": 564148,
+    "card_rebates": 300,
+    "other_income": 88,
+    "usage_after_card_rebates": 563848,
+    "wrap_total": 8434741,
+    "wrap_living_balance": 6284741,
+    "reserve": {
+      "month": 10,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 239000,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "historical_input_cells_compared": 33759,
+    "other_month_summary_cells_compared": 253,
+    "existing_ids_and_memos_preserved": true,
+    "all_30_calendar_days_checked": true,
+    "calculator_palette_independently_checked": true,
+    "new_raw_not_duplicated": true,
+    "new_wrap_or_reserve_links": 0,
+    "search_preview_refreshed": true,
+    "vba_buttons_styles_relationships_byte_preserved": true,
+    "conditional_formats_preserved": true,
+    "native_excel_ui_executed": false,
+    "formula_errors": 0,
+    "structure": {
+      "worksheet_count": 47,
+      "xml_part_count": 87,
+      "errors": []
+    },
+    "guide": "2026-11-04_11월RAW추가_검증.md",
+    "unit_test_count": 188,
+    "previous_commit": "27ab9f5e66fc4e2754a8d86e92b76184e9542a1d",
+    "previous_version": "history/2026-11-04/01",
+    "raw_attachment": "raw/2026-11-04/2026-10-01_2026-11-30.xlsx",
+    "repeated_import_new_records": 0,
+    "repeated_import_corrections": 0
   }
 }

@@ -92,7 +92,8 @@ def restore(baseline,delivery,output):
         if p.cell('예비비',f'H{r}').find(Q('f')) is None:continue
         ident=value(p,p.cell('예비비',f'F{r}'))
         if isinstance(ident,(int,float)) and ident>=2:cache('예비비',f'H{r}',notes.get(int(ident)))
-    if '입력·연결' in p.sheets and p.cell('입력·연결','K21').find(Q('f')) is not None:
+    if ('입력·연결' in p.sheets
+            and p.sheet('입력·연결').find('.//'+Q('c')+"[@r='K21']/"+Q('f')) is not None):
         active=value(p,p.cell('입력·연결','K21'))
         selected=value(p,p.cell('입력·연결','B7'))
         cache('입력·연결','B16',notes.get(int(selected)) if active and isinstance(selected,(int,float)) else None)
