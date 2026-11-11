@@ -23,3 +23,6 @@ __pycache__/
 .env.*
 *.p12
 *.mobileprovision
+
+# Original financial statements remain local; publish workbook results only.
+/excelWork/inputs/2026-11-11/

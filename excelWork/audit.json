@@ -55,7 +55,7 @@
     "total": 47
   },
   "raw": {
-    "count": 2671,
+    "count": 2676,
     "start": "2026-01-01T00:55:00",
     "end": "2026-11-24T19:44:00.083000",
     "by_month": {
@@ -69,7 +69,7 @@
       "2026-08": 310,
       "2026-09": 245,
       "2026-10": 267,
-      "2026-11": 82
+      "2026-11": 87
     },
     "october_scope": {
       "카드사용": 180,
@@ -80,7 +80,7 @@
     "table_range": "A1:AQ4001",
     "month_filter_column": "B",
     "prepared_records": 4000,
-    "remaining_prepared_records": 1329,
+    "remaining_prepared_records": 1324,
     "auto_helpers": true,
     "source_fields_and_existing_overrides_preserved": true,
     "existing_duplicate_candidates_preserved": 5,
@@ -88,7 +88,7 @@
     "duplicate_discriminator_column": "M",
     "original_memo_columns_merged_losslessly": true,
     "memo_not_used_for_classification_or_duplicates": true,
-    "preservation_scope": "Nov11 import adds 54 records; all existing inputs/memos preserved by stable ID. Source 12,802 income is preserved as submitted but explicitly unresolved, not proven interest.",
+    "preservation_scope": "Confirmed Nov11 cumulative WRAP interest in existing ID2667. Five source records added; documented corrections only. Free memos never determine classification.",
     "date_display_column": "A",
     "date_display_format": "m\"월\"\\ d\"일\"",
     "stored_year_and_time_preserved": true,
@@ -99,9 +99,9 @@
     "transaction_id_count": 4000,
     "linked_registers_use_transaction_ids_not_display_rows": true,
     "november_scope": {
-      "카드사용": 60,
+      "카드사용": 63,
       "WRAP": 4,
-      "타계좌": 18
+      "타계좌": 20
     },
     "postpaid_transport": "Usage summary is evidence only; identified bank settlement is fixed cost in charge month. No memo dependency.",
     "installment_product_matching": "Explicit month+asset+normalized title/installment aliases for Nov/Dec 2026; no free memo dependency; existing RAW values unchanged.",
@@ -129,7 +129,7 @@
   },
   "wrap": {
     "balances": {
-      "생활비": 6284741,
+      "생활비": 6138985,
       "명절비": 0,
       "여행비": 1400000,
       "경조사비": 450000,
@@ -139,13 +139,13 @@
       "금융": 0,
       "임시보관": 0
     },
-    "total": 8434741,
-    "inflows": 3472652,
-    "outflows": 3576514,
-    "previous": 8538603,
+    "total": 8288985,
+    "inflows": 13964,
+    "outflows": 159720,
+    "previous": 8434741,
     "cached_matches": true,
-    "selected_month": "2026-10",
-    "scope": "Existing October selector retained. Current November figures and unresolved adjustment follow november_wrap and wrap_reconciliation_20261111."
+    "selected_month": "2026-11",
+    "scope": "Nov11 certificate closing balance. Cumulative interest is booked once when the user updates the ledger."
   },
   "calculators": [
     {
@@ -388,10 +388,10 @@
     },
     {
       "month": 11,
-      "color_total": 1023000,
+      "color_total": 1024000,
       "counts": {
         "3": 216,
-        "4": 60,
+        "4": 61,
         "5": 90,
         "6": 75,
         "7": 13,
@@ -401,8 +401,8 @@
       },
       "cached_counts_match": true,
       "unknown_colors": {},
-      "display": 1023000,
-      "salary_burden": 1023000,
+      "display": 1024000,
+      "salary_burden": 1024000,
       "expected_display_matches": true,
       "month_display_matches": true,
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
@@ -488,8 +488,8 @@
     },
     "current_module_sources_reextracted": false,
     "binary_identical_to_user_attachment": false,
-    "input_reference": "history/2026-11-11/01/테트리스_가계부_2026_고도화.xlsm",
-    "preservation_scope": "Nov11 import preserves the previous VBA byte-for-byte."
+    "input_reference": "history/2026-11-11/02/테트리스_가계부_2026_고도화.xlsm",
+    "preservation_scope": "Confirmed-interest update preserves existing VBA byte-for-byte."
   },
   "travel": [
     {
@@ -536,8 +536,8 @@
   },
   "as_of": "2026-11-11",
   "ui_updated_at": "2026-11-11",
-  "current_verification": "raw_update_20261111_validation.json",
-  "workbook_sha256": "4983b390576c2912a59eb20950a193fd287cb4319529315377ca55b589b54eae",
+  "current_verification": "confirmed_interest_20261111_validation.json",
+  "workbook_sha256": "d32dafb1aff7b629eaa03a5a97eaf182c4a00925d1d424aa0e5c8167b3540351",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -5388,28 +5388,29 @@
   },
   "november_summary": {
     "C37": 0,
-    "C40": 12890,
-    "C41": 12890,
-    "I33": 1009956,
-    "H37": 411813,
-    "H38": 1009956,
-    "I38": 1023000,
+    "C40": 55363,
+    "C41": 55363,
+    "I33": 1010156,
+    "H37": 411861,
+    "H38": 1010156,
+    "I38": 1024000,
     "H43": 800,
-    "H44": 1420969,
-    "H45": -1408079,
+    "H44": 1421217,
+    "H45": -1365854,
     "O11": 137300,
     "U11": "확정",
     "O18": 13875,
     "O21": 18000,
     "O22": 74700,
-    "O23": 10200,
+    "O23": 10250,
     "O24": 8800,
-    "O26": 67405,
-    "E74": 411813,
-    "E75": 1279696,
-    "E78": 1421769,
-    "E79": 1421769,
-    "income_includes_unresolved_adjustment": 12802
+    "O26": 67403,
+    "E74": 411861,
+    "E75": 1279744,
+    "E78": 1422017,
+    "E79": 1422017,
+    "confirmed_cumulative_wrap_interest": 13964,
+    "unverified_adjustment": 0
   },
   "postpaid_20261102": {
     "date": "2026-11-02",
@@ -5574,6 +5575,7 @@
   "december_summary": {
     "O11": 137300,
     "U11": "예상",
+    "O23": 10200,
     "O24": 11004,
     "S24": "3/36회차",
     "U24": "예상",
@@ -6061,12 +6063,14 @@
     "repeated_import_corrections": 0
   },
   "november_wrap": {
-    "total_as_submitted": 8287823,
-    "total_without_unresolved_adjustment": 8275021,
-    "living_as_submitted": 6137823,
+    "total": 8288985,
+    "living_balance": 6138985,
     "purpose_funds": 2150000,
-    "unresolved_adjustment": 12802,
-    "bank_statement_verified": false
+    "cumulative_interest": 13964,
+    "interest_record_count": 1,
+    "unresolved_adjustment": 0,
+    "bank_statement_verified": true,
+    "as_of": "2026-11-11"
   },
   "raw_update_20261111": {
     "as_of": "2026-11-11",
@@ -6556,6 +6560,995 @@
       2090,
       2088
     ],
-    "historical_direction_helper_issue_scope": "Display helper error only; legacy balances use reconstructed monthly ledger, not this direction helper. Not changed in this diagnostic update."
+    "historical_direction_helper_issue_scope": "Display helper error only; legacy balances use reconstructed monthly ledger, not this direction helper. Not changed in this diagnostic update.",
+    "scope": "Historical diagnostic before the securities certificate; superseded by confirmed_interest_20261111."
+  },
+  "confirmed_interest_20261111": {
+    "as_of": "2026-11-11",
+    "workbook_sha256": "d32dafb1aff7b629eaa03a5a97eaf182c4a00925d1d424aa0e5c8167b3540351",
+    "source_sha256": "c3a3fb9685cf0cdb2c3b4caea6288b416f43d8fccb2f08387d3e9863714d942b",
+    "certificate_sha256": "9d1f8983ae22c594e0a79a06de606f9134b7ceba88273bd75d609834852cbff9",
+    "total_raw_records": 2676,
+    "november_raw_records": 87,
+    "source_rows": 74,
+    "source_rows_all_accounted_for": true,
+    "new_transactions": 5,
+    "amount_corrections": [
+      {
+        "transaction_id": 2652,
+        "old_amount": 5000,
+        "new_amount": 5200
+      },
+      {
+        "transaction_id": 2658,
+        "old_amount": 54985,
+        "new_amount": 54983
+      },
+      {
+        "transaction_id": 2616,
+        "old_amount": 10200,
+        "new_amount": 10250
+      }
+    ],
+    "wrap_interest": 13964,
+    "wrap_interest_record_count": 1,
+    "wrap_balance": 8288985,
+    "interest_recorded_cumulatively_on_entry_date": true,
+    "unverified_balance_adjustment": 0,
+    "other_income": 55363,
+    "calendar_actual": 1010156,
+    "calendar_tetris": 1024000,
+    "fixed_actual": 411861,
+    "fixed_actual_and_planned": 1279744,
+    "final_usage": 1422017,
+    "december_forecast": 1207010,
+    "card_rebates": 800,
+    "reserve": {
+      "month": 11,
+      "physical_wrap_total": 8288985,
+      "purpose_available": 2150000,
+      "actual_use": 0,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "view": {
+      "month": 11,
+      "all_ledger_rows": 4,
+      "displayed_page": 1,
+      "displayed_rows": [
+        261,
+        260,
+        259,
+        258
+      ]
+    },
+    "memos": [
+      {
+        "month": 1,
+        "memos": 80,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 62,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 65,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 113,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 98,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 213,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 47,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ],
+    "historical_cells_compared": 34711,
+    "vba_controls_styles_relationships_preserved": true,
+    "conditional_formats_preserved": true,
+    "formula_errors": 0,
+    "structure": {
+      "worksheet_count": 47,
+      "xml_part_count": 87,
+      "errors": []
+    },
+    "unit_test_count": 194,
+    "native_excel_ui_executed": false,
+    "previous_version": "history/2026-11-11/02",
+    "previous_commit": "8190826",
+    "guide": "2026-11-11_이자확정_실제원장추가.md",
+    "metadata": {
+      "source_rows": 74,
+      "new": [
+        {
+          "date": "2026-11-01 07:15:21",
+          "asset": "토스뱅크K패스체크카드",
+          "category": "교통/차량",
+          "sub": null,
+          "title": "교통-버스 60건",
+          "amount": 59550,
+          "kind": "지출",
+          "memo": null,
+          "classification": "후불교통 사용기록",
+          "burden": 59550,
+          "payment": "본인",
+          "source_row": 72,
+          "transaction_id": 2673,
+          "input_row": 2673
+        },
+        {
+          "date": "2026-11-01 07:15:21",
+          "asset": "토스뱅크K패스체크카드",
+          "category": "교통/차량",
+          "sub": null,
+          "title": "교통-지하철 62건",
+          "amount": 75800,
+          "kind": "지출",
+          "memo": null,
+          "classification": "후불교통 사용기록",
+          "burden": 75800,
+          "payment": "본인",
+          "source_row": 73,
+          "transaction_id": 2674,
+          "input_row": 2674
+        },
+        {
+          "date": "2026-11-01 07:15:21",
+          "asset": "토스뱅크K패스체크카드",
+          "category": "교통/차량",
+          "sub": null,
+          "title": "교통-경남버스 1건",
+          "amount": 1950,
+          "kind": "지출",
+          "memo": null,
+          "classification": "후불교통 사용기록",
+          "burden": 1950,
+          "payment": "본인",
+          "source_row": 74,
+          "transaction_id": 2675,
+          "input_row": 2675
+        },
+        {
+          "date": "2026-11-10 13:22:45",
+          "asset": "신한은행",
+          "category": "금융",
+          "sub": null,
+          "title": "마이신한포인트",
+          "amount": 41311,
+          "kind": "수입",
+          "memo": null,
+          "classification": "이자·환급",
+          "burden": 41311,
+          "payment": "본인",
+          "source_row": 14,
+          "transaction_id": 2676,
+          "input_row": 2676
+        },
+        {
+          "date": "2026-11-10 15:37:01",
+          "asset": "여행통장",
+          "category": "공금",
+          "sub": null,
+          "title": "정진규",
+          "amount": 20000,
+          "kind": "수입",
+          "memo": null,
+          "classification": "공금",
+          "burden": 0,
+          "payment": "공동",
+          "source_row": 13,
+          "transaction_id": 2677,
+          "input_row": 2677
+        }
+      ],
+      "corrections": [
+        {
+          "transaction_id": 2652,
+          "old_amount": 5000,
+          "new_amount": 5200
+        },
+        {
+          "transaction_id": 2658,
+          "old_amount": 54985,
+          "new_amount": 54983
+        },
+        {
+          "transaction_id": 2616,
+          "old_amount": 10200,
+          "new_amount": 10250
+        }
+      ],
+      "coverage": [
+        {
+          "source_rows": [
+            2
+          ],
+          "transaction_ids": [
+            2670
+          ],
+          "status": "linked_existing",
+          "source_amount": 53620
+        },
+        {
+          "source_rows": [
+            3
+          ],
+          "transaction_ids": [
+            2671
+          ],
+          "status": "linked_existing",
+          "source_amount": 9500
+        },
+        {
+          "source_rows": [
+            4
+          ],
+          "transaction_ids": [
+            2672
+          ],
+          "status": "linked_existing",
+          "source_amount": 11800
+        },
+        {
+          "source_rows": [
+            5
+          ],
+          "transaction_ids": [
+            2668
+          ],
+          "status": "linked_existing",
+          "source_amount": 106200
+        },
+        {
+          "source_rows": [
+            6
+          ],
+          "transaction_ids": [
+            2669
+          ],
+          "status": "linked_existing",
+          "source_amount": 25000
+        },
+        {
+          "source_rows": [
+            7,
+            12
+          ],
+          "transaction_ids": [
+            2662
+          ],
+          "status": "transport_bill_components_already_linked",
+          "source_amount": 137300
+        },
+        {
+          "source_rows": [
+            8
+          ],
+          "transaction_ids": [
+            2662
+          ],
+          "status": "funding_counterpart_already_linked",
+          "source_amount": 137300
+        },
+        {
+          "source_rows": [
+            9
+          ],
+          "transaction_ids": [
+            2665,
+            2666
+          ],
+          "status": "linked_existing",
+          "source_amount": 6800
+        },
+        {
+          "source_rows": [
+            10
+          ],
+          "transaction_ids": [
+            2664
+          ],
+          "status": "linked_existing",
+          "source_amount": 3000
+        },
+        {
+          "source_rows": [
+            11
+          ],
+          "transaction_ids": [
+            2663
+          ],
+          "status": "linked_existing",
+          "source_amount": 100
+        },
+        {
+          "source_rows": [
+            15
+          ],
+          "transaction_ids": [
+            2660
+          ],
+          "status": "linked_existing",
+          "source_amount": 5000
+        },
+        {
+          "source_rows": [
+            16
+          ],
+          "transaction_ids": [
+            2659
+          ],
+          "status": "linked_existing",
+          "source_amount": 8700
+        },
+        {
+          "source_rows": [
+            17
+          ],
+          "transaction_ids": [
+            2657
+          ],
+          "status": "linked_existing",
+          "source_amount": 31641
+        },
+        {
+          "source_rows": [
+            18
+          ],
+          "transaction_ids": [
+            2658
+          ],
+          "status": "linked_existing",
+          "source_amount": 54983
+        },
+        {
+          "source_rows": [
+            19
+          ],
+          "transaction_ids": [
+            2655,
+            2656
+          ],
+          "status": "linked_existing",
+          "source_amount": 6000
+        },
+        {
+          "source_rows": [
+            20
+          ],
+          "transaction_ids": [
+            2654
+          ],
+          "status": "linked_existing",
+          "source_amount": 8000
+        },
+        {
+          "source_rows": [
+            21
+          ],
+          "transaction_ids": [
+            2653
+          ],
+          "status": "linked_existing",
+          "source_amount": 12420
+        },
+        {
+          "source_rows": [
+            22
+          ],
+          "transaction_ids": [
+            2650
+          ],
+          "status": "funding_counterpart_already_linked",
+          "source_amount": 12420
+        },
+        {
+          "source_rows": [
+            23
+          ],
+          "transaction_ids": [
+            2651
+          ],
+          "status": "linked_existing",
+          "source_amount": 27610
+        },
+        {
+          "source_rows": [
+            24
+          ],
+          "transaction_ids": [
+            2652
+          ],
+          "status": "linked_existing",
+          "source_amount": 5200
+        },
+        {
+          "source_rows": [
+            25
+          ],
+          "transaction_ids": [
+            2649
+          ],
+          "status": "linked_existing",
+          "source_amount": 700
+        },
+        {
+          "source_rows": [
+            26
+          ],
+          "transaction_ids": [
+            2648
+          ],
+          "status": "linked_existing",
+          "source_amount": 55090
+        },
+        {
+          "source_rows": [
+            27
+          ],
+          "transaction_ids": [
+            2647
+          ],
+          "status": "linked_existing",
+          "source_amount": 17000
+        },
+        {
+          "source_rows": [
+            28
+          ],
+          "transaction_ids": [
+            2646
+          ],
+          "status": "linked_existing",
+          "source_amount": 100
+        },
+        {
+          "source_rows": [
+            29
+          ],
+          "transaction_ids": [
+            2645
+          ],
+          "status": "linked_existing",
+          "source_amount": 7000
+        },
+        {
+          "source_rows": [
+            30
+          ],
+          "transaction_ids": [
+            2644
+          ],
+          "status": "linked_existing",
+          "source_amount": 39500
+        },
+        {
+          "source_rows": [
+            31
+          ],
+          "transaction_ids": [
+            2643
+          ],
+          "status": "linked_existing",
+          "source_amount": 60000
+        },
+        {
+          "source_rows": [
+            32
+          ],
+          "transaction_ids": [
+            2640,
+            2641
+          ],
+          "status": "linked_existing",
+          "source_amount": 10400
+        },
+        {
+          "source_rows": [
+            33
+          ],
+          "transaction_ids": [
+            2635
+          ],
+          "status": "linked_existing",
+          "source_amount": 100
+        },
+        {
+          "source_rows": [
+            34
+          ],
+          "transaction_ids": [
+            2639
+          ],
+          "status": "linked_existing",
+          "source_amount": 14160
+        },
+        {
+          "source_rows": [
+            35
+          ],
+          "transaction_ids": [
+            2638
+          ],
+          "status": "linked_existing",
+          "source_amount": 5500
+        },
+        {
+          "source_rows": [
+            36
+          ],
+          "transaction_ids": [
+            2637
+          ],
+          "status": "linked_existing",
+          "source_amount": 11375
+        },
+        {
+          "source_rows": [
+            37
+          ],
+          "transaction_ids": [
+            2631
+          ],
+          "status": "linked_existing",
+          "source_amount": 5000
+        },
+        {
+          "source_rows": [
+            38
+          ],
+          "transaction_ids": [
+            2630
+          ],
+          "status": "linked_existing",
+          "source_amount": 100
+        },
+        {
+          "source_rows": [
+            39
+          ],
+          "transaction_ids": [
+            2629
+          ],
+          "status": "linked_existing",
+          "source_amount": 15900
+        },
+        {
+          "source_rows": [
+            40,
+            41
+          ],
+          "transaction_ids": [
+            2628
+          ],
+          "status": "linked_existing",
+          "source_amount": 43020
+        },
+        {
+          "source_rows": [
+            42
+          ],
+          "transaction_ids": [
+            2627
+          ],
+          "status": "linked_existing",
+          "source_amount": 5000
+        },
+        {
+          "source_rows": [
+            43
+          ],
+          "transaction_ids": [
+            2626
+          ],
+          "status": "linked_existing",
+          "source_amount": 30000
+        },
+        {
+          "source_rows": [
+            44
+          ],
+          "transaction_ids": [
+            2622
+          ],
+          "status": "linked_existing",
+          "source_amount": 100
+        },
+        {
+          "source_rows": [
+            45
+          ],
+          "transaction_ids": [
+            2625
+          ],
+          "status": "linked_existing",
+          "source_amount": 7700
+        },
+        {
+          "source_rows": [
+            46
+          ],
+          "transaction_ids": [
+            2623,
+            2624
+          ],
+          "status": "linked_existing",
+          "source_amount": 7700
+        },
+        {
+          "source_rows": [
+            47
+          ],
+          "transaction_ids": [
+            2616
+          ],
+          "status": "linked_existing",
+          "source_amount": 10250
+        },
+        {
+          "source_rows": [
+            48
+          ],
+          "transaction_ids": [
+            2611
+          ],
+          "status": "linked_existing",
+          "source_amount": 100
+        },
+        {
+          "source_rows": [
+            49
+          ],
+          "transaction_ids": [
+            2615
+          ],
+          "status": "linked_existing",
+          "source_amount": 89800
+        },
+        {
+          "source_rows": [
+            50
+          ],
+          "transaction_ids": [
+            2613
+          ],
+          "status": "linked_existing",
+          "source_amount": 11000
+        },
+        {
+          "source_rows": [
+            51
+          ],
+          "transaction_ids": [
+            2614
+          ],
+          "status": "linked_existing",
+          "source_amount": 8975
+        },
+        {
+          "source_rows": [
+            52
+          ],
+          "transaction_ids": [
+            2612
+          ],
+          "status": "linked_existing",
+          "source_amount": 4900
+        },
+        {
+          "source_rows": [
+            53
+          ],
+          "transaction_ids": [
+            2610
+          ],
+          "status": "linked_existing",
+          "source_amount": 5000
+        },
+        {
+          "source_rows": [
+            54
+          ],
+          "transaction_ids": [
+            2609
+          ],
+          "status": "linked_existing",
+          "source_amount": 8000
+        },
+        {
+          "source_rows": [
+            55
+          ],
+          "transaction_ids": [
+            2608
+          ],
+          "status": "linked_existing",
+          "source_amount": 100
+        },
+        {
+          "source_rows": [
+            56
+          ],
+          "transaction_ids": [
+            2606
+          ],
+          "status": "linked_existing",
+          "source_amount": 19660
+        },
+        {
+          "source_rows": [
+            57
+          ],
+          "transaction_ids": [
+            2607
+          ],
+          "status": "linked_existing",
+          "source_amount": 9000
+        },
+        {
+          "source_rows": [
+            58
+          ],
+          "transaction_ids": [
+            2604
+          ],
+          "status": "linked_existing",
+          "source_amount": 199000
+        },
+        {
+          "source_rows": [
+            59
+          ],
+          "transaction_ids": [
+            2603,
+            2605
+          ],
+          "status": "linked_existing",
+          "source_amount": 7200
+        },
+        {
+          "source_rows": [
+            60
+          ],
+          "transaction_ids": [
+            2602
+          ],
+          "status": "linked_existing",
+          "source_amount": 7360
+        },
+        {
+          "source_rows": [
+            61
+          ],
+          "transaction_ids": [
+            2601
+          ],
+          "status": "linked_existing",
+          "source_amount": 100
+        },
+        {
+          "source_rows": [
+            62
+          ],
+          "transaction_ids": [
+            2599
+          ],
+          "status": "linked_existing",
+          "source_amount": 7500
+        },
+        {
+          "source_rows": [
+            63
+          ],
+          "transaction_ids": [
+            2598
+          ],
+          "status": "linked_existing",
+          "source_amount": 31490
+        },
+        {
+          "source_rows": [
+            64
+          ],
+          "transaction_ids": [
+            2600
+          ],
+          "status": "linked_existing",
+          "source_amount": 18000
+        },
+        {
+          "source_rows": [
+            65
+          ],
+          "transaction_ids": [
+            2597
+          ],
+          "status": "linked_existing",
+          "source_amount": 4500
+        },
+        {
+          "source_rows": [
+            66
+          ],
+          "transaction_ids": [
+            2596
+          ],
+          "status": "linked_existing",
+          "source_amount": 26260
+        },
+        {
+          "source_rows": [
+            67
+          ],
+          "transaction_ids": [
+            2595
+          ],
+          "status": "linked_existing",
+          "source_amount": 4500
+        },
+        {
+          "source_rows": [
+            68
+          ],
+          "transaction_ids": [
+            2594
+          ],
+          "status": "linked_existing",
+          "source_amount": 5000
+        },
+        {
+          "source_rows": [
+            69
+          ],
+          "transaction_ids": [
+            2593
+          ],
+          "status": "linked_existing",
+          "source_amount": 3000
+        },
+        {
+          "source_rows": [
+            71
+          ],
+          "transaction_ids": [
+            2592
+          ],
+          "status": "linked_existing",
+          "source_amount": 303
+        },
+        {
+          "source_rows": [
+            75
+          ],
+          "transaction_ids": [
+            2591
+          ],
+          "status": "linked_existing",
+          "source_amount": 88
+        },
+        {
+          "source_rows": [
+            72
+          ],
+          "transaction_ids": [
+            2673
+          ],
+          "status": "added",
+          "source_amount": 59550
+        },
+        {
+          "source_rows": [
+            73
+          ],
+          "transaction_ids": [
+            2674
+          ],
+          "status": "added",
+          "source_amount": 75800
+        },
+        {
+          "source_rows": [
+            74
+          ],
+          "transaction_ids": [
+            2675
+          ],
+          "status": "added",
+          "source_amount": 1950
+        },
+        {
+          "source_rows": [
+            14
+          ],
+          "transaction_ids": [
+            2676
+          ],
+          "status": "added",
+          "source_amount": 41311
+        },
+        {
+          "source_rows": [
+            13
+          ],
+          "transaction_ids": [
+            2677
+          ],
+          "status": "added",
+          "source_amount": 20000
+        },
+        {
+          "source_rows": [
+            70
+          ],
+          "transaction_ids": [
+            2592
+          ],
+          "status": "point_tender_archived_no_additional_cash_expense",
+          "source_amount": 4597
+        }
+      ],
+      "old_raw_count": 2671,
+      "interest_transaction_id": 2667,
+      "interest_old_amount": 12802,
+      "interest_new_amount": 13964,
+      "interest_changed": true,
+      "interest_recorded_once_on_entry_date": true,
+      "date_correction": {
+        "transaction_id": 2658,
+        "source_date": "2026-11-09",
+        "old_date": "2026-11-10 21:52:00.947000"
+      },
+      "shared_travel_income_assumption": "Nov10 same recurring sender/account pattern as Sep10/Oct7 travel dues; excluded from personal income.",
+      "october_other_bank_income_2120_not_imported_scope": "Current request covers November.",
+      "sort": {
+        "mode": "descending",
+        "moved_rows": 2666,
+        "first_id": 2618,
+        "last_nonblank_id": 2
+      }
+    },
+    "repeat_import_new_records": 0
   }
 }
