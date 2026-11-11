@@ -1,0 +1,131 @@
+{
+  "as_of": "2026-11-11",
+  "workbook_sha256": "4983b390576c2912a59eb20950a193fd287cb4319529315377ca55b589b54eae",
+  "source_sha256": "3057a403e58ef0aabb2c63a1af1b69ac3f675beca6be67c0fc646d192b453c8b",
+  "baseline_sha256": "b99d00596af5ee1184de2c5218f937da8db5dc4257f3bec379cfb506aeca380d",
+  "total_raw_records": 2671,
+  "source_november_records": 82,
+  "new_transactions": 54,
+  "calendar_actual": 1009956,
+  "calendar_tetris": 1023000,
+  "fixed_actual": 411813,
+  "fixed_actual_and_planned": 1279696,
+  "final_usage": 1421769,
+  "card_rebates": 800,
+  "other_income_as_submitted": 12890,
+  "unverified_balance_adjustment_in_income": 12802,
+  "other_income_excluding_adjustment": 88,
+  "wrap_november_as_submitted": 8287823,
+  "wrap_november_excluding_adjustment": 8275021,
+  "reserve_selected_october": {
+    "month": 10,
+    "physical_wrap_total": 8434741,
+    "purpose_available": 2150000,
+    "actual_use": 239000,
+    "allocated_to_bill": 0,
+    "invalid_use_rows": [],
+    "invalid_settlement_rows": []
+  },
+  "reserve_selected_november": {
+    "month": 11,
+    "physical_wrap_total": 8287823,
+    "purpose_available": 2150000,
+    "actual_use": 0,
+    "allocated_to_bill": 0,
+    "invalid_use_rows": [],
+    "invalid_settlement_rows": []
+  },
+  "november_selected_ledger": {
+    "month": 11,
+    "all_ledger_rows": 4,
+    "displayed_page": 1,
+    "displayed_rows": [
+      261,
+      260,
+      259,
+      258
+    ]
+  },
+  "december_forecast_transport": 137300,
+  "december_fixed_and_planned": 1207010,
+  "historical_input_cells_compared": 34021,
+  "memos": [
+    {
+      "month": 1,
+      "memos": 80,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 2,
+      "memos": 62,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 3,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 4,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 5,
+      "memos": 65,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 6,
+      "memos": 113,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 7,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 8,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 9,
+      "memos": 98,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 10,
+      "memos": 213,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 11,
+      "memos": 46,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 12,
+      "memos": 0,
+      "pages_and_fixed_memos_match": true
+    }
+  ],
+  "repeated_import_new_records": 0,
+  "all_30_calendar_days_checked": true,
+  "calculator_palette_checked": true,
+  "vba_buttons_styles_relationships_byte_preserved": true,
+  "conditional_formats_preserved": true,
+  "native_excel_ui_executed": false,
+  "unit_test_count": 194,
+  "formula_errors": 0,
+  "structure": {
+    "worksheet_count": 47,
+    "xml_part_count": 87,
+    "errors": []
+  },
+  "guide": "2026-11-11_RAW추가_WRAP차액검토.md",
+  "previous_commit": "30b65a5543e2e08782312241c52b26be5d156f9c",
+  "previous_version": "history/2026-11-11/01",
+  "raw_attachment": "raw/2026-11-11/2026-11-01_2026-11-30.xlsx"
+}

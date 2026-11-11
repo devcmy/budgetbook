@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-04",
+  "as_of": "2026-11-04",
+  "source_sha256": "36a4eb3ed5580ccb829b33c565949ee1fb6beab829fbb8c3946d235dbbfd3a12",
+  "baseline_sha256": "b74d82a715d0f7e0740fb407ed3561a3076ec2b75bff87740522a97f874e0814",
+  "workbook_sha256": "b99d00596af5ee1184de2c5218f937da8db5dc4257f3bec379cfb506aeca380d",
+  "source_records": 295,
+  "source_october_records": 267,
+  "source_november_records": 28,
+  "total_raw_records": 2617,
+  "new_transactions": 20,
+  "amount_corrections": [
+    {
+      "source_row": 19,
+      "date": "2026-11-02 11:03:19.803000",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 4500,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2597,
+      "input_row": 3,
+      "old_amount": 5000,
+      "old_burden": 5000,
+      "new_burden": 4500
+    }
+  ],
+  "future_invoices_confirmed_actual_by_user": [
+    {
+      "transaction_id": 2616,
+      "source_row": 4,
+      "date": "2026-11-05 00:32:00",
+      "amount": 10200,
+      "title": "롯데카드 띵샵(7/36)"
+    },
+    {
+      "transaction_id": 2617,
+      "source_row": 3,
+      "date": "2026-11-12 22:51:27",
+      "amount": 74700,
+      "title": "11번가(15/22)"
+    },
+    {
+      "transaction_id": 2618,
+      "source_row": 2,
+      "date": "2026-11-24 19:44:00.083000",
+      "amount": 8800,
+      "title": "롯데카드 띵샵(2/36)"
+    }
+  ],
+  "latest_booking_date": "2026-11-24T19:44:00.083000",
+  "latest_nonfuture_booking_date": "2026-11-04T20:51:00.651000",
+  "calendar_actual": 438270,
+  "calendar_tetris": 443000,
+  "fixed_actual": 125878,
+  "fixed_actual_and_planned": 1211341,
+  "final_usage": 564148,
+  "card_rebates": 300,
+  "other_income": 88,
+  "usage_after_card_rebates": 563848,
+  "wrap_total": 8434741,
+  "wrap_living_balance": 6284741,
+  "reserve": {
+    "month": 10,
+    "physical_wrap_total": 8434741,
+    "purpose_available": 2150000,
+    "actual_use": 239000,
+    "allocated_to_bill": 0,
+    "invalid_use_rows": [],
+    "invalid_settlement_rows": []
+  },
+  "memos": [
+    {
+      "month": 1,
+      "memos": 80,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 2,
+      "memos": 62,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 3,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 4,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 5,
+      "memos": 65,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 6,
+      "memos": 113,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 7,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 8,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 9,
+      "memos": 98,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 10,
+      "memos": 213,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 11,
+      "memos": 17,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 12,
+      "memos": 0,
+      "pages_and_fixed_memos_match": true
+    }
+  ],
+  "historical_input_cells_compared": 33759,
+  "other_month_summary_cells_compared": 253,
+  "existing_ids_and_memos_preserved": true,
+  "all_30_calendar_days_checked": true,
+  "calculator_palette_independently_checked": true,
+  "new_raw_not_duplicated": true,
+  "new_wrap_or_reserve_links": 0,
+  "search_preview_refreshed": true,
+  "vba_buttons_styles_relationships_byte_preserved": true,
+  "conditional_formats_preserved": true,
+  "native_excel_ui_executed": false,
+  "formula_errors": 0,
+  "structure": {
+    "worksheet_count": 47,
+    "xml_part_count": 87,
+    "errors": []
+  },
+  "guide": "2026-11-04_11월RAW추가_검증.md",
+  "unit_test_count": 188,
+  "previous_commit": "27ab9f5e66fc4e2754a8d86e92b76184e9542a1d",
+  "previous_version": "history/2026-11-04/01",
+  "raw_attachment": "raw/2026-11-04/2026-10-01_2026-11-30.xlsx",
+  "repeated_import_new_records": 0,
+  "repeated_import_corrections": 0
+}

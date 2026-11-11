@@ -55,7 +55,7 @@
     "total": 47
   },
   "raw": {
-    "count": 2617,
+    "count": 2671,
     "start": "2026-01-01T00:55:00",
     "end": "2026-11-24T19:44:00.083000",
     "by_month": {
@@ -69,7 +69,7 @@
       "2026-08": 310,
       "2026-09": 245,
       "2026-10": 267,
-      "2026-11": 28
+      "2026-11": 82
     },
     "october_scope": {
       "카드사용": 180,
@@ -80,7 +80,7 @@
     "table_range": "A1:AQ4001",
     "month_filter_column": "B",
     "prepared_records": 4000,
-    "remaining_prepared_records": 1383,
+    "remaining_prepared_records": 1329,
     "auto_helpers": true,
     "source_fields_and_existing_overrides_preserved": true,
     "existing_duplicate_candidates_preserved": 5,
@@ -88,7 +88,7 @@
     "duplicate_discriminator_column": "M",
     "original_memo_columns_merged_losslessly": true,
     "memo_not_used_for_classification_or_duplicates": true,
-    "preservation_scope": "Historical inputs/memos preserved by stable ID except reconciled 11/2 transaction ID2597: amount and full personal burden 5000 -> 4500. No original booking dates changed.",
+    "preservation_scope": "Nov11 import adds 54 records; all existing inputs/memos preserved by stable ID. Source 12,802 income is preserved as submitted but explicitly unresolved, not proven interest.",
     "date_display_column": "A",
     "date_display_format": "m\"월\"\\ d\"일\"",
     "stored_year_and_time_preserved": true,
@@ -99,8 +99,9 @@
     "transaction_id_count": 4000,
     "linked_registers_use_transaction_ids_not_display_rows": true,
     "november_scope": {
-      "카드사용": 24,
-      "타계좌": 4
+      "카드사용": 60,
+      "WRAP": 4,
+      "타계좌": 18
     },
     "postpaid_transport": "Usage summary is evidence only; identified bank settlement is fixed cost in charge month. No memo dependency.",
     "installment_product_matching": "Explicit month+asset+normalized title/installment aliases for Nov/Dec 2026; no free memo dependency; existing RAW values unchanged.",
@@ -142,7 +143,9 @@
     "inflows": 3472652,
     "outflows": 3576514,
     "previous": 8538603,
-    "cached_matches": true
+    "cached_matches": true,
+    "selected_month": "2026-10",
+    "scope": "Existing October selector retained. Current November figures and unresolved adjustment follow november_wrap and wrap_reconciliation_20261111."
   },
   "calculators": [
     {
@@ -385,21 +388,21 @@
     },
     {
       "month": 11,
-      "color_total": 443000,
+      "color_total": 1023000,
       "counts": {
-        "3": 51,
-        "4": 20,
+        "3": 216,
+        "4": 60,
         "5": 90,
-        "6": 0,
+        "6": 75,
         "7": 13,
         "8": 0,
-        "9": 269,
-        "10": 0
+        "9": 351,
+        "10": 218
       },
       "cached_counts_match": true,
       "unknown_colors": {},
-      "display": 443000,
-      "salary_burden": 443000,
+      "display": 1023000,
+      "salary_burden": 1023000,
       "expected_display_matches": true,
       "month_display_matches": true,
       "count_mode": "RAW delta formulas; original paint + conditional formatting",
@@ -485,8 +488,8 @@
     },
     "current_module_sources_reextracted": false,
     "binary_identical_to_user_attachment": false,
-    "input_reference": "history/2026-11-04/01/테트리스_가계부_2026_고도화.xlsm",
-    "preservation_scope": "Current Nov4 update preserves the Nov2 search-button VBA binary exactly; historical source audits remain historical."
+    "input_reference": "history/2026-11-11/01/테트리스_가계부_2026_고도화.xlsm",
+    "preservation_scope": "Nov11 import preserves the previous VBA byte-for-byte."
   },
   "travel": [
     {
@@ -531,10 +534,10 @@
       "advanced": 0
     }
   },
-  "as_of": "2026-11-04",
-  "ui_updated_at": "2026-11-04",
-  "current_verification": "raw_update_20261104_validation.json",
-  "workbook_sha256": "b99d00596af5ee1184de2c5218f937da8db5dc4257f3bec379cfb506aeca380d",
+  "as_of": "2026-11-11",
+  "ui_updated_at": "2026-11-11",
+  "current_verification": "raw_update_20261111_validation.json",
+  "workbook_sha256": "4983b390576c2912a59eb20950a193fd287cb4319529315377ca55b589b54eae",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -5385,28 +5388,28 @@
   },
   "november_summary": {
     "C37": 0,
-    "C40": 88,
-    "C41": 88,
-    "I33": 438270,
-    "H37": 125878,
-    "H38": 438270,
-    "I38": 443000,
-    "H43": 300,
-    "H44": 563848,
-    "H45": -563760,
-    "O11": 136350,
-    "U11": "예상",
+    "C40": 12890,
+    "C41": 12890,
+    "I33": 1009956,
+    "H37": 411813,
+    "H38": 1009956,
+    "I38": 1023000,
+    "H43": 800,
+    "H44": 1420969,
+    "H45": -1408079,
+    "O11": 137300,
+    "U11": "확정",
     "O18": 13875,
     "O21": 18000,
     "O22": 74700,
     "O23": 10200,
     "O24": 8800,
-    "S24": "2/36회차",
-    "U24": "확정",
-    "E74": 125878,
-    "E75": 1211341,
-    "E78": 564148,
-    "E79": 564148
+    "O26": 67405,
+    "E74": 411813,
+    "E75": 1279696,
+    "E78": 1421769,
+    "E79": 1421769,
+    "income_includes_unresolved_adjustment": 12802
   },
   "postpaid_20261102": {
     "date": "2026-11-02",
@@ -5569,11 +5572,13 @@
     "scope": "Historical transport/November input checks; actual data unchanged, current forecasts and file hash follow installments_20261102."
   },
   "december_summary": {
+    "O11": 137300,
+    "U11": "예상",
     "O24": 11004,
     "S24": "3/36회차",
     "U24": "예상",
     "E74": 0,
-    "E75": 1206060,
+    "E75": 1207010,
     "E78": 0,
     "E79": 0
   },
@@ -6054,5 +6059,503 @@
     "raw_attachment": "raw/2026-11-04/2026-10-01_2026-11-30.xlsx",
     "repeated_import_new_records": 0,
     "repeated_import_corrections": 0
+  },
+  "november_wrap": {
+    "total_as_submitted": 8287823,
+    "total_without_unresolved_adjustment": 8275021,
+    "living_as_submitted": 6137823,
+    "purpose_funds": 2150000,
+    "unresolved_adjustment": 12802,
+    "bank_statement_verified": false
+  },
+  "raw_update_20261111": {
+    "as_of": "2026-11-11",
+    "workbook_sha256": "4983b390576c2912a59eb20950a193fd287cb4319529315377ca55b589b54eae",
+    "source_sha256": "3057a403e58ef0aabb2c63a1af1b69ac3f675beca6be67c0fc646d192b453c8b",
+    "baseline_sha256": "b99d00596af5ee1184de2c5218f937da8db5dc4257f3bec379cfb506aeca380d",
+    "total_raw_records": 2671,
+    "source_november_records": 82,
+    "new_transactions": 54,
+    "calendar_actual": 1009956,
+    "calendar_tetris": 1023000,
+    "fixed_actual": 411813,
+    "fixed_actual_and_planned": 1279696,
+    "final_usage": 1421769,
+    "card_rebates": 800,
+    "other_income_as_submitted": 12890,
+    "unverified_balance_adjustment_in_income": 12802,
+    "other_income_excluding_adjustment": 88,
+    "wrap_november_as_submitted": 8287823,
+    "wrap_november_excluding_adjustment": 8275021,
+    "reserve_selected_october": {
+      "month": 10,
+      "physical_wrap_total": 8434741,
+      "purpose_available": 2150000,
+      "actual_use": 239000,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "reserve_selected_november": {
+      "month": 11,
+      "physical_wrap_total": 8287823,
+      "purpose_available": 2150000,
+      "actual_use": 0,
+      "allocated_to_bill": 0,
+      "invalid_use_rows": [],
+      "invalid_settlement_rows": []
+    },
+    "november_selected_ledger": {
+      "month": 11,
+      "all_ledger_rows": 4,
+      "displayed_page": 1,
+      "displayed_rows": [
+        261,
+        260,
+        259,
+        258
+      ]
+    },
+    "december_forecast_transport": 137300,
+    "december_fixed_and_planned": 1207010,
+    "historical_input_cells_compared": 34021,
+    "memos": [
+      {
+        "month": 1,
+        "memos": 80,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 62,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 65,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 113,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 98,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 213,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 46,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ],
+    "repeated_import_new_records": 0,
+    "all_30_calendar_days_checked": true,
+    "calculator_palette_checked": true,
+    "vba_buttons_styles_relationships_byte_preserved": true,
+    "conditional_formats_preserved": true,
+    "native_excel_ui_executed": false,
+    "unit_test_count": 194,
+    "formula_errors": 0,
+    "structure": {
+      "worksheet_count": 47,
+      "xml_part_count": 87,
+      "errors": []
+    },
+    "guide": "2026-11-11_RAW추가_WRAP차액검토.md",
+    "previous_commit": "30b65a5543e2e08782312241c52b26be5d156f9c",
+    "previous_version": "history/2026-11-11/01",
+    "raw_attachment": "raw/2026-11-11/2026-11-01_2026-11-30.xlsx"
+  },
+  "wrap_reconciliation_20261111": {
+    "as_of": "2026-11-11",
+    "conclusion": "12,802 is a user-entered balancing difference, not verified interest. No matching omitted WRAP transaction found in supplied September-onward records.",
+    "september_raw_count": 23,
+    "september_bridge": [
+      {
+        "ledger_row": 192,
+        "ledger_date": "2026-08-01 00:00:00",
+        "transaction_ids": [
+          2087
+        ],
+        "raw_signed_total": 4467,
+        "ledger_signed_total": 4467,
+        "explanation": "9/1 이자 4,467: 기존 8월 이자에 동일 금액"
+      },
+      {
+        "ledger_row": 195,
+        "ledger_date": "2026-08-01 00:00:00",
+        "transaction_ids": [
+          2088
+        ],
+        "raw_signed_total": 814000,
+        "ledger_signed_total": 814000,
+        "explanation": "9/1 카카오페이→WRAP 814,000: 기존 8월 여행 정산에 동일 금액"
+      },
+      {
+        "ledger_row": 210,
+        "ledger_date": "2026-08-01 00:00:00",
+        "transaction_ids": [
+          2080
+        ],
+        "raw_signed_total": -11000,
+        "ledger_signed_total": -11000,
+        "explanation": "9/1 샴푸 11,000: 기존 8월 샴푸에 동일 내용·금액"
+      },
+      {
+        "ledger_row": 228,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2090
+        ],
+        "raw_signed_total": 165100,
+        "ledger_signed_total": 165100,
+        "explanation": "신한→WRAP 165,100"
+      },
+      {
+        "ledger_row": 218,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2105
+        ],
+        "raw_signed_total": -7030,
+        "ledger_signed_total": -7030,
+        "explanation": "WRAP→신한V2 7,030"
+      },
+      {
+        "ledger_row": 216,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2157
+        ],
+        "raw_signed_total": -14701,
+        "ledger_signed_total": -14701,
+        "explanation": "보증보험료 14,701"
+      },
+      {
+        "ledger_row": 217,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2173
+        ],
+        "raw_signed_total": -93420,
+        "ledger_signed_total": -93420,
+        "explanation": "전세대출이자 준비 이체 93,420"
+      },
+      {
+        "ledger_row": 229,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2185,
+          2186,
+          2187,
+          2188,
+          2189
+        ],
+        "raw_signed_total": -4848153,
+        "ledger_signed_total": -4848153,
+        "explanation": "5개 은행 송금 합계 4,848,153"
+      },
+      {
+        "ledger_row": 215,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2190
+        ],
+        "raw_signed_total": 8803,
+        "ledger_signed_total": 8803,
+        "explanation": "9/13 이자 8,803"
+      },
+      {
+        "ledger_row": 222,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2203
+        ],
+        "raw_signed_total": -50000,
+        "ledger_signed_total": -50000,
+        "explanation": "생일 50,000"
+      },
+      {
+        "ledger_row": 223,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2292
+        ],
+        "raw_signed_total": -200000,
+        "ledger_signed_total": -200000,
+        "explanation": "가족통장 200,000"
+      },
+      {
+        "ledger_row": 214,
+        "ledger_date": "2026-09-01 00:00:00",
+        "transaction_ids": [
+          2293,
+          2298,
+          2305,
+          2286,
+          2299,
+          2300,
+          2303,
+          2304
+        ],
+        "raw_signed_total": 2082285,
+        "ledger_signed_total": 2082285,
+        "explanation": "월급 후 순정산 2,082,285"
+      }
+    ],
+    "september_raw_net": -2149649,
+    "september_legacy_net": -2957116,
+    "september_month_boundary_difference": 807467,
+    "september_bridge_residual": 0,
+    "september_bridge_limit": "Month labels and netted aggregate amounts reconstructed from existing records; no bank transaction IDs establish these historical matches.",
+    "september_older_export_wrap_records_identical": true,
+    "october_raw_count": 24,
+    "october_net": -103862,
+    "october_missing_or_duplicate_links": 0,
+    "november_wrap_count": 4,
+    "november_known_outflows": 159720,
+    "november_balance_without_unresolved_adjustment": 8275021,
+    "november_balance_with_user_adjustment": 8287823,
+    "user_adjustment_transaction_id": 2667,
+    "unresolved_amount": 12802,
+    "links": [
+      {
+        "ledger_row": 231,
+        "transaction_ids": [
+          2453
+        ],
+        "signed_amount": 22210
+      },
+      {
+        "ledger_row": 232,
+        "transaction_ids": [
+          2452
+        ],
+        "signed_amount": -236270
+      },
+      {
+        "ledger_row": 233,
+        "transaction_ids": [
+          2451
+        ],
+        "signed_amount": -246568
+      },
+      {
+        "ledger_row": 234,
+        "transaction_ids": [
+          2450
+        ],
+        "signed_amount": -360550
+      },
+      {
+        "ledger_row": 235,
+        "transaction_ids": [
+          2449
+        ],
+        "signed_amount": -798746
+      },
+      {
+        "ledger_row": 236,
+        "transaction_ids": [
+          2448
+        ],
+        "signed_amount": 604300
+      },
+      {
+        "ledger_row": 237,
+        "transaction_ids": [
+          2446
+        ],
+        "signed_amount": -753905
+      },
+      {
+        "ledger_row": 238,
+        "transaction_ids": [
+          2442
+        ],
+        "signed_amount": 8557
+      },
+      {
+        "ledger_row": 239,
+        "transaction_ids": [
+          2430
+        ],
+        "signed_amount": -1390
+      },
+      {
+        "ledger_row": 240,
+        "transaction_ids": [
+          2429
+        ],
+        "signed_amount": -90410
+      },
+      {
+        "ledger_row": 241,
+        "transaction_ids": [
+          2347
+        ],
+        "signed_amount": -50000
+      },
+      {
+        "ledger_row": 242,
+        "transaction_ids": [
+          2334
+        ],
+        "signed_amount": -11900
+      },
+      {
+        "ledger_row": 245,
+        "transaction_ids": [
+          2454
+        ],
+        "signed_amount": 535
+      },
+      {
+        "ledger_row": 246,
+        "transaction_ids": [
+          2466
+        ],
+        "signed_amount": 61000
+      },
+      {
+        "ledger_row": 248,
+        "transaction_ids": [
+          2475
+        ],
+        "signed_amount": -15700
+      },
+      {
+        "ledger_row": 249,
+        "transaction_ids": [
+          2493
+        ],
+        "signed_amount": -110075
+      },
+      {
+        "ledger_row": 250,
+        "transaction_ids": [
+          2513
+        ],
+        "signed_amount": -200000
+      },
+      {
+        "ledger_row": 251,
+        "transaction_ids": [
+          2532
+        ],
+        "signed_amount": -20000
+      },
+      {
+        "ledger_row": 252,
+        "transaction_ids": [
+          2533
+        ],
+        "signed_amount": -150000
+      },
+      {
+        "ledger_row": 253,
+        "transaction_ids": [
+          2534
+        ],
+        "signed_amount": -60000
+      },
+      {
+        "ledger_row": 254,
+        "transaction_ids": [
+          2535
+        ],
+        "signed_amount": -60000
+      },
+      {
+        "ledger_row": 255,
+        "transaction_ids": [
+          2538
+        ],
+        "signed_amount": 2776050
+      },
+      {
+        "ledger_row": 256,
+        "transaction_ids": [
+          2539
+        ],
+        "signed_amount": -391000
+      },
+      {
+        "ledger_row": 257,
+        "transaction_ids": [
+          2589
+        ],
+        "signed_amount": -20000
+      },
+      {
+        "ledger_row": 258,
+        "transaction_ids": [
+          2650
+        ],
+        "signed_amount": -12420
+      },
+      {
+        "ledger_row": 259,
+        "transaction_ids": [
+          2661
+        ],
+        "signed_amount": -10000
+      },
+      {
+        "ledger_row": 260,
+        "transaction_ids": [
+          2662
+        ],
+        "signed_amount": -137300
+      },
+      {
+        "ledger_row": 261,
+        "transaction_ids": [
+          2667
+        ],
+        "signed_amount": 12802
+      }
+    ],
+    "bank_statement_verified": false,
+    "historical_direction_helper_issue": [
+      2298,
+      2293,
+      2090,
+      2088
+    ],
+    "historical_direction_helper_issue_scope": "Display helper error only; legacy balances use reconstructed monthly ledger, not this direction helper. Not changed in this diagnostic update."
   }
 }

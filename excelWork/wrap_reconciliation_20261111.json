@@ -1,0 +1,359 @@
+{
+  "as_of": "2026-11-11",
+  "conclusion": "12,802 is a user-entered balancing difference, not verified interest. No matching omitted WRAP transaction found in supplied September-onward records.",
+  "september_raw_count": 23,
+  "september_bridge": [
+    {
+      "ledger_row": 192,
+      "ledger_date": "2026-08-01 00:00:00",
+      "transaction_ids": [
+        2087
+      ],
+      "raw_signed_total": 4467,
+      "ledger_signed_total": 4467,
+      "explanation": "9/1 이자 4,467: 기존 8월 이자에 동일 금액"
+    },
+    {
+      "ledger_row": 195,
+      "ledger_date": "2026-08-01 00:00:00",
+      "transaction_ids": [
+        2088
+      ],
+      "raw_signed_total": 814000,
+      "ledger_signed_total": 814000,
+      "explanation": "9/1 카카오페이→WRAP 814,000: 기존 8월 여행 정산에 동일 금액"
+    },
+    {
+      "ledger_row": 210,
+      "ledger_date": "2026-08-01 00:00:00",
+      "transaction_ids": [
+        2080
+      ],
+      "raw_signed_total": -11000,
+      "ledger_signed_total": -11000,
+      "explanation": "9/1 샴푸 11,000: 기존 8월 샴푸에 동일 내용·금액"
+    },
+    {
+      "ledger_row": 228,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2090
+      ],
+      "raw_signed_total": 165100,
+      "ledger_signed_total": 165100,
+      "explanation": "신한→WRAP 165,100"
+    },
+    {
+      "ledger_row": 218,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2105
+      ],
+      "raw_signed_total": -7030,
+      "ledger_signed_total": -7030,
+      "explanation": "WRAP→신한V2 7,030"
+    },
+    {
+      "ledger_row": 216,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2157
+      ],
+      "raw_signed_total": -14701,
+      "ledger_signed_total": -14701,
+      "explanation": "보증보험료 14,701"
+    },
+    {
+      "ledger_row": 217,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2173
+      ],
+      "raw_signed_total": -93420,
+      "ledger_signed_total": -93420,
+      "explanation": "전세대출이자 준비 이체 93,420"
+    },
+    {
+      "ledger_row": 229,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2185,
+        2186,
+        2187,
+        2188,
+        2189
+      ],
+      "raw_signed_total": -4848153,
+      "ledger_signed_total": -4848153,
+      "explanation": "5개 은행 송금 합계 4,848,153"
+    },
+    {
+      "ledger_row": 215,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2190
+      ],
+      "raw_signed_total": 8803,
+      "ledger_signed_total": 8803,
+      "explanation": "9/13 이자 8,803"
+    },
+    {
+      "ledger_row": 222,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2203
+      ],
+      "raw_signed_total": -50000,
+      "ledger_signed_total": -50000,
+      "explanation": "생일 50,000"
+    },
+    {
+      "ledger_row": 223,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2292
+      ],
+      "raw_signed_total": -200000,
+      "ledger_signed_total": -200000,
+      "explanation": "가족통장 200,000"
+    },
+    {
+      "ledger_row": 214,
+      "ledger_date": "2026-09-01 00:00:00",
+      "transaction_ids": [
+        2293,
+        2298,
+        2305,
+        2286,
+        2299,
+        2300,
+        2303,
+        2304
+      ],
+      "raw_signed_total": 2082285,
+      "ledger_signed_total": 2082285,
+      "explanation": "월급 후 순정산 2,082,285"
+    }
+  ],
+  "september_raw_net": -2149649,
+  "september_legacy_net": -2957116,
+  "september_month_boundary_difference": 807467,
+  "september_bridge_residual": 0,
+  "september_bridge_limit": "Month labels and netted aggregate amounts reconstructed from existing records; no bank transaction IDs establish these historical matches.",
+  "september_older_export_wrap_records_identical": true,
+  "october_raw_count": 24,
+  "october_net": -103862,
+  "october_missing_or_duplicate_links": 0,
+  "november_wrap_count": 4,
+  "november_known_outflows": 159720,
+  "november_balance_without_unresolved_adjustment": 8275021,
+  "november_balance_with_user_adjustment": 8287823,
+  "user_adjustment_transaction_id": 2667,
+  "unresolved_amount": 12802,
+  "links": [
+    {
+      "ledger_row": 231,
+      "transaction_ids": [
+        2453
+      ],
+      "signed_amount": 22210
+    },
+    {
+      "ledger_row": 232,
+      "transaction_ids": [
+        2452
+      ],
+      "signed_amount": -236270
+    },
+    {
+      "ledger_row": 233,
+      "transaction_ids": [
+        2451
+      ],
+      "signed_amount": -246568
+    },
+    {
+      "ledger_row": 234,
+      "transaction_ids": [
+        2450
+      ],
+      "signed_amount": -360550
+    },
+    {
+      "ledger_row": 235,
+      "transaction_ids": [
+        2449
+      ],
+      "signed_amount": -798746
+    },
+    {
+      "ledger_row": 236,
+      "transaction_ids": [
+        2448
+      ],
+      "signed_amount": 604300
+    },
+    {
+      "ledger_row": 237,
+      "transaction_ids": [
+        2446
+      ],
+      "signed_amount": -753905
+    },
+    {
+      "ledger_row": 238,
+      "transaction_ids": [
+        2442
+      ],
+      "signed_amount": 8557
+    },
+    {
+      "ledger_row": 239,
+      "transaction_ids": [
+        2430
+      ],
+      "signed_amount": -1390
+    },
+    {
+      "ledger_row": 240,
+      "transaction_ids": [
+        2429
+      ],
+      "signed_amount": -90410
+    },
+    {
+      "ledger_row": 241,
+      "transaction_ids": [
+        2347
+      ],
+      "signed_amount": -50000
+    },
+    {
+      "ledger_row": 242,
+      "transaction_ids": [
+        2334
+      ],
+      "signed_amount": -11900
+    },
+    {
+      "ledger_row": 245,
+      "transaction_ids": [
+        2454
+      ],
+      "signed_amount": 535
+    },
+    {
+      "ledger_row": 246,
+      "transaction_ids": [
+        2466
+      ],
+      "signed_amount": 61000
+    },
+    {
+      "ledger_row": 248,
+      "transaction_ids": [
+        2475
+      ],
+      "signed_amount": -15700
+    },
+    {
+      "ledger_row": 249,
+      "transaction_ids": [
+        2493
+      ],
+      "signed_amount": -110075
+    },
+    {
+      "ledger_row": 250,
+      "transaction_ids": [
+        2513
+      ],
+      "signed_amount": -200000
+    },
+    {
+      "ledger_row": 251,
+      "transaction_ids": [
+        2532
+      ],
+      "signed_amount": -20000
+    },
+    {
+      "ledger_row": 252,
+      "transaction_ids": [
+        2533
+      ],
+      "signed_amount": -150000
+    },
+    {
+      "ledger_row": 253,
+      "transaction_ids": [
+        2534
+      ],
+      "signed_amount": -60000
+    },
+    {
+      "ledger_row": 254,
+      "transaction_ids": [
+        2535
+      ],
+      "signed_amount": -60000
+    },
+    {
+      "ledger_row": 255,
+      "transaction_ids": [
+        2538
+      ],
+      "signed_amount": 2776050
+    },
+    {
+      "ledger_row": 256,
+      "transaction_ids": [
+        2539
+      ],
+      "signed_amount": -391000
+    },
+    {
+      "ledger_row": 257,
+      "transaction_ids": [
+        2589
+      ],
+      "signed_amount": -20000
+    },
+    {
+      "ledger_row": 258,
+      "transaction_ids": [
+        2650
+      ],
+      "signed_amount": -12420
+    },
+    {
+      "ledger_row": 259,
+      "transaction_ids": [
+        2661
+      ],
+      "signed_amount": -10000
+    },
+    {
+      "ledger_row": 260,
+      "transaction_ids": [
+        2662
+      ],
+      "signed_amount": -137300
+    },
+    {
+      "ledger_row": 261,
+      "transaction_ids": [
+        2667
+      ],
+      "signed_amount": 12802
+    }
+  ],
+  "bank_statement_verified": false,
+  "historical_direction_helper_issue": [
+    2298,
+    2293,
+    2090,
+    2088
+  ],
+  "historical_direction_helper_issue_scope": "Display helper error only; legacy balances use reconstructed monthly ledger, not this direction helper. Not changed in this diagnostic update."
+}

@@ -1,0 +1,1160 @@
+{
+  "new": [
+    {
+      "source_row": 75,
+      "date": "2026-11-01 17:31:00",
+      "asset": "모임통장",
+      "category": "금융",
+      "sub": null,
+      "title": "모임통장 이자",
+      "amount": 9,
+      "kind": "수입",
+      "memo": null,
+      "transaction_id": 2619,
+      "input_row": 2619
+    },
+    {
+      "source_row": 76,
+      "date": "2026-11-01 22:48:19",
+      "asset": "모임통장",
+      "category": "여행/약속/공사",
+      "sub": "만남",
+      "title": "코지라멘",
+      "amount": 41500,
+      "kind": "지출",
+      "memo": "선릉점",
+      "transaction_id": 2620,
+      "input_row": 2620
+    },
+    {
+      "source_row": 77,
+      "date": "2026-11-01 22:48:19",
+      "asset": "모임통장",
+      "category": "여행/약속/공사",
+      "sub": "만남",
+      "title": "텟어텟",
+      "amount": 22600,
+      "kind": "지출",
+      "memo": "선릉점",
+      "transaction_id": 2621,
+      "input_row": 2621
+    },
+    {
+      "source_row": 54,
+      "date": "2026-11-05 22:44:07",
+      "asset": "토스뱅크",
+      "category": "금융",
+      "sub": null,
+      "title": "토스뱅크카드 추가환급",
+      "amount": 100,
+      "kind": "수입",
+      "memo": "K패스 모두의카드",
+      "transaction_id": 2622,
+      "input_row": 2622
+    },
+    {
+      "source_row": 53,
+      "date": "2026-11-05 22:44:21",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 5000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2623,
+      "input_row": 2623
+    },
+    {
+      "source_row": 52,
+      "date": "2026-11-05 22:44:29",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "음료/디저트/간식",
+      "title": "CU",
+      "amount": 2700,
+      "kind": "지출",
+      "memo": "커피",
+      "transaction_id": 2624,
+      "input_row": 2624
+    },
+    {
+      "source_row": 51,
+      "date": "2026-11-05 22:44:49",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "식대",
+      "title": "맘스터치",
+      "amount": 7700,
+      "kind": "지출",
+      "memo": "싸이버거",
+      "transaction_id": 2625,
+      "input_row": 2625
+    },
+    {
+      "source_row": 50,
+      "date": "2026-11-05 22:45:12",
+      "asset": "롯데365카드",
+      "category": "경조사/회비/선물/대인",
+      "sub": "경조/회비/선물",
+      "title": "올리브영",
+      "amount": 30000,
+      "kind": "지출",
+      "memo": "기프트카드, 왕혜민님 퇴사선물",
+      "transaction_id": 2626,
+      "input_row": 2626
+    },
+    {
+      "source_row": 49,
+      "date": "2026-11-05 22:45:50",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 5000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2627,
+      "input_row": 2627
+    },
+    {
+      "source_row": 48,
+      "date": "2026-11-06 22:46:34",
+      "asset": "롯데365카드",
+      "category": "경조사/회비/선물/대인",
+      "sub": "대인친목도모",
+      "title": "스타벅스",
+      "amount": 43020,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2628,
+      "input_row": 2628
+    },
+    {
+      "source_row": 47,
+      "date": "2026-11-06 22:47:09",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "식대",
+      "title": "백소정",
+      "amount": 15900,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2629,
+      "input_row": 2629
+    },
+    {
+      "source_row": 46,
+      "date": "2026-11-06 22:47:28",
+      "asset": "토스뱅크",
+      "category": "금융",
+      "sub": null,
+      "title": "토스뱅크카드 추가환급",
+      "amount": 100,
+      "kind": "수입",
+      "memo": "K패스 모두의카드",
+      "transaction_id": 2630,
+      "input_row": 2630
+    },
+    {
+      "source_row": 45,
+      "date": "2026-11-06 22:47:51",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 5000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2631,
+      "input_row": 2631
+    },
+    {
+      "source_row": 42,
+      "date": "2026-11-06 22:48:19",
+      "asset": "모임통장",
+      "category": "여행/약속/공사",
+      "sub": "만남",
+      "title": "텟어텟",
+      "amount": 23400,
+      "kind": "지출",
+      "memo": "삼성점",
+      "transaction_id": 2632,
+      "input_row": 2632
+    },
+    {
+      "source_row": 44,
+      "date": "2026-11-06 22:48:19",
+      "asset": "모임통장",
+      "category": "여행/약속/공사",
+      "sub": "만남",
+      "title": "더하노이",
+      "amount": 39000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2633,
+      "input_row": 2633
+    },
+    {
+      "source_row": 43,
+      "date": "2026-11-06 22:48:57",
+      "asset": "모임통장",
+      "category": "금융",
+      "sub": null,
+      "title": "모임 체크카드 캐시백",
+      "amount": 500,
+      "kind": "수입",
+      "memo": null,
+      "transaction_id": 2634,
+      "input_row": 2634
+    },
+    {
+      "source_row": 37,
+      "date": "2026-11-07 22:47:28",
+      "asset": "토스뱅크",
+      "category": "금융",
+      "sub": null,
+      "title": "토스뱅크카드 추가환급",
+      "amount": 100,
+      "kind": "수입",
+      "memo": "K패스 모두의카드",
+      "transaction_id": 2635,
+      "input_row": 2635
+    },
+    {
+      "source_row": 41,
+      "date": "2026-11-07 22:48:19",
+      "asset": "모임통장",
+      "category": "여행/약속/공사",
+      "sub": "만남",
+      "title": "플루엣",
+      "amount": 20000,
+      "kind": "지출",
+      "memo": "문정점",
+      "transaction_id": 2636,
+      "input_row": 2636
+    },
+    {
+      "source_row": 40,
+      "date": "2026-11-07 22:58:51",
+      "asset": "KB쿠팡와우",
+      "category": "식비",
+      "sub": "식대",
+      "title": "쿠팡이츠",
+      "amount": 11375,
+      "kind": "지출",
+      "memo": "국밥",
+      "transaction_id": 2637,
+      "input_row": 2637
+    },
+    {
+      "source_row": 39,
+      "date": "2026-11-07 22:59:12",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "음료/디저트/간식",
+      "title": "우지커피",
+      "amount": 5500,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2638,
+      "input_row": 2638
+    },
+    {
+      "source_row": 38,
+      "date": "2026-11-07 23:00:30",
+      "asset": "롯데365카드",
+      "category": "패션/미용",
+      "sub": null,
+      "title": "올리브영",
+      "amount": 14160,
+      "kind": "지출",
+      "memo": "아르베 유자 글로우 바디 에멀젼",
+      "transaction_id": 2639,
+      "input_row": 2639
+    },
+    {
+      "source_row": 36,
+      "date": "2026-11-07 23:01:31",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 5000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2640,
+      "input_row": 2640
+    },
+    {
+      "source_row": 35,
+      "date": "2026-11-07 23:01:53",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "음료/디저트/간식",
+      "title": "CU",
+      "amount": 5400,
+      "kind": "지출",
+      "memo": "커피, 빵",
+      "transaction_id": 2641,
+      "input_row": 2641
+    },
+    {
+      "source_row": 34,
+      "date": "2026-11-08 22:48:19",
+      "asset": "모임통장",
+      "category": "여행/약속/공사",
+      "sub": "만남",
+      "title": "CU",
+      "amount": 1300,
+      "kind": "지출",
+      "memo": "승훈 커피",
+      "transaction_id": 2642,
+      "input_row": 2642
+    },
+    {
+      "source_row": 33,
+      "date": "2026-11-08 23:03:03.745000",
+      "asset": "MG+S 하나카드",
+      "category": "패션/미용",
+      "sub": null,
+      "title": "로마니",
+      "amount": 60000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2643,
+      "input_row": 2643
+    },
+    {
+      "source_row": 32,
+      "date": "2026-11-08 23:03:56.738000",
+      "asset": "MG+S 하나카드",
+      "category": "잡화/소품/가구/생필품",
+      "sub": null,
+      "title": "다이소",
+      "amount": 39500,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2644,
+      "input_row": 2644
+    },
+    {
+      "source_row": 31,
+      "date": "2026-11-08 23:04:11.925000",
+      "asset": "MG+S 하나카드",
+      "category": "잡화/소품/가구/생필품",
+      "sub": null,
+      "title": "다이소",
+      "amount": 7000,
+      "kind": "지출",
+      "memo": "WD40, 스티커제거제, 스크래퍼",
+      "transaction_id": 2645,
+      "input_row": 2645
+    },
+    {
+      "source_row": 30,
+      "date": "2026-11-08 23:04:42.808000",
+      "asset": "토스뱅크",
+      "category": "금융",
+      "sub": null,
+      "title": "토스뱅크카드 추가환급",
+      "amount": 100,
+      "kind": "수입",
+      "memo": "K패스 모두의카드",
+      "transaction_id": 2646,
+      "input_row": 2646
+    },
+    {
+      "source_row": 29,
+      "date": "2026-11-08 23:04:46.589000",
+      "asset": "KB쿠팡와우",
+      "category": "식비",
+      "sub": "배달",
+      "title": "쿠팡이츠",
+      "amount": 17000,
+      "kind": "지출",
+      "memo": "배떡",
+      "transaction_id": 2647,
+      "input_row": 2647
+    },
+    {
+      "source_row": 28,
+      "date": "2026-11-09 21:48:00.931000",
+      "asset": "KB쿠팡와우",
+      "category": "식비",
+      "sub": "식재료",
+      "title": "쿠팡",
+      "amount": 55090,
+      "kind": "지출",
+      "memo": "식재료, 제습제, 프로쉬",
+      "transaction_id": 2648,
+      "input_row": 2648
+    },
+    {
+      "source_row": 27,
+      "date": "2026-11-09 21:49:00.356000",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "음료/디저트/간식",
+      "title": "파리바게트",
+      "amount": 700,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2649,
+      "input_row": 2649
+    },
+    {
+      "source_row": 24,
+      "date": "2026-11-09 21:50:00.145000",
+      "asset": "미래에셋_WRAP형CMA",
+      "category": "신한은행",
+      "sub": null,
+      "title": "이체",
+      "amount": 12420,
+      "kind": "이체지출",
+      "memo": null,
+      "transaction_id": 2650,
+      "input_row": 2650
+    },
+    {
+      "source_row": 25,
+      "date": "2026-11-09 21:50:00.517000",
+      "asset": "롯데365카드",
+      "category": "통신",
+      "sub": null,
+      "title": "LG헬로비전",
+      "amount": 27610,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2651,
+      "input_row": 2651
+    },
+    {
+      "source_row": 26,
+      "date": "2026-11-09 21:50:00.890000",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 5000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2652,
+      "input_row": 2652
+    },
+    {
+      "source_row": 23,
+      "date": "2026-11-09 21:51:00.397000",
+      "asset": "신한은행",
+      "category": "통신",
+      "sub": null,
+      "title": "코나아이(MONA)",
+      "amount": 12420,
+      "kind": "지출",
+      "memo": "모나",
+      "transaction_id": 2653,
+      "input_row": 2653
+    },
+    {
+      "source_row": 22,
+      "date": "2026-11-09 21:51:00.826000",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "식대",
+      "title": "소담",
+      "amount": 8000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2654,
+      "input_row": 2654
+    },
+    {
+      "source_row": 20,
+      "date": "2026-11-09 21:52:00.016000",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 5000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2655,
+      "input_row": 2655
+    },
+    {
+      "source_row": 21,
+      "date": "2026-11-09 21:52:00.641000",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "식사",
+      "title": "CU",
+      "amount": 1000,
+      "kind": "지출",
+      "memo": "짜파게티",
+      "transaction_id": 2656,
+      "input_row": 2656
+    },
+    {
+      "source_row": 19,
+      "date": "2026-11-09 22:00:00.407000",
+      "asset": "우리카드의정석SUPER",
+      "category": "잡화/소품/가구/생필품",
+      "sub": null,
+      "title": "알리익스프레스",
+      "amount": 31641,
+      "kind": "지출",
+      "memo": "23 USD",
+      "transaction_id": 2657,
+      "input_row": 2657
+    },
+    {
+      "source_row": 18,
+      "date": "2026-11-10 21:52:00.947000",
+      "asset": "NH별다줄카드",
+      "category": "가전/전자/잡화",
+      "sub": null,
+      "title": "G마켓(1/6)",
+      "amount": 54985,
+      "kind": "지출",
+      "memo": "오션6프로 전자책 단말기",
+      "transaction_id": 2658,
+      "input_row": 2658
+    },
+    {
+      "source_row": 17,
+      "date": "2026-11-10 22:02:00.245000",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "음료/디저트/간식",
+      "title": "CU",
+      "amount": 8700,
+      "kind": "지출",
+      "memo": "커피, 계란",
+      "transaction_id": 2659,
+      "input_row": 2659
+    },
+    {
+      "source_row": 16,
+      "date": "2026-11-10 22:03:00.412000",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 5000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2660,
+      "input_row": 2660
+    },
+    {
+      "source_row": 15,
+      "date": "2026-11-10 22:03:00.802000",
+      "asset": "미래에셋_WRAP형CMA",
+      "category": "식비",
+      "sub": "식대",
+      "title": "중앙제육식당",
+      "amount": 10000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2661,
+      "input_row": 2661
+    },
+    {
+      "source_row": 14,
+      "date": "2026-11-10 22:06:00.919000",
+      "asset": "미래에셋_WRAP형CMA",
+      "category": "토스뱅크K패스체크카드",
+      "sub": null,
+      "title": "카드정산 결제",
+      "amount": 137300,
+      "kind": "이체지출",
+      "memo": null,
+      "transaction_id": 2662,
+      "input_row": 2662
+    },
+    {
+      "source_row": 13,
+      "date": "2026-11-10 22:07:00.405000",
+      "asset": "토스뱅크",
+      "category": "금융",
+      "sub": null,
+      "title": "토스뱅크카드 추가환급",
+      "amount": 100,
+      "kind": "수입",
+      "memo": "K패스 모두의카드",
+      "transaction_id": 2663,
+      "input_row": 2663
+    },
+    {
+      "source_row": 12,
+      "date": "2026-11-10 22:07:00.468000",
+      "asset": "롯데365카드",
+      "category": "잡화/소품/가구/생필품",
+      "sub": null,
+      "title": "다이소",
+      "amount": 3000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2664,
+      "input_row": 2664
+    },
+    {
+      "source_row": 11,
+      "date": "2026-11-10 22:07:00.619000",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "음료/디저트/간식",
+      "title": "CU",
+      "amount": 1800,
+      "kind": "지출",
+      "memo": "라볶구리컵",
+      "transaction_id": 2665,
+      "input_row": 2665
+    },
+    {
+      "source_row": 10,
+      "date": "2026-11-10 22:08:00.091000",
+      "asset": "롯데365카드",
+      "category": "기타",
+      "sub": null,
+      "title": "기타",
+      "amount": 5000,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2666,
+      "input_row": 2666
+    },
+    {
+      "source_row": 9,
+      "date": "2026-11-10 22:16:23.584000",
+      "asset": "미래에셋_WRAP형CMA",
+      "category": "금융",
+      "sub": null,
+      "title": "미래에셋 WRAP 이자",
+      "amount": 12802,
+      "kind": "수입",
+      "memo": null,
+      "transaction_id": 2667,
+      "input_row": 2667
+    },
+    {
+      "source_row": 7,
+      "date": "2026-11-11 16:27:00.153000",
+      "asset": "MG+S 하나카드",
+      "category": "경조사/회비/선물/대인",
+      "sub": "대인친목도모",
+      "title": "카카오 선물하기",
+      "amount": 106200,
+      "kind": "지출",
+      "memo": "빼빼로",
+      "transaction_id": 2668,
+      "input_row": 2668
+    },
+    {
+      "source_row": 8,
+      "date": "2026-11-11 16:27:00.169000",
+      "asset": "롯데365카드",
+      "category": "경조사/회비/선물/대인",
+      "sub": "대인친목도모",
+      "title": "CU",
+      "amount": 25000,
+      "kind": "지출",
+      "memo": "빼빼로",
+      "transaction_id": 2669,
+      "input_row": 2669
+    },
+    {
+      "source_row": 4,
+      "date": "2026-11-11 16:28:00.223000",
+      "asset": "롯데365카드",
+      "category": "통신",
+      "sub": null,
+      "title": "SKT",
+      "amount": 53620,
+      "kind": "지출",
+      "memo": null,
+      "transaction_id": 2670,
+      "input_row": 2670
+    },
+    {
+      "source_row": 5,
+      "date": "2026-11-11 16:28:00.456000",
+      "asset": "롯데365카드",
+      "category": "식비",
+      "sub": "식대",
+      "title": "담소",
+      "amount": 9500,
+      "kind": "지출",
+      "memo": "순두부찌개",
+      "transaction_id": 2671,
+      "input_row": 2671
+    },
+    {
+      "source_row": 6,
+      "date": "2026-11-11 16:28:00.879000",
+      "asset": "MG+S 하나카드",
+      "category": "경조사/회비/선물/대인",
+      "sub": "마음",
+      "title": "카카오 선물하기",
+      "amount": 11800,
+      "kind": "지출",
+      "memo": "빼빼로데이 승훈 선물",
+      "transaction_id": 2672,
+      "input_row": 2672
+    }
+  ],
+  "source_mapping": [
+    {
+      "source_row": 2,
+      "transaction_id": 2618,
+      "status": "preserved"
+    },
+    {
+      "source_row": 3,
+      "transaction_id": 2617,
+      "status": "preserved"
+    },
+    {
+      "source_row": 4,
+      "transaction_id": 2670,
+      "status": "added"
+    },
+    {
+      "source_row": 5,
+      "transaction_id": 2671,
+      "status": "added"
+    },
+    {
+      "source_row": 6,
+      "transaction_id": 2672,
+      "status": "added"
+    },
+    {
+      "source_row": 7,
+      "transaction_id": 2668,
+      "status": "added"
+    },
+    {
+      "source_row": 8,
+      "transaction_id": 2669,
+      "status": "added"
+    },
+    {
+      "source_row": 9,
+      "transaction_id": 2667,
+      "status": "added"
+    },
+    {
+      "source_row": 10,
+      "transaction_id": 2666,
+      "status": "added"
+    },
+    {
+      "source_row": 11,
+      "transaction_id": 2665,
+      "status": "added"
+    },
+    {
+      "source_row": 12,
+      "transaction_id": 2664,
+      "status": "added"
+    },
+    {
+      "source_row": 13,
+      "transaction_id": 2663,
+      "status": "added"
+    },
+    {
+      "source_row": 14,
+      "transaction_id": 2662,
+      "status": "added"
+    },
+    {
+      "source_row": 15,
+      "transaction_id": 2661,
+      "status": "added"
+    },
+    {
+      "source_row": 16,
+      "transaction_id": 2660,
+      "status": "added"
+    },
+    {
+      "source_row": 17,
+      "transaction_id": 2659,
+      "status": "added"
+    },
+    {
+      "source_row": 18,
+      "transaction_id": 2658,
+      "status": "added"
+    },
+    {
+      "source_row": 19,
+      "transaction_id": 2657,
+      "status": "added"
+    },
+    {
+      "source_row": 20,
+      "transaction_id": 2655,
+      "status": "added"
+    },
+    {
+      "source_row": 21,
+      "transaction_id": 2656,
+      "status": "added"
+    },
+    {
+      "source_row": 22,
+      "transaction_id": 2654,
+      "status": "added"
+    },
+    {
+      "source_row": 23,
+      "transaction_id": 2653,
+      "status": "added"
+    },
+    {
+      "source_row": 24,
+      "transaction_id": 2650,
+      "status": "added"
+    },
+    {
+      "source_row": 25,
+      "transaction_id": 2651,
+      "status": "added"
+    },
+    {
+      "source_row": 26,
+      "transaction_id": 2652,
+      "status": "added"
+    },
+    {
+      "source_row": 27,
+      "transaction_id": 2649,
+      "status": "added"
+    },
+    {
+      "source_row": 28,
+      "transaction_id": 2648,
+      "status": "added"
+    },
+    {
+      "source_row": 29,
+      "transaction_id": 2647,
+      "status": "added"
+    },
+    {
+      "source_row": 30,
+      "transaction_id": 2646,
+      "status": "added"
+    },
+    {
+      "source_row": 31,
+      "transaction_id": 2645,
+      "status": "added"
+    },
+    {
+      "source_row": 32,
+      "transaction_id": 2644,
+      "status": "added"
+    },
+    {
+      "source_row": 33,
+      "transaction_id": 2643,
+      "status": "added"
+    },
+    {
+      "source_row": 34,
+      "transaction_id": 2642,
+      "status": "added"
+    },
+    {
+      "source_row": 35,
+      "transaction_id": 2641,
+      "status": "added"
+    },
+    {
+      "source_row": 36,
+      "transaction_id": 2640,
+      "status": "added"
+    },
+    {
+      "source_row": 37,
+      "transaction_id": 2635,
+      "status": "added"
+    },
+    {
+      "source_row": 38,
+      "transaction_id": 2639,
+      "status": "added"
+    },
+    {
+      "source_row": 39,
+      "transaction_id": 2638,
+      "status": "added"
+    },
+    {
+      "source_row": 40,
+      "transaction_id": 2637,
+      "status": "added"
+    },
+    {
+      "source_row": 41,
+      "transaction_id": 2636,
+      "status": "added"
+    },
+    {
+      "source_row": 42,
+      "transaction_id": 2632,
+      "status": "added"
+    },
+    {
+      "source_row": 43,
+      "transaction_id": 2634,
+      "status": "added"
+    },
+    {
+      "source_row": 44,
+      "transaction_id": 2633,
+      "status": "added"
+    },
+    {
+      "source_row": 45,
+      "transaction_id": 2631,
+      "status": "added"
+    },
+    {
+      "source_row": 46,
+      "transaction_id": 2630,
+      "status": "added"
+    },
+    {
+      "source_row": 47,
+      "transaction_id": 2629,
+      "status": "added"
+    },
+    {
+      "source_row": 48,
+      "transaction_id": 2628,
+      "status": "added"
+    },
+    {
+      "source_row": 49,
+      "transaction_id": 2627,
+      "status": "added"
+    },
+    {
+      "source_row": 50,
+      "transaction_id": 2626,
+      "status": "added"
+    },
+    {
+      "source_row": 51,
+      "transaction_id": 2625,
+      "status": "added"
+    },
+    {
+      "source_row": 52,
+      "transaction_id": 2624,
+      "status": "added"
+    },
+    {
+      "source_row": 53,
+      "transaction_id": 2623,
+      "status": "added"
+    },
+    {
+      "source_row": 54,
+      "transaction_id": 2622,
+      "status": "added"
+    },
+    {
+      "source_row": 55,
+      "transaction_id": 2616,
+      "status": "preserved"
+    },
+    {
+      "source_row": 56,
+      "transaction_id": 2615,
+      "status": "preserved"
+    },
+    {
+      "source_row": 57,
+      "transaction_id": 2613,
+      "status": "preserved"
+    },
+    {
+      "source_row": 58,
+      "transaction_id": 2614,
+      "status": "preserved"
+    },
+    {
+      "source_row": 59,
+      "transaction_id": 2612,
+      "status": "preserved"
+    },
+    {
+      "source_row": 60,
+      "transaction_id": 2610,
+      "status": "preserved"
+    },
+    {
+      "source_row": 61,
+      "transaction_id": 2611,
+      "status": "preserved"
+    },
+    {
+      "source_row": 62,
+      "transaction_id": 2609,
+      "status": "preserved"
+    },
+    {
+      "source_row": 63,
+      "transaction_id": 2608,
+      "status": "preserved"
+    },
+    {
+      "source_row": 64,
+      "transaction_id": 2606,
+      "status": "preserved"
+    },
+    {
+      "source_row": 65,
+      "transaction_id": 2607,
+      "status": "preserved"
+    },
+    {
+      "source_row": 66,
+      "transaction_id": 2604,
+      "status": "preserved"
+    },
+    {
+      "source_row": 67,
+      "transaction_id": 2605,
+      "status": "preserved"
+    },
+    {
+      "source_row": 68,
+      "transaction_id": 2603,
+      "status": "preserved"
+    },
+    {
+      "source_row": 69,
+      "transaction_id": 2602,
+      "status": "preserved"
+    },
+    {
+      "source_row": 70,
+      "transaction_id": 2597,
+      "status": "preserved"
+    },
+    {
+      "source_row": 71,
+      "transaction_id": 2601,
+      "status": "preserved"
+    },
+    {
+      "source_row": 72,
+      "transaction_id": 2600,
+      "status": "preserved"
+    },
+    {
+      "source_row": 73,
+      "transaction_id": 2599,
+      "status": "preserved"
+    },
+    {
+      "source_row": 74,
+      "transaction_id": 2598,
+      "status": "preserved"
+    },
+    {
+      "source_row": 75,
+      "transaction_id": 2619,
+      "status": "added"
+    },
+    {
+      "source_row": 76,
+      "transaction_id": 2620,
+      "status": "added"
+    },
+    {
+      "source_row": 77,
+      "transaction_id": 2621,
+      "status": "added"
+    },
+    {
+      "source_row": 78,
+      "transaction_id": 2596,
+      "status": "preserved"
+    },
+    {
+      "source_row": 79,
+      "transaction_id": 2595,
+      "status": "preserved"
+    },
+    {
+      "source_row": 80,
+      "transaction_id": 2594,
+      "status": "preserved"
+    },
+    {
+      "source_row": 81,
+      "transaction_id": 2593,
+      "status": "preserved"
+    },
+    {
+      "source_row": 82,
+      "transaction_id": 2592,
+      "status": "preserved"
+    },
+    {
+      "source_row": 83,
+      "transaction_id": 2591,
+      "status": "preserved"
+    }
+  ],
+  "source_records": 82,
+  "old_raw_count": 2617,
+  "old_november_count": 28,
+  "source_income_12802_is_unresolved_adjustment": true,
+  "original_income_fields_preserved_not_verified": true,
+  "september_historical_inputs_not_changed": true,
+  "sort": {
+    "mode": "descending",
+    "moved_rows": 2669,
+    "first_id": 2618,
+    "last_nonblank_id": 2
+  },
+  "wrap_links": [
+    {
+      "transaction_id": 2650,
+      "ledger_row": 258,
+      "amount": 12420,
+      "direction": "출금",
+      "provisional": false
+    },
+    {
+      "transaction_id": 2661,
+      "ledger_row": 259,
+      "amount": 10000,
+      "direction": "출금",
+      "provisional": false
+    },
+    {
+      "transaction_id": 2662,
+      "ledger_row": 260,
+      "amount": 137300,
+      "direction": "출금",
+      "provisional": false
+    },
+    {
+      "transaction_id": 2667,
+      "ledger_row": 261,
+      "amount": 12802,
+      "direction": "입금",
+      "provisional": true
+    }
+  ]
+}
