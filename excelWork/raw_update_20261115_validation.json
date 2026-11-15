@@ -1,0 +1,4595 @@
+{
+  "as_of": "2026-11-15",
+  "workbook_sha256": "6633d912fd8c8c77280c2fbc8dc14562d2adc1a70c1a3da26a0240d7e959ed96",
+  "source_sha256": "3dcbca8a4a48b1dba072d520146307305e65b4739ec1119109492f897ae2d46d",
+  "total_raw_records": 2733,
+  "source_records": 405,
+  "new_records": 56,
+  "derived_expense_records": 1,
+  "raw_by_month": {
+    "2026-11": 132,
+    "2026-10": 279,
+    "2026-09": 245,
+    "2026-08": 310,
+    "2026-07": 345,
+    "2026-06": 267,
+    "2026-05": 210,
+    "2026-04": 210,
+    "2026-03": 267,
+    "2026-02": 244,
+    "2026-01": 224
+  },
+  "managed_cash_total": 7262926,
+  "naver_cash": 7262399,
+  "wrap_residual": 527,
+  "purpose_available": 2150000,
+  "income_635_split_without_double_count": true,
+  "migration_counted_as_expense": false,
+  "months": {
+    "10": {
+      "C40": 110573,
+      "I33": 2582442,
+      "I38": 2629000,
+      "H43": 68231,
+      "E74": 1256537,
+      "E75": 1256547,
+      "E79": 3942579
+    },
+    "11": {
+      "C40": 58122,
+      "I33": 1230713,
+      "I38": 1251000,
+      "H43": 1000,
+      "E74": 626515,
+      "E75": 1400978,
+      "E79": 1857228
+    }
+  },
+  "reserve": {
+    "month": 11,
+    "physical_wrap_total": 7262926,
+    "purpose_available": 2150000,
+    "actual_use": 0,
+    "allocated_to_bill": 0,
+    "invalid_use_rows": [],
+    "invalid_settlement_rows": []
+  },
+  "selected_view": {
+    "month": 11,
+    "all_ledger_rows": 16,
+    "displayed_page": 1,
+    "displayed_rows": [
+      274,
+      273,
+      272,
+      271,
+      270,
+      269,
+      268,
+      267,
+      266,
+      265,
+      264,
+      263,
+      261,
+      260,
+      259,
+      258
+    ]
+  },
+  "memos": [
+    {
+      "month": 1,
+      "memos": 80,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 2,
+      "memos": 62,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 3,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 4,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 5,
+      "memos": 65,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 6,
+      "memos": 113,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 7,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 8,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 9,
+      "memos": 98,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 10,
+      "memos": 135,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 11,
+      "memos": 62,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 12,
+      "memos": 0,
+      "pages_and_fixed_memos_match": true
+    }
+  ],
+  "historical_cells_preserved": 34606,
+  "vba_controls_styles_relationships_preserved": true,
+  "conditional_formats_preserved": true,
+  "formula_errors": 0,
+  "structure": {
+    "worksheet_count": 47,
+    "xml_part_count": 87,
+    "errors": []
+  },
+  "source_original_local_only": true,
+  "native_excel_ui_executed": false,
+  "previous_commit": "1ae6cb7",
+  "previous_version": "history/2026-11-15/01",
+  "guide": "2026-11-15_RAW반영_관리계좌이전.md",
+  "metadata": {
+    "source_count": 405,
+    "source_by_month": {
+      "11": 126,
+      "10": 279
+    },
+    "old_count": 2676,
+    "new": [
+      {
+        "source_row": 326,
+        "date": "2026-10-08 22:19:17",
+        "asset": "미래에셋_WRAP형CMA",
+        "category": "금융",
+        "sub": null,
+        "title": "미래에셋 WRAP 이자",
+        "amount": 635,
+        "kind": "수입",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2678,
+        "input_row": 2678
+      },
+      {
+        "source_row": 314,
+        "date": "2026-10-09 20:42:00.345000",
+        "asset": "현대네이버카드",
+        "category": "여행/약속/공사",
+        "sub": null,
+        "title": "여기어때",
+        "amount": 53431,
+        "kind": "지출",
+        "tag": null,
+        "memo": "10월 창원 숙소",
+        "transaction_id": 2679,
+        "input_row": 2679
+      },
+      {
+        "source_row": 272,
+        "date": "2026-10-13 18:53:00.595000",
+        "asset": "현대네이버카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 4500,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2680,
+        "input_row": 2680
+      },
+      {
+        "source_row": 271,
+        "date": "2026-10-13 20:49:00.133000",
+        "asset": "현대네이버카드",
+        "category": "식비",
+        "sub": "음료/디저트/간식",
+        "title": "CU",
+        "amount": 6200,
+        "kind": "지출",
+        "tag": null,
+        "memo": "계란,커피",
+        "transaction_id": 2681,
+        "input_row": 2681
+      },
+      {
+        "source_row": 269,
+        "date": "2026-10-13 21:25:00.642000",
+        "asset": "롯데365카드",
+        "category": "식비",
+        "sub": "식대",
+        "title": "밥플러스",
+        "amount": 9000,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2682,
+        "input_row": 2682
+      },
+      {
+        "source_row": 257,
+        "date": "2026-10-15 20:32:00.626000",
+        "asset": "우리은행",
+        "category": "교통/차량",
+        "sub": null,
+        "title": "이라온에듀 환불",
+        "amount": -96040,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2683,
+        "input_row": 2683
+      },
+      {
+        "source_row": 256,
+        "date": "2026-10-15 22:07:45",
+        "asset": "새마을금고",
+        "category": "금융",
+        "sub": null,
+        "title": "하나카드 부분취소",
+        "amount": 4520,
+        "kind": "수입",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2684,
+        "input_row": 2684
+      },
+      {
+        "source_row": 141,
+        "date": "2026-10-30 22:10:51",
+        "asset": "신한은행",
+        "category": "금융",
+        "sub": null,
+        "title": "탄소중립실천포인트",
+        "amount": 2120,
+        "kind": "수입",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2685,
+        "input_row": 2685
+      },
+      {
+        "source_row": 129,
+        "date": "2026-10-31 15:09:00.509000",
+        "asset": "롯데365카드",
+        "category": "금융",
+        "sub": null,
+        "title": "롯데카드 할인",
+        "amount": -18257,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2686,
+        "input_row": 2686
+      },
+      {
+        "source_row": 130,
+        "date": "2026-10-31 21:10:00.498000",
+        "asset": "MG+S 하나카드",
+        "category": "금융",
+        "sub": null,
+        "title": "MG+S하나카드 할인",
+        "amount": -30000,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2687,
+        "input_row": 2687
+      },
+      {
+        "source_row": 128,
+        "date": "2026-10-31 21:18:00.858000",
+        "asset": "우리카드의정석SUPER",
+        "category": "금융",
+        "sub": null,
+        "title": "우리카드 할인",
+        "amount": -16974,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2688,
+        "input_row": 2688
+      },
+      {
+        "source_row": 131,
+        "date": "2026-10-31 22:05:00.485000",
+        "asset": "토스뱅크K패스체크카드",
+        "category": "교통/차량",
+        "sub": null,
+        "title": "10월 후불교통",
+        "amount": 137300,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2689,
+        "input_row": 2689
+      },
+      {
+        "source_row": 44,
+        "date": "2026-11-11 20:13:00.812000",
+        "asset": "롯데365카드",
+        "category": "경조사/회비/선물/대인",
+        "sub": "마음",
+        "title": "세븐일레븐",
+        "amount": 1400,
+        "kind": "지출",
+        "tag": null,
+        "memo": "몬스터 음료",
+        "transaction_id": 2690,
+        "input_row": 2690
+      },
+      {
+        "source_row": 43,
+        "date": "2026-11-11 20:15:00.016000",
+        "asset": "롯데365카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 4500,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2691,
+        "input_row": 2691
+      },
+      {
+        "source_row": 46,
+        "date": "2026-11-11 22:06:38.935000",
+        "asset": "토스뱅크",
+        "category": "금융",
+        "sub": null,
+        "title": "토스뱅크카드 추가환급",
+        "amount": 100,
+        "kind": "수입",
+        "tag": null,
+        "memo": "K패스 모두의카드",
+        "transaction_id": 2692,
+        "input_row": 2692
+      },
+      {
+        "source_row": 45,
+        "date": "2026-11-11 22:07:33.498000",
+        "asset": "MG+S 하나카드",
+        "category": "교통/차량",
+        "sub": null,
+        "title": "코레일",
+        "amount": 90800,
+        "kind": "지출",
+        "tag": null,
+        "memo": "KTX (26.11.21 KTX 왕복)",
+        "transaction_id": 2693,
+        "input_row": 2693
+      },
+      {
+        "source_row": 34,
+        "date": "2026-11-12 20:13:00.573000",
+        "asset": "롯데365카드",
+        "category": "경조사/회비/선물/대인",
+        "sub": "마음",
+        "title": "이마트24",
+        "amount": 1800,
+        "kind": "지출",
+        "tag": null,
+        "memo": "몬스터 음료",
+        "transaction_id": 2694,
+        "input_row": 2694
+      },
+      {
+        "source_row": 39,
+        "date": "2026-11-12 20:16:00.300000",
+        "asset": "신한은행",
+        "category": "기타",
+        "sub": null,
+        "title": "기프티콘 환불",
+        "amount": 90,
+        "kind": "수입",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2695,
+        "input_row": 2695
+      },
+      {
+        "source_row": 41,
+        "date": "2026-11-12 20:16:00.328000",
+        "asset": "롯데365카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 5000,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2696,
+        "input_row": 2696
+      },
+      {
+        "source_row": 40,
+        "date": "2026-11-12 20:16:00.762000",
+        "asset": "롯데365카드",
+        "category": "식비",
+        "sub": "식대",
+        "title": "카츠헤세드",
+        "amount": 12900,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2697,
+        "input_row": 2697
+      },
+      {
+        "source_row": 36,
+        "date": "2026-11-12 20:17:00.742000",
+        "asset": "MG+S 하나카드",
+        "category": "경조사/회비/선물/대인",
+        "sub": "마음",
+        "title": "버거킹",
+        "amount": 21300,
+        "kind": "지출",
+        "tag": null,
+        "memo": "승훈 야식",
+        "transaction_id": 2698,
+        "input_row": 2698
+      },
+      {
+        "source_row": 37,
+        "date": "2026-11-12 20:17:00.911000",
+        "asset": "MG+S 하나카드",
+        "category": "식비",
+        "sub": "음료/디저트/간식",
+        "title": "버거킹",
+        "amount": 3900,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2699,
+        "input_row": 2699
+      },
+      {
+        "source_row": 38,
+        "date": "2026-11-12 20:17:00.949000",
+        "asset": "토스뱅크",
+        "category": "금융",
+        "sub": null,
+        "title": "토스뱅크카드 추가환급",
+        "amount": 100,
+        "kind": "수입",
+        "tag": null,
+        "memo": "K패스 모두의카드",
+        "transaction_id": 2700,
+        "input_row": 2700
+      },
+      {
+        "source_row": 35,
+        "date": "2026-11-12 20:18:00.483000",
+        "asset": "롯데365카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 5000,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2701,
+        "input_row": 2701
+      },
+      {
+        "source_row": 33,
+        "date": "2026-11-12 20:33:00.683000",
+        "asset": "우리은행",
+        "category": "네이버미래에셋",
+        "sub": null,
+        "title": "이체",
+        "amount": 96041,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2702,
+        "input_row": 2702
+      },
+      {
+        "source_row": 32,
+        "date": "2026-11-12 20:33:00.877000",
+        "asset": "미래에셋_WRAP형CMA",
+        "category": "네이버미래에셋",
+        "sub": null,
+        "title": "이체",
+        "amount": 8288458,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2703,
+        "input_row": 2703
+      },
+      {
+        "source_row": 29,
+        "date": "2026-11-12 20:35:00",
+        "asset": "네이버미래에셋",
+        "category": "신한은행",
+        "sub": null,
+        "title": "이체",
+        "amount": 96430,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2704,
+        "input_row": 2704
+      },
+      {
+        "source_row": 31,
+        "date": "2026-11-12 20:35:00.580000",
+        "asset": "네이버미래에셋",
+        "category": "카카오뱅크",
+        "sub": null,
+        "title": "이체",
+        "amount": 312497,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2705,
+        "input_row": 2705
+      },
+      {
+        "source_row": 30,
+        "date": "2026-11-12 20:54:00.146000",
+        "asset": "카카오뱅크",
+        "category": "현대네이버카드",
+        "sub": null,
+        "title": "카드정산 결제",
+        "amount": 312654,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": "지연금 157원 추가",
+        "transaction_id": 2706,
+        "input_row": 2706
+      },
+      {
+        "source_row": 28,
+        "date": "2026-11-12 22:09:32",
+        "asset": "네이버미래에셋",
+        "category": "새마을금고",
+        "sub": null,
+        "title": "이체",
+        "amount": 829747,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2707,
+        "input_row": 2707
+      },
+      {
+        "source_row": 27,
+        "date": "2026-11-13 20:19:00.281000",
+        "asset": "NH별다줄카드",
+        "category": "금융",
+        "sub": null,
+        "title": "NH농협카드 연회비",
+        "amount": -6000,
+        "kind": "지출",
+        "tag": null,
+        "memo": "연회비 취소",
+        "transaction_id": 2708,
+        "input_row": 2708
+      },
+      {
+        "source_row": 26,
+        "date": "2026-11-13 20:22:00.198000",
+        "asset": "MG+S 하나카드",
+        "category": "교통/차량",
+        "sub": null,
+        "title": "우버택시",
+        "amount": 39600,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2709,
+        "input_row": 2709
+      },
+      {
+        "source_row": 25,
+        "date": "2026-11-13 20:22:00.932000",
+        "asset": "신한은행",
+        "category": "금융",
+        "sub": null,
+        "title": "청년 버팀목 전세대출이자",
+        "amount": 93420,
+        "kind": "지출",
+        "tag": null,
+        "memo": "4회차",
+        "transaction_id": 2710,
+        "input_row": 2710
+      },
+      {
+        "source_row": 24,
+        "date": "2026-11-13 20:23:00.294000",
+        "asset": "롯데365카드",
+        "category": "여행/약속/공사",
+        "sub": "여행",
+        "title": "GS25",
+        "amount": 10000,
+        "kind": "지출",
+        "tag": null,
+        "memo": "수건",
+        "transaction_id": 2711,
+        "input_row": 2711
+      },
+      {
+        "source_row": 23,
+        "date": "2026-11-13 20:26:00.887000",
+        "asset": "롯데365카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 10500,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2712,
+        "input_row": 2712
+      },
+      {
+        "source_row": 22,
+        "date": "2026-11-13 20:39:00.038000",
+        "asset": "신한은행",
+        "category": "카카오뱅크",
+        "sub": null,
+        "title": "이체",
+        "amount": 200,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2713,
+        "input_row": 2713
+      },
+      {
+        "source_row": 21,
+        "date": "2026-11-13 20:55:00.967000",
+        "asset": "네이버미래에셋",
+        "category": "여행/약속/공사",
+        "sub": "만남",
+        "title": "글램핑 불멍 화로 세트",
+        "amount": 40000,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2714,
+        "input_row": 2714
+      },
+      {
+        "source_row": 19,
+        "date": "2026-11-13 20:56:00.262000",
+        "asset": "모임통장",
+        "category": "여행/약속/공사",
+        "sub": "만남",
+        "title": "씨드그린",
+        "amount": 13500,
+        "kind": "지출",
+        "tag": null,
+        "memo": "화담숲 카페",
+        "transaction_id": 2715,
+        "input_row": 2715
+      },
+      {
+        "source_row": 20,
+        "date": "2026-11-13 20:56:00.333000",
+        "asset": "모임통장",
+        "category": "여행/약속/공사",
+        "sub": "만남",
+        "title": "초월보리밥",
+        "amount": 32000,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2716,
+        "input_row": 2716
+      },
+      {
+        "source_row": 18,
+        "date": "2026-11-13 21:15:00",
+        "asset": "새마을금고",
+        "category": "MG+S 하나카드",
+        "sub": null,
+        "title": "카드정산 결제",
+        "amount": 829747,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2717,
+        "input_row": 2717
+      },
+      {
+        "source_row": 17,
+        "date": "2026-11-14 20:58:00.994000",
+        "asset": "모임통장",
+        "category": "여행/약속/공사",
+        "sub": "만남",
+        "title": "여주신해온천사우나",
+        "amount": 20000,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2718,
+        "input_row": 2718
+      },
+      {
+        "source_row": 16,
+        "date": "2026-11-14 20:59:00.292000",
+        "asset": "MG+S 하나카드",
+        "category": "정기구독",
+        "sub": null,
+        "title": "What Brandon Thinks",
+        "amount": 14900,
+        "kind": "지출",
+        "tag": null,
+        "memo": "브랜든 리포트",
+        "transaction_id": 2719,
+        "input_row": 2719
+      },
+      {
+        "source_row": 15,
+        "date": "2026-11-14 21:02:00",
+        "asset": "MG+S 하나카드",
+        "category": "패션/미용",
+        "sub": null,
+        "title": "롯데프리미엄아울렛 이천점(1/3)",
+        "amount": 106334,
+        "kind": "지출",
+        "tag": null,
+        "memo": "컬럼비아 롱패딩",
+        "transaction_id": 2720,
+        "input_row": 2720
+      },
+      {
+        "source_row": 14,
+        "date": "2026-11-14 21:03:00.181000",
+        "asset": "MG+S 하나카드",
+        "category": "여행/약속/공사",
+        "sub": "만남",
+        "title": "엔젤리너스",
+        "amount": 12700,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2721,
+        "input_row": 2721
+      },
+      {
+        "source_row": 13,
+        "date": "2026-11-14 21:04:00.896000",
+        "asset": "MG+S 하나카드",
+        "category": "교통/차량",
+        "sub": null,
+        "title": "우버택시",
+        "amount": 26300,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2722,
+        "input_row": 2722
+      },
+      {
+        "source_row": 12,
+        "date": "2026-11-15 21:04:00.338000",
+        "asset": "KB쿠팡와우",
+        "category": "식비",
+        "sub": "배달",
+        "title": "쿠팡이츠",
+        "amount": 10900,
+        "kind": "지출",
+        "tag": null,
+        "memo": "돼지국밥",
+        "transaction_id": 2723,
+        "input_row": 2723
+      },
+      {
+        "source_row": 11,
+        "date": "2026-11-15 21:05:00.818000",
+        "asset": "MG+S 하나카드",
+        "category": "식비",
+        "sub": "음료/디저트/간식",
+        "title": "우지커피",
+        "amount": 5500,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2724,
+        "input_row": 2724
+      },
+      {
+        "source_row": 9,
+        "date": "2026-11-15 21:06:00.024000",
+        "asset": "MG+S 하나카드",
+        "category": "식비",
+        "sub": "음료/디저트/간식",
+        "title": "CU",
+        "amount": 3600,
+        "kind": "지출",
+        "tag": null,
+        "memo": "햇반, 밀키스",
+        "transaction_id": 2725,
+        "input_row": 2725
+      },
+      {
+        "source_row": 8,
+        "date": "2026-11-15 21:06:00.528000",
+        "asset": "MG+S 하나카드",
+        "category": "기타",
+        "sub": null,
+        "title": "기타",
+        "amount": 5000,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2726,
+        "input_row": 2726
+      },
+      {
+        "source_row": 10,
+        "date": "2026-11-15 21:06:00.802000",
+        "asset": "우리카드의정석SUPER",
+        "category": "문화/생활",
+        "sub": null,
+        "title": "코인세탁",
+        "amount": 5500,
+        "kind": "지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2727,
+        "input_row": 2727
+      },
+      {
+        "source_row": 7,
+        "date": "2026-11-15 22:04:41.103000",
+        "asset": "SC제일은행",
+        "category": "네이버미래에셋",
+        "sub": null,
+        "title": "이체",
+        "amount": 91,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2728,
+        "input_row": 2728
+      },
+      {
+        "source_row": 6,
+        "date": "2026-11-15 22:05:20.747000",
+        "asset": "하나은행",
+        "category": "네이버미래에셋",
+        "sub": null,
+        "title": "이체",
+        "amount": 124,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2729,
+        "input_row": 2729
+      },
+      {
+        "source_row": 5,
+        "date": "2026-11-15 22:05:54.180000",
+        "asset": "새마을금고",
+        "category": "네이버미래에셋",
+        "sub": null,
+        "title": "이체",
+        "amount": 4778,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2730,
+        "input_row": 2730
+      },
+      {
+        "source_row": 4,
+        "date": "2026-11-15 22:06:16.599000",
+        "asset": "토스뱅크",
+        "category": "네이버미래에셋",
+        "sub": null,
+        "title": "이체",
+        "amount": 102417,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2731,
+        "input_row": 2731
+      },
+      {
+        "source_row": 3,
+        "date": "2026-11-15 22:06:54.797000",
+        "asset": "신한은행",
+        "category": "네이버미래에셋",
+        "sub": null,
+        "title": "이체",
+        "amount": 46495,
+        "kind": "이체지출",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2732,
+        "input_row": 2732
+      },
+      {
+        "source_row": 2,
+        "date": "2026-11-15 22:17:37.515000",
+        "asset": "네이버미래에셋",
+        "category": "금융",
+        "sub": null,
+        "title": "네이버미래에셋 이자",
+        "amount": 2669,
+        "kind": "수입",
+        "tag": null,
+        "memo": null,
+        "transaction_id": 2733,
+        "input_row": 2733
+      }
+    ],
+    "derived": [
+      {
+        "date": "2026-11-12 20:54:00.146000",
+        "asset": "카카오뱅크",
+        "category": "금융",
+        "sub": null,
+        "title": "현대네이버카드 지연금",
+        "amount": 157,
+        "kind": "지출",
+        "memo": null,
+        "tag": null,
+        "transaction_id": 2734,
+        "input_row": 2734,
+        "source_row": null,
+        "classification": "변동비",
+        "evidence": "Source settlement 312654 minus funded principal 312497; source separately identifies the late charge."
+      }
+    ],
+    "patches": [
+      {
+        "transaction_id": 2615,
+        "changes": {
+          "G": 0,
+          "K": 0,
+          "A": "2026-11-04 20:51:00",
+          "I": "KTX (27.01.01 KTX 왕복) => 취소"
+        },
+        "old_amount": 89800
+      },
+      {
+        "transaction_id": 2502,
+        "changes": {
+          "G": 21148,
+          "K": 21148,
+          "A": "2026-10-22 17:17:00.227000"
+        },
+        "old_amount": 20954
+      },
+      {
+        "transaction_id": 2493,
+        "changes": {
+          "I": "2026.09.10 ~ 2027.09.09"
+        },
+        "old_amount": 110075
+      },
+      {
+        "transaction_id": 2492,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 12000
+      },
+      {
+        "transaction_id": 2491,
+        "changes": {
+          "I": "아르기닌"
+        },
+        "old_amount": 1900
+      },
+      {
+        "transaction_id": 2490,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2489,
+        "changes": {
+          "I": "간식"
+        },
+        "old_amount": 9800
+      },
+      {
+        "transaction_id": 2488,
+        "changes": {
+          "I": "헤라 블랙쿠션 25호"
+        },
+        "old_amount": 38990
+      },
+      {
+        "transaction_id": 2487,
+        "changes": {
+          "I": "지켜텀"
+        },
+        "old_amount": 37760
+      },
+      {
+        "transaction_id": 2486,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 4400
+      },
+      {
+        "transaction_id": 2485,
+        "changes": {
+          "I": "바디로션, 가글"
+        },
+        "old_amount": 35820
+      },
+      {
+        "transaction_id": 2484,
+        "changes": {
+          "I": "초코모찌빵"
+        },
+        "old_amount": 3000
+      },
+      {
+        "transaction_id": 2483,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2482,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 20000
+      },
+      {
+        "transaction_id": 2481,
+        "changes": {
+          "I": "국밥"
+        },
+        "old_amount": 12410
+      },
+      {
+        "transaction_id": 2480,
+        "changes": {
+          "I": "지르텍 알러지약"
+        },
+        "old_amount": 12000
+      },
+      {
+        "transaction_id": 2479,
+        "changes": {
+          "I": "간식"
+        },
+        "old_amount": 12200
+      },
+      {
+        "transaction_id": 2478,
+        "changes": {
+          "I": "음료"
+        },
+        "old_amount": 5900
+      },
+      {
+        "transaction_id": 2477,
+        "changes": {
+          "I": "용산점"
+        },
+        "old_amount": 26800
+      },
+      {
+        "transaction_id": 2476,
+        "changes": {
+          "I": "양재시민의숲 카페"
+        },
+        "old_amount": 10000
+      },
+      {
+        "transaction_id": 2474,
+        "changes": {
+          "I": "서울커피앤티페어"
+        },
+        "old_amount": 17000
+      },
+      {
+        "transaction_id": 2475,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 15700
+      },
+      {
+        "transaction_id": 2473,
+        "changes": {
+          "I": "롤빗 1호"
+        },
+        "old_amount": 12530
+      },
+      {
+        "transaction_id": 2471,
+        "changes": {
+          "I": "인공눈물"
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2472,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2470,
+        "changes": {
+          "I": "커피, 빵"
+        },
+        "old_amount": 4000
+      },
+      {
+        "transaction_id": 2469,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 7000
+      },
+      {
+        "transaction_id": 2467,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 10900
+      },
+      {
+        "transaction_id": 2468,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2466,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 61000
+      },
+      {
+        "transaction_id": 2465,
+        "changes": {
+          "I": "커피"
+        },
+        "old_amount": 6600
+      },
+      {
+        "transaction_id": 2464,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2463,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 7300
+      },
+      {
+        "transaction_id": 2462,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 236270
+      },
+      {
+        "transaction_id": 2461,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 798746
+      },
+      {
+        "transaction_id": 2460,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 360550
+      },
+      {
+        "transaction_id": 2459,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 53900
+      },
+      {
+        "transaction_id": 2458,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 51800
+      },
+      {
+        "transaction_id": 2457,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 8500
+      },
+      {
+        "transaction_id": 2456,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 246568
+      },
+      {
+        "transaction_id": 2447,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 4500
+      },
+      {
+        "transaction_id": 2455,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 753905
+      },
+      {
+        "transaction_id": 2454,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 535
+      },
+      {
+        "transaction_id": 2453,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 22210
+      },
+      {
+        "transaction_id": 2452,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 236270
+      },
+      {
+        "transaction_id": 2451,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 246568
+      },
+      {
+        "transaction_id": 2450,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 360550
+      },
+      {
+        "transaction_id": 2449,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 798746
+      },
+      {
+        "transaction_id": 2448,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 604300
+      },
+      {
+        "transaction_id": 2446,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 753905
+      },
+      {
+        "transaction_id": 2445,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 1
+      },
+      {
+        "transaction_id": 2444,
+        "changes": {
+          "I": "3회차"
+        },
+        "old_amount": 90410
+      },
+      {
+        "transaction_id": 2435,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 53620
+      },
+      {
+        "transaction_id": 2441,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 1390
+      },
+      {
+        "transaction_id": 2430,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 1390
+      },
+      {
+        "transaction_id": 2440,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2439,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 11700
+      },
+      {
+        "transaction_id": 2438,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 136350
+      },
+      {
+        "transaction_id": 2437,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 500000
+      },
+      {
+        "transaction_id": 2436,
+        "changes": {
+          "I": "감비환"
+        },
+        "old_amount": 114820
+      },
+      {
+        "transaction_id": 2434,
+        "changes": {
+          "I": "광명 -> 부산 / 대리결제"
+        },
+        "old_amount": 51800
+      },
+      {
+        "transaction_id": 2433,
+        "changes": {
+          "I": "서울 -> 부산"
+        },
+        "old_amount": 53900
+      },
+      {
+        "transaction_id": 2432,
+        "changes": {
+          "I": "커피"
+        },
+        "old_amount": 2200
+      },
+      {
+        "transaction_id": 2431,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2429,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 90410
+      },
+      {
+        "transaction_id": 2427,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 27610
+      },
+      {
+        "transaction_id": 2428,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 42900
+      },
+      {
+        "transaction_id": 2426,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 7600
+      },
+      {
+        "transaction_id": 2443,
+        "changes": {
+          "I": "아이폰 17프로맥스 할부 (무22)"
+        },
+        "old_amount": 74700
+      },
+      {
+        "transaction_id": 2422,
+        "changes": {
+          "I": "이체"
+        },
+        "old_amount": 100000
+      },
+      {
+        "transaction_id": 2425,
+        "changes": {
+          "I": "외대 경희대 후문 카페"
+        },
+        "old_amount": 11000
+      },
+      {
+        "transaction_id": 2424,
+        "changes": {
+          "I": "성수 약속"
+        },
+        "old_amount": 14000
+      },
+      {
+        "transaction_id": 2423,
+        "changes": {
+          "I": "이체"
+        },
+        "old_amount": 139000
+      },
+      {
+        "transaction_id": 2420,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2421,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2419,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 7700
+      },
+      {
+        "transaction_id": 2418,
+        "changes": {
+          "I": "엘라고 케이스"
+        },
+        "old_amount": 26900
+      },
+      {
+        "transaction_id": 2415,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2417,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 7800
+      },
+      {
+        "transaction_id": 2416,
+        "changes": {
+          "I": "본가 -> 창원중앙역"
+        },
+        "old_amount": 6100
+      },
+      {
+        "transaction_id": 2410,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 4500
+      },
+      {
+        "transaction_id": 2414,
+        "changes": {
+          "I": "배예린 생일선물"
+        },
+        "old_amount": 36900
+      },
+      {
+        "transaction_id": 2413,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 48000
+      },
+      {
+        "transaction_id": 2406,
+        "changes": {
+          "I": "카카오택시 블루 이용료(김해 -> 창원)"
+        },
+        "old_amount": 3000
+      },
+      {
+        "transaction_id": 2412,
+        "changes": {
+          "I": "간식"
+        },
+        "old_amount": 4700
+      },
+      {
+        "transaction_id": 2411,
+        "changes": {
+          "I": "음료"
+        },
+        "old_amount": 3300
+      },
+      {
+        "transaction_id": 2409,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 4500
+      },
+      {
+        "transaction_id": 2404,
+        "changes": {
+          "I": "마산해양공원 -> 상남동"
+        },
+        "old_amount": 12300
+      },
+      {
+        "transaction_id": 2405,
+        "changes": {
+          "I": "상남동 -> 댓거리"
+        },
+        "old_amount": 16900
+      },
+      {
+        "transaction_id": 2408,
+        "changes": {
+          "I": "상남동 -> 유니시티"
+        },
+        "old_amount": 8100
+      },
+      {
+        "transaction_id": 2407,
+        "changes": {
+          "I": "김해 -> 창원"
+        },
+        "old_amount": 28350
+      },
+      {
+        "transaction_id": 2398,
+        "changes": {
+          "C": "롯데365카드",
+          "I": "창원중앙역 -> 상남동"
+        },
+        "old_amount": 8800
+      },
+      {
+        "transaction_id": 2403,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 139000
+      },
+      {
+        "transaction_id": 2401,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 500000
+      },
+      {
+        "transaction_id": 2402,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 15000
+      },
+      {
+        "transaction_id": 2397,
+        "changes": {
+          "I": "창원 -> 김해"
+        },
+        "old_amount": 22700
+      },
+      {
+        "transaction_id": 2394,
+        "changes": {
+          "I": "간식"
+        },
+        "old_amount": 8000
+      },
+      {
+        "transaction_id": 2399,
+        "changes": {
+          "I": "보조배터리"
+        },
+        "old_amount": 6300
+      },
+      {
+        "transaction_id": 2400,
+        "changes": {
+          "I": "아이스크림"
+        },
+        "old_amount": 2800
+      },
+      {
+        "transaction_id": 2396,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2395,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2392,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 14000
+      },
+      {
+        "transaction_id": 2393,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2391,
+        "changes": {
+          "I": "아르기닌, 계란"
+        },
+        "old_amount": 3700
+      },
+      {
+        "transaction_id": 2390,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 39500
+      },
+      {
+        "transaction_id": 2389,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 20000
+      },
+      {
+        "transaction_id": 2388,
+        "changes": {
+          "I": "유부초밥"
+        },
+        "old_amount": 40100
+      },
+      {
+        "transaction_id": 2387,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 100000
+      },
+      {
+        "transaction_id": 2386,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 1
+      },
+      {
+        "transaction_id": 2385,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2384,
+        "changes": {
+          "I": "음료수"
+        },
+        "old_amount": 3100
+      },
+      {
+        "transaction_id": 2382,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2383,
+        "changes": {
+          "I": "파스타 식재료"
+        },
+        "old_amount": 32570
+      },
+      {
+        "transaction_id": 2381,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 6200
+      },
+      {
+        "transaction_id": 2379,
+        "changes": {
+          "I": "숙소"
+        },
+        "old_amount": 39000
+      },
+      {
+        "transaction_id": 2380,
+        "changes": {
+          "I": "숙소"
+        },
+        "old_amount": 35000
+      },
+      {
+        "transaction_id": 2378,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2377,
+        "changes": {
+          "I": "장보기 다진마늘"
+        },
+        "old_amount": 9680
+      },
+      {
+        "transaction_id": 2375,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 160
+      },
+      {
+        "transaction_id": 2376,
+        "changes": {
+          "I": "양배추 대리구매"
+        },
+        "old_amount": -1300
+      },
+      {
+        "transaction_id": 2374,
+        "changes": {
+          "I": "피지오겔 레드 수딩 시카밸런스 크림"
+        },
+        "old_amount": 23860
+      },
+      {
+        "transaction_id": 2373,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2372,
+        "changes": {
+          "I": "폼클렌징, 베이스파우더"
+        },
+        "old_amount": 26310
+      },
+      {
+        "transaction_id": 2371,
+        "changes": {
+          "I": "마몽드 리퀴드 마스크  피어니"
+        },
+        "old_amount": 14900
+      },
+      {
+        "transaction_id": 2370,
+        "changes": {
+          "I": "테이블매트, 수저 받침"
+        },
+        "old_amount": 49410
+      },
+      {
+        "transaction_id": 2366,
+        "changes": {
+          "C": "롯데365카드",
+          "I": null
+        },
+        "old_amount": 4400
+      },
+      {
+        "transaction_id": 2369,
+        "changes": {
+          "I": "장보기"
+        },
+        "old_amount": 60660
+      },
+      {
+        "transaction_id": 2368,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2367,
+        "changes": {
+          "I": "한경희 스팀청소기"
+        },
+        "old_amount": 71130
+      },
+      {
+        "transaction_id": 2364,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 15000
+      },
+      {
+        "transaction_id": 2365,
+        "changes": {
+          "I": "일회성 멤버쉽 결제"
+        },
+        "old_amount": 12900
+      },
+      {
+        "transaction_id": 2363,
+        "changes": {
+          "I": "냉장고 탈취제 암앤해머"
+        },
+        "old_amount": 17460
+      },
+      {
+        "transaction_id": 2362,
+        "changes": {
+          "I": "에어팟프로3"
+        },
+        "old_amount": 10200
+      },
+      {
+        "transaction_id": 2356,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 39800
+      },
+      {
+        "transaction_id": 2354,
+        "changes": {
+          "I": "아이미루"
+        },
+        "old_amount": 6000
+      },
+      {
+        "transaction_id": 2353,
+        "changes": {
+          "I": "CU4900"
+        },
+        "old_amount": 4900
+      },
+      {
+        "transaction_id": 2355,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 8965
+      },
+      {
+        "transaction_id": 2360,
+        "changes": {
+          "I": "종량제봉투, 과자"
+        },
+        "old_amount": 11900
+      },
+      {
+        "transaction_id": 2361,
+        "changes": {
+          "I": "간식"
+        },
+        "old_amount": 6000
+      },
+      {
+        "transaction_id": 2358,
+        "changes": {
+          "I": "맥플러리"
+        },
+        "old_amount": 3600
+      },
+      {
+        "transaction_id": 2357,
+        "changes": {
+          "I": "수서역점 음료수"
+        },
+        "old_amount": 2790
+      },
+      {
+        "transaction_id": 2359,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2352,
+        "changes": {
+          "I": "집 귀가"
+        },
+        "old_amount": 42800
+      },
+      {
+        "transaction_id": 2351,
+        "changes": {
+          "I": "우버원 Uber One"
+        },
+        "old_amount": 45267
+      },
+      {
+        "transaction_id": 2350,
+        "changes": {
+          "I": "카페"
+        },
+        "old_amount": 11430
+      },
+      {
+        "transaction_id": 2349,
+        "changes": {
+          "I": "타코볼"
+        },
+        "old_amount": 42500
+      },
+      {
+        "transaction_id": 2348,
+        "changes": {
+          "I": "추가 입금"
+        },
+        "old_amount": 50000
+      },
+      {
+        "transaction_id": 2347,
+        "changes": {
+          "I": "추가 입금"
+        },
+        "old_amount": 50000
+      },
+      {
+        "transaction_id": 2346,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2345,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2344,
+        "changes": {
+          "I": "음료수"
+        },
+        "old_amount": 4300
+      },
+      {
+        "transaction_id": 2343,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 500
+      },
+      {
+        "transaction_id": 2339,
+        "changes": {
+          "I": "선릉점(냉삼)"
+        },
+        "old_amount": 88500
+      },
+      {
+        "transaction_id": 2338,
+        "changes": {
+          "I": "청담동"
+        },
+        "old_amount": 56000
+      },
+      {
+        "transaction_id": 2337,
+        "changes": {
+          "I": "음료"
+        },
+        "old_amount": 7000
+      },
+      {
+        "transaction_id": 2342,
+        "changes": {
+          "I": "송파파크하비오점"
+        },
+        "old_amount": 14600
+      },
+      {
+        "transaction_id": 2341,
+        "changes": {
+          "I": "개포시장"
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2340,
+        "changes": {
+          "I": "은마상가"
+        },
+        "old_amount": 21000
+      },
+      {
+        "transaction_id": 2335,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 1
+      },
+      {
+        "transaction_id": 2336,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 1
+      },
+      {
+        "transaction_id": 2334,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 11900
+      },
+      {
+        "transaction_id": 2333,
+        "changes": {
+          "I": "극장판 치이카와"
+        },
+        "old_amount": 30000
+      },
+      {
+        "transaction_id": 2332,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 13600
+      },
+      {
+        "transaction_id": 2331,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2330,
+        "changes": {
+          "I": "K패스 모두의카드 "
+        },
+        "old_amount": 100
+      },
+      {
+        "transaction_id": 2329,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 18000
+      },
+      {
+        "transaction_id": 2327,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 27
+      },
+      {
+        "transaction_id": 2328,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 0
+      },
+      {
+        "transaction_id": 2326,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 15
+      },
+      {
+        "transaction_id": 2325,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 5000
+      },
+      {
+        "transaction_id": 2324,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 1300
+      },
+      {
+        "transaction_id": 2323,
+        "changes": {
+          "I": null
+        },
+        "old_amount": 11000
+      },
+      {
+        "transaction_id": 2442,
+        "changes": {
+          "G": 7922,
+          "K": 7922,
+          "I": "10/12 누계 8,557원 중 10/8 예탁금이용료 635원을 별도 원장으로 분리한 잔여 금액."
+        },
+        "old_amount": 8557
+      }
+    ],
+    "source_mapping": [
+      {
+        "source_row": 42,
+        "transaction_id": 2617,
+        "status": "exact"
+      },
+      {
+        "source_row": 47,
+        "transaction_id": 2670,
+        "status": "exact"
+      },
+      {
+        "source_row": 48,
+        "transaction_id": 2671,
+        "status": "exact"
+      },
+      {
+        "source_row": 49,
+        "transaction_id": 2672,
+        "status": "exact"
+      },
+      {
+        "source_row": 50,
+        "transaction_id": 2668,
+        "status": "exact"
+      },
+      {
+        "source_row": 51,
+        "transaction_id": 2669,
+        "status": "exact"
+      },
+      {
+        "source_row": 52,
+        "transaction_id": 2676,
+        "status": "same_day_update"
+      },
+      {
+        "source_row": 53,
+        "transaction_id": 2667,
+        "status": "previous_cumulative_interest_preserved"
+      },
+      {
+        "source_row": 54,
+        "transaction_id": 2666,
+        "status": "exact"
+      },
+      {
+        "source_row": 55,
+        "transaction_id": 2665,
+        "status": "exact"
+      },
+      {
+        "source_row": 56,
+        "transaction_id": 2664,
+        "status": "exact"
+      },
+      {
+        "source_row": 57,
+        "transaction_id": 2663,
+        "status": "exact"
+      },
+      {
+        "source_row": 58,
+        "transaction_id": 2662,
+        "status": "exact"
+      },
+      {
+        "source_row": 59,
+        "transaction_id": 2661,
+        "status": "exact"
+      },
+      {
+        "source_row": 60,
+        "transaction_id": 2660,
+        "status": "exact"
+      },
+      {
+        "source_row": 61,
+        "transaction_id": 2659,
+        "status": "exact"
+      },
+      {
+        "source_row": 62,
+        "transaction_id": 2658,
+        "status": "statement_amount_and_date_preserved"
+      },
+      {
+        "source_row": 63,
+        "transaction_id": 2657,
+        "status": "exact"
+      },
+      {
+        "source_row": 64,
+        "transaction_id": 2655,
+        "status": "exact"
+      },
+      {
+        "source_row": 65,
+        "transaction_id": 2656,
+        "status": "exact"
+      },
+      {
+        "source_row": 66,
+        "transaction_id": 2654,
+        "status": "exact"
+      },
+      {
+        "source_row": 67,
+        "transaction_id": 2653,
+        "status": "exact"
+      },
+      {
+        "source_row": 68,
+        "transaction_id": 2650,
+        "status": "exact"
+      },
+      {
+        "source_row": 69,
+        "transaction_id": 2651,
+        "status": "exact"
+      },
+      {
+        "source_row": 70,
+        "transaction_id": 2652,
+        "status": "statement_amount_preserved"
+      },
+      {
+        "source_row": 71,
+        "transaction_id": 2649,
+        "status": "exact"
+      },
+      {
+        "source_row": 72,
+        "transaction_id": 2648,
+        "status": "exact"
+      },
+      {
+        "source_row": 73,
+        "transaction_id": 2647,
+        "status": "exact"
+      },
+      {
+        "source_row": 74,
+        "transaction_id": 2646,
+        "status": "exact"
+      },
+      {
+        "source_row": 75,
+        "transaction_id": 2645,
+        "status": "exact"
+      },
+      {
+        "source_row": 76,
+        "transaction_id": 2644,
+        "status": "exact"
+      },
+      {
+        "source_row": 77,
+        "transaction_id": 2643,
+        "status": "exact"
+      },
+      {
+        "source_row": 78,
+        "transaction_id": 2642,
+        "status": "exact"
+      },
+      {
+        "source_row": 79,
+        "transaction_id": 2641,
+        "status": "exact"
+      },
+      {
+        "source_row": 80,
+        "transaction_id": 2640,
+        "status": "exact"
+      },
+      {
+        "source_row": 81,
+        "transaction_id": 2635,
+        "status": "exact"
+      },
+      {
+        "source_row": 82,
+        "transaction_id": 2639,
+        "status": "exact"
+      },
+      {
+        "source_row": 83,
+        "transaction_id": 2638,
+        "status": "exact"
+      },
+      {
+        "source_row": 84,
+        "transaction_id": 2637,
+        "status": "exact"
+      },
+      {
+        "source_row": 85,
+        "transaction_id": 2636,
+        "status": "exact"
+      },
+      {
+        "source_row": 86,
+        "transaction_id": 2632,
+        "status": "exact"
+      },
+      {
+        "source_row": 87,
+        "transaction_id": 2634,
+        "status": "exact"
+      },
+      {
+        "source_row": 88,
+        "transaction_id": 2633,
+        "status": "exact"
+      },
+      {
+        "source_row": 89,
+        "transaction_id": 2631,
+        "status": "exact"
+      },
+      {
+        "source_row": 90,
+        "transaction_id": 2630,
+        "status": "exact"
+      },
+      {
+        "source_row": 91,
+        "transaction_id": 2629,
+        "status": "exact"
+      },
+      {
+        "source_row": 92,
+        "transaction_id": 2628,
+        "status": "exact"
+      },
+      {
+        "source_row": 93,
+        "transaction_id": 2627,
+        "status": "exact"
+      },
+      {
+        "source_row": 94,
+        "transaction_id": 2626,
+        "status": "exact"
+      },
+      {
+        "source_row": 95,
+        "transaction_id": 2625,
+        "status": "exact"
+      },
+      {
+        "source_row": 96,
+        "transaction_id": 2624,
+        "status": "exact"
+      },
+      {
+        "source_row": 97,
+        "transaction_id": 2623,
+        "status": "exact"
+      },
+      {
+        "source_row": 98,
+        "transaction_id": 2622,
+        "status": "exact"
+      },
+      {
+        "source_row": 99,
+        "transaction_id": 2616,
+        "status": "statement_amount_preserved"
+      },
+      {
+        "source_row": 100,
+        "transaction_id": 2615,
+        "status": "timestamp_or_amount_update"
+      },
+      {
+        "source_row": 101,
+        "transaction_id": 2613,
+        "status": "exact"
+      },
+      {
+        "source_row": 102,
+        "transaction_id": 2614,
+        "status": "exact"
+      },
+      {
+        "source_row": 103,
+        "transaction_id": 2612,
+        "status": "exact"
+      },
+      {
+        "source_row": 104,
+        "transaction_id": 2610,
+        "status": "exact"
+      },
+      {
+        "source_row": 105,
+        "transaction_id": 2611,
+        "status": "exact"
+      },
+      {
+        "source_row": 106,
+        "transaction_id": 2609,
+        "status": "exact"
+      },
+      {
+        "source_row": 107,
+        "transaction_id": 2608,
+        "status": "exact"
+      },
+      {
+        "source_row": 108,
+        "transaction_id": 2606,
+        "status": "exact"
+      },
+      {
+        "source_row": 109,
+        "transaction_id": 2607,
+        "status": "exact"
+      },
+      {
+        "source_row": 110,
+        "transaction_id": 2604,
+        "status": "exact"
+      },
+      {
+        "source_row": 111,
+        "transaction_id": 2605,
+        "status": "exact"
+      },
+      {
+        "source_row": 112,
+        "transaction_id": 2603,
+        "status": "exact"
+      },
+      {
+        "source_row": 113,
+        "transaction_id": 2602,
+        "status": "exact"
+      },
+      {
+        "source_row": 114,
+        "transaction_id": 2597,
+        "status": "exact"
+      },
+      {
+        "source_row": 115,
+        "transaction_id": 2601,
+        "status": "exact"
+      },
+      {
+        "source_row": 116,
+        "transaction_id": 2600,
+        "status": "exact"
+      },
+      {
+        "source_row": 117,
+        "transaction_id": 2599,
+        "status": "exact"
+      },
+      {
+        "source_row": 118,
+        "transaction_id": 2598,
+        "status": "exact"
+      },
+      {
+        "source_row": 119,
+        "transaction_id": 2619,
+        "status": "exact"
+      },
+      {
+        "source_row": 120,
+        "transaction_id": 2620,
+        "status": "exact"
+      },
+      {
+        "source_row": 121,
+        "transaction_id": 2621,
+        "status": "exact"
+      },
+      {
+        "source_row": 122,
+        "transaction_id": 2596,
+        "status": "exact"
+      },
+      {
+        "source_row": 123,
+        "transaction_id": 2595,
+        "status": "exact"
+      },
+      {
+        "source_row": 124,
+        "transaction_id": 2594,
+        "status": "exact"
+      },
+      {
+        "source_row": 125,
+        "transaction_id": 2593,
+        "status": "exact"
+      },
+      {
+        "source_row": 126,
+        "transaction_id": 2592,
+        "status": "exact"
+      },
+      {
+        "source_row": 127,
+        "transaction_id": 2591,
+        "status": "exact"
+      },
+      {
+        "source_row": 132,
+        "transaction_id": 2589,
+        "status": "exact"
+      },
+      {
+        "source_row": 133,
+        "transaction_id": 2587,
+        "status": "exact"
+      },
+      {
+        "source_row": 134,
+        "transaction_id": 2588,
+        "status": "exact"
+      },
+      {
+        "source_row": 135,
+        "transaction_id": 2586,
+        "status": "exact"
+      },
+      {
+        "source_row": 136,
+        "transaction_id": 2585,
+        "status": "exact"
+      },
+      {
+        "source_row": 137,
+        "transaction_id": 2584,
+        "status": "exact"
+      },
+      {
+        "source_row": 138,
+        "transaction_id": 2583,
+        "status": "exact"
+      },
+      {
+        "source_row": 139,
+        "transaction_id": 2582,
+        "status": "exact"
+      },
+      {
+        "source_row": 140,
+        "transaction_id": 2581,
+        "status": "exact"
+      },
+      {
+        "source_row": 142,
+        "transaction_id": 2579,
+        "status": "exact"
+      },
+      {
+        "source_row": 143,
+        "transaction_id": 2580,
+        "status": "exact"
+      },
+      {
+        "source_row": 144,
+        "transaction_id": 2578,
+        "status": "exact"
+      },
+      {
+        "source_row": 145,
+        "transaction_id": 2576,
+        "status": "exact"
+      },
+      {
+        "source_row": 146,
+        "transaction_id": 2577,
+        "status": "exact"
+      },
+      {
+        "source_row": 147,
+        "transaction_id": 2575,
+        "status": "exact"
+      },
+      {
+        "source_row": 148,
+        "transaction_id": 2574,
+        "status": "exact"
+      },
+      {
+        "source_row": 149,
+        "transaction_id": 2573,
+        "status": "exact"
+      },
+      {
+        "source_row": 150,
+        "transaction_id": 2572,
+        "status": "exact"
+      },
+      {
+        "source_row": 151,
+        "transaction_id": 2571,
+        "status": "exact"
+      },
+      {
+        "source_row": 152,
+        "transaction_id": 2570,
+        "status": "exact"
+      },
+      {
+        "source_row": 153,
+        "transaction_id": 2568,
+        "status": "exact"
+      },
+      {
+        "source_row": 154,
+        "transaction_id": 2569,
+        "status": "exact"
+      },
+      {
+        "source_row": 155,
+        "transaction_id": 2567,
+        "status": "exact"
+      },
+      {
+        "source_row": 156,
+        "transaction_id": 2566,
+        "status": "exact"
+      },
+      {
+        "source_row": 157,
+        "transaction_id": 2564,
+        "status": "exact"
+      },
+      {
+        "source_row": 158,
+        "transaction_id": 2565,
+        "status": "exact"
+      },
+      {
+        "source_row": 159,
+        "transaction_id": 2563,
+        "status": "exact"
+      },
+      {
+        "source_row": 160,
+        "transaction_id": 2562,
+        "status": "exact"
+      },
+      {
+        "source_row": 161,
+        "transaction_id": 2561,
+        "status": "exact"
+      },
+      {
+        "source_row": 162,
+        "transaction_id": 2559,
+        "status": "exact"
+      },
+      {
+        "source_row": 163,
+        "transaction_id": 2557,
+        "status": "exact"
+      },
+      {
+        "source_row": 164,
+        "transaction_id": 2558,
+        "status": "exact"
+      },
+      {
+        "source_row": 165,
+        "transaction_id": 2560,
+        "status": "exact"
+      },
+      {
+        "source_row": 166,
+        "transaction_id": 2556,
+        "status": "exact"
+      },
+      {
+        "source_row": 167,
+        "transaction_id": 2555,
+        "status": "exact"
+      },
+      {
+        "source_row": 168,
+        "transaction_id": 2554,
+        "status": "exact"
+      },
+      {
+        "source_row": 169,
+        "transaction_id": 2552,
+        "status": "exact"
+      },
+      {
+        "source_row": 170,
+        "transaction_id": 2553,
+        "status": "exact"
+      },
+      {
+        "source_row": 171,
+        "transaction_id": 2551,
+        "status": "exact"
+      },
+      {
+        "source_row": 172,
+        "transaction_id": 2550,
+        "status": "exact"
+      },
+      {
+        "source_row": 173,
+        "transaction_id": 2549,
+        "status": "exact"
+      },
+      {
+        "source_row": 174,
+        "transaction_id": 2548,
+        "status": "exact"
+      },
+      {
+        "source_row": 175,
+        "transaction_id": 2547,
+        "status": "exact"
+      },
+      {
+        "source_row": 176,
+        "transaction_id": 2546,
+        "status": "exact"
+      },
+      {
+        "source_row": 177,
+        "transaction_id": 2544,
+        "status": "exact"
+      },
+      {
+        "source_row": 178,
+        "transaction_id": 2545,
+        "status": "exact"
+      },
+      {
+        "source_row": 179,
+        "transaction_id": 2543,
+        "status": "exact"
+      },
+      {
+        "source_row": 180,
+        "transaction_id": 2542,
+        "status": "exact"
+      },
+      {
+        "source_row": 181,
+        "transaction_id": 2541,
+        "status": "exact"
+      },
+      {
+        "source_row": 182,
+        "transaction_id": 2540,
+        "status": "exact"
+      },
+      {
+        "source_row": 183,
+        "transaction_id": 2539,
+        "status": "exact"
+      },
+      {
+        "source_row": 184,
+        "transaction_id": 2538,
+        "status": "exact"
+      },
+      {
+        "source_row": 185,
+        "transaction_id": 2537,
+        "status": "exact"
+      },
+      {
+        "source_row": 186,
+        "transaction_id": 2536,
+        "status": "exact"
+      },
+      {
+        "source_row": 187,
+        "transaction_id": 2535,
+        "status": "exact"
+      },
+      {
+        "source_row": 188,
+        "transaction_id": 2534,
+        "status": "exact"
+      },
+      {
+        "source_row": 189,
+        "transaction_id": 2533,
+        "status": "exact"
+      },
+      {
+        "source_row": 190,
+        "transaction_id": 2532,
+        "status": "exact"
+      },
+      {
+        "source_row": 191,
+        "transaction_id": 2531,
+        "status": "exact"
+      },
+      {
+        "source_row": 192,
+        "transaction_id": 2530,
+        "status": "exact"
+      },
+      {
+        "source_row": 193,
+        "transaction_id": 2528,
+        "status": "exact"
+      },
+      {
+        "source_row": 194,
+        "transaction_id": 2527,
+        "status": "exact"
+      },
+      {
+        "source_row": 195,
+        "transaction_id": 2529,
+        "status": "exact"
+      },
+      {
+        "source_row": 196,
+        "transaction_id": 2516,
+        "status": "exact"
+      },
+      {
+        "source_row": 197,
+        "transaction_id": 2517,
+        "status": "exact"
+      },
+      {
+        "source_row": 198,
+        "transaction_id": 2526,
+        "status": "exact"
+      },
+      {
+        "source_row": 199,
+        "transaction_id": 2525,
+        "status": "exact"
+      },
+      {
+        "source_row": 200,
+        "transaction_id": 2524,
+        "status": "exact"
+      },
+      {
+        "source_row": 201,
+        "transaction_id": 2523,
+        "status": "exact"
+      },
+      {
+        "source_row": 202,
+        "transaction_id": 2522,
+        "status": "exact"
+      },
+      {
+        "source_row": 203,
+        "transaction_id": 2521,
+        "status": "exact"
+      },
+      {
+        "source_row": 204,
+        "transaction_id": 2520,
+        "status": "exact"
+      },
+      {
+        "source_row": 205,
+        "transaction_id": 2518,
+        "status": "exact"
+      },
+      {
+        "source_row": 206,
+        "transaction_id": 2519,
+        "status": "exact"
+      },
+      {
+        "source_row": 207,
+        "transaction_id": 2515,
+        "status": "exact"
+      },
+      {
+        "source_row": 208,
+        "transaction_id": 2514,
+        "status": "exact"
+      },
+      {
+        "source_row": 209,
+        "transaction_id": 2513,
+        "status": "exact"
+      },
+      {
+        "source_row": 210,
+        "transaction_id": 2510,
+        "status": "exact"
+      },
+      {
+        "source_row": 211,
+        "transaction_id": 2512,
+        "status": "exact"
+      },
+      {
+        "source_row": 212,
+        "transaction_id": 2511,
+        "status": "exact"
+      },
+      {
+        "source_row": 213,
+        "transaction_id": 2509,
+        "status": "exact"
+      },
+      {
+        "source_row": 214,
+        "transaction_id": 2508,
+        "status": "exact"
+      },
+      {
+        "source_row": 215,
+        "transaction_id": 2507,
+        "status": "exact"
+      },
+      {
+        "source_row": 216,
+        "transaction_id": 2506,
+        "status": "exact"
+      },
+      {
+        "source_row": 217,
+        "transaction_id": 2502,
+        "status": "timestamp_or_amount_update"
+      },
+      {
+        "source_row": 218,
+        "transaction_id": 2505,
+        "status": "exact"
+      },
+      {
+        "source_row": 219,
+        "transaction_id": 2504,
+        "status": "exact"
+      },
+      {
+        "source_row": 220,
+        "transaction_id": 2503,
+        "status": "exact"
+      },
+      {
+        "source_row": 221,
+        "transaction_id": 2501,
+        "status": "exact"
+      },
+      {
+        "source_row": 222,
+        "transaction_id": 2500,
+        "status": "exact"
+      },
+      {
+        "source_row": 223,
+        "transaction_id": 2498,
+        "status": "exact"
+      },
+      {
+        "source_row": 224,
+        "transaction_id": 2499,
+        "status": "exact"
+      },
+      {
+        "source_row": 225,
+        "transaction_id": 2497,
+        "status": "exact"
+      },
+      {
+        "source_row": 226,
+        "transaction_id": 2496,
+        "status": "exact"
+      },
+      {
+        "source_row": 227,
+        "transaction_id": 2495,
+        "status": "exact"
+      },
+      {
+        "source_row": 228,
+        "transaction_id": 2494,
+        "status": "exact"
+      },
+      {
+        "source_row": 229,
+        "transaction_id": 2493,
+        "status": "exact"
+      },
+      {
+        "source_row": 230,
+        "transaction_id": 2492,
+        "status": "exact"
+      },
+      {
+        "source_row": 231,
+        "transaction_id": 2491,
+        "status": "exact"
+      },
+      {
+        "source_row": 232,
+        "transaction_id": 2490,
+        "status": "exact"
+      },
+      {
+        "source_row": 233,
+        "transaction_id": 2489,
+        "status": "exact"
+      },
+      {
+        "source_row": 234,
+        "transaction_id": 2488,
+        "status": "exact"
+      },
+      {
+        "source_row": 235,
+        "transaction_id": 2487,
+        "status": "exact"
+      },
+      {
+        "source_row": 236,
+        "transaction_id": 2486,
+        "status": "exact"
+      },
+      {
+        "source_row": 237,
+        "transaction_id": 2485,
+        "status": "exact"
+      },
+      {
+        "source_row": 238,
+        "transaction_id": 2484,
+        "status": "exact"
+      },
+      {
+        "source_row": 239,
+        "transaction_id": 2483,
+        "status": "exact"
+      },
+      {
+        "source_row": 240,
+        "transaction_id": 2482,
+        "status": "exact"
+      },
+      {
+        "source_row": 241,
+        "transaction_id": 2481,
+        "status": "exact"
+      },
+      {
+        "source_row": 242,
+        "transaction_id": 2480,
+        "status": "exact"
+      },
+      {
+        "source_row": 243,
+        "transaction_id": 2479,
+        "status": "exact"
+      },
+      {
+        "source_row": 244,
+        "transaction_id": 2478,
+        "status": "exact"
+      },
+      {
+        "source_row": 245,
+        "transaction_id": 2477,
+        "status": "exact"
+      },
+      {
+        "source_row": 246,
+        "transaction_id": 2476,
+        "status": "exact"
+      },
+      {
+        "source_row": 247,
+        "transaction_id": 2474,
+        "status": "exact"
+      },
+      {
+        "source_row": 248,
+        "transaction_id": 2475,
+        "status": "exact"
+      },
+      {
+        "source_row": 249,
+        "transaction_id": 2473,
+        "status": "exact"
+      },
+      {
+        "source_row": 250,
+        "transaction_id": 2471,
+        "status": "exact"
+      },
+      {
+        "source_row": 251,
+        "transaction_id": 2472,
+        "status": "exact"
+      },
+      {
+        "source_row": 252,
+        "transaction_id": 2470,
+        "status": "exact"
+      },
+      {
+        "source_row": 253,
+        "transaction_id": 2469,
+        "status": "exact"
+      },
+      {
+        "source_row": 254,
+        "transaction_id": 2467,
+        "status": "exact"
+      },
+      {
+        "source_row": 255,
+        "transaction_id": 2468,
+        "status": "exact"
+      },
+      {
+        "source_row": 258,
+        "transaction_id": 2466,
+        "status": "exact"
+      },
+      {
+        "source_row": 259,
+        "transaction_id": 2465,
+        "status": "exact"
+      },
+      {
+        "source_row": 260,
+        "transaction_id": 2464,
+        "status": "exact"
+      },
+      {
+        "source_row": 261,
+        "transaction_id": 2463,
+        "status": "exact"
+      },
+      {
+        "source_row": 262,
+        "transaction_id": 2462,
+        "status": "exact"
+      },
+      {
+        "source_row": 263,
+        "transaction_id": 2461,
+        "status": "exact"
+      },
+      {
+        "source_row": 264,
+        "transaction_id": 2460,
+        "status": "exact"
+      },
+      {
+        "source_row": 265,
+        "transaction_id": 2459,
+        "status": "exact"
+      },
+      {
+        "source_row": 266,
+        "transaction_id": 2458,
+        "status": "exact"
+      },
+      {
+        "source_row": 267,
+        "transaction_id": 2457,
+        "status": "exact"
+      },
+      {
+        "source_row": 268,
+        "transaction_id": 2456,
+        "status": "exact"
+      },
+      {
+        "source_row": 270,
+        "transaction_id": 2447,
+        "status": "same_day_update"
+      },
+      {
+        "source_row": 273,
+        "transaction_id": 2455,
+        "status": "exact"
+      },
+      {
+        "source_row": 274,
+        "transaction_id": 2454,
+        "status": "exact"
+      },
+      {
+        "source_row": 275,
+        "transaction_id": 2453,
+        "status": "exact"
+      },
+      {
+        "source_row": 276,
+        "transaction_id": 2452,
+        "status": "exact"
+      },
+      {
+        "source_row": 277,
+        "transaction_id": 2451,
+        "status": "exact"
+      },
+      {
+        "source_row": 278,
+        "transaction_id": 2450,
+        "status": "exact"
+      },
+      {
+        "source_row": 279,
+        "transaction_id": 2449,
+        "status": "exact"
+      },
+      {
+        "source_row": 280,
+        "transaction_id": 2448,
+        "status": "exact"
+      },
+      {
+        "source_row": 281,
+        "transaction_id": 2446,
+        "status": "exact"
+      },
+      {
+        "source_row": 282,
+        "transaction_id": 2445,
+        "status": "exact"
+      },
+      {
+        "source_row": 283,
+        "transaction_id": 2444,
+        "status": "exact"
+      },
+      {
+        "source_row": 284,
+        "transaction_id": 2435,
+        "status": "timestamp_or_amount_update"
+      },
+      {
+        "source_row": 285,
+        "transaction_id": 2442,
+        "status": "cumulative_interest_split_635"
+      },
+      {
+        "source_row": 286,
+        "transaction_id": 2441,
+        "status": "exact"
+      },
+      {
+        "source_row": 287,
+        "transaction_id": 2430,
+        "status": "exact"
+      },
+      {
+        "source_row": 288,
+        "transaction_id": 2440,
+        "status": "exact"
+      },
+      {
+        "source_row": 289,
+        "transaction_id": 2439,
+        "status": "exact"
+      },
+      {
+        "source_row": 290,
+        "transaction_id": 2438,
+        "status": "exact"
+      },
+      {
+        "source_row": 291,
+        "transaction_id": 2437,
+        "status": "exact"
+      },
+      {
+        "source_row": 292,
+        "transaction_id": 2436,
+        "status": "exact"
+      },
+      {
+        "source_row": 293,
+        "transaction_id": 2434,
+        "status": "exact"
+      },
+      {
+        "source_row": 294,
+        "transaction_id": 2433,
+        "status": "exact"
+      },
+      {
+        "source_row": 295,
+        "transaction_id": 2432,
+        "status": "exact"
+      },
+      {
+        "source_row": 296,
+        "transaction_id": 2431,
+        "status": "exact"
+      },
+      {
+        "source_row": 297,
+        "transaction_id": 2429,
+        "status": "exact"
+      },
+      {
+        "source_row": 298,
+        "transaction_id": 2427,
+        "status": "exact"
+      },
+      {
+        "source_row": 299,
+        "transaction_id": 2428,
+        "status": "exact"
+      },
+      {
+        "source_row": 300,
+        "transaction_id": 2426,
+        "status": "exact"
+      },
+      {
+        "source_row": 301,
+        "transaction_id": 2443,
+        "status": "exact"
+      },
+      {
+        "source_row": 302,
+        "transaction_id": 2422,
+        "status": "exact"
+      },
+      {
+        "source_row": 303,
+        "transaction_id": 2425,
+        "status": "exact"
+      },
+      {
+        "source_row": 304,
+        "transaction_id": 2424,
+        "status": "exact"
+      },
+      {
+        "source_row": 305,
+        "transaction_id": 2423,
+        "status": "exact"
+      },
+      {
+        "source_row": 306,
+        "transaction_id": 2420,
+        "status": "exact"
+      },
+      {
+        "source_row": 307,
+        "transaction_id": 2421,
+        "status": "exact"
+      },
+      {
+        "source_row": 308,
+        "transaction_id": 2419,
+        "status": "exact"
+      },
+      {
+        "source_row": 309,
+        "transaction_id": 2418,
+        "status": "exact"
+      },
+      {
+        "source_row": 310,
+        "transaction_id": 2415,
+        "status": "exact"
+      },
+      {
+        "source_row": 311,
+        "transaction_id": 2417,
+        "status": "exact"
+      },
+      {
+        "source_row": 312,
+        "transaction_id": 2416,
+        "status": "exact"
+      },
+      {
+        "source_row": 313,
+        "transaction_id": 2410,
+        "status": "timestamp_or_amount_update"
+      },
+      {
+        "source_row": 315,
+        "transaction_id": 2414,
+        "status": "exact"
+      },
+      {
+        "source_row": 316,
+        "transaction_id": 2413,
+        "status": "exact"
+      },
+      {
+        "source_row": 317,
+        "transaction_id": 2406,
+        "status": "exact"
+      },
+      {
+        "source_row": 318,
+        "transaction_id": 2412,
+        "status": "exact"
+      },
+      {
+        "source_row": 319,
+        "transaction_id": 2411,
+        "status": "exact"
+      },
+      {
+        "source_row": 320,
+        "transaction_id": 2409,
+        "status": "same_day_update"
+      },
+      {
+        "source_row": 321,
+        "transaction_id": 2404,
+        "status": "exact"
+      },
+      {
+        "source_row": 322,
+        "transaction_id": 2405,
+        "status": "exact"
+      },
+      {
+        "source_row": 323,
+        "transaction_id": 2408,
+        "status": "exact"
+      },
+      {
+        "source_row": 324,
+        "transaction_id": 2407,
+        "status": "exact"
+      },
+      {
+        "source_row": 325,
+        "transaction_id": 2398,
+        "status": "source_card_assignment_update"
+      },
+      {
+        "source_row": 327,
+        "transaction_id": 2403,
+        "status": "exact"
+      },
+      {
+        "source_row": 328,
+        "transaction_id": 2401,
+        "status": "exact"
+      },
+      {
+        "source_row": 329,
+        "transaction_id": 2402,
+        "status": "exact"
+      },
+      {
+        "source_row": 330,
+        "transaction_id": 2397,
+        "status": "exact"
+      },
+      {
+        "source_row": 331,
+        "transaction_id": 2394,
+        "status": "exact"
+      },
+      {
+        "source_row": 332,
+        "transaction_id": 2399,
+        "status": "exact"
+      },
+      {
+        "source_row": 333,
+        "transaction_id": 2400,
+        "status": "exact"
+      },
+      {
+        "source_row": 334,
+        "transaction_id": 2396,
+        "status": "exact"
+      },
+      {
+        "source_row": 335,
+        "transaction_id": 2395,
+        "status": "exact"
+      },
+      {
+        "source_row": 336,
+        "transaction_id": 2392,
+        "status": "exact"
+      },
+      {
+        "source_row": 337,
+        "transaction_id": 2393,
+        "status": "exact"
+      },
+      {
+        "source_row": 338,
+        "transaction_id": 2391,
+        "status": "exact"
+      },
+      {
+        "source_row": 339,
+        "transaction_id": 2390,
+        "status": "exact"
+      },
+      {
+        "source_row": 340,
+        "transaction_id": 2389,
+        "status": "exact"
+      },
+      {
+        "source_row": 341,
+        "transaction_id": 2388,
+        "status": "exact"
+      },
+      {
+        "source_row": 342,
+        "transaction_id": 2387,
+        "status": "exact"
+      },
+      {
+        "source_row": 343,
+        "transaction_id": 2386,
+        "status": "exact"
+      },
+      {
+        "source_row": 344,
+        "transaction_id": 2385,
+        "status": "exact"
+      },
+      {
+        "source_row": 345,
+        "transaction_id": 2384,
+        "status": "exact"
+      },
+      {
+        "source_row": 346,
+        "transaction_id": 2382,
+        "status": "exact"
+      },
+      {
+        "source_row": 347,
+        "transaction_id": 2383,
+        "status": "exact"
+      },
+      {
+        "source_row": 348,
+        "transaction_id": 2381,
+        "status": "exact"
+      },
+      {
+        "source_row": 349,
+        "transaction_id": 2379,
+        "status": "exact"
+      },
+      {
+        "source_row": 350,
+        "transaction_id": 2380,
+        "status": "exact"
+      },
+      {
+        "source_row": 351,
+        "transaction_id": 2378,
+        "status": "exact"
+      },
+      {
+        "source_row": 352,
+        "transaction_id": 2377,
+        "status": "exact"
+      },
+      {
+        "source_row": 353,
+        "transaction_id": 2375,
+        "status": "exact"
+      },
+      {
+        "source_row": 354,
+        "transaction_id": 2376,
+        "status": "exact"
+      },
+      {
+        "source_row": 355,
+        "transaction_id": 2374,
+        "status": "exact"
+      },
+      {
+        "source_row": 356,
+        "transaction_id": 2373,
+        "status": "exact"
+      },
+      {
+        "source_row": 357,
+        "transaction_id": 2372,
+        "status": "exact"
+      },
+      {
+        "source_row": 358,
+        "transaction_id": 2371,
+        "status": "exact"
+      },
+      {
+        "source_row": 359,
+        "transaction_id": 2370,
+        "status": "exact"
+      },
+      {
+        "source_row": 360,
+        "transaction_id": 2366,
+        "status": "source_card_assignment_update"
+      },
+      {
+        "source_row": 361,
+        "transaction_id": 2369,
+        "status": "exact"
+      },
+      {
+        "source_row": 362,
+        "transaction_id": 2368,
+        "status": "exact"
+      },
+      {
+        "source_row": 363,
+        "transaction_id": 2367,
+        "status": "exact"
+      },
+      {
+        "source_row": 364,
+        "transaction_id": 2364,
+        "status": "exact"
+      },
+      {
+        "source_row": 365,
+        "transaction_id": 2365,
+        "status": "exact"
+      },
+      {
+        "source_row": 366,
+        "transaction_id": 2363,
+        "status": "exact"
+      },
+      {
+        "source_row": 367,
+        "transaction_id": 2362,
+        "status": "exact"
+      },
+      {
+        "source_row": 368,
+        "transaction_id": 2356,
+        "status": "exact"
+      },
+      {
+        "source_row": 369,
+        "transaction_id": 2354,
+        "status": "exact"
+      },
+      {
+        "source_row": 370,
+        "transaction_id": 2353,
+        "status": "exact"
+      },
+      {
+        "source_row": 371,
+        "transaction_id": 2355,
+        "status": "exact"
+      },
+      {
+        "source_row": 372,
+        "transaction_id": 2360,
+        "status": "exact"
+      },
+      {
+        "source_row": 373,
+        "transaction_id": 2361,
+        "status": "exact"
+      },
+      {
+        "source_row": 374,
+        "transaction_id": 2358,
+        "status": "exact"
+      },
+      {
+        "source_row": 375,
+        "transaction_id": 2357,
+        "status": "exact"
+      },
+      {
+        "source_row": 376,
+        "transaction_id": 2359,
+        "status": "exact"
+      },
+      {
+        "source_row": 377,
+        "transaction_id": 2352,
+        "status": "exact"
+      },
+      {
+        "source_row": 378,
+        "transaction_id": 2351,
+        "status": "exact"
+      },
+      {
+        "source_row": 379,
+        "transaction_id": 2350,
+        "status": "exact"
+      },
+      {
+        "source_row": 380,
+        "transaction_id": 2349,
+        "status": "exact"
+      },
+      {
+        "source_row": 381,
+        "transaction_id": 2348,
+        "status": "exact"
+      },
+      {
+        "source_row": 382,
+        "transaction_id": 2347,
+        "status": "exact"
+      },
+      {
+        "source_row": 383,
+        "transaction_id": 2346,
+        "status": "exact"
+      },
+      {
+        "source_row": 384,
+        "transaction_id": 2345,
+        "status": "exact"
+      },
+      {
+        "source_row": 385,
+        "transaction_id": 2344,
+        "status": "exact"
+      },
+      {
+        "source_row": 386,
+        "transaction_id": 2343,
+        "status": "exact"
+      },
+      {
+        "source_row": 387,
+        "transaction_id": 2339,
+        "status": "exact"
+      },
+      {
+        "source_row": 388,
+        "transaction_id": 2338,
+        "status": "exact"
+      },
+      {
+        "source_row": 389,
+        "transaction_id": 2337,
+        "status": "exact"
+      },
+      {
+        "source_row": 390,
+        "transaction_id": 2342,
+        "status": "exact"
+      },
+      {
+        "source_row": 391,
+        "transaction_id": 2341,
+        "status": "exact"
+      },
+      {
+        "source_row": 392,
+        "transaction_id": 2340,
+        "status": "exact"
+      },
+      {
+        "source_row": 393,
+        "transaction_id": 2335,
+        "status": "exact"
+      },
+      {
+        "source_row": 394,
+        "transaction_id": 2336,
+        "status": "exact"
+      },
+      {
+        "source_row": 395,
+        "transaction_id": 2334,
+        "status": "exact"
+      },
+      {
+        "source_row": 396,
+        "transaction_id": 2333,
+        "status": "exact"
+      },
+      {
+        "source_row": 397,
+        "transaction_id": 2332,
+        "status": "exact"
+      },
+      {
+        "source_row": 398,
+        "transaction_id": 2331,
+        "status": "exact"
+      },
+      {
+        "source_row": 399,
+        "transaction_id": 2330,
+        "status": "exact"
+      },
+      {
+        "source_row": 400,
+        "transaction_id": 2329,
+        "status": "exact"
+      },
+      {
+        "source_row": 401,
+        "transaction_id": 2327,
+        "status": "exact"
+      },
+      {
+        "source_row": 402,
+        "transaction_id": 2328,
+        "status": "exact"
+      },
+      {
+        "source_row": 403,
+        "transaction_id": 2326,
+        "status": "exact"
+      },
+      {
+        "source_row": 404,
+        "transaction_id": 2325,
+        "status": "exact"
+      },
+      {
+        "source_row": 405,
+        "transaction_id": 2324,
+        "status": "exact"
+      },
+      {
+        "source_row": 406,
+        "transaction_id": 2323,
+        "status": "exact"
+      },
+      {
+        "source_row": 326,
+        "transaction_id": 2678,
+        "status": "added"
+      },
+      {
+        "source_row": 314,
+        "transaction_id": 2679,
+        "status": "added"
+      },
+      {
+        "source_row": 272,
+        "transaction_id": 2680,
+        "status": "added"
+      },
+      {
+        "source_row": 271,
+        "transaction_id": 2681,
+        "status": "added"
+      },
+      {
+        "source_row": 269,
+        "transaction_id": 2682,
+        "status": "added"
+      },
+      {
+        "source_row": 257,
+        "transaction_id": 2683,
+        "status": "added"
+      },
+      {
+        "source_row": 256,
+        "transaction_id": 2684,
+        "status": "added"
+      },
+      {
+        "source_row": 141,
+        "transaction_id": 2685,
+        "status": "added"
+      },
+      {
+        "source_row": 129,
+        "transaction_id": 2686,
+        "status": "added"
+      },
+      {
+        "source_row": 130,
+        "transaction_id": 2687,
+        "status": "added"
+      },
+      {
+        "source_row": 128,
+        "transaction_id": 2688,
+        "status": "added"
+      },
+      {
+        "source_row": 131,
+        "transaction_id": 2689,
+        "status": "added"
+      },
+      {
+        "source_row": 44,
+        "transaction_id": 2690,
+        "status": "added"
+      },
+      {
+        "source_row": 43,
+        "transaction_id": 2691,
+        "status": "added"
+      },
+      {
+        "source_row": 46,
+        "transaction_id": 2692,
+        "status": "added"
+      },
+      {
+        "source_row": 45,
+        "transaction_id": 2693,
+        "status": "added"
+      },
+      {
+        "source_row": 34,
+        "transaction_id": 2694,
+        "status": "added"
+      },
+      {
+        "source_row": 39,
+        "transaction_id": 2695,
+        "status": "added"
+      },
+      {
+        "source_row": 41,
+        "transaction_id": 2696,
+        "status": "added"
+      },
+      {
+        "source_row": 40,
+        "transaction_id": 2697,
+        "status": "added"
+      },
+      {
+        "source_row": 36,
+        "transaction_id": 2698,
+        "status": "added"
+      },
+      {
+        "source_row": 37,
+        "transaction_id": 2699,
+        "status": "added"
+      },
+      {
+        "source_row": 38,
+        "transaction_id": 2700,
+        "status": "added"
+      },
+      {
+        "source_row": 35,
+        "transaction_id": 2701,
+        "status": "added"
+      },
+      {
+        "source_row": 33,
+        "transaction_id": 2702,
+        "status": "added"
+      },
+      {
+        "source_row": 32,
+        "transaction_id": 2703,
+        "status": "added"
+      },
+      {
+        "source_row": 29,
+        "transaction_id": 2704,
+        "status": "added"
+      },
+      {
+        "source_row": 31,
+        "transaction_id": 2705,
+        "status": "added"
+      },
+      {
+        "source_row": 30,
+        "transaction_id": 2706,
+        "status": "added"
+      },
+      {
+        "source_row": 28,
+        "transaction_id": 2707,
+        "status": "added"
+      },
+      {
+        "source_row": 27,
+        "transaction_id": 2708,
+        "status": "added"
+      },
+      {
+        "source_row": 26,
+        "transaction_id": 2709,
+        "status": "added"
+      },
+      {
+        "source_row": 25,
+        "transaction_id": 2710,
+        "status": "added"
+      },
+      {
+        "source_row": 24,
+        "transaction_id": 2711,
+        "status": "added"
+      },
+      {
+        "source_row": 23,
+        "transaction_id": 2712,
+        "status": "added"
+      },
+      {
+        "source_row": 22,
+        "transaction_id": 2713,
+        "status": "added"
+      },
+      {
+        "source_row": 21,
+        "transaction_id": 2714,
+        "status": "added"
+      },
+      {
+        "source_row": 19,
+        "transaction_id": 2715,
+        "status": "added"
+      },
+      {
+        "source_row": 20,
+        "transaction_id": 2716,
+        "status": "added"
+      },
+      {
+        "source_row": 18,
+        "transaction_id": 2717,
+        "status": "added"
+      },
+      {
+        "source_row": 17,
+        "transaction_id": 2718,
+        "status": "added"
+      },
+      {
+        "source_row": 16,
+        "transaction_id": 2719,
+        "status": "added"
+      },
+      {
+        "source_row": 15,
+        "transaction_id": 2720,
+        "status": "added"
+      },
+      {
+        "source_row": 14,
+        "transaction_id": 2721,
+        "status": "added"
+      },
+      {
+        "source_row": 13,
+        "transaction_id": 2722,
+        "status": "added"
+      },
+      {
+        "source_row": 12,
+        "transaction_id": 2723,
+        "status": "added"
+      },
+      {
+        "source_row": 11,
+        "transaction_id": 2724,
+        "status": "added"
+      },
+      {
+        "source_row": 9,
+        "transaction_id": 2725,
+        "status": "added"
+      },
+      {
+        "source_row": 8,
+        "transaction_id": 2726,
+        "status": "added"
+      },
+      {
+        "source_row": 10,
+        "transaction_id": 2727,
+        "status": "added"
+      },
+      {
+        "source_row": 7,
+        "transaction_id": 2728,
+        "status": "added"
+      },
+      {
+        "source_row": 6,
+        "transaction_id": 2729,
+        "status": "added"
+      },
+      {
+        "source_row": 5,
+        "transaction_id": 2730,
+        "status": "added"
+      },
+      {
+        "source_row": 4,
+        "transaction_id": 2731,
+        "status": "added"
+      },
+      {
+        "source_row": 3,
+        "transaction_id": 2732,
+        "status": "added"
+      },
+      {
+        "source_row": 2,
+        "transaction_id": 2733,
+        "status": "added"
+      }
+    ],
+    "memo_edits": [
+      2615,
+      2493,
+      2492,
+      2491,
+      2490,
+      2489,
+      2488,
+      2487,
+      2486,
+      2485,
+      2484,
+      2483,
+      2482,
+      2481,
+      2480,
+      2479,
+      2478,
+      2477,
+      2476,
+      2474,
+      2475,
+      2473,
+      2471,
+      2472,
+      2470,
+      2469,
+      2467,
+      2468,
+      2466,
+      2465,
+      2464,
+      2463,
+      2462,
+      2461,
+      2460,
+      2459,
+      2458,
+      2457,
+      2456,
+      2447,
+      2455,
+      2454,
+      2453,
+      2452,
+      2451,
+      2450,
+      2449,
+      2448,
+      2446,
+      2445,
+      2444,
+      2435,
+      2441,
+      2430,
+      2440,
+      2439,
+      2438,
+      2437,
+      2436,
+      2434,
+      2433,
+      2432,
+      2431,
+      2429,
+      2427,
+      2428,
+      2426,
+      2443,
+      2422,
+      2425,
+      2424,
+      2423,
+      2420,
+      2421,
+      2419,
+      2418,
+      2415,
+      2417,
+      2416,
+      2410,
+      2414,
+      2413,
+      2406,
+      2412,
+      2411,
+      2409,
+      2404,
+      2405,
+      2408,
+      2407,
+      2398,
+      2403,
+      2401,
+      2402,
+      2397,
+      2394,
+      2399,
+      2400,
+      2396,
+      2395,
+      2392,
+      2393,
+      2391,
+      2390,
+      2389,
+      2388,
+      2387,
+      2386,
+      2385,
+      2384,
+      2382,
+      2383,
+      2381,
+      2379,
+      2380,
+      2378,
+      2377,
+      2375,
+      2376,
+      2374,
+      2373,
+      2372,
+      2371,
+      2370,
+      2366,
+      2369,
+      2368,
+      2367,
+      2364,
+      2365,
+      2363,
+      2362,
+      2356,
+      2354,
+      2353,
+      2355,
+      2360,
+      2361,
+      2358,
+      2357,
+      2359,
+      2352,
+      2351,
+      2350,
+      2349,
+      2348,
+      2347,
+      2346,
+      2345,
+      2344,
+      2343,
+      2339,
+      2338,
+      2337,
+      2342,
+      2341,
+      2340,
+      2335,
+      2336,
+      2334,
+      2333,
+      2332,
+      2331,
+      2330,
+      2329,
+      2327,
+      2328,
+      2326,
+      2325,
+      2324,
+      2323
+    ],
+    "source_tags": [
+      {
+        "source_row": 293,
+        "tag": "HQ여행"
+      },
+      {
+        "source_row": 294,
+        "tag": "HQ여행"
+      },
+      {
+        "source_row": 302,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 305,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 311,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 312,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 315,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 316,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 317,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 319,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 321,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 322,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 323,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 324,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 325,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 328,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 330,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 331,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 332,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 333,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 349,
+        "tag": "본가방문"
+      },
+      {
+        "source_row": 350,
+        "tag": "본가방문"
+      }
+    ],
+    "retained_old_ids": [
+      2618,
+      2677,
+      2673,
+      2674,
+      2675
+    ],
+    "managed_accounts": [
+      "네이버미래에셋",
+      "미래에셋_WRAP형CMA"
+    ],
+    "migration_user_confirmed": true,
+    "sort": {
+      "mode": "descending",
+      "moved_rows": 2732,
+      "first_id": 2618,
+      "last_nonblank_id": 2
+    },
+    "bank_links": [
+      {
+        "ledger_row": 262,
+        "transaction_id": 2678,
+        "internal": false,
+        "direction": 1,
+        "amount": 635
+      },
+      {
+        "ledger_row": 263,
+        "transaction_id": 2702,
+        "internal": false,
+        "direction": 1,
+        "amount": 96041
+      },
+      {
+        "ledger_row": 264,
+        "transaction_id": 2703,
+        "internal": true,
+        "direction": 0,
+        "amount": 8288458
+      },
+      {
+        "ledger_row": 265,
+        "transaction_id": 2704,
+        "internal": false,
+        "direction": -1,
+        "amount": 96430
+      },
+      {
+        "ledger_row": 266,
+        "transaction_id": 2705,
+        "internal": false,
+        "direction": -1,
+        "amount": 312497
+      },
+      {
+        "ledger_row": 267,
+        "transaction_id": 2707,
+        "internal": false,
+        "direction": -1,
+        "amount": 829747
+      },
+      {
+        "ledger_row": 268,
+        "transaction_id": 2714,
+        "internal": false,
+        "direction": -1,
+        "amount": 40000
+      },
+      {
+        "ledger_row": 269,
+        "transaction_id": 2728,
+        "internal": false,
+        "direction": 1,
+        "amount": 91
+      },
+      {
+        "ledger_row": 270,
+        "transaction_id": 2729,
+        "internal": false,
+        "direction": 1,
+        "amount": 124
+      },
+      {
+        "ledger_row": 271,
+        "transaction_id": 2730,
+        "internal": false,
+        "direction": 1,
+        "amount": 4778
+      },
+      {
+        "ledger_row": 272,
+        "transaction_id": 2731,
+        "internal": false,
+        "direction": 1,
+        "amount": 102417
+      },
+      {
+        "ledger_row": 273,
+        "transaction_id": 2732,
+        "internal": false,
+        "direction": 1,
+        "amount": 46495
+      },
+      {
+        "ledger_row": 274,
+        "transaction_id": 2733,
+        "internal": false,
+        "direction": 1,
+        "amount": 2669
+      }
+    ]
+  },
+  "repeat_new_records": 0,
+  "repeat_updates": 0,
+  "migration_and_external_withdrawal_scenario_passed": true,
+  "unit_test_count": 194
+}

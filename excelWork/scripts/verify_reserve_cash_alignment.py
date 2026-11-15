@@ -31,6 +31,7 @@ from verify_reserve_redesign import recalculate, assert_no_errors
 
 BILL = '결제대금비'
 WRAP = '미래에셋_WRAP형CMA'
+MANAGED_CASH = {WRAP, '네이버미래에셋'}
 ACCOUNTS = ['생활비', *FUNDS, BILL, '금융', '임시보관']
 CORE_MONTHLY = ['C37', 'C38', 'C39', 'C40', 'C41', 'H37', 'I37',
                 'H38', 'I38', 'H40', 'I40', 'H41', 'I41', 'H44',
@@ -123,9 +124,13 @@ def valid_registers(w):
         when, amount = date(v['A']), v['E']
         in_scope = ((v['L'] == '원본WRAP' and when is not None and when < datetime(2026, 10, 1))
                     or v['J'] == WRAP or v['K'] == WRAP
+                    or (when is not None and when >= datetime(2026,11,12) and
+                        (v['J'] in MANAGED_CASH or v['K'] in MANAGED_CASH))
                     or (v['C'] in ACCOUNTS and v['D'] in ACCOUNTS and v['C'] != v['D']))
+        bank_move = (when is not None and when >= datetime(2026,11,12) and
+                     v['J'] in MANAGED_CASH and v['K'] in MANAGED_CASH and v['J'] != v['K'])
         valid = (in_scope and when is not None and not blank(v['B']) and not blank(v['C'])
-                 and not blank(v['D']) and number(amount) and amount > 0 and v['C'] != v['D'])
+                 and not blank(v['D']) and number(amount) and amount > 0 and (v['C'] != v['D'] or bank_move))
         assert (v['I'] == 'OK') == bool(valid), ('physical ledger validity', row, v['I'], valid)
         close(v['Y'] or 0, amount if valid else 0, ('ledger normalized amount', row))
         if valid:
