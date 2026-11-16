@@ -10,8 +10,46 @@ import json
 import openpyxl
 
 
+def finalize_chronological(workbook,report_path,audit_path,report):
+    digest=sha256(workbook.read_bytes()).hexdigest()
+    assert report['workbook_sha256']==digest and report['formula_errors']==0
+    assert report['raw_sort_date_edit_delete_and_next_month_scenario_passed']
+    assert all(report[k]['individual_positions_verified']==2600 for k in
+               ['current_render','edited_render','december_render'])
+    w=openpyxl.load_workbook(workbook,data_only=True);l=w['잔액']
+    audit=json.loads(audit_path.read_text())
+    audit.update(as_of='2026-11-16',ui_updated_at='2026-11-16',
+                 current_verification=report_path.name,workbook_sha256=digest)
+    audit['raw']['preservation_scope']='The Nov16 date-order/allocation correction preserves every RAW value and ID. No artificial bank transaction was added.'
+    audit['managed_cash'].update(total=l['G16'].value,
+        balances_by_bank={'네이버미래에셋':0,'미래에셋_WRAP형CMA':8434741},
+        living_balance=l['G7'].value,purpose_available=l['G17'].value,
+        selected_month='2026-10',latest_bank_app_balance_verified=False)
+    audit['managed_cash']['november']=report['november_balances']
+    audit['wrap'].update(balances={l[f'A{r}'].value:l[f'G{r}'].value for r in range(7,16)},
+        total=l['G16'].value,previous=l['B16'].value,inflows=l['C16'].value+l['F16'].value,
+        outflows=l['D16'].value+l['E16'].value,selected_month='2026-10',cached_matches=True)
+    for item in audit['calculators']:
+        c=w[f'{item["month"]}월계산기']
+        item.update(display=c['W12'].value,salary_burden=c['W13'].value,
+                    counts={str(r):c[f'C{r}'].value for r in range(3,11)},
+                    color_total=sum((c[f'C{r}'].value or 0)*1000 for r in range(3,11)))
+        if item['month'] in [11,12]:
+            item.update(order='date_time_stable_id',
+                        stored_colored_cells=report['calculators'][str(item['month'])]['colored_cells'],
+                        all_block_dates_ascending=True)
+    audit['vba'].update(binary_identical_to_previous_version=True,
+        input_reference='history/2026-11-16/02/테트리스_가계부_2026_고도화.xlsm',
+        preservation_scope='Chronological placement and internal funding preserve existing VBA byte-for-byte.',executed=False)
+    audit['chronological_blocks_20261116']=report
+    audit_path.write_text(json.dumps(audit,ensure_ascii=False,default=str,indent=2)+'\n')
+    w.close();print('Published chronological/allocation audit:',digest,flush=True)
+
+
 def finalize(workbook, report_path, audit_path):
     report = json.loads(report_path.read_text())
+    if 'raw_sort_date_edit_delete_and_next_month_scenario_passed' in report:
+        return finalize_chronological(workbook,report_path,audit_path,report)
     digest = sha256(workbook.read_bytes()).hexdigest()
     assert report['workbook_sha256'] == digest and report['formula_errors'] == 0
     assert report['raw_edit_delete_new_month_and_memo_clear_scenario_passed']

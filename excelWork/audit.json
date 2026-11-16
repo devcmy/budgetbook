@@ -88,7 +88,7 @@
     "duplicate_discriminator_column": "M",
     "original_memo_columns_merged_losslessly": true,
     "memo_not_used_for_classification_or_duplicates": true,
-    "preservation_scope": "Nov16: 8 new source records and 3 corrections; the revised refund retains its original ID. Memos remain independent of classification.",
+    "preservation_scope": "The Nov16 date-order/allocation correction preserves every RAW value and ID. No artificial bank transaction was added.",
     "date_display_column": "A",
     "date_display_format": "m\"월\"\\ d\"일\"",
     "stored_year_and_time_preserved": true,
@@ -129,22 +129,22 @@
   },
   "wrap": {
     "balances": {
-      "생활비": 2898217,
+      "생활비": 6084741,
       "명절비": 0,
-      "여행비": 1400000,
-      "경조사비": 450000,
-      "상환비": 300000,
+      "여행비": 1500000,
+      "경조사비": 500000,
+      "상환비": 350000,
       "예비비": 0,
       "결제대금비": 0,
       "금융": 0,
       "임시보관": 0
     },
-    "total": 5048217,
-    "inflows": 8555037,
-    "outflows": 11941561,
-    "previous": 8434741,
+    "total": 8434741,
+    "inflows": 3733652,
+    "outflows": 3837514,
+    "previous": 8538603,
     "cached_matches": true,
-    "selected_month": "2026-11",
+    "selected_month": "2026-10",
     "scope": "Legacy key: current purpose-account ledger now combines NAVER and WRAP. Bank-level balances follow managed_cash; gross internal bank moves cancel in the total."
   },
   "calculators": [
@@ -410,7 +410,9 @@
       "memo_view": "A157:U162, monthly W40 page, RAW I only",
       "stored_colored_cells": 1284,
       "short_dynamic_color_rules_verified": true,
-      "grid_borders_extended": true
+      "grid_borders_extended": true,
+      "order": "date_time_stable_id",
+      "all_block_dates_ascending": true
     },
     {
       "month": 12,
@@ -436,7 +438,9 @@
       "memo_view": "A157:U162, monthly W40 page, RAW I only",
       "stored_colored_cells": 0,
       "short_dynamic_color_rules_verified": true,
-      "grid_borders_extended": true
+      "grid_borders_extended": true,
+      "order": "date_time_stable_id",
+      "all_block_dates_ascending": true
     }
   ],
   "october_block_layout": {
@@ -483,8 +487,8 @@
     },
     "current_module_sources_reextracted": false,
     "binary_identical_to_user_attachment": false,
-    "input_reference": "history/2026-11-16/01/테트리스_가계부_2026_고도화.xlsm",
-    "preservation_scope": "Nov16 source and visual updates preserve VBA byte-for-byte."
+    "input_reference": "history/2026-11-16/02/테트리스_가계부_2026_고도화.xlsm",
+    "preservation_scope": "Chronological placement and internal funding preserve existing VBA byte-for-byte."
   },
   "travel": [
     {
@@ -531,8 +535,8 @@
   },
   "as_of": "2026-11-16",
   "ui_updated_at": "2026-11-16",
-  "current_verification": "raw_update_20261116_validation.json",
-  "workbook_sha256": "e29c6ae295b2c156d91b45cbaf99655ce816e8706cf9acc15bffabe1561f8e0a",
+  "current_verification": "chronological_blocks_20261116_validation.json",
+  "workbook_sha256": "8f31263a72b03cd4f1cf798fd2d3c72b364b44c38388eee736dd37c69f20fa62",
   "delta_20261015": {
     "scope": "10/15 최초 143건 반영 당시 이력. 현재 144건·생신 정정은 family_event_settlement을 따릅니다.",
     "as_of": "2026-10-15",
@@ -7537,19 +7541,26 @@
     "repeat_import_new_records": 0
   },
   "managed_cash": {
-    "total": 5048217,
+    "total": 8434741,
     "balances_by_bank": {
-      "네이버미래에셋": 5047690,
-      "미래에셋_WRAP형CMA": 527
+      "네이버미래에셋": 0,
+      "미래에셋_WRAP형CMA": 8434741
     },
-    "living_balance": 2898217,
-    "purpose_available": 2150000,
-    "selected_month": "2026-11",
+    "living_balance": 6084741,
+    "purpose_available": 2350000,
+    "selected_month": "2026-10",
     "primary_account": "네이버미래에셋",
     "naver_scope_effective": "2026-11-12",
     "bank_move_not_expense": true,
     "latest_bank_app_balance_verified": false,
-    "scope": "Computed from the provided export, with last verified WRAP cumulative interest retained. No unreported daily interest is invented."
+    "scope": "Computed from the provided export, with last verified WRAP cumulative interest retained. No unreported daily interest is invented.",
+    "november": {
+      "cma_total": 5048217,
+      "living": 2698217,
+      "purpose_available": 2350000,
+      "naver": 5047690,
+      "wrap": 527
+    }
   },
   "raw_update_20261115": {
     "as_of": "2026-11-15",
@@ -14816,5 +14827,440 @@
     "previous_version": "history/2026-11-16/01",
     "guide": "2026-11-16_RAW추가_계산기색상보완.md",
     "grid_borders_extended": true
+  },
+  "chronological_blocks_20261116": {
+    "as_of": "2026-11-16",
+    "workbook_sha256": "8f31263a72b03cd4f1cf798fd2d3c72b364b44c38388eee736dd37c69f20fa62",
+    "current_verification": "chronological_blocks_20261116_validation.json",
+    "calculators": {
+      "11": {
+        "transaction_count": 77,
+        "colored_cells": 1284,
+        "category_counts": {
+          "9": 357,
+          "7": 13,
+          "4": 109,
+          "3": 265,
+          "10": 244,
+          "6": 75,
+          "5": 168,
+          "8": 53
+        },
+        "first_transactions": [
+          {
+            "date": "2026-11-01 21:34:00.329000",
+            "id": 2593,
+            "palette": 9,
+            "signed": 3,
+            "keep": 3
+          },
+          {
+            "date": "2026-11-01 21:34:00.636000",
+            "id": 2594,
+            "palette": 7,
+            "signed": 5,
+            "keep": 5
+          },
+          {
+            "date": "2026-11-01 21:35:00.875000",
+            "id": 2595,
+            "palette": 4,
+            "signed": 5,
+            "keep": 5
+          },
+          {
+            "date": "2026-11-01 22:31:48.522000",
+            "id": 2596,
+            "palette": 9,
+            "signed": 27,
+            "keep": 27
+          },
+          {
+            "date": "2026-11-02 11:03:19.803000",
+            "id": 2597,
+            "palette": 4,
+            "signed": 5,
+            "keep": 5
+          },
+          {
+            "date": "2026-11-02 11:03:22.830000",
+            "id": 2598,
+            "palette": 9,
+            "signed": 32,
+            "keep": 32
+          },
+          {
+            "date": "2026-11-02 22:16:07.670000",
+            "id": 2599,
+            "palette": 3,
+            "signed": 8,
+            "keep": 8
+          },
+          {
+            "date": "2026-11-02 22:39:58.475000",
+            "id": 2602,
+            "palette": 9,
+            "signed": 8,
+            "keep": 8
+          }
+        ],
+        "all_block_dates_ascending": true,
+        "raw_sort_independent": true,
+        "stored_color_sequence_verified": true
+      },
+      "12": {
+        "transaction_count": 0,
+        "colored_cells": 0,
+        "category_counts": {},
+        "first_transactions": [],
+        "all_block_dates_ascending": true,
+        "raw_sort_independent": true,
+        "stored_color_sequence_verified": true
+      }
+    },
+    "october": {
+      "cma_total": 8434741,
+      "living": 6084741,
+      "purpose_available": 2350000,
+      "reserve": {
+        "month": 10,
+        "physical_wrap_total": 8434741,
+        "purpose_available": 2350000,
+        "actual_use": 239000,
+        "allocated_to_bill": 0,
+        "invalid_use_rows": [],
+        "invalid_settlement_rows": []
+      },
+      "ledger": {
+        "month": 10,
+        "all_ledger_rows": 29,
+        "displayed_page": 1,
+        "displayed_rows": [
+          278,
+          279,
+          280,
+          257,
+          256,
+          255,
+          254,
+          253,
+          252,
+          251,
+          250,
+          249,
+          248,
+          247,
+          246,
+          245,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236
+        ]
+      },
+      "allocations": [
+        {
+          "row": 278,
+          "fund": "여행비",
+          "amount": 100000,
+          "date": "2026-10-31",
+          "raw_transaction_created": false
+        },
+        {
+          "row": 279,
+          "fund": "경조사비",
+          "amount": 50000,
+          "date": "2026-10-31",
+          "raw_transaction_created": false
+        },
+        {
+          "row": 280,
+          "fund": "상환비",
+          "amount": 50000,
+          "date": "2026-10-31",
+          "raw_transaction_created": false
+        }
+      ]
+    },
+    "all_raw_values_preserved": true,
+    "all_monthly_financial_totals_preserved": true,
+    "older_calculators_byte_identical": true,
+    "vba_controls_relationships_preserved": true,
+    "original_styles_preserved": true,
+    "structure": {
+      "worksheet_count": 47,
+      "xml_part_count": 87,
+      "errors": []
+    },
+    "formula_errors": 0,
+    "monthly_memos": [
+      {
+        "month": 1,
+        "memos": 80,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 2,
+        "memos": 62,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 3,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 4,
+        "memos": 59,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 5,
+        "memos": 65,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 6,
+        "memos": 113,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 7,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 8,
+        "memos": 150,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 9,
+        "memos": 98,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 10,
+        "memos": 135,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 11,
+        "memos": 63,
+        "pages_and_fixed_memos_match": true
+      },
+      {
+        "month": 12,
+        "memos": 0,
+        "pages_and_fixed_memos_match": true
+      }
+    ],
+    "repeat_allocation_new_records": 0,
+    "native_excel_ui_executed": false,
+    "previous_commit": "4996ccc",
+    "previous_version": "history/2026-11-16/02",
+    "november_after_sort_date_edit_and_delete": {
+      "transaction_count": 76,
+      "colored_cells": 1278,
+      "category_counts": {
+        "9": 351,
+        "7": 13,
+        "4": 109,
+        "3": 265,
+        "10": 244,
+        "6": 75,
+        "5": 168,
+        "8": 53
+      },
+      "first_transactions": [
+        {
+          "date": "2026-11-01 21:34:00.329000",
+          "id": 2593,
+          "palette": 9,
+          "signed": 3,
+          "keep": 3
+        },
+        {
+          "date": "2026-11-01 21:34:00.636000",
+          "id": 2594,
+          "palette": 7,
+          "signed": 5,
+          "keep": 5
+        },
+        {
+          "date": "2026-11-01 21:35:00.875000",
+          "id": 2595,
+          "palette": 4,
+          "signed": 5,
+          "keep": 5
+        },
+        {
+          "date": "2026-11-01 22:31:48.522000",
+          "id": 2596,
+          "palette": 9,
+          "signed": 27,
+          "keep": 27
+        },
+        {
+          "date": "2026-11-02 10:00:00",
+          "id": 2738,
+          "palette": 4,
+          "signed": 11,
+          "keep": 11
+        },
+        {
+          "date": "2026-11-02 11:03:19.803000",
+          "id": 2597,
+          "palette": 4,
+          "signed": 5,
+          "keep": 5
+        },
+        {
+          "date": "2026-11-02 11:03:22.830000",
+          "id": 2598,
+          "palette": 9,
+          "signed": 32,
+          "keep": 32
+        },
+        {
+          "date": "2026-11-02 22:16:07.670000",
+          "id": 2599,
+          "palette": 3,
+          "signed": 8,
+          "keep": 8
+        }
+      ],
+      "all_block_dates_ascending": true,
+      "raw_sort_independent": true,
+      "stored_color_sequence_verified": false
+    },
+    "december_new_entries": {
+      "transaction_count": 2,
+      "colored_cells": 3,
+      "category_counts": {
+        "3": 1,
+        "4": 2
+      },
+      "first_transactions": [
+        {
+          "date": "2026-12-01 12:00:00",
+          "id": 2744,
+          "palette": 3,
+          "signed": 1,
+          "keep": 1
+        },
+        {
+          "date": "2026-12-02 12:00:00",
+          "id": 2739,
+          "palette": 4,
+          "signed": 2,
+          "keep": 2
+        }
+      ],
+      "all_block_dates_ascending": true,
+      "raw_sort_independent": true,
+      "stored_color_sequence_verified": false
+    },
+    "november_balances": {
+      "cma_total": 5048217,
+      "living": 2698217,
+      "purpose_available": 2350000,
+      "naver": 5047690,
+      "wrap": 527
+    },
+    "current_render": {
+      "month": 11,
+      "conditional_colors_rendered": true,
+      "base_fills_removed_in_fixture": true,
+      "expected_cells": {
+        "3": 265,
+        "4": 109,
+        "5": 168,
+        "6": 75,
+        "7": 13,
+        "8": 53,
+        "9": 357,
+        "10": 244
+      },
+      "rendered_cells": {
+        "3": 265,
+        "4": 109,
+        "5": 168,
+        "6": 75,
+        "7": 13,
+        "8": 53,
+        "9": 357,
+        "10": 244
+      },
+      "pdf_pages": 1,
+      "renderer": "LibreOffice 26.8 / PDF drawing areas",
+      "individual_positions_verified": 2600
+    },
+    "edited_render": {
+      "month": 11,
+      "conditional_colors_rendered": true,
+      "base_fills_removed_in_fixture": true,
+      "expected_cells": {
+        "3": 265,
+        "4": 109,
+        "5": 168,
+        "6": 75,
+        "7": 13,
+        "8": 53,
+        "9": 351,
+        "10": 244
+      },
+      "rendered_cells": {
+        "3": 265,
+        "4": 109,
+        "5": 168,
+        "6": 75,
+        "7": 13,
+        "8": 53,
+        "9": 351,
+        "10": 244
+      },
+      "pdf_pages": 1,
+      "renderer": "LibreOffice 26.8 / PDF drawing areas",
+      "individual_positions_verified": 2600
+    },
+    "december_render": {
+      "month": 12,
+      "conditional_colors_rendered": true,
+      "base_fills_removed_in_fixture": true,
+      "expected_cells": {
+        "3": 1,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "rendered_cells": {
+        "3": 1,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "pdf_pages": 1,
+      "renderer": "LibreOffice 26.8 / PDF drawing areas",
+      "individual_positions_verified": 2600
+    },
+    "raw_sort_date_edit_delete_and_next_month_scenario_passed": true,
+    "unit_tests_passed": 63,
+    "unit_test_modules": [
+      "test_raw_auto_link_20261026",
+      "test_raw_sort_20261101",
+      "test_memo_only_20261026"
+    ],
+    "guide": "2026-11-16_계산기날짜순_10월내부적립.md"
   }
 }

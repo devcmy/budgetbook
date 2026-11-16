@@ -4,7 +4,6 @@ Use stable transaction IDs; bank-confirmed historical corrections take priority
 over stale export values. No financial classification depends on a memo.
 Patch the XLSM package, never save it through a spreadsheet application.
 """
-from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
 import argparse
@@ -12,16 +11,12 @@ import gc
 import json
 
 import openpyxl
-from lxml import etree as ET
-from openpyxl.utils import get_column_letter as col
 
 from import_raw_20261115 import plan as previous_plan, source_rows, CASH, NEW_CLASS_CODES
 from update_raw_20261104 import classify
 from update_raw_20261101 import SHARED
 from redesign_reserve import ExtendedPackage
 from raw_sort_id_20261101 import reorder
-from raw_auto_link_20261026 import conditional
-from update_20261015 import Q
 from verify_reserve_redesign import recalculate
 from update_cash_details_20261019 import import_changed_caches
 from preserve_memo_caches_20261102 import restore
@@ -135,111 +130,9 @@ def slots():
 
 
 def install_blocks(candidate, output):
-    """Store visible fills, and keep short conditional rules for future edits.
-
-    Existing rules rendered in LibreOffice, but no November base fills were
-    saved. Storing both representations also supplies the grid to previews
-    that do not evaluate conditional formatting. Only 11/12 calculators change.
-    """
-    w = openpyxl.load_workbook(candidate, data_only=True)
-    p = ExtendedPackage(candidate)
-    styles = p.tree('xl/styles.xml')
-    xfs = styles.find(Q('cellXfs'))
-    dxfs = styles.find(Q('dxfs'))
-    def style_key(node):
-        # Ignore serialization-only namespace declarations and attribute order.
-        return (node.tag, tuple(sorted(node.attrib.items())), node.text,
-                tuple(style_key(child) for child in node))
-
-    keys = {style_key(x): i for i, x in enumerate(xfs)}
-    fill_styles = {}
-
-    def style_with_fill(style, fill, border):
-        key = (style, fill, border)
-        if key not in fill_styles:
-            xf = deepcopy(xfs[style])
-            xf.set('fillId', str(fill))
-            xf.set('applyFill', '1')
-            xf.set('borderId', str(border))
-            xf.set('applyBorder', '1')
-            serial = style_key(xf)
-            if serial not in keys:
-                keys[serial] = len(xfs)
-                xfs.append(xf)
-            fill_styles[key] = keys[serial]
-        return fill_styles[key]
-
-    result = {}
-    for month in [11, 12]:
-        name = f'{month}월계산기'
-        sheet = p.sheet(name)
-        old_rules = sheet.findall(Q('conditionalFormatting'))
-        assert len(old_rules) == 9
-        existing_dxfs = [int(x.find(Q('cfRule')).get('dxfId')) for x in old_rules]
-        by_rgb = {dxfs[i].find(Q('fill')).find(Q('patternFill')).find(Q('fgColor')).get('rgb'): i
-                  for i in existing_dxfs}
-        palette_rgb = {r: w[name][f'B{r}'].fill.fgColor.rgb for r in range(3, 11)}
-        color_dxfs = {r: by_rgb[rgb] for r, rgb in palette_rgb.items()}
-        white_dxf = by_rgb['FFFFFFFF']
-        white = dxfs[white_dxf].find(Q('fill'))
-        assert white.find(Q('patternFill')).find(Q('fgColor')).get('rgb') == 'FFFFFFFF'
-        fills = styles.find(Q('fills'))
-        white_ids = [i for i, fill in enumerate(fills) if
-                     ET.tostring(fill) == ET.tostring(white)]
-        if not white_ids:
-            white_ids = [len(fills)]
-            fills.append(deepcopy(white))
-            fills.set('count', str(len(fills)))
-        palette_fills = {r: int(xfs[int(p.cell(name, f'B{r}').get('s'))].get('fillId'))
-                         for r in range(3, 11)}
-        counts = {r: w[name][f'C{r}'].value for r in range(3, 11)}
-        assert all(isinstance(n, (int, float)) and n >= 0 and int(n) == n for n in counts.values())
-        total = sum(counts.values())
-        assert total <= 8000
-        cumulative = {}
-        running = 0
-        for r, n in counts.items():
-            running += n
-            cumulative[r] = running
-        # Helpers are positions only. They do not contain transaction/memo data.
-        for index, (r, c) in enumerate(slots(), 1):
-            addr = f'{col(c)}{r}'
-            cell = p.cell(name, addr)
-            category = next((k for k, end in cumulative.items() if index <= end), None)
-            fill = palette_fills[category] if category is not None else white_ids[0]
-            start = 15 if r < 145 else 165
-            template = p.cell(name, f'{col(c)}{20 + (r-start)%5}')
-            border = int(xfs[int(template.get('s'))].get('borderId'))
-            cell.set('s', str(style_with_fill(int(cell.get('s', '0')), fill, border)))
-            p.write(name, f'{col(c + 31)}{r}', index)
-        p.write(name, 'AE2', 0)
-        for r in range(3, 11):
-            p.write(name, f'AE{r}', f'=SUM($C$3:C{r})', True)
-        for node in old_rules:
-            sheet.remove(node)
-        for r in range(3, 11):
-            conditional(p, name, 'B15:U144 B165:U434',
-                        f'AND(AG15>$AE${r-1},AG15<=$AE${r})', color_dxfs[r], r-2)
-        conditional(p, name, 'B15:U144 B165:U434',
-                    'AG15>SUM($C$3:$C$10)', white_dxf, 9)
-        cols = sheet.find(Q('cols'))
-        for node in list(cols):
-            if int(node.get('min')) >= 33:
-                cols.remove(node)
-        ET.SubElement(cols, Q('col'), min='33', max='52', hidden='1', width='12', customWidth='1')
-        sheet.find(Q('dimension')).set('ref', 'A1:AZ434')
-        p.write(name, 'A2', 'RAW 입력·수정·삭제 시 자동 갱신됩니다. 1칸=1,000원 · 별도 버튼 없이 색상과 합계가 바뀝니다.')
-        p.write(name, 'A154', 'RAW 자동 연동 · 색상 칸과 합계를 함께 갱신합니다. 금액은 RAW에서 수정하세요.')
-        formulas = [n.find(Q('cfRule')).find(Q('formula')).text
-                    for n in sheet.findall(Q('conditionalFormatting'))]
-        result[str(month)] = dict(counts=counts, physical_filled_cells=total,
-                                  conditional_rules=9, max_formula_length=max(map(len, formulas)), capacity=8000)
-    xfs.set('count', str(len(xfs)))
-    p.save(output)
-    w.close()
-    gc.collect()
-    return result
-
+    """Keep the shared importer on the user\'s chronological layout."""
+    from chronological_blocks_20261116 import install
+    return install(candidate, output)
 
 if __name__ == '__main__':
     a = argparse.ArgumentParser()
