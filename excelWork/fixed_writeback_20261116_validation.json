@@ -1,0 +1,119 @@
+{
+  "as_of": "2026-11-16",
+  "workbook_sha256": "652807bc5ef56f5a4cc11c0feb4d8be59454f2731fa5c3a0cc5f46a530d5faed",
+  "initial_raw_and_financial_values_preserved": true,
+  "all_12_months_checked": true,
+  "monthly_memos": [
+    {
+      "month": 1,
+      "memos": 80,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 2,
+      "memos": 62,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 3,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 4,
+      "memos": 59,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 5,
+      "memos": 65,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 6,
+      "memos": 113,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 7,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 8,
+      "memos": 150,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 9,
+      "memos": 98,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 10,
+      "memos": 135,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 11,
+      "memos": 63,
+      "pages_and_fixed_memos_match": true
+    },
+    {
+      "month": 12,
+      "memos": 0,
+      "pages_and_fixed_memos_match": true
+    }
+  ],
+  "reserve": {
+    "month": 10,
+    "physical_wrap_total": 8434741,
+    "purpose_available": 2350000,
+    "actual_use": 239000,
+    "allocated_to_bill": 0,
+    "invalid_use_rows": [],
+    "invalid_settlement_rows": []
+  },
+  "chronological_calculators_preserved": true,
+  "vba": {
+    "existing_modules_preserved_except_workbook_event_additions": true,
+    "new_module": "BBFixed",
+    "modules": 15,
+    "event_bindings_verified": true,
+    "original_search_source_identical": true,
+    "rollback_and_application_state_guards_present": true,
+    "native_macro_executed": false
+  },
+  "saved_cells_protected_until_macros_enabled": true,
+  "forecast_inputs_editable": true,
+  "controls_relationships_preserved": true,
+  "original_style_ids_preserved": true,
+  "formula_errors": 0,
+  "structure": {
+    "worksheet_count": 47,
+    "xml_part_count": 87,
+    "errors": []
+  },
+  "native_excel_ui_executed": false,
+  "validation_scope": "OOXML/VBA-source inspection and independent source-patch/recalculation fixtures; no native VBA event execution.",
+  "previous_commit": "1473050",
+  "previous_version": "history/2026-11-16/03",
+  "source_edit_contract_scenario": {
+    "singleton_amount": true,
+    "aggregate_selected_delta": true,
+    "partial_burden_preserves_gross": true,
+    "memo_change_and_clear": true,
+    "existing_raw_relinked": true,
+    "new_actual_replaces_forecast": true,
+    "forecast_only_does_not_create_raw": true,
+    "cma_existing_and_new_withdrawals_match": true,
+    "vba_event_itself_executed": false
+  },
+  "clear_and_cash_cancellation_contract_scenario_passed": true,
+  "freshly_recalculated_memo_routing_matches": true,
+  "delivery_memo_linebreaks_preserved": true,
+  "unit_tests_passed": 194,
+  "guide": "2026-11-16_고정비양방향수정.md",
+  "runtime_requirement": "PC Microsoft 365 or Excel 2021+ with macros enabled",
+  "source_original_local_only": true
+}

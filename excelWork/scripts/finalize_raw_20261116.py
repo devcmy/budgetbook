@@ -10,6 +10,26 @@ import json
 import openpyxl
 
 
+def finalize_fixed(workbook,report_path,audit_path,report):
+    digest=sha256(workbook.read_bytes()).hexdigest()
+    assert report['workbook_sha256']==digest and report['formula_errors']==0
+    assert report['initial_raw_and_financial_values_preserved']
+    assert report['clear_and_cash_cancellation_contract_scenario_passed']
+    assert report['vba']['event_bindings_verified']
+    audit=json.loads(audit_path.read_text())
+    audit.update(as_of='2026-11-16',ui_updated_at='2026-11-16',current_verification=report_path.name,workbook_sha256=digest)
+    audit['raw']['preservation_scope']='Fixed-cost writeback installation preserves all RAW inputs, stable IDs and current financial values. Source-edit cases run on disposable fixtures only.'
+    with ZipFile(workbook) as z:binary=z.read('xl/vbaProject.bin')
+    audit['vba'].update(binary_sha256=sha256(binary).hexdigest(),executed=False,
+        binary_identical_to_previous_version=False,binary_identical_to_input=False,
+        current_module_sources_reextracted=True,input_reference='history/2026-11-16/03/테트리스_가계부_2026_고도화.xlsm',
+        preservation_scope='Add BBFixed and workbook events; the other 13 existing module sources including BBSearch are identical.',
+        current_source_audit=report['vba'])
+    audit['fixed_writeback_20261116']=report
+    audit_path.write_text(json.dumps(audit,ensure_ascii=False,default=str,indent=2)+'\n')
+    print('Published fixed-cost writeback audit:',digest,flush=True)
+
+
 def finalize_chronological(workbook,report_path,audit_path,report):
     digest=sha256(workbook.read_bytes()).hexdigest()
     assert report['workbook_sha256']==digest and report['formula_errors']==0
@@ -48,6 +68,8 @@ def finalize_chronological(workbook,report_path,audit_path,report):
 
 def finalize(workbook, report_path, audit_path):
     report = json.loads(report_path.read_text())
+    if 'source_edit_contract_scenario' in report:
+        return finalize_fixed(workbook,report_path,audit_path,report)
     if 'raw_sort_date_edit_delete_and_next_month_scenario_passed' in report:
         return finalize_chronological(workbook,report_path,audit_path,report)
     digest = sha256(workbook.read_bytes()).hexdigest()

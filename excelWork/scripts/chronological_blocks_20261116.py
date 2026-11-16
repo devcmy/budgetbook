@@ -156,7 +156,9 @@ def install(candidate,output):
                                helpers=helpers,records=records,refund_method='same_category_preceding_blocks',
                                first_blocks=[dict(x) for x in sequence[:15]])
     xfs.set('count',str(len(xfs)))
-    dim=p.sheet(BACK).find(Q('dimension'));dim.set('ref','A1:CE31699')
+    dim=p.sheet(BACK).find(Q('dimension'))
+    _,_,last_col,last_row=openpyxl.utils.cell.range_boundaries(dim.get('ref'))
+    dim.set('ref',f'A1:{col(max(83,last_col))}{max(31699,last_row)}')
     p.save(output);w.close();gc.collect()
     return result
 
